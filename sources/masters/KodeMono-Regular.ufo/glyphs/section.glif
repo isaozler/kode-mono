@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="section" format="2">
+  <advance width="1200"/>
+  <unicode hex="00A7"/>
+  <outline>
+    <contour>
+      <point x="352" y="1536" type="line"/>
+      <point x="840" y="1536" type="line"/>
+      <point x="944" y="1382" type="line"/>
+      <point x="846" y="1280" type="line"/>
+      <point x="767" y="1396" type="line"/>
+      <point x="420" y="1396" type="line"/>
+      <point x="360" y="1343" type="line"/>
+      <point x="360" y="1212" type="line"/>
+      <point x="434" y="1104" type="line"/>
+      <point x="843" y="1104" type="line"/>
+      <point x="980" y="901" type="line"/>
+      <point x="980" y="630" type="line"/>
+      <point x="899" y="541" type="line"/>
+      <point x="980" y="421" type="line"/>
+      <point x="980" y="150" type="line"/>
+      <point x="844" y="0" type="line"/>
+      <point x="279" y="0" type="line"/>
+      <point x="200" y="123" type="line"/>
+      <point x="298" y="224" type="line"/>
+      <point x="352" y="144" type="line"/>
+      <point x="778" y="144" type="line"/>
+      <point x="820" y="190" type="line"/>
+      <point x="820" y="398" type="line"/>
+      <point x="762" y="480" type="line"/>
+      <point x="352" y="480" type="line"/>
+      <point x="200" y="708" type="line"/>
+      <point x="200" y="957" type="line"/>
+      <point x="294" y="1048" type="line"/>
+      <point x="200" y="1188" type="line"/>
+      <point x="200" y="1388" type="line"/>
+    </contour>
+    <contour>
+      <point x="434" y="624" type="line"/>
+      <point x="778" y="624" type="line"/>
+      <point x="820" y="670" type="line"/>
+      <point x="820" y="878" type="line"/>
+      <point x="762" y="960" type="line"/>
+      <point x="415" y="960" type="line"/>
+      <point x="360" y="912" type="line"/>
+      <point x="360" y="732" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>10dda1eb8212e8f5399f551544e483e9c60f9486805d2ab6fa28636dec48f510cb7afc7e4cb3623c2efac7f4385d87d60f7da34aae3bf013a128f6bf7e90ecc7</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 99 144</string>
+          <string>hstem 579 144</string>
+          <string>hstem 1015 140</string>
+          <string>hstem 1059 144</string>
+          <string>hstem 1495 140</string>
+          <string>vstem 200 160</string>
+          <string>vstem 820 160</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

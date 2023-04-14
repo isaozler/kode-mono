@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Thorn" format="2">
+  <advance width="1200"/>
+  <unicode hex="00DE"/>
+  <anchor x="600" y="2017" name="top"/>
+  <anchor x="600" y="229" name="bottom"/>
+  <outline>
+    <contour>
+      <point x="160" y="1480" type="line"/>
+      <point x="320" y="1480" type="line"/>
+      <point x="320" y="1154" type="line"/>
+      <point x="478" y="1250" type="line"/>
+      <point x="878" y="1250" type="line"/>
+      <point x="1040" y="1009" type="line"/>
+      <point x="1040" y="361" type="line"/>
+      <point x="878" y="193" type="line"/>
+      <point x="483" y="193" type="line"/>
+      <point x="320" y="288" type="line"/>
+      <point x="320" y="-1" type="line"/>
+      <point x="160" y="-1" type="line"/>
+    </contour>
+    <contour>
+      <point x="320" y="1041" type="line"/>
+      <point x="320" y="338" type="line"/>
+      <point x="820" y="338" type="line"/>
+      <point x="880" y="401" type="line"/>
+      <point x="880" y="990" type="line"/>
+      <point x="802" y="1105" type="line"/>
+      <point x="383" y="1105" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>30cdc1d7a222c48286d74a25b2799a37ac5e285b9829f776a72d8a269cf7f3b1b83d44da981fca8cfce9ffedc8b261559d2ef86ff2e9d74d067b04c4408b2c41</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 138 -20</string>
+          <string>hstem 378 145</string>
+          <string>hstem 1290 145</string>
+          <string>hstem 1866 -20</string>
+          <string>hstem 2012 -20</string>
+          <string>vstem 240 160</string>
+          <string>vstem 520 160</string>
+          <string>vstem 860 160</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

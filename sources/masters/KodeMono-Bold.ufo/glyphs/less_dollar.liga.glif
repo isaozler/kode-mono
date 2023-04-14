@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="less_dollar.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="417" y="1537" type="line"/>
+      <point x="581" y="1537" type="line"/>
+      <point x="581" y="1391" type="line" name=".hr01"/>
+      <point x="799" y="1391" type="line"/>
+      <point x="936" y="1184" type="line"/>
+      <point x="775" y="1026" type="line"/>
+      <point x="679" y="1167" type="line"/>
+      <point x="581" y="1167" type="line"/>
+      <point x="581" y="809" type="line"/>
+      <point x="817" y="809" type="line"/>
+      <point x="977" y="569" type="line"/>
+      <point x="977" y="169" type="line"/>
+      <point x="814" y="0" type="line" name=".hr02"/>
+      <point x="581" y="0" type="line"/>
+      <point x="581" y="-144" type="line"/>
+      <point x="417" y="-144" type="line"/>
+      <point x="417" y="0" type="line"/>
+      <point x="-345" y="0" type="line"/>
+      <point x="-977" y="614" type="line"/>
+      <point x="-977" y="733" type="line"/>
+      <point x="-363" y="1327" type="line"/>
+      <point x="-206" y="1164" type="line"/>
+      <point x="-716" y="674" type="line"/>
+      <point x="-252" y="224" type="line"/>
+      <point x="417" y="224" type="line"/>
+      <point x="417" y="585" type="line"/>
+      <point x="196" y="585" type="line"/>
+      <point x="17" y="851" type="line"/>
+      <point x="17" y="1201" type="line"/>
+      <point x="200" y="1391" type="line" name=".hr03"/>
+      <point x="417" y="1391" type="line"/>
+    </contour>
+    <contour>
+      <point x="316" y="809" type="line"/>
+      <point x="417" y="809" type="line"/>
+      <point x="417" y="1167" type="line"/>
+      <point x="293" y="1167" type="line"/>
+      <point x="257" y="1128" type="line"/>
+      <point x="257" y="896" type="line"/>
+    </contour>
+    <contour>
+      <point x="581" y="224" type="line" name=".hr04"/>
+      <point x="714" y="224" type="line"/>
+      <point x="737" y="243" type="line"/>
+      <point x="737" y="528" type="line"/>
+      <point x="696" y="585" type="line"/>
+      <point x="581" y="585" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>less_dollar.liga</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>7d7ede7731501bb63ded0160304320610a67d1146edf440ec86916d399aca4c1d0d3e597206e5422f0e377226ec0e3c103ee82b3c19928f9a2f11e6ca35143e1</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 1537 -20</string>
+          <string>hstem 38 -21</string>
+          <string>hstem 1326 -20</string>
+          <string>vstem 1320 240</string>
+          <string>vstem 1720 164</string>
+          <string>vstem 2040 240</string>
+          <string>hstem -123 -21</string>
+          <string>hstem 585 224</string>
+        </array>
+      </dict>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 1167 224</string>
+          <string>hstem 38 -21</string>
+          <string>vstem 1320 240</string>
+          <string>vstem 1720 164</string>
+          <string>vstem 2040 240</string>
+          <string>hstem 585 224</string>
+          <string>hstem -123 -21</string>
+          <string>hstem 1537 -20</string>
+        </array>
+        <key>pointTag</key>
+        <string>.hr01</string>
+      </dict>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 0 224</string>
+          <string>hstem 1326 -20</string>
+          <string>vstem 1320 240</string>
+          <string>vstem 1720 164</string>
+          <string>vstem 2040 240</string>
+          <string>hstem -123 -21</string>
+          <string>hstem 585 224</string>
+          <string>hstem 1537 -20</string>
+        </array>
+        <key>pointTag</key>
+        <string>.hr02</string>
+      </dict>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 1167 224</string>
+          <string>hstem 38 -21</string>
+          <string>vstem 1320 240</string>
+          <string>vstem 1720 164</string>
+          <string>vstem 2040 240</string>
+          <string>hstem 1537 -20</string>
+          <string>hstem 585 224</string>
+          <string>hstem -123 -21</string>
+        </array>
+        <key>pointTag</key>
+        <string>.hr03</string>
+      </dict>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 0 224</string>
+          <string>hstem 1326 -20</string>
+          <string>vstem 1320 240</string>
+          <string>vstem 1720 164</string>
+          <string>vstem 2040 240</string>
+          <string>hstem 585 224</string>
+          <string>hstem -123 -21</string>
+          <string>hstem 1537 -20</string>
+        </array>
+        <key>pointTag</key>
+        <string>.hr04</string>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

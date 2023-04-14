@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="4.0">
+ <axes>
+  <axis default="400" maximum="700" name="weight" minimum="400" tag="wght">
+   <labelname xml:lang="en">Weight</labelname>
+   <map output="400" input="400"/>
+   <map output="500" input="500"/>
+   <map output="600" input="600"/>
+   <map output="700" input="700"/>
+  </axis>
+ </axes>
+ <sources>
+  <source name="Bold" familyname="Kode Mono" stylename="Bold" filename="masters/KodeMono-Bold.ufo">
+   <location>
+    <dimension name="weight" xvalue="700"/>
+   </location>
+  </source>
+  <source name="Regular" familyname="Kode Mono" stylename="Regular" filename="masters/KodeMono-Regular.ufo">
+   <lib copy="1"/>
+   <groups copy="1"/>
+   <info copy="1"/>
+   <features copy="1"/>
+   <location>
+    <dimension name="weight" xvalue="400"/>
+   </location>
+  </source>
+ </sources>
+ <instances>
+  <instance name="Regular" familyname="Kode Mono" stylename="Regular" filename="instances/KodeMono-Regular.ufo">
+   <location>
+    <dimension name="weight" xvalue="400"/>
+   </location>
+  </instance>
+  <instance name="Medium" familyname="Kode Mono" stylename="Medium" filename="instances/KodeMono-Medium.ufo">
+   <location>
+    <dimension name="weight" xvalue="500"/>
+   </location>
+  </instance>
+  <instance name="SemiBold" familyname="Kode Mono" stylename="SemiBold" filename="instances/KodeMono-SemiBold.ufo">
+   <location>
+    <dimension name="weight" xvalue="600"/>
+   </location>
+  </instance>
+  <instance name="Bold" familyname="Kode Mono" stylename="Bold" filename="instances/KodeMono-Bold.ufo">
+   <location>
+    <dimension name="weight" xvalue="700"/>
+   </location>
+  </instance>
+ </instances>
+</designspace>

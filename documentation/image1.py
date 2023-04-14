@@ -16,7 +16,7 @@ import argparse
 
 # Constants, these are the main "settings" for the image
 WIDTH, HEIGHT, MARGIN, FRAMES = 2048, 2048, 128, 1
-FONT_PATH = "fonts/ttf/Kode-Regular.ttf"
+FONT_PATH = "fonts/ttf/Kode-Mono-Regular.ttf"
 FONT_LICENSE = "OFL v1.1"
 AUXILIARY_FONT = "Helvetica"
 AUXILIARY_FONT_SIZE = 48

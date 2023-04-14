@@ -9,6 +9,7 @@ package.json
 master_ufo
 instance_ufo
 private_notes
+*.backup
 
 # OS generated files #
 ######################

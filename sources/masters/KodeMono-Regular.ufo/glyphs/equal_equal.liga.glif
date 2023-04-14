@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="equal_equal.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <component base="equal" xScale="2.3514" xOffset="-1411"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>equal_equal.liga</string>
+  </dict>
+  </lib>
+</glyph>

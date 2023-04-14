@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="exclam_equal.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <component base="equal" xScale="1.6675" xOffset="-1000"/>
+    <component base="slash" xOffset="-600"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>exclam_equal.liga</string>
+  </dict>
+  </lib>
+</glyph>

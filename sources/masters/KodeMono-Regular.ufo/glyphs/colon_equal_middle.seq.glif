@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="colon_equal_middle.seq" format="2">
+  <advance width="1200"/>
+  <outline>
+    <component base="colon" yOffset="80"/>
+    <component base="equal_start.seq" xScale="0.1987" xOffset="981"/>
+    <component base="equal_end.seq" xScale="0.198" xOffset="-19"/>
+  </outline>
+</glyph>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="period" format="2">
+  <advance width="1200"/>
+  <unicode hex="002E"/>
+  <anchor x="600" y="191" name="_top"/>
+  <anchor x="600" y="0" name="_bottom"/>
+  <outline>
+    <contour>
+      <point x="500" y="0" type="line"/>
+      <point x="700" y="0" type="line"/>
+      <point x="700" y="192" type="line"/>
+      <point x="500" y="192" type="line"/>
+    </contour>
+  </outline>
+</glyph>

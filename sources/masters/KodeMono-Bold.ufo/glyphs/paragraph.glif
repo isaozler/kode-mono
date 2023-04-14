@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="paragraph" format="2">
+  <advance width="1200"/>
+  <unicode hex="00B6"/>
+  <outline>
+    <contour>
+      <point x="289" y="1526" type="line" name=".hr02"/>
+      <point x="1094" y="1526" type="line"/>
+      <point x="1094" y="0" type="line"/>
+      <point x="944" y="0" type="line"/>
+      <point x="944" y="1303" type="line" name=".hr01"/>
+      <point x="852" y="1303" type="line"/>
+      <point x="852" y="0" type="line"/>
+      <point x="612" y="0" type="line"/>
+      <point x="612" y="496" type="line"/>
+      <point x="503" y="431" type="line"/>
+      <point x="285" y="431" type="line"/>
+      <point x="106" y="698" type="line"/>
+      <point x="106" y="1338" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w1200m289,1526l1094,1526l1094,0l944,0l944,1303l852,1303l852,0l612,0l612,496l503,431l285,431l106,698l106,1338</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 1526 -20</string>
+          <string>vstem -83 240</string>
+          <string>vstem 556 240</string>
+          <string>vstem 957 240</string>
+          <string>hstem 0 -20</string>
+          <string>hstem 431 224</string>
+        </array>
+      </dict>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 1303 224</string>
+          <string>vstem -83 240</string>
+          <string>vstem 556 240</string>
+          <string>vstem 957 240</string>
+          <string>hstem 0 -20</string>
+          <string>hstem 431 224</string>
+        </array>
+        <key>pointTag</key>
+        <string>.hr01</string>
+      </dict>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 1526 -20</string>
+          <string>vstem -83 240</string>
+          <string>vstem 556 240</string>
+          <string>vstem 957 240</string>
+          <string>hstem 0 -20</string>
+          <string>hstem 431 224</string>
+        </array>
+        <key>pointTag</key>
+        <string>.hr02</string>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>
