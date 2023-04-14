@@ -1,4 +1,4 @@
-# The Kadena Kode Mono typeface
+# The Kode Mono typeface
 
 [![][Fontbakery]](https://isaozler.github.io/kode-mono/fontbakery/fontbakery-report.html)
 [![][Universal]](https://isaozler.github.io/kode-mono/fontbakery/fontbakery-report.html)
@@ -14,25 +14,19 @@
 
 A custom-designed typeface explicitly created for the developer community. 
 
-This typeface is designed to enhance the user experience and reflect Kadena's principles of functionality and timelessness.
+This typeface is designed to enhance the user experience and reflect our principles of functionality and timelessness.
 
-
-![Kode Mono Cover](documentation/kode-mono-cover.jpg)
+![Generated Image](documentation/image1.png)
 
 ## About
 
 ### Focus on Developer Experience
-As a developer-focused platform, Kadena is dedicated to providing a secure, scalable, and efficient infrastructure for decentralized applications, and this typeface is an extension of that commitment.
 
-### K-Grid - The New Energy Source
-The Kadena brand's clean and elegant design is a powerful symbol of the project's commitment to security, scalability, and decentralization. We are now extending this brand with the K-Grid.
-
-### By Engineers, for Engineers
-Kadena Kode Mono is currently in review. It's being tested through different development cycles to ensure a good experience for our developers.
+As a developer-focused platform, we are dedicated to providing a secure, scalable, and efficient infrastructure for decentralized applications, and this typeface is an extension of that commitment.
 
 ### Programming Ligatures
-Kadena Kode Mono comes with a set of ligatures. Supporting a wide range of language-specific ligatures including our smart-contract language Pact, Javascript, Haskell, Rust and many more to come.
 
+Kode Mono comes with a set of ligatures. Supporting a wide range of language-specific ligatures including our smart-contract language Pact, Javascript, Haskell, Rust and many more to come.
 
 ## Building
 
