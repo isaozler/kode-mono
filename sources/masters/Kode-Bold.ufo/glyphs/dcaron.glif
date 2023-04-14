@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dcaron" format="2">
+  <advance width="1200"/>
+  <unicode hex="010F"/>
+  <anchor x="600" y="1678" name="top"/>
+  <anchor x="600" y="-150" name="bottom"/>
+  <anchor x="40" y="640" name="left"/>
+  <anchor x="1000" y="790" name="right"/>
+  <anchor x="804" y="1190" name="middleTop"/>
+  <outline>
+    <component base="d" xOffset="-77"/>
+    <component base="quoteright" xOffset="572" yOffset="-104"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>d_quoteright</string>
+  </dict>
+  </lib>
+</glyph>

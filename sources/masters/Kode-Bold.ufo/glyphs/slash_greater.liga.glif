@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="slash_greater.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="-754" y="-266" type="line"/>
+      <point x="-948" y="-181" type="line"/>
+      <point x="-42" y="1681" type="line"/>
+      <point x="148" y="1586" type="line"/>
+      <point x="41" y="1366" type="line"/>
+      <point x="1066" y="732" type="line"/>
+      <point x="1066" y="522" type="line"/>
+      <point x="250" y="9" type="line"/>
+      <point x="114" y="186" type="line"/>
+      <point x="816" y="625" type="line"/>
+      <point x="-55" y="1170" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w1200m-754,-266l-948,-181l-42,1681l148,1586l41,1366l1066,732l1066,522l250,9l114,186l816,625l-55,1170</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -232 -21</string>
+          <string>hstem 1668 -20</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

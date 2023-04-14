@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dollar.ss04" format="2">
+  <advance width="1200"/>
+  <anchor x="594" y="1541" name="top"/>
+  <anchor x="594" y="-150" name="bottom"/>
+  <outline>
+    <component base="S"/>
+    <component base="bar"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>dollar</string>
+  </dict>
+  </lib>
+</glyph>

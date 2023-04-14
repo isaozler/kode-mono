@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="equal_equal_equal.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="910" y="678" type="line"/>
+      <point x="910" y="438" type="line"/>
+      <point x="-2110" y="438" type="line"/>
+      <point x="-2110" y="678" type="line"/>
+    </contour>
+    <contour>
+      <point x="910" y="310" type="line"/>
+      <point x="910" y="70" type="line"/>
+      <point x="-2110" y="70" type="line"/>
+      <point x="-2110" y="310" type="line"/>
+    </contour>
+    <contour>
+      <point x="910" y="1046" type="line"/>
+      <point x="910" y="806" type="line"/>
+      <point x="-2110" y="806" type="line"/>
+      <point x="-2110" y="1046" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>equal_equal_equal.liga</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w1200m1010,926l1010,686l-2010,686l-2010,926m1010,558l1010,318l-2010,318l-2010,558m1010,1294l1010,1054l-2010,1054l-2010,1294</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 326 224</string>
+          <string>hstem 694 224</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

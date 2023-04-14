@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Hbar" format="2">
+  <advance width="1200"/>
+  <unicode hex="0126"/>
+  <anchor x="600" y="1542" name="top"/>
+  <anchor x="600" y="-150" name="bottom"/>
+  <anchor x="60" y="696" name="left"/>
+  <anchor x="1140" y="696" name="right"/>
+  <anchor x="600" y="696" name="middleBottom"/>
+  <outline>
+    <component base="H"/>
+    <component base="macron.case" xOffset="-3" yOffset="-179"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>H+macron.case</string>
+  </dict>
+  </lib>
+</glyph>

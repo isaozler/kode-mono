@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="napostrophe" format="2">
+  <advance width="1200"/>
+  <unicode hex="0149"/>
+  <anchor x="600" y="-150" name="bottom"/>
+  <outline>
+    <component base="n" xOffset="68"/>
+    <component base="commabelowcomb.case" xOffset="-522" yOffset="1577"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>n+commabelowcomb.case</string>
+  </dict>
+  </lib>
+</glyph>

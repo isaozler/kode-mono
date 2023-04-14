@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="agrave" format="2">
+  <advance width="1200"/>
+  <unicode hex="00E0"/>
+  <anchor x="600" y="-150" name="bottom"/>
+  <outline>
+    <component base="a"/>
+    <component base="gravecomb" yOffset="44"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>a+gravecomb</string>
+  </dict>
+  </lib>
+</glyph>

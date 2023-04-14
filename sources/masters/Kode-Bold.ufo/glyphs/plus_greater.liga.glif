@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="plus_greater.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <component base="greater" xOffset="-18"/>
+    <contour>
+      <point x="-624" y="1095" type="line"/>
+      <point x="-400" y="1095" type="line"/>
+      <point x="-400" y="784" type="line"/>
+      <point x="792" y="784" type="line"/>
+      <point x="792" y="560" type="line"/>
+      <point x="-400" y="560" type="line"/>
+      <point x="-400" y="250" type="line"/>
+      <point x="-624" y="250" type="line"/>
+      <point x="-624" y="560" type="line"/>
+      <point x="-936" y="560" type="line"/>
+      <point x="-936" y="784" type="line"/>
+      <point x="-624" y="784" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>plus_greater.liga</string>
+  </dict>
+  </lib>
+</glyph>

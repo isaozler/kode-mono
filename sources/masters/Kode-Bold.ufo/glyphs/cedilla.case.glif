@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="cedilla.case" format="2">
+  <advance width="1200"/>
+  <anchor x="600" y="-190" name="_bottom"/>
+  <outline>
+    <component base="cedilla"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>cedilla%</string>
+  </dict>
+  </lib>
+</glyph>

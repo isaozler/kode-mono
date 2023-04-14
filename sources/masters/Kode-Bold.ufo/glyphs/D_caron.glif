@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Dcaron" format="2">
+  <advance width="1200"/>
+  <unicode hex="010E"/>
+  <anchor x="600" y="-150" name="bottom"/>
+  <outline>
+    <component base="D"/>
+    <component base="caroncomb" yOffset="391"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>D+uni030C</string>
+  </dict>
+  </lib>
+</glyph>

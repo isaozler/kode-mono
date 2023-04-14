@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bar_bar_bar_greater.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <component base="greater" xOffset="-1000" yOffset="-50"/>
+    <component base="bar_bar_bar.liga" xOffset="-1200"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>bar_bar_bar_greater.liga</string>
+  </dict>
+  </lib>
+</glyph>

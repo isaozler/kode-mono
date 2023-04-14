@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="P" format="2">
+  <advance width="1200"/>
+  <unicode hex="0050"/>
+  <anchor x="600" y="1542" name="top"/>
+  <anchor x="600" y="-150" name="bottom"/>
+  <outline>
+    <contour>
+      <point x="120" y="1392" type="line"/>
+      <point x="904" y="1392" type="line"/>
+      <point x="1080" y="1125" type="line"/>
+      <point x="1080" y="774" type="line"/>
+      <point x="899" y="589" type="line"/>
+      <point x="360" y="589" type="line"/>
+      <point x="360" y="0" type="line"/>
+      <point x="120" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="360" y="1168" type="line"/>
+      <point x="360" y="744" type="line"/>
+      <point x="471" y="809" type="line"/>
+      <point x="803" y="809" type="line"/>
+      <point x="840" y="848" type="line"/>
+      <point x="840" y="1080" type="line"/>
+      <point x="782" y="1168" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>9cdfd227c23055b620433c0568c04e3d98f6dd7ab3044c3129108c84775354c6932cdd2bd4d2e8066620e7ffcecf68b442d75e18a55fa0157c48fa0d985fd90a</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 21 -21</string>
+          <string>hstem 589 220</string>
+          <string>hstem 1168 224</string>
+          <string>vstem 120 240</string>
+          <string>vstem 840 240</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

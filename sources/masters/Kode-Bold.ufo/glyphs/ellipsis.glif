@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ellipsis" format="2">
+  <advance width="1200"/>
+  <unicode hex="2026"/>
+  <outline>
+    <contour>
+      <point x="850" y="0" type="line"/>
+      <point x="850" y="335" type="line"/>
+      <point x="1201" y="335" type="line"/>
+      <point x="1201" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="424" y="0" type="line"/>
+      <point x="424" y="335" type="line"/>
+      <point x="776" y="335" type="line"/>
+      <point x="776" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="0" y="0" type="line"/>
+      <point x="0" y="335" type="line"/>
+      <point x="351" y="335" type="line"/>
+      <point x="351" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w1200m850,0l850,335l1201,335l1201,0m424,0l424,335l776,335l776,0m0,0l0,335l351,335l351,0</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 0.4 335.08</string>
+          <string>vstem -0.1 351.1</string>
+          <string>vstem 424.45 351.1</string>
+          <string>vstem 850.09 351.1</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="numbersign_underscore_parenleft.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <component base="parenleft" xOffset="-100"/>
+    <contour>
+      <point x="-1601" y="528" type="line"/>
+      <point x="-1304" y="528" type="line"/>
+      <point x="-1227" y="961" type="line"/>
+      <point x="-1520" y="961" type="line"/>
+    </contour>
+    <contour>
+      <point x="-891" y="1106" type="line"/>
+      <point x="-891" y="961" type="line"/>
+      <point x="-1078" y="961" type="line"/>
+      <point x="-1159" y="528" type="line"/>
+      <point x="-997" y="528" type="line"/>
+      <point x="-997" y="383" type="line"/>
+      <point x="-1184" y="383" type="line"/>
+      <point x="-1292" y="-192" type="line"/>
+      <point x="680" y="-192" type="line"/>
+      <point x="680" y="-336" type="line"/>
+      <point x="-1463" y="-336" type="line"/>
+      <point x="-1334" y="383" type="line"/>
+      <point x="-1626" y="383" type="line"/>
+      <point x="-1686" y="48" type="line"/>
+      <point x="-1834" y="48" type="line"/>
+      <point x="-1771" y="383" type="line"/>
+      <point x="-1932" y="383" type="line"/>
+      <point x="-1932" y="528" type="line"/>
+      <point x="-1745" y="528" type="line"/>
+      <point x="-1665" y="961" type="line"/>
+      <point x="-1826" y="961" type="line"/>
+      <point x="-1826" y="1106" type="line"/>
+      <point x="-1639" y="1106" type="line"/>
+      <point x="-1576" y="1441" type="line"/>
+      <point x="-1431" y="1441" type="line"/>
+      <point x="-1495" y="1106" type="line"/>
+      <point x="-1197" y="1106" type="line"/>
+      <point x="-1137" y="1441" type="line"/>
+      <point x="-989" y="1441" type="line"/>
+      <point x="-1053" y="1106" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>numbersign_underscore_parenleft.liga</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>dac0aebad321856109206233699d65fb28b5634fdad48e7e4e74f8c2e857a8966817460ce4b9ce61480f8a4c451b21f2c2d2a43d4f81d63ddefb6c5b48b5b691</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 54 480</string>
+          <string>hstem 389 145</string>
+          <string>hstem 967 145</string>
+          <string>hstem 967 480</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

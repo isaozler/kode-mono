@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dagger" format="2">
+  <advance width="1200"/>
+  <unicode hex="2020"/>
+  <outline>
+    <component base="bar"/>
+    <component base="hyphen"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>space+bar+hyphen%</string>
+  </dict>
+  </lib>
+</glyph>

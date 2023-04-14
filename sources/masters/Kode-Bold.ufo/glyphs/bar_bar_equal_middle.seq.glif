@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bar_bar_equal_middle.seq" format="2">
+  <advance width="1200"/>
+  <outline>
+    <component base="bar_equal_end.seq" xOffset="-926"/>
+    <component base="bar_equal_end.seq" xScale="-1" xOffset="928"/>
+    <component base="equal" xScale="0.354801" yScale="1" xOffset="863"/>
+    <component base="equal" xScale="0.354801" yScale="1" xOffset="-1287"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w1200</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -180 -21</string>
+          <string>hstem 384 116</string>
+          <string>hstem 752 116</string>
+          <string>hstem 1445 -20</string>
+          <string>vstem -310 108</string>
+          <string>vstem 204 108</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

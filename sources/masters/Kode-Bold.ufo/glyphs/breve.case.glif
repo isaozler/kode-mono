@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="breve.case" format="2">
+  <advance width="1200"/>
+  <anchor x="600" y="1300" name="_top"/>
+  <anchor x="600" y="1684" name="_bottom"/>
+  <outline>
+    <component base="brevecomb"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>breve</string>
+  </dict>
+  </lib>
+</glyph>

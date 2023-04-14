@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uring" format="2">
+  <advance width="1200"/>
+  <unicode hex="016F"/>
+  <anchor x="600" y="-150" name="bottom"/>
+  <outline>
+    <component base="u"/>
+    <component base="ringcomb" xOffset="-2"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>u+uni030A</string>
+  </dict>
+  </lib>
+</glyph>

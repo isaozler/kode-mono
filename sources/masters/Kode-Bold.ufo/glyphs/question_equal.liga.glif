@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="question_equal.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <component base="question" xOffset="-887" yOffset="-2"/>
+    <contour>
+      <point x="720" y="926" type="line"/>
+      <point x="-65" y="926" type="line"/>
+      <point x="-65" y="686" type="line"/>
+      <point x="720" y="686" type="line"/>
+    </contour>
+    <contour>
+      <point x="720" y="558" type="line"/>
+      <point x="-410" y="558" type="line"/>
+      <point x="-410" y="318" type="line"/>
+      <point x="720" y="318" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>question_equal.liga</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w1200m720,926l-65,926l-65,686l720,686m720,558l-410,558l-410,318l720,318</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 326 224</string>
+          <string>hstem 694 224</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

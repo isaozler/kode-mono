@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Lcommaaccent" format="2">
+  <advance width="1200"/>
+  <unicode hex="013B"/>
+  <anchor x="600" y="-150" name="bottom"/>
+  <anchor x="20" y="696" name="left"/>
+  <anchor x="768" y="940" name="right"/>
+  <outline>
+    <component base="L"/>
+    <component base="commabelowcomb.case"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>L+~uni0326.case</string>
+  </dict>
+  </lib>
+</glyph>

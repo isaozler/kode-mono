@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="grave.case" format="2">
+  <advance width="1200"/>
+  <anchor x="604" y="2000" name="_top"/>
+  <anchor x="604" y="2300" name="_bottom"/>
+  <outline>
+    <contour>
+      <point x="770" y="2004" type="line"/>
+      <point x="386" y="2189" type="line"/>
+      <point x="466" y="2305" type="line"/>
+      <point x="815" y="2077" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>space+^grave%</string>
+  </dict>
+  </lib>
+</glyph>

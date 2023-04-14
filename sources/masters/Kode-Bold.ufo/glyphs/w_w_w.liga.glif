@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="w_w_w.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="164" y="0" type="line"/>
+      <point x="-27" y="283" type="line"/>
+      <point x="-300" y="0" type="line"/>
+      <point x="-484" y="0" type="line"/>
+      <point x="-587" y="157" type="line"/>
+      <point x="-741" y="0" type="line"/>
+      <point x="-920" y="0" type="line"/>
+      <point x="-1109" y="279" type="line"/>
+      <point x="-1380" y="0" type="line"/>
+      <point x="-1564" y="0" type="line"/>
+      <point x="-1667" y="157" type="line"/>
+      <point x="-1821" y="0" type="line"/>
+      <point x="-2000" y="0" type="line"/>
+      <point x="-2280" y="414" type="line"/>
+      <point x="-2280" y="1010" type="line"/>
+      <point x="-2040" y="1010" type="line"/>
+      <point x="-2040" y="458" type="line"/>
+      <point x="-1905" y="257" type="line"/>
+      <point x="-1896" y="257" type="line"/>
+      <point x="-1800" y="343" type="line"/>
+      <point x="-1800" y="730" type="line"/>
+      <point x="-1560" y="730" type="line"/>
+      <point x="-1560" y="396" type="line"/>
+      <point x="-1464" y="257" type="line"/>
+      <point x="-1458" y="257" type="line"/>
+      <point x="-1299" y="406" type="line"/>
+      <point x="-1299" y="730" type="line"/>
+      <point x="-1059" y="730" type="line"/>
+      <point x="-1059" y="603" type="line"/>
+      <point x="-825" y="257" type="line"/>
+      <point x="-816" y="257" type="line"/>
+      <point x="-720" y="343" type="line"/>
+      <point x="-720" y="730" type="line"/>
+      <point x="-480" y="730" type="line"/>
+      <point x="-480" y="396" type="line"/>
+      <point x="-384" y="257" type="line"/>
+      <point x="-378" y="257" type="line"/>
+      <point x="-116" y="512" type="line"/>
+      <point x="-116" y="730" type="line"/>
+      <point x="124" y="730" type="line"/>
+      <point x="124" y="458" type="line"/>
+      <point x="259" y="257" type="line"/>
+      <point x="268" y="257" type="line"/>
+      <point x="364" y="343" type="line"/>
+      <point x="364" y="730" type="line"/>
+      <point x="604" y="730" type="line"/>
+      <point x="604" y="396" type="line"/>
+      <point x="700" y="257" type="line"/>
+      <point x="706" y="257" type="line"/>
+      <point x="844" y="384" type="line"/>
+      <point x="844" y="1010" type="line"/>
+      <point x="1084" y="1010" type="line"/>
+      <point x="1084" y="311" type="line"/>
+      <point x="784" y="0" type="line"/>
+      <point x="600" y="0" type="line"/>
+      <point x="497" y="157" type="line"/>
+      <point x="343" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>6551e1c2c906e84cc952f8f4ce6883a3f6c54d4b0e2eec52763619a3a2bbd46a8f42178fdf1accf62e69dd37a64220fcc77361a0d5d48caf1289ea58dc7b2109</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 21 -21</string>
+          <string>hstem 1393 -20</string>
+          <string>vstem -2676 240</string>
+          <string>vstem -2196 240</string>
+          <string>vstem -1716 240</string>
+          <string>vstem -1396 240</string>
+          <string>vstem -916 240</string>
+          <string>vstem -436 240</string>
+          <string>vstem -116 240</string>
+          <string>vstem 364 240</string>
+          <string>vstem 844 240</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

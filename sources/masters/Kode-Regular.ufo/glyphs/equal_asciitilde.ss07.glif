@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="equal_asciitilde.ss07" format="2">
+  <advance width="1200"/>
+  <outline>
+    <component base="notalmostequal" xOffset="-49"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.metricsRight</key>
+  <string>v</string>
+  <key>com.fontlab.recipe</key>
+  <string>equal_asciitilde.ss07</string>
+  </dict>
+  </lib>
+</glyph>

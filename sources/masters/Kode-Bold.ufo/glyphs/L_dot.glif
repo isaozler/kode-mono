@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ldot" format="2">
+  <advance width="1200"/>
+  <unicode hex="013F"/>
+  <anchor x="600" y="-150" name="bottom"/>
+  <anchor x="20" y="696" name="left"/>
+  <anchor x="768" y="940" name="right"/>
+  <outline>
+    <component base="L"/>
+    <component base="dotaccentcomb" xOffset="160" yOffset="-490"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>L+dotaccentcomb</string>
+  </dict>
+  </lib>
+</glyph>

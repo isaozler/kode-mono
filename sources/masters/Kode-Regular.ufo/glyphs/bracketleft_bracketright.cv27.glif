@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bracketleft_bracketright.cv27" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="960" y="-291" type="line"/>
+      <point x="-960" y="-291" type="line"/>
+      <point x="-960" y="1637" type="line"/>
+      <point x="960" y="1637" type="line"/>
+    </contour>
+    <contour>
+      <point x="-800" y="-133" type="line"/>
+      <point x="800" y="-133" type="line"/>
+      <point x="800" y="1479" type="line" name=".hr01"/>
+      <point x="-800" y="1479" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>bracketleft_bracketright.cv27</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w1200m960,-291l-960,-291l-960,1637l960,1637m-800,-133l800,-133l800,1479l-800,1479</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -291 150</string>
+          <string>hstem 1490 146</string>
+          <string>vstem 800 160</string>
+          <string>vstem -960 158</string>
+        </array>
+      </dict>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 1479 150</string>
+          <string>hstem -284 146</string>
+          <string>vstem 800 160</string>
+          <string>vstem -960 158</string>
+        </array>
+        <key>pointTag</key>
+        <string>.hr01</string>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

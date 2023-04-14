@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="four" format="2">
+  <advance width="1200"/>
+  <unicode hex="0034"/>
+  <outline>
+    <contour>
+      <point x="706" y="1392" type="line" name=".hr02"/>
+      <point x="961" y="1392" type="line"/>
+      <point x="961" y="624" type="line" name=".hr01"/>
+      <point x="1080" y="624" type="line"/>
+      <point x="1080" y="480" type="line"/>
+      <point x="961" y="480" type="line"/>
+      <point x="961" y="0" type="line"/>
+      <point x="800" y="0" type="line"/>
+      <point x="800" y="480" type="line"/>
+      <point x="265" y="480" type="line"/>
+      <point x="82" y="747" type="line"/>
+    </contour>
+    <contour>
+      <point x="265" y="730" type="line"/>
+      <point x="337" y="624" type="line" name=".hr03"/>
+      <point x="800" y="624" type="line"/>
+      <point x="800" y="1282" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w1200m706,1392l961,1392l961,624l1080,624l1080,480l961,480l961,0l800,0l800,480l265,480l82,747m265,730l337,624l800,624l800,1282</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 480 912</string>
+          <string>vstem 800 161</string>
+          <string>hstem 21 -21</string>
+        </array>
+      </dict>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 480 144</string>
+          <string>vstem 800 161</string>
+          <string>hstem 21 -21</string>
+        </array>
+        <key>pointTag</key>
+        <string>.hr01</string>
+      </dict>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 480 912</string>
+          <string>hstem 21 -21</string>
+          <string>vstem 800 161</string>
+        </array>
+        <key>pointTag</key>
+        <string>.hr02</string>
+      </dict>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 480 144</string>
+          <string>vstem 800 161</string>
+          <string>hstem 21 -21</string>
+        </array>
+        <key>pointTag</key>
+        <string>.hr03</string>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

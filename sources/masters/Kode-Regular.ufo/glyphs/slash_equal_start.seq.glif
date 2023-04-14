@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="slash_equal_start.seq" format="2">
+  <advance width="1200"/>
+  <outline>
+    <component base="slash"/>
+    <contour>
+      <point x="1225" y="886" type="line"/>
+      <point x="1225" y="726" type="line"/>
+      <point x="640" y="726" type="line"/>
+      <point x="640" y="886" type="line"/>
+    </contour>
+    <contour>
+      <point x="1225" y="518" type="line"/>
+      <point x="1225" y="358" type="line"/>
+      <point x="490" y="358" type="line"/>
+      <point x="490" y="518" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w1200m1225,886l1225,726l640,726l640,886m1225,518l1225,358l490,358l490,518</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -133 -21</string>
+          <string>hstem 384 116</string>
+          <string>hstem 752 116</string>
+          <string>hstem 1425 -20</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

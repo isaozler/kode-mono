@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="semicolon_semicolon.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <component base="semicolon" xOffset="-180"/>
+    <component base="semicolon" xOffset="-1020"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>semicolon_semicolon.liga</string>
+  </dict>
+  </lib>
+</glyph>

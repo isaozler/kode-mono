@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lcaron" format="2">
+  <advance width="1200"/>
+  <unicode hex="013E"/>
+  <anchor x="490" y="1638" name="top"/>
+  <anchor x="490" y="-150" name="bottom"/>
+  <anchor x="1720" y="1430" name="left"/>
+  <anchor x="1880" y="1430" name="right"/>
+  <outline>
+    <component base="l" xOffset="89"/>
+    <component base="quoteright" xOffset="285" yOffset="-83"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>l_quoteright</string>
+  </dict>
+  </lib>
+</glyph>

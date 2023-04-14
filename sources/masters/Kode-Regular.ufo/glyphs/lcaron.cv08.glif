@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lcaron.cv08" format="2">
+  <advance width="1200"/>
+  <anchor x="490" y="1638" name="top"/>
+  <anchor x="490" y="-150" name="bottom"/>
+  <anchor x="1720" y="1430" name="left"/>
+  <anchor x="1880" y="1430" name="right"/>
+  <outline>
+    <component base="lcaron"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>lcaron</string>
+  </dict>
+  </lib>
+</glyph>

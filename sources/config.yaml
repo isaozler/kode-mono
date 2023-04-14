@@ -1,0 +1,7 @@
+# config.yaml
+sources:
+    - ./Kode.designspace
+axisOrder:
+    - wght
+familyName: "Kode"
+buildOTF: false

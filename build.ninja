@@ -1,0 +1,19 @@
+# Rules
+
+rule proofing
+  command = _diffbrowsers proof $fonts -o $out -pt $pt_size --filter-styles $
+      "$filters"
+
+# Build rules
+build out/proof/Medium-Bold-Regular-SemiBold: proofing
+  fonts = /Users/isaozler/Desktop/__WORKSPACE__/Kadena/assets/Kadena $
+      Code/Kode/fonts/ttf/Kode-Medium.ttf $
+      /Users/isaozler/Desktop/__WORKSPACE__/Kadena/assets/Kadena $
+      Code/Kode/fonts/ttf/Kode-Bold.ttf $
+      /Users/isaozler/Desktop/__WORKSPACE__/Kadena/assets/Kadena $
+      Code/Kode/fonts/ttf/Kode-Regular.ttf $
+      /Users/isaozler/Desktop/__WORKSPACE__/Kadena/assets/Kadena $
+      Code/Kode/fonts/ttf/Kode-SemiBold.ttf
+  out = out/diffbrowsers
+  pt_size = 20
+  filters = Medium|Bold|Regular|SemiBold

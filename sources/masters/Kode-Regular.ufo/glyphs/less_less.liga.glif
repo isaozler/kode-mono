@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="less_less.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <component base="less" xOffset="-975"/>
+    <component base="less" xOffset="-135"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>less_less.liga</string>
+  </dict>
+  </lib>
+</glyph>

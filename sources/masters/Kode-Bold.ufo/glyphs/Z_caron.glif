@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Zcaron" format="2">
+  <advance width="1200"/>
+  <unicode hex="017D"/>
+  <anchor x="600" y="-150" name="bottom"/>
+  <outline>
+    <component base="Z"/>
+    <component base="caroncomb" yOffset="391"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>Z+uni030C</string>
+  </dict>
+  </lib>
+</glyph>

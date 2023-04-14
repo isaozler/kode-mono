@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="cent" format="2">
+  <advance width="1200"/>
+  <unicode hex="00A2"/>
+  <anchor x="591" y="1250" name="top"/>
+  <anchor x="591" y="-150" name="bottom"/>
+  <outline>
+    <component base="c"/>
+    <component base="bar" yScale="0.8485" yOffset="-36"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>c+bar%</string>
+  </dict>
+  </lib>
+</glyph>

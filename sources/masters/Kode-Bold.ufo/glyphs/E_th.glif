@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Eth" format="2">
+  <advance width="1200"/>
+  <unicode hex="00D0"/>
+  <anchor x="600" y="1541" name="top"/>
+  <anchor x="600" y="-150" name="bottom"/>
+  <anchor x="-80" y="696" name="left"/>
+  <anchor x="1180" y="696" name="right"/>
+  <anchor x="550" y="696" name="a5"/>
+  <outline>
+    <component base="D"/>
+    <component base="hyphen" xOffset="-200" yOffset="100"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>D+&lt;50~50hyphen%</string>
+  </dict>
+  </lib>
+</glyph>

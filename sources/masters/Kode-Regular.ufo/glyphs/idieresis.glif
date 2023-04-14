@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="idieresis" format="2">
+  <advance width="1200"/>
+  <unicode hex="00EF"/>
+  <anchor x="600" y="-150" name="bottom"/>
+  <outline>
+    <component base="dotlessi"/>
+    <component base="dieresis" yOffset="9"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>dotlessi+dieresis</string>
+  </dict>
+  </lib>
+</glyph>

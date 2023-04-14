@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="greater_equal.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <component base="greater" xOffset="-677" yOffset="163"/>
+    <contour>
+      <point x="390" y="697" type="line"/>
+      <point x="502" y="582" type="line"/>
+      <point x="-94" y="7" type="line"/>
+      <point x="-205" y="122" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>greater_equal.liga</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w1200m390,697l502,582l-94,7l-205,122</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 366 144</string>
+          <string>hstem 734 144</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

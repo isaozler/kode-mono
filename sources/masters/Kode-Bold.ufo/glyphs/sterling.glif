@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sterling" format="2">
+  <advance width="1200"/>
+  <unicode hex="00A3"/>
+  <outline>
+    <contour>
+      <point x="419.545" y="1472" type="line"/>
+      <point x="1091.05" y="1472" type="line"/>
+      <point x="1091.05" y="1103" type="line"/>
+      <point x="851.05" y="1103" type="line"/>
+      <point x="851.05" y="1248" type="line"/>
+      <point x="539.889" y="1248" type="line"/>
+      <point x="481" y="1162.36" type="line"/>
+      <point x="481" y="853.85" type="line"/>
+      <point x="859.85" y="853.85" type="line"/>
+      <point x="859.85" y="629.85" type="line"/>
+      <point x="481" y="629.85" type="line"/>
+      <point x="481" y="272.995" type="line"/>
+      <point x="448.031" y="224" type="line"/>
+      <point x="1088" y="224" type="line"/>
+      <point x="1088" y="0" type="line"/>
+      <point x="60" y="0" type="line"/>
+      <point x="60" y="224" type="line"/>
+      <point x="179.016" y="224" type="line"/>
+      <point x="237.85" y="309.163" type="line"/>
+      <point x="237.85" y="629.85" type="line"/>
+      <point x="99.85" y="629.85" type="line"/>
+      <point x="99.85" y="853.85" type="line"/>
+      <point x="237.85" y="853.85" type="line"/>
+      <point x="237.85" y="1198.37" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>L+^hyphen%</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

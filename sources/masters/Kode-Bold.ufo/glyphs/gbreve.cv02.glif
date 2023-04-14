@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gbreve.cv02" format="2">
+  <advance width="1200"/>
+  <anchor x="604" y="-614" name="bottom"/>
+  <outline>
+    <component base="g"/>
+    <component base="breve" xOffset="4" yOffset="-52"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>gbreve</string>
+  </dict>
+  </lib>
+</glyph>

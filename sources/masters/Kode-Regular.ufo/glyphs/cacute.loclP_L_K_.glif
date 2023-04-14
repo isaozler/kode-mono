@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="cacute.loclPLK" format="2">
+  <advance width="1200"/>
+  <anchor x="591" y="-150" name="bottom"/>
+  <outline>
+    <component base="c"/>
+    <component base="acutecomb" xOffset="-9" yOffset="-84"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>cacute</string>
+  </dict>
+  </lib>
+</glyph>

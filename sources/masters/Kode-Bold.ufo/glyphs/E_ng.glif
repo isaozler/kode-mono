@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Eng" format="2">
+  <advance width="1200"/>
+  <unicode hex="014A"/>
+  <anchor x="944" y="1541" name="top"/>
+  <outline>
+    <component base="N"/>
+    <contour>
+      <point x="1080" y="349" type="line"/>
+      <point x="1080" y="0" type="line"/>
+      <point x="737" y="-361" type="line"/>
+      <point x="400" y="-361" type="line"/>
+      <point x="400" y="-137" type="line"/>
+      <point x="641" y="-137" type="line"/>
+      <point x="840" y="73" type="line"/>
+      <point x="840" y="307" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>N+>J</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

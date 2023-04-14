@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="backslash_slash.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <component base="backslash" xOffset="-1200"/>
+    <component base="slash"/>
+    <contour>
+      <point x="-258" y="-292" type="line"/>
+      <point x="258" y="-292" type="line"/>
+      <point x="258" y="-68" type="line"/>
+      <point x="-258" y="-68" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>backslash_slash.liga</string>
+  </dict>
+  </lib>
+</glyph>

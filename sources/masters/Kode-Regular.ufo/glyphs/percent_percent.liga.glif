@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="percent_percent.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="-280" y="1313" type="line"/>
+      <point x="-120" y="1313" type="line"/>
+      <point x="-120" y="1062" type="line"/>
+      <point x="-920" y="239" type="line"/>
+      <point x="-920" y="40" type="line"/>
+      <point x="-1080" y="40" type="line"/>
+      <point x="-1080" y="278" type="line"/>
+      <point x="-280" y="1101" type="line"/>
+    </contour>
+    <contour>
+      <point x="-969" y="1167" type="line"/>
+      <point x="-835" y="1167" type="line"/>
+      <point x="-740" y="1074" type="line"/>
+      <point x="-740" y="939" type="line"/>
+      <point x="-835" y="847" type="line"/>
+      <point x="-969" y="847" type="line"/>
+      <point x="-1060" y="938" type="line"/>
+      <point x="-1060" y="1075" type="line"/>
+    </contour>
+    <contour>
+      <point x="-74" y="832" type="line"/>
+      <point x="60" y="832" type="line"/>
+      <point x="155" y="739" type="line"/>
+      <point x="155" y="604" type="line"/>
+      <point x="60" y="512" type="line"/>
+      <point x="-74" y="512" type="line"/>
+      <point x="-165" y="603" type="line"/>
+      <point x="-165" y="740" type="line"/>
+    </contour>
+    <contour>
+      <point x="831" y="490" type="line"/>
+      <point x="965" y="490" type="line"/>
+      <point x="1060" y="397" type="line"/>
+      <point x="1060" y="262" type="line"/>
+      <point x="965" y="170" type="line"/>
+      <point x="831" y="170" type="line"/>
+      <point x="740" y="261" type="line"/>
+      <point x="740" y="398" type="line"/>
+    </contour>
+    <contour>
+      <point x="920" y="1313" type="line"/>
+      <point x="1080" y="1313" type="line"/>
+      <point x="1080" y="1062" type="line"/>
+      <point x="280" y="239" type="line"/>
+      <point x="280" y="40" type="line"/>
+      <point x="120" y="40" type="line"/>
+      <point x="120" y="278" type="line"/>
+      <point x="920" y="1101" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>percent_percent.liga</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>5718d642102919c7140d8f3a562bd251b1466a7057aa2d76325c21ce5d97981b2c38bc5e1af0c66d3dc8099b84df6f1dc915768a08f64deff3e1221720a50374</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 119 -21</string>
+          <string>hstem 1256 -20</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

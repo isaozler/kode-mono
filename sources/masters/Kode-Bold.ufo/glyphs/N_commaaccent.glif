@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ncommaaccent" format="2">
+  <advance width="1200"/>
+  <unicode hex="0145"/>
+  <anchor x="600" y="-150" name="bottom"/>
+  <outline>
+    <component base="N"/>
+    <component base="commabelowcomb.case"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>N+~uni0326.case</string>
+  </dict>
+  </lib>
+</glyph>

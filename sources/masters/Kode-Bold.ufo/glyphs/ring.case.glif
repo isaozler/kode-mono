@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ring.case" format="2">
+  <advance width="1200"/>
+  <anchor x="602" y="1141" name="_top"/>
+  <anchor x="602" y="1583" name="_bottom"/>
+  <outline>
+    <component base="ringcomb"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>ring</string>
+  </dict>
+  </lib>
+</glyph>

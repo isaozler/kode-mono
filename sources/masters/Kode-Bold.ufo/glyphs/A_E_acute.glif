@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="AEacute" format="2">
+  <advance width="1200"/>
+  <unicode hex="01FC"/>
+  <anchor x="701" y="1386" name="t.uni0342"/>
+  <anchor x="600" y="0" name="m.uni0345"/>
+  <outline>
+    <component base="AE"/>
+    <component base="acute.case" yOffset="240"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>AE+~acute.case</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="colon_equal.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <component base="colon" xOffset="-1098" yOffset="-17"/>
+    <component base="equal" xOffset="-190" yOffset="-95"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>colon_equal.liga</string>
+  </dict>
+  </lib>
+</glyph>

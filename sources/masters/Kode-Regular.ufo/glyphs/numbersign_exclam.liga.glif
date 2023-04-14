@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="numbersign_exclam.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <component base="numbersign" xOffset="-775"/>
+    <component base="exclam" xScale="1" yScale="0.97561" xOffset="-7" yOffset="41"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>numbersign_exclam.liga</string>
+  </dict>
+  </lib>
+</glyph>

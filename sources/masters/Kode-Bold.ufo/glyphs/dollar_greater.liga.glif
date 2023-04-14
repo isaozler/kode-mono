@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dollar_greater.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="-737" y="1391" type="line"/>
+      <point x="-520" y="1391" type="line"/>
+      <point x="-520" y="1537" type="line"/>
+      <point x="-356" y="1537" type="line"/>
+      <point x="-356" y="1391" type="line"/>
+      <point x="292" y="1391" type="line"/>
+      <point x="974" y="733" type="line"/>
+      <point x="974" y="614" type="line"/>
+      <point x="356" y="17" type="line"/>
+      <point x="204" y="179" type="line"/>
+      <point x="713" y="674" type="line"/>
+      <point x="200" y="1167" type="line"/>
+      <point x="-356" y="1167" type="line"/>
+      <point x="-356" y="809" type="line"/>
+      <point x="-120" y="809" type="line"/>
+      <point x="40" y="569" type="line"/>
+      <point x="40" y="169" type="line"/>
+      <point x="-123" y="0" type="line"/>
+      <point x="-356" y="0" type="line"/>
+      <point x="-356" y="-144" type="line"/>
+      <point x="-520" y="-144" type="line"/>
+      <point x="-520" y="0" type="line"/>
+      <point x="-814" y="0" type="line"/>
+      <point x="-932" y="167" type="line"/>
+      <point x="-776" y="330" type="line"/>
+      <point x="-698" y="224" type="line"/>
+      <point x="-520" y="224" type="line"/>
+      <point x="-520" y="585" type="line"/>
+      <point x="-741" y="585" type="line"/>
+      <point x="-920" y="851" type="line"/>
+      <point x="-920" y="1201" type="line"/>
+    </contour>
+    <contour>
+      <point x="-621" y="809" type="line"/>
+      <point x="-520" y="809" type="line"/>
+      <point x="-520" y="1167" type="line"/>
+      <point x="-644" y="1167" type="line"/>
+      <point x="-680" y="1128" type="line"/>
+      <point x="-680" y="896" type="line"/>
+    </contour>
+    <contour>
+      <point x="-356" y="224" type="line"/>
+      <point x="-223" y="224" type="line"/>
+      <point x="-200" y="243" type="line"/>
+      <point x="-200" y="528" type="line"/>
+      <point x="-241" y="585" type="line"/>
+      <point x="-356" y="585" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>dollar_greater.liga</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>6f22d2f2133f9c2dd1d8439e1b252a427cafe8439c65773082da4a2071efc724022408185a4c5cb93365f02f02e7608a59932b6d8157a5cad51cc1d78b6f4f23</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -123 -21</string>
+          <string>hstem 0 224</string>
+          <string>hstem 37.96 -21</string>
+          <string>hstem 585 224</string>
+          <string>hstem 1167 224</string>
+          <string>hstem 1326.63 -20</string>
+          <string>hstem 1537 -20</string>
+          <string>vstem -920 240</string>
+          <string>vstem -520 164</string>
+          <string>vstem -200 240</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

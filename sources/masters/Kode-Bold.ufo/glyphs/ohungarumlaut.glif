@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ohungarumlaut" format="2">
+  <advance width="1200"/>
+  <unicode hex="0151"/>
+  <anchor x="600" y="-150" name="bottom"/>
+  <outline>
+    <component base="o"/>
+    <component base="hungarumlautcomb" xOffset="37" yOffset="86"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>o+uni030B</string>
+  </dict>
+  </lib>
+</glyph>

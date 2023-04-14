@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gcommaaccent" format="2">
+  <advance width="1200"/>
+  <unicode hex="0123"/>
+  <anchor x="604" y="-614" name="bottom"/>
+  <outline>
+    <component base="g"/>
+    <component base="commaturnedabovecomb" xOffset="4" yOffset="88"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>g+commaturnedabovecomb</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="numbersign_equal.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <component base="equal" xOffset="29" yOffset="72"/>
+    <contour>
+      <point x="-627" y="628" type="line"/>
+      <point x="-412" y="628" type="line"/>
+      <point x="-389" y="770" type="line"/>
+      <point x="-601" y="770" type="line"/>
+    </contour>
+    <contour>
+      <point x="35" y="995" type="line"/>
+      <point x="35" y="770" type="line"/>
+      <point x="-159" y="770" type="line"/>
+      <point x="-185" y="628" type="line"/>
+      <point x="35" y="628" type="line"/>
+      <point x="35" y="403" type="line"/>
+      <point x="-225" y="403" type="line"/>
+      <point x="-305" y="0" type="line" name=".hr01"/>
+      <point x="-530" y="0" type="line"/>
+      <point x="-456" y="403" type="line"/>
+      <point x="-667" y="403" type="line"/>
+      <point x="-742" y="0" type="line"/>
+      <point x="-971" y="0" type="line"/>
+      <point x="-893" y="403" type="line"/>
+      <point x="-1046" y="403" type="line"/>
+      <point x="-1046" y="628" type="line"/>
+      <point x="-852" y="628" type="line"/>
+      <point x="-827" y="770" type="line"/>
+      <point x="-980" y="770" type="line"/>
+      <point x="-980" y="995" type="line"/>
+      <point x="-786" y="995" type="line"/>
+      <point x="-698" y="1473" type="line" name=".hr02"/>
+      <point x="-472" y="1473" type="line"/>
+      <point x="-561" y="995" type="line"/>
+      <point x="-344" y="995" type="line"/>
+      <point x="-259" y="1473" type="line"/>
+      <point x="-30" y="1473" type="line"/>
+      <point x="-119" y="995" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>numbersign_equal.liga</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>2b47583068b5a8c8a02d997131146d1ba6feb441ed7c759c0ac2a3c4301ac2478f00338d0e4feb768caa42b874c21917f6dab8526e0dc0d92b6f37cf8c0858d0</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 335 225</string>
+          <string>hstem 913 225</string>
+        </array>
+      </dict>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 0 560</string>
+          <string>hstem 913 225</string>
+        </array>
+        <key>pointTag</key>
+        <string>.hr01</string>
+      </dict>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 913 560</string>
+          <string>hstem 335 225</string>
+        </array>
+        <key>pointTag</key>
+        <string>.hr02</string>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

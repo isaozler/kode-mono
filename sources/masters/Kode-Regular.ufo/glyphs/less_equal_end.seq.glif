@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="less_equal_end.seq" format="2">
+  <advance width="1200"/>
+  <outline>
+    <component base="equal_end.seq" xScale="0.558485" xOffset="-10"/>
+    <contour>
+      <point x="328" y="518" type="line"/>
+      <point x="836" y="24" type="line"/>
+      <point x="937" y="128" type="line"/>
+      <point x="535" y="518" type="line"/>
+    </contour>
+    <contour>
+      <point x="325" y="726" type="line"/>
+      <point x="532" y="726" type="line"/>
+      <point x="937" y="1115" type="line"/>
+      <point x="836" y="1220" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w1200m328,518l836,24l937,128l535,518m325,726l532,726l937,1115l836,1220</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 24 -20</string>
+          <string>hstem 57 -21</string>
+          <string>hstem 384 116</string>
+          <string>hstem 752 116</string>
+          <string>hstem 1216 -20</string>
+          <string>hstem 1220 -20</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

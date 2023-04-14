@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="exclam_exclam.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <component base="exclam" xOffset="-1000"/>
+    <component base="exclam" xOffset="-200"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>exclam_exclam.liga</string>
+  </dict>
+  </lib>
+</glyph>

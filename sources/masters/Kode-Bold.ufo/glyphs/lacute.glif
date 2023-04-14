@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lacute" format="2">
+  <advance width="1200"/>
+  <unicode hex="013A"/>
+  <anchor x="515" y="-150" name="bottom"/>
+  <outline>
+    <component base="l"/>
+    <component base="acutecomb" xOffset="-85" yOffset="396"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>l+acutecomb</string>
+  </dict>
+  </lib>
+</glyph>

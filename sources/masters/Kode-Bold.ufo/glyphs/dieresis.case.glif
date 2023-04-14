@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dieresis.case" format="2">
+  <advance width="1200"/>
+  <anchor x="600" y="1300" name="_top"/>
+  <anchor x="600" y="1560" name="_bottom"/>
+  <outline>
+    <component base="dieresiscomb"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>dieresis</string>
+  </dict>
+  </lib>
+</glyph>

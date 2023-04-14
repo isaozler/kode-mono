@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="commareversedbelowcomb.case" format="2">
+  <advance width="1200"/>
+  <anchor x="600" y="-640" name="_top"/>
+  <anchor x="600" y="-139" name="_bottom"/>
+  <outline>
+    <component base="commareversedabovecomb" yOffset="-1800"/>
+  </outline>
+</glyph>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="oslash" format="2">
+  <advance width="1200"/>
+  <unicode hex="00F8"/>
+  <anchor x="600" y="1246" name="top"/>
+  <anchor x="600" y="-150" name="bottom"/>
+  <outline>
+    <component base="o"/>
+    <contour>
+      <point x="894" y="1465" type="line"/>
+      <point x="1094" y="1370" type="line"/>
+      <point x="288" y="-292" type="line"/>
+      <point x="88" y="-197" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>o+slash</string>
+  </dict>
+  </lib>
+</glyph>

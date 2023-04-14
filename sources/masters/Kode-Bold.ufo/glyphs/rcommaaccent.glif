@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="rcommaaccent" format="2">
+  <advance width="1200"/>
+  <unicode hex="0157"/>
+  <anchor x="617" y="-150" name="bottom"/>
+  <outline>
+    <component base="r"/>
+    <component base="commabelowcomb.case"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>r+commabelowcomb.case</string>
+  </dict>
+  </lib>
+</glyph>

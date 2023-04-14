@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bracketleft_bracketright.cv27" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="-1000" y="-329" type="line"/>
+      <point x="-1000" y="1680" type="line"/>
+      <point x="1000" y="1680" type="line"/>
+      <point x="1000" y="-329" type="line"/>
+    </contour>
+    <contour>
+      <point x="-760" y="-88" type="line"/>
+      <point x="760" y="-88" type="line"/>
+      <point x="760" y="1439" type="line"/>
+      <point x="-760" y="1439" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>bracketleft_bracketright.cv27</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w1200m-1000,-329l-1000,1680l1000,1680l1000,-329m-760,-88l760,-88l760,1439l-760,1439</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -331 230</string>
+          <string>hstem -327 226</string>
+          <string>hstem 1439 230</string>
+          <string>hstem 1447 226</string>
+          <string>vstem -1000 238</string>
+          <string>vstem 760 240</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

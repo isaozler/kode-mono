@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="commaaccentcomb" format="2">
+  <advance width="1200"/>
+  <unicode hex="0326"/>
+  <anchor x="600" y="330" name="_top"/>
+  <anchor x="600" y="1020" name="_bottom"/>
+  <outline>
+    <contour>
+      <point x="460" y="1024" type="line"/>
+      <point x="740" y="1024" type="line"/>
+      <point x="740" y="503" type="line"/>
+      <point x="567" y="328" type="line"/>
+      <point x="485" y="453" type="line"/>
+      <point x="580" y="553" type="line" name=".hr01"/>
+      <point x="580" y="760" type="line"/>
+      <point x="460" y="760" type="line" name=".hr02"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>space+^comma%</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w1200m460,1024l740,1024l740,503l567,328l485,453l580,553l580,760l460,760</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 760 264</string>
+          <string>vstem 460 280</string>
+          <string>hstem 328 -20</string>
+        </array>
+      </dict>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>vstem 580 160</string>
+          <string>hstem 760 264</string>
+          <string>hstem 328 -20</string>
+        </array>
+        <key>pointTag</key>
+        <string>.hr01</string>
+      </dict>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 760 264</string>
+          <string>vstem 460 280</string>
+          <string>hstem 328 -20</string>
+        </array>
+        <key>pointTag</key>
+        <string>.hr02</string>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

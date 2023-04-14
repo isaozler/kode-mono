@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="exclam_equal_equal.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <component base="equal" xScale="3.37838" yScale="1" xOffset="-2627" yOffset="-160"/>
+    <component base="hyphen_middle.seq" xScale="2.01397" yScale="1" xOffset="-1808" yOffset="390"/>
+    <component base="slash" xOffset="-1200"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>exclam_equal_equal.liga</string>
+  </dict>
+  </lib>
+</glyph>

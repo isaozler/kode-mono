@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="less_slash_greater.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="-1246" y="1191" type="line"/>
+      <point x="-1170" y="1072" type="line"/>
+      <point x="-1888" y="625" type="line"/>
+      <point x="-986" y="61" type="line"/>
+      <point x="-225" y="1628" type="line"/>
+      <point x="-106" y="1567" type="line"/>
+      <point x="-211" y="1352" type="line"/>
+      <point x="826" y="711" type="line"/>
+      <point x="826" y="543" type="line"/>
+      <point x="60" y="63" type="line"/>
+      <point x="-28" y="176" type="line"/>
+      <point x="691" y="625" type="line"/>
+      <point x="-271" y="1227" type="line"/>
+      <point x="-1012" y="-295" type="line"/>
+      <point x="-1134" y="-242" type="line"/>
+      <point x="-1047" y="-64" type="line"/>
+      <point x="-2023" y="543" type="line"/>
+      <point x="-2023" y="711" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>ab73fec5ecad5a0c2c7ce7c9a1f945e37de9804c5cc982e24d9ef1d9f98b831c65e903c4120110eb295cd04cebe34f9e372f8720b0fcdaffd5f96c82ab17b42b</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -261 -21</string>
+          <string>hstem 1614 -20</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

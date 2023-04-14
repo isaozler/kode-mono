@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gdotaccent.cv02" format="2">
+  <advance width="1200"/>
+  <anchor x="600" y="-534" name="bottom"/>
+  <outline>
+    <component base="g"/>
+    <component base="dotaccent" yOffset="-92"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>gdotaccent</string>
+  </dict>
+  </lib>
+</glyph>

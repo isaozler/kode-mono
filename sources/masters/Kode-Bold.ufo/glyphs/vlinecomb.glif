@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="vlinecomb" format="2">
+  <advance width="1200"/>
+  <unicode hex="030D"/>
+  <anchor x="600" y="1680" name="_bottom"/>
+  <anchor x="600" y="1250" name="_top"/>
+  <outline>
+    <contour>
+      <point x="480" y="1250" type="line"/>
+      <point x="720" y="1250" type="line"/>
+      <point x="720" y="1680" type="line"/>
+      <point x="480" y="1680" type="line"/>
+    </contour>
+  </outline>
+</glyph>

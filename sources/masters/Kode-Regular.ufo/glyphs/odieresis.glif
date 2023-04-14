@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="odieresis" format="2">
+  <advance width="1200"/>
+  <unicode hex="00F6"/>
+  <anchor x="600" y="-150" name="bottom"/>
+  <outline>
+    <component base="o"/>
+    <component base="dieresis" yOffset="-95"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>o+dieresis</string>
+  </dict>
+  </lib>
+</glyph>

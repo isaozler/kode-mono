@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="exclam_exclam_period.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <component base="exclam" xOffset="-1975" yOffset="42"/>
+    <component base="exclam" xOffset="-1200" yOffset="42"/>
+    <component base="period" xOffset="-397"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>exclam_exclam_period.liga</string>
+  </dict>
+  </lib>
+</glyph>

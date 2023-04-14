@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Oacute.loclPLK" format="2">
+  <advance width="1200"/>
+  <anchor x="600" y="-150" name="bottom"/>
+  <outline>
+    <component base="O"/>
+    <component base="acute.case" yOffset="252"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>Oacute</string>
+  </dict>
+  </lib>
+</glyph>

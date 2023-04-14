@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tbar" format="2">
+  <advance width="1200"/>
+  <unicode hex="0167"/>
+  <anchor x="565" y="1638" name="top"/>
+  <anchor x="641" y="-150" name="bottom"/>
+  <outline>
+    <component base="t"/>
+    <component base="macron.case" xScale="0.9043" xOffset="-64" yOffset="-690"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>t+macron.case</string>
+  </dict>
+  </lib>
+</glyph>

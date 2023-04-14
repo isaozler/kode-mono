@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="asterisk_greater.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <component base="asterisk" xOffset="-960"/>
+    <component base="greater" xOffset="-272"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>asterisk_greater.liga</string>
+  </dict>
+  </lib>
+</glyph>

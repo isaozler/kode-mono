@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Otilde" format="2">
+  <advance width="1200"/>
+  <unicode hex="00D5"/>
+  <anchor x="600" y="-150" name="bottom"/>
+  <outline>
+    <component base="O"/>
+    <component base="tilde.case" xOffset="-3" yOffset="302"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>O+~tilde.case</string>
+  </dict>
+  </lib>
+</glyph>

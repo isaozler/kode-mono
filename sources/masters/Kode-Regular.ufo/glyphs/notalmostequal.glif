@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="notalmostequal" format="2">
+  <advance width="1200"/>
+  <unicode hex="2249"/>
+  <outline>
+    <component base="approxequal" yOffset="42"/>
+    <component base="slash"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>approxequal+uni0338</string>
+  </dict>
+  </lib>
+</glyph>

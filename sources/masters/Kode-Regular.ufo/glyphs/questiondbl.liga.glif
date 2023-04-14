@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="questiondbl.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <component base="question" xOffset="-1078"/>
+    <component base="question" xOffset="-121"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>questiondbl</string>
+  </dict>
+  </lib>
+</glyph>

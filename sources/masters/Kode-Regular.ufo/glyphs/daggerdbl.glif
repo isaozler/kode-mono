@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="daggerdbl" format="2">
+  <advance width="1200"/>
+  <unicode hex="2021"/>
+  <outline>
+    <component base="bar"/>
+    <component base="equal"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>space+bar+^~equal%</string>
+  </dict>
+  </lib>
+</glyph>

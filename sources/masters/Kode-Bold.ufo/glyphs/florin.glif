@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="florin" format="2">
+  <advance width="1200"/>
+  <unicode hex="0192"/>
+  <outline>
+    <contour>
+      <point x="39" y="-128" type="line"/>
+      <point x="264" y="103" type="line"/>
+      <point x="264" y="680" type="line"/>
+      <point x="121" y="680" type="line"/>
+      <point x="121" y="906" type="line"/>
+      <point x="264" y="906" type="line"/>
+      <point x="264" y="1302" type="line"/>
+      <point x="481" y="1528" type="line"/>
+      <point x="1022" y="1528" type="line"/>
+      <point x="1175" y="1306" type="line"/>
+      <point x="1015" y="1142" type="line"/>
+      <point x="902" y="1305" type="line"/>
+      <point x="574" y="1305" type="line"/>
+      <point x="500" y="1230" type="line"/>
+      <point x="500" y="906" type="line"/>
+      <point x="920" y="906" type="line"/>
+      <point x="920" y="680" type="line"/>
+      <point x="500" y="680" type="line"/>
+      <point x="500" y="0" type="line"/>
+      <point x="498" y="0" type="line"/>
+      <point x="171" y="-330" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>4a2178e9bf0750d583b686478c1d72c26b27cde85b85f769984279a80b3ad497f0e7d13f77cad9db16cf4ad28f44320c8dad857745f6f63486cdbe4ca992e2ec</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -308.75 -21</string>
+          <string>hstem 680 226</string>
+          <string>hstem 1305 223</string>
+          <string>vstem 264 236</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

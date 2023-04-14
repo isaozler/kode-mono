@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="numbersign_question.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <component base="numbersign" xOffset="-1198"/>
+    <component base="question" xOffset="-3" yOffset="42"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>numbersign_question.liga</string>
+  </dict>
+  </lib>
+</glyph>

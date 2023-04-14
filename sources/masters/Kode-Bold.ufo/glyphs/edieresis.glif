@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="edieresis" format="2">
+  <advance width="1200"/>
+  <unicode hex="00EB"/>
+  <anchor x="592" y="-150" name="bottom"/>
+  <outline>
+    <component base="e"/>
+    <component base="dieresis" xOffset="-8" yOffset="-51"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>e+dieresis</string>
+  </dict>
+  </lib>
+</glyph>

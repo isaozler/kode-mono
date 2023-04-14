@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bullet" format="2">
+  <advance width="1200"/>
+  <unicode hex="2022"/>
+  <outline>
+    <contour>
+      <point x="520" y="864" type="line"/>
+      <point x="680" y="864" type="line"/>
+      <point x="794" y="753" type="line"/>
+      <point x="794" y="590" type="line"/>
+      <point x="680" y="480" type="line"/>
+      <point x="520" y="480" type="line"/>
+      <point x="409" y="590" type="line"/>
+      <point x="409" y="753" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w1200m520,864l680,864l794,753l794,590l680,480l520,480l409,590l409,753</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 501 -21</string>
+          <string>hstem 864 -20</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

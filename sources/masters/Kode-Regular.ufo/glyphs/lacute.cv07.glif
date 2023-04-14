@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lacute.cv07" format="2">
+  <advance width="1200"/>
+  <anchor x="490" y="-150" name="bottom"/>
+  <anchor x="120" y="744" name="left"/>
+  <anchor x="980" y="744" name="right"/>
+  <outline>
+    <component base="l"/>
+    <component base="acutecomb" xOffset="-110" yOffset="348"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>lacute</string>
+  </dict>
+  </lib>
+</glyph>

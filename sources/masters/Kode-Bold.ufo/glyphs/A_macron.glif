@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Amacron" format="2">
+  <advance width="1200"/>
+  <unicode hex="0100"/>
+  <anchor x="600" y="-150" name="bottom"/>
+  <outline>
+    <component base="A"/>
+    <component base="macron.case" xOffset="137" yOffset="360"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>A+~macron.case</string>
+  </dict>
+  </lib>
+</glyph>

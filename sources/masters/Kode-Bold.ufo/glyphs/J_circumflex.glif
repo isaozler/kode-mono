@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Jcircumflex" format="2">
+  <advance width="1200"/>
+  <unicode hex="0134"/>
+  <anchor x="540" y="-296" name="bottom"/>
+  <outline>
+    <component base="J"/>
+    <component base="circumflexcomb" xOffset="224" yOffset="388"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>J+uni0302</string>
+  </dict>
+  </lib>
+</glyph>

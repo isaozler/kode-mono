@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="period_question.liga" format="2">
+  <advance width="1200"/>
+  <anchor x="-0" y="1435" name="_bottom"/>
+  <anchor x="0" y="0" name="_top"/>
+  <outline>
+    <component base="period" xOffset="-1120"/>
+    <component base="question" xOffset="-430" yOffset="42"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>period_question.liga</string>
+  </dict>
+  </lib>
+</glyph>

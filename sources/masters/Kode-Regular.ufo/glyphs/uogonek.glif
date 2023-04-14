@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uogonek" format="2">
+  <advance width="1200"/>
+  <unicode hex="0173"/>
+  <anchor x="600" y="1196" name="top"/>
+  <outline>
+    <component base="u"/>
+    <component base="ogonek" xOffset="281"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>u+>~ogonek</string>
+  </dict>
+  </lib>
+</glyph>

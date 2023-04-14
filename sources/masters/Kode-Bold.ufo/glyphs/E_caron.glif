@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ecaron" format="2">
+  <advance width="1200"/>
+  <unicode hex="011A"/>
+  <anchor x="600" y="-150" name="bottom"/>
+  <outline>
+    <component base="E"/>
+    <component base="caroncomb" yOffset="391"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>E+uni030C</string>
+  </dict>
+  </lib>
+</glyph>

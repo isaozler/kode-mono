@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dblvlinecomb" format="2">
+  <advance width="1200"/>
+  <unicode hex="030E"/>
+  <anchor x="600" y="1250" name="_top"/>
+  <anchor x="600" y="1600" name="_bottom"/>
+  <outline>
+    <contour>
+      <point x="680" y="1250" type="line"/>
+      <point x="840" y="1250" type="line"/>
+      <point x="840" y="1600" type="line"/>
+      <point x="680" y="1600" type="line"/>
+    </contour>
+    <contour>
+      <point x="360" y="1250" type="line"/>
+      <point x="520" y="1250" type="line"/>
+      <point x="520" y="1600" type="line"/>
+      <point x="360" y="1600" type="line"/>
+    </contour>
+  </outline>
+</glyph>

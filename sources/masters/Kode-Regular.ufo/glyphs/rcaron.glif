@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="rcaron" format="2">
+  <advance width="1200"/>
+  <unicode hex="0159"/>
+  <anchor x="617" y="-150" name="bottom"/>
+  <outline>
+    <component base="r"/>
+    <component base="caroncomb"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>r+uni030C</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="edotaccent" format="2">
+  <advance width="1200"/>
+  <unicode hex="0117"/>
+  <anchor x="600" y="-150" name="bottom"/>
+  <outline>
+    <component base="e"/>
+    <component base="dotaccent" yOffset="-94"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>e+dotaccent</string>
+  </dict>
+  </lib>
+</glyph>

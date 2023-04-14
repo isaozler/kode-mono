@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lslash.cv10" format="2">
+  <advance width="1200"/>
+  <anchor x="515" y="1638" name="top"/>
+  <anchor x="515" y="-150" name="bottom"/>
+  <anchor x="100" y="744" name="left"/>
+  <anchor x="1089" y="744" name="right"/>
+  <outline>
+    <component base="lslash"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>lslash</string>
+  </dict>
+  </lib>
+</glyph>

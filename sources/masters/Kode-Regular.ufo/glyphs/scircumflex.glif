@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="scircumflex" format="2">
+  <advance width="1200"/>
+  <unicode hex="015D"/>
+  <anchor x="585" y="-150" name="bottom"/>
+  <outline>
+    <component base="s"/>
+    <component base="circumflexcomb"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>s+uni0302</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="less_plus_greater.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <component base="greater" xOffset="-143"/>
+    <component base="plus" xOffset="-1200"/>
+    <component base="less" xOffset="-2261"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>less_plus_greater.liga</string>
+  </dict>
+  </lib>
+</glyph>

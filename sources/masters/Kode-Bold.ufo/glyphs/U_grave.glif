@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ugrave" format="2">
+  <advance width="1200"/>
+  <unicode hex="00D9"/>
+  <anchor x="600" y="-150" name="bottom"/>
+  <outline>
+    <component base="U"/>
+    <component base="gravecomb" yOffset="299"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>U+gravecomb</string>
+  </dict>
+  </lib>
+</glyph>

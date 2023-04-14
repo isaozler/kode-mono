@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Zacute" format="2">
+  <advance width="1200"/>
+  <unicode hex="0179"/>
+  <anchor x="600" y="-150" name="bottom"/>
+  <outline>
+    <component base="Z"/>
+    <component base="acute.case" yOffset="252"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>Z+~acute.case</string>
+  </dict>
+  </lib>
+</glyph>

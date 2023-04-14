@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="less_exclam_hyphen_hyphen.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="-2297" y="141" type="line"/>
+      <point x="-2297" y="-42" type="line"/>
+      <point x="-2503" y="-42" type="line"/>
+      <point x="-2503" y="141" type="line"/>
+    </contour>
+    <contour>
+      <point x="-2480" y="385" type="line" name=".hr01"/>
+      <point x="-2480" y="1393" type="line"/>
+      <point x="-2316" y="1393" type="line"/>
+      <point x="-2316" y="385" type="line"/>
+    </contour>
+    <contour>
+      <point x="-3017" y="1244" type="line"/>
+      <point x="-2886" y="1134" type="line"/>
+      <point x="-3292" y="704" type="line"/>
+      <point x="-2661" y="704" type="line"/>
+      <point x="-2661" y="548" type="line"/>
+      <point x="-3293" y="548" type="line"/>
+      <point x="-2886" y="118" type="line"/>
+      <point x="-3017" y="8" type="line"/>
+      <point x="-3568" y="626" type="line"/>
+    </contour>
+    <contour>
+      <point x="-2126" y="548" type="line"/>
+      <point x="-2126" y="704" type="line"/>
+      <point x="961" y="704" type="line"/>
+      <point x="961" y="548" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>0a2561ea5161bedd82f8b1b599c82d37163ea9796f65ee41747d6038e011803898bd92194ffeae0f175e2e77720bbaeee744edc2d721edbb514efe1cf2911350</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -42 183</string>
+          <string>hstem 568 116</string>
+          <string>vstem -2503 206</string>
+          <string>hstem 1393 -20</string>
+        </array>
+      </dict>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 568 116</string>
+          <string>vstem -2480 164</string>
+          <string>hstem 1393 -20</string>
+          <string>hstem -42 183</string>
+        </array>
+        <key>pointTag</key>
+        <string>.hr01</string>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

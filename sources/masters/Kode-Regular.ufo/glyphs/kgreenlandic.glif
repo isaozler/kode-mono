@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kgreenlandic" format="2">
+  <advance width="1200"/>
+  <unicode hex="0138"/>
+  <anchor x="601" y="1542" name="top"/>
+  <anchor x="601" y="-150" name="bottom"/>
+  <outline>
+    <component base="K" xScale="0.797414" yScale="0.797414" xOffset="122"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>K%</string>
+  </dict>
+  </lib>
+</glyph>

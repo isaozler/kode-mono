@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="underscore_middle.seq" format="2">
+  <advance width="1200"/>
+  <outline>
+    <contour>
+      <point x="-20" y="-421" type="line"/>
+      <point x="-20" y="-181" type="line"/>
+      <point x="1220" y="-181" type="line"/>
+      <point x="1220" y="-421" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w1200m-20,-421l-20,-181l1220,-181l1220,-421</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -360 117</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

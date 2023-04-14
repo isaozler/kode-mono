@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="period_equal.cv32" format="2">
+  <advance width="1200"/>
+  <anchor x="-3" y="358" name="_top"/>
+  <anchor x="-3" y="886" name="_bottom"/>
+  <outline>
+    <component base="equal" xOffset="-230"/>
+    <component base="bullet" xOffset="-1121" yOffset="-50"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>period_equal.cv32</string>
+  </dict>
+  </lib>
+</glyph>

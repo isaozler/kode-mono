@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="numbersign_braceleft.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <component base="numbersign" xOffset="-1076"/>
+    <component base="braceleft" xOffset="124"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>numbersign_braceleft.liga</string>
+  </dict>
+  </lib>
+</glyph>

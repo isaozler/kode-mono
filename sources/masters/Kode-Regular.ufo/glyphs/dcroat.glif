@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dcroat" format="2">
+  <advance width="1200"/>
+  <unicode hex="0111"/>
+  <anchor x="600" y="1638" name="top"/>
+  <anchor x="600" y="-150" name="bottom"/>
+  <anchor x="60" y="744" name="left"/>
+  <anchor x="1140" y="744" name="right"/>
+  <outline>
+    <component base="d"/>
+    <component base="macron.case" xOffset="197" yOffset="-30"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>d+macron.case</string>
+  </dict>
+  </lib>
+</glyph>

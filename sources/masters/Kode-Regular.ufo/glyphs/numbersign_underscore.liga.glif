@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="numbersign_underscore.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <component base="underscore" xScale="1.71412" xOffset="-769"/>
+    <contour>
+      <point x="-779" y="480" type="line"/>
+      <point x="-482" y="480" type="line"/>
+      <point x="-405" y="913" type="line"/>
+      <point x="-698" y="913" type="line"/>
+    </contour>
+    <contour>
+      <point x="-69" y="1058" type="line"/>
+      <point x="-69" y="913" type="line"/>
+      <point x="-256" y="913" type="line"/>
+      <point x="-337" y="480" type="line"/>
+      <point x="-175" y="480" type="line"/>
+      <point x="-175" y="335" type="line" name=".hr01"/>
+      <point x="-362" y="335" type="line"/>
+      <point x="-497" y="-384" type="line"/>
+      <point x="-641" y="-384" type="line"/>
+      <point x="-512" y="335" type="line"/>
+      <point x="-804" y="335" type="line"/>
+      <point x="-864" y="0" type="line" name=".hr02"/>
+      <point x="-1012" y="0" type="line"/>
+      <point x="-949" y="335" type="line" name=".hr03"/>
+      <point x="-1110" y="335" type="line"/>
+      <point x="-1110" y="480" type="line"/>
+      <point x="-923" y="480" type="line"/>
+      <point x="-843" y="913" type="line"/>
+      <point x="-1004" y="913" type="line"/>
+      <point x="-1004" y="1058" type="line"/>
+      <point x="-817" y="1058" type="line"/>
+      <point x="-754" y="1393" type="line" name=".hr04"/>
+      <point x="-609" y="1393" type="line"/>
+      <point x="-673" y="1058" type="line" name=".hr05"/>
+      <point x="-375" y="1058" type="line"/>
+      <point x="-315" y="1393" type="line" name=".hr06"/>
+      <point x="-167" y="1393" type="line"/>
+      <point x="-231" y="1058" type="line" name=".hr07"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>numbersign_underscore.liga</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>0af5b194866a14c2984d3d69ff644f678ff46ecd6f0349465b69bb05543993f221928399b7f9862868b3db2293d77b3dc61ee32181c7b36f5a7e026d8683036d</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 0 480</string>
+          <string>hstem 913 145</string>
+        </array>
+      </dict>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 335 145</string>
+          <string>hstem 913 145</string>
+        </array>
+        <key>pointTag</key>
+        <string>.hr01</string>
+      </dict>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 0 480</string>
+          <string>hstem 913 145</string>
+        </array>
+        <key>pointTag</key>
+        <string>.hr02</string>
+      </dict>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 335 145</string>
+          <string>hstem 913 145</string>
+        </array>
+        <key>pointTag</key>
+        <string>.hr03</string>
+      </dict>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 913 480</string>
+          <string>hstem 0 480</string>
+        </array>
+        <key>pointTag</key>
+        <string>.hr04</string>
+      </dict>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 913 145</string>
+          <string>hstem 0 480</string>
+        </array>
+        <key>pointTag</key>
+        <string>.hr05</string>
+      </dict>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 913 480</string>
+          <string>hstem 0 480</string>
+        </array>
+        <key>pointTag</key>
+        <string>.hr06</string>
+      </dict>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 913 145</string>
+          <string>hstem 0 480</string>
+        </array>
+        <key>pointTag</key>
+        <string>.hr07</string>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

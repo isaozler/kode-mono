@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="guillemotleft" format="2">
+  <advance width="1200"/>
+  <unicode hex="00AB"/>
+  <outline>
+    <contour>
+      <point x="981" y="176" type="line"/>
+      <point x="910" y="133" type="line"/>
+      <point x="573" y="541" type="line"/>
+      <point x="573" y="639" type="line"/>
+      <point x="910" y="1051" type="line"/>
+      <point x="981" y="1007" type="line"/>
+      <point x="711" y="591" type="line"/>
+    </contour>
+    <contour>
+      <point x="627" y="176" type="line"/>
+      <point x="556" y="133" type="line"/>
+      <point x="219" y="541" type="line"/>
+      <point x="219" y="639" type="line"/>
+      <point x="556" y="1051" type="line"/>
+      <point x="627" y="1007" type="line"/>
+      <point x="357" y="591" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w1200m981,176l910,133l573,541l573,639l910,1051l981,1007l711,591m627,176l556,133l219,541l219,639l556,1051l627,1007l357,591</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 154 -21</string>
+          <string>hstem 1051 -20</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

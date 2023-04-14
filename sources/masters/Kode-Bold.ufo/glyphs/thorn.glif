@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="thorn" format="2">
+  <advance width="1200"/>
+  <unicode hex="00FE"/>
+  <anchor x="600" y="1678" name="top"/>
+  <anchor x="600" y="-150" name="bottom"/>
+  <outline>
+    <contour>
+      <point x="120" y="1530" type="line"/>
+      <point x="360" y="1530" type="line"/>
+      <point x="360" y="1032" type="line"/>
+      <point x="467" y="1097" type="line"/>
+      <point x="899" y="1097" type="line"/>
+      <point x="1080" y="828" type="line"/>
+      <point x="1080" y="192" type="line"/>
+      <point x="895" y="0" type="line"/>
+      <point x="472" y="0" type="line"/>
+      <point x="360" y="65" type="line"/>
+      <point x="360" y="-420" type="line"/>
+      <point x="120" y="-420" type="line"/>
+    </contour>
+    <contour>
+      <point x="360" y="832" type="line"/>
+      <point x="360" y="225" type="line"/>
+      <point x="803" y="225" type="line"/>
+      <point x="840" y="264" type="line"/>
+      <point x="840" y="785" type="line"/>
+      <point x="781" y="872" type="line"/>
+      <point x="400" y="872" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>bar+b%</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>95accdfffd36f03c48acf77eef962a817b2aeb4b9afa2ad1e11827457d562a5423a58b2d4e745965b162d3ef3f86d40aa186133bf10da47ce4be65251517646b</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 0 225</string>
+          <string>hstem 872 225</string>
+          <string>hstem 1528 -20</string>
+          <string>vstem 200 240</string>
+          <string>vstem 820 240</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

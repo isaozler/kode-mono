@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ccaron" format="2">
+  <advance width="1200"/>
+  <unicode hex="010C"/>
+  <anchor x="594" y="-150" name="bottom"/>
+  <outline>
+    <component base="C"/>
+    <component base="caroncomb" xOffset="-6" yOffset="393"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>C+uni030C</string>
+  </dict>
+  </lib>
+</glyph>

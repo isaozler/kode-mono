@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="asterisk_asterisk.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <component base="asterisk" xOffset="-1156"/>
+    <component base="asterisk" xOffset="-38"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>asterisk_asterisk.liga</string>
+  </dict>
+  </lib>
+</glyph>

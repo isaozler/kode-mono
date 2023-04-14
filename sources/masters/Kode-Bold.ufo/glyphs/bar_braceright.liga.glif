@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bar_braceright.liga" format="2">
+  <advance width="1200"/>
+  <outline>
+    <component base="braceleft_bar.liga" xScale="-1" xOffset="185"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>bar_braceright.liga</string>
+  </dict>
+  </lib>
+</glyph>

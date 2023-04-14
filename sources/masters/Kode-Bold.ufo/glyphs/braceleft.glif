@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="braceleft" format="2">
+  <advance width="1200"/>
+  <unicode hex="007B"/>
+  <outline>
+    <contour>
+      <point x="522" y="1673" type="line"/>
+      <point x="918" y="1673" type="line"/>
+      <point x="918" y="1447" type="line"/>
+      <point x="643" y="1447" type="line"/>
+      <point x="643" y="979" type="line"/>
+      <point x="343" y="673" type="line"/>
+      <point x="643" y="367" type="line"/>
+      <point x="643" y="-101" type="line"/>
+      <point x="918" y="-101" type="line"/>
+      <point x="918" y="-327" type="line"/>
+      <point x="522" y="-327" type="line"/>
+      <point x="399" y="-198" type="line"/>
+      <point x="399" y="294" type="line"/>
+      <point x="32" y="673" type="line"/>
+      <point x="399" y="1052" type="line"/>
+      <point x="399" y="1544" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>335f604d7d9416ffae6dc052e3ad2df1d6b8b30338f7252ae7cb30b718ca26001c5f5a855b025b3720ff4de57a4a0c57c1cee60590ffa468df0e75b680afc91f</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -327 226</string>
+          <string>hstem 1447 226</string>
+          <string>vstem 399 244</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

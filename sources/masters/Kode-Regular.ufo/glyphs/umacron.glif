@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="umacron" format="2">
+  <advance width="1200"/>
+  <unicode hex="016B"/>
+  <anchor x="600" y="-150" name="bottom"/>
+  <outline>
+    <component base="u"/>
+    <component base="macroncomb" xOffset="-3"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>u+uni0304</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sacute.loclPLK" format="2">
+  <advance width="1200"/>
+  <anchor x="585" y="-150" name="bottom"/>
+  <outline>
+    <component base="s"/>
+    <component base="acutecomb"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>sacute</string>
+  </dict>
+  </lib>
+</glyph>

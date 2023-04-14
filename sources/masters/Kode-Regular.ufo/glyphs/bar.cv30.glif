@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bar.cv30" format="2">
+  <advance width="1200"/>
+  <outline>
+    <component base="bar" yScale="1.28199" yOffset="-295"/>
+  </outline>
+</glyph>

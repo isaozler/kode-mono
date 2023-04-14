@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="pi" format="2">
+  <advance width="1200"/>
+  <unicode hex="03C0"/>
+  <anchor x="600" y="-150" name="bottom"/>
+  <anchor x="600" y="1310" name="top"/>
+  <outline>
+    <contour>
+      <point x="1185" y="1100" type="line"/>
+      <point x="1185" y="876" type="line"/>
+      <point x="1003" y="876" type="line"/>
+      <point x="1003" y="319" type="line"/>
+      <point x="1151" y="0" type="line"/>
+      <point x="918" y="0" type="line"/>
+      <point x="779" y="311" type="line"/>
+      <point x="779" y="876" type="line"/>
+      <point x="424" y="876" type="line"/>
+      <point x="424" y="0" type="line"/>
+      <point x="200" y="0" type="line"/>
+      <point x="200" y="876" type="line"/>
+      <point x="15" y="876" type="line"/>
+      <point x="15" y="1100" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>dotlessi+macron+dotlessi%</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w1200m1185,1100l1185,876l1003,876l1003,319l1151,0l918,0l779,311l779,876l424,876l424,0l200,0l200,876l15,876l15,1100</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -397 -21</string>
+          <string>hstem 1261 113</string>
+          <string>vstem 248 128</string>
+          <string>vstem 827 128</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

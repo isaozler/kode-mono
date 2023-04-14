@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Lslash" format="2">
+  <advance width="1200"/>
+  <unicode hex="0141"/>
+  <anchor x="600" y="1542" name="top"/>
+  <anchor x="600" y="-150" name="bottom"/>
+  <anchor x="60" y="696" name="left"/>
+  <anchor x="768" y="940" name="right"/>
+  <outline>
+    <component base="L" xOffset="60"/>
+    <component base="endash" xScale="0.866" xyScale="0.5" yxScale="-0.5" yScale="0.866" xOffset="314" yOffset="-94"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>L+~endash</string>
+  </dict>
+  </lib>
+</glyph>

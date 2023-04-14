@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lacute.cv10" format="2">
+  <advance width="1200"/>
+  <anchor x="490" y="-150" name="bottom"/>
+  <outline>
+    <component base="lacute"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>lacute</string>
+  </dict>
+  </lib>
+</glyph>

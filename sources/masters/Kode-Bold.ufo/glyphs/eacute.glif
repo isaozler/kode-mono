@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="eacute" format="2">
+  <advance width="1200"/>
+  <unicode hex="00E9"/>
+  <anchor x="592" y="-150" name="bottom"/>
+  <outline>
+    <component base="e"/>
+    <component base="acutecomb" xOffset="-8" yOffset="7"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>e+acutecomb</string>
+  </dict>
+  </lib>
+</glyph>

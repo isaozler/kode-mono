@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="period_period_equal.liga" format="2">
+  <advance width="1200"/>
+  <anchor x="-576" y="-0" name="_top"/>
+  <anchor x="-576" y="926" name="_bottom"/>
+  <outline>
+    <component base="period_period.liga" xOffset="-1256"/>
+    <component base="equal" xOffset="-516"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>period_period_equal.liga</string>
+  </dict>
+  </lib>
+</glyph>

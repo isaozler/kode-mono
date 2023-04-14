@@ -1,0 +1,3 @@
+# This is the official list of project authors for copyright purposes.
+
+Isa Ozler <isaozler@gmail.com>

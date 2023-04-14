@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="commaaccentcomb.salt" format="2">
+  <advance width="1200"/>
+  <anchor x="600" y="-650" name="_top"/>
+  <anchor x="600" y="-150" name="_bottom"/>
+  <outline>
+    <component base="commabelowcomb.case"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>commabelowcomb.case</string>
+  </dict>
+  </lib>
+</glyph>
