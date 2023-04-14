@@ -1,16 +1,16 @@
 # The Kadena K:ode typeface
 
-[![][Fontbakery]](https://github.com/isaozler/kode/out/fontbakery/fontbakery-report.html)
-[![][Universal]](https://github.com/isaozler/kode/out/fontbakery/fontbakery-report.html)
-[![][GF Profile]](https://github.com/isaozler/kode/out/fontbakery/fontbakery-report.html)
-[![][Outline Correctness]](https://github.com/isaozler/kode/out/fontbakery/fontbakery-report.html)
-[![][Shaping]](https://github.com/isaozler/kode/out/fontbakery/fontbakery-report.html)
+[![][Fontbakery]](https://isaozler.github.io/kode/fontbakery/fontbakery-report.html)
+[![][Universal]](https://isaozler.github.io/kode/fontbakery/fontbakery-report.html)
+[![][GF Profile]](https://isaozler.github.io/kode/fontbakery/fontbakery-report.html)
+[![][Outline Correctness]](https://isaozler.github.io/kode/fontbakery/fontbakery-report.html)
+[![][Shaping]](https://isaozler.github.io/kode/fontbakery/fontbakery-report.html)
 
-[Fontbakery]: https://img.shields.io/endpoint?url=https%3A%2F%2Fgithub.com%isaozler%2Fkode%2Fout%2Fbadges%2Foverall.json
-[GF Profile]: https://img.shields.io/endpoint?url=https%3A%2F%2Fgithub.com%isaozler%2Fkode%2Fout%2Fbadges%2FGoogleFonts.json
-[Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Fgithub.com%isaozler%2Fkode%2Fout%2Fbadges%2FOutlineCorrectnessChecks.json
-[Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fgithub.com%isaozler%2Fkode%2Fout%2Fbadges%2FShapingChecks.json
-[Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fgithub.com%isaozler%2Fkode%2Fout%2Fbadges%2FUniversal.json
+[Fontbakery]: https://img.shields.io/endpoint?url=https%3A%2F%2Fisaozler.github.io%2Fkode%2Fbadges%2Foverall.json
+[GF Profile]: https://img.shields.io/endpoint?url=https%3A%2F%2Fisaozler.github.io%2Fkode%2Fbadges%2FGoogleFonts.json
+[Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Fisaozler.github.io%2Fkode%2Fbadges%2FOutlineCorrectnessChecks.json
+[Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fisaozler.github.io%2Fkode%2Fbadges%2FShapingChecks.json
+[Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fisaozler.github.io%2Fkode%2Fbadges%2FUniversal.json
 
 A custom-designed typeface explicitly created for the developer community. 
 
