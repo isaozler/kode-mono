@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="exclam_equal_middle.seq" format="2">
+  <advance width="1200"/>
+  <outline>
+    <component base="exclam"/>
+    <contour>
+      <point x="-20" y="730" type="line"/>
+      <point x="-20" y="890" type="line"/>
+      <point x="158" y="890" type="line"/>
+      <point x="158" y="730" type="line"/>
+    </contour>
+    <contour>
+      <point x="-20" y="362" type="line"/>
+      <point x="-20" y="522" type="line"/>
+      <point x="158" y="522" type="line"/>
+      <point x="158" y="362" type="line"/>
+    </contour>
+    <contour>
+      <point x="1042" y="730" type="line"/>
+      <point x="1042" y="890" type="line"/>
+      <point x="1220" y="890" type="line"/>
+      <point x="1220" y="730" type="line"/>
+    </contour>
+    <contour>
+      <point x="1042" y="362" type="line"/>
+      <point x="1042" y="522" type="line"/>
+      <point x="1220" y="522" type="line"/>
+      <point x="1220" y="362" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>cb687b8bf84f918592f9b850f4326e65f5dde8cbc1f3a9522fb0cd6dceb83671b42dbda11e5ddee3abab257cd8adf2a6d2ea6a34b316d0820232ed01974334a8</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -20 240</string>
+          <string>hstem 384 116</string>
+          <string>hstem 752 116</string>
+          <string>hstem 1374 -20</string>
+          <string>vstem -20 178</string>
+          <string>vstem 479 240</string>
+          <string>vstem 528 132</string>
+          <string>vstem 1042 178</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

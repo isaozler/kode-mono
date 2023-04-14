@@ -1,23 +1,23 @@
-# The Kadena K:ode typeface
+# The Kadena Kode Mono typeface
 
-[![][Fontbakery]](https://isaozler.github.io/kode/fontbakery/fontbakery-report.html)
-[![][Universal]](https://isaozler.github.io/kode/fontbakery/fontbakery-report.html)
-[![][GF Profile]](https://isaozler.github.io/kode/fontbakery/fontbakery-report.html)
-[![][Outline Correctness]](https://isaozler.github.io/kode/fontbakery/fontbakery-report.html)
-[![][Shaping]](https://isaozler.github.io/kode/fontbakery/fontbakery-report.html)
+[![][Fontbakery]](https://isaozler.github.io/kode-mono/fontbakery/fontbakery-report.html)
+[![][Universal]](https://isaozler.github.io/kode-mono/fontbakery/fontbakery-report.html)
+[![][GF Profile]](https://isaozler.github.io/kode-mono/fontbakery/fontbakery-report.html)
+[![][Outline Correctness]](https://isaozler.github.io/kode-mono/fontbakery/fontbakery-report.html)
+[![][Shaping]](https://isaozler.github.io/kode-mono/fontbakery/fontbakery-report.html)
 
-[Fontbakery]: https://img.shields.io/endpoint?url=https%3A%2F%2Fisaozler.github.io%2Fkode%2Fbadges%2Foverall.json
-[GF Profile]: https://img.shields.io/endpoint?url=https%3A%2F%2Fisaozler.github.io%2Fkode%2Fbadges%2FGoogleFonts.json
-[Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Fisaozler.github.io%2Fkode%2Fbadges%2FOutlineCorrectnessChecks.json
-[Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fisaozler.github.io%2Fkode%2Fbadges%2FShapingChecks.json
-[Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fisaozler.github.io%2Fkode%2Fbadges%2FUniversal.json
+[Fontbakery]: https://img.shields.io/endpoint?url=https%3A%2F%2Fisaozler.github.io%2Fkode-mono%2Fbadges%2Foverall.json
+[GF Profile]: https://img.shields.io/endpoint?url=https%3A%2F%2Fisaozler.github.io%2Fkode-mono%2Fbadges%2FGoogleFonts.json
+[Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Fisaozler.github.io%2Fkode-mono%2Fbadges%2FOutlineCorrectnessChecks.json
+[Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fisaozler.github.io%2Fkode-mono%2Fbadges%2FShapingChecks.json
+[Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fisaozler.github.io%2Fkode-mono%2Fbadges%2FUniversal.json
 
 A custom-designed typeface explicitly created for the developer community. 
 
 This typeface is designed to enhance the user experience and reflect Kadena's principles of functionality and timelessness.
 
 
-![Sneak Peek](documentation/sneak-peek.jpeg)
+![Kode Mono Cover](documentation/kode-mono-cover.jpg)
 
 ## About
 
@@ -28,10 +28,10 @@ As a developer-focused platform, Kadena is dedicated to providing a secure, scal
 The Kadena brand's clean and elegant design is a powerful symbol of the project's commitment to security, scalability, and decentralization. We are now extending this brand with the K-Grid.
 
 ### By Engineers, for Engineers
-Kadena Code is currently in review. It's being tested through different development cycles to ensure a good experience for our developers.
+Kadena Kode Mono is currently in review. It's being tested through different development cycles to ensure a good experience for our developers.
 
 ### Programming Ligatures
-Kadena Code comes with a set of ligatures. Supporting a wide range of language-specific ligatures including our smart-contract language Pact, Javascript, Haskell, Rust and many more to come.
+Kadena Kode Mono comes with a set of ligatures. Supporting a wide range of language-specific ligatures including our smart-contract language Pact, Javascript, Haskell, Rust and many more to come.
 
 
 ## Building
@@ -44,7 +44,7 @@ If you want to build fonts manually on your own computer:
 * `make test` will run [FontBakery](https://github.com/googlefonts/fontbakery)'s quality assurance tests.
 * `make proof` will generate HTML proof files.
 
-The proof files and QA tests are also available automatically via GitHub Actions - look at `https://isaozler.github.io/kode`.
+The proof files and QA tests are also available automatically via GitHub Actions - look at `https://isaozler.github.io/kode-mono`.
 
 ## Changelog
 

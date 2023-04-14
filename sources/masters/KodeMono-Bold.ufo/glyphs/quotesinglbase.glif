@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="quotesinglbase" format="2">
+  <advance width="1200"/>
+  <unicode hex="201A"/>
+  <outline>
+    <contour>
+      <point x="420" y="345" type="line"/>
+      <point x="780" y="345" type="line"/>
+      <point x="780" y="-133" type="line"/>
+      <point x="562" y="-359" type="line"/>
+      <point x="436" y="-166" type="line"/>
+      <point x="540" y="-57" type="line"/>
+      <point x="540" y="0" type="line"/>
+      <point x="420" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w1200m420,345l780,345l780,-133l562,-359l436,-166l540,-57l540,0l420,0</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -337 -21</string>
+          <string>hstem 0 345</string>
+          <string>vstem 420 360</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

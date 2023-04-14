@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="eng" format="2">
+  <advance width="1200"/>
+  <unicode hex="014B"/>
+  <anchor x="556" y="1260" name="top"/>
+  <outline>
+    <component base="n"/>
+    <contour>
+      <point x="1080" y="531" type="line"/>
+      <point x="1080" y="0" type="line"/>
+      <point x="730" y="-364" type="line"/>
+      <point x="445" y="-364" type="line"/>
+      <point x="445" y="-123" type="line"/>
+      <point x="645" y="-123" type="line"/>
+      <point x="841" y="79" type="line"/>
+      <point x="841" y="392" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>n+dotlessj%</string>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w1200m1080,531l1080,0l730,-364l445,-364l445,-123l645,-123l841,79l841,392</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -373 240</string>
+          <string>hstem 883 237</string>
+          <string>hstem 1327 264</string>
+          <string>vstem 601 271</string>
+          <string>vstem 633 254</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>
