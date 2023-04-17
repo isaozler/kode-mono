@@ -2,8 +2,8 @@
 <glyph name="less_greater.liga" format="2">
   <advance width="1200"/>
   <outline>
-    <component base="less" xOffset="-836"/>
-    <component base="greater" xOffset="-364"/>
+    <component base="less" xOffset="-1038"/>
+    <component base="greater" xOffset="-234.014"/>
   </outline>
   <lib>
   <dict>
