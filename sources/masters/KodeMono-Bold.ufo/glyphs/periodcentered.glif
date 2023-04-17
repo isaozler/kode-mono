@@ -2,10 +2,6 @@
 <glyph name="periodcentered" format="2">
   <advance width="1200"/>
   <unicode hex="00B7"/>
-  <anchor x="600" y="876" name="_top"/>
-  <anchor x="425" y="700" name="_left"/>
-  <anchor x="776" y="700" name="_right"/>
-  <anchor x="600" y="541" name="_bottom"/>
   <outline>
     <contour>
       <point x="425" y="540" type="line"/>
