@@ -24,7 +24,7 @@
 @aalt9 = [asterisk_greater.liga slash_greater.liga bar_bar_bar_greater.liga bar_bar_greater.liga bar_greater.liga dollar_greater.liga plus_greater.liga greater_greater.liga greater_greater_greater.liga less_asterisk_greater.liga less_bar_greater.liga less_dollar_greater.liga less_plus_greater.liga less_greater.liga less_slash_greater.liga greater_hyphen_end.seq greater_hyphen_middle.seq greater_hyphen_start.seq greater_equal_end.seq greater_equal_middle.seq greater_equal_start.seq greater_greater_hyphen_end.seq greater_greater_hyphen_middle.seq greater_greater_hyphen_start.seq greater_greater_equal_end.seq greater_greater_equal_middle.seq greater_greater_equal_start.seq greater.center greater.spacer A F O T asciicircum grave f g o r t amacron aacute aogonek adieresis Cacute cacute Zacute zacute oacute dieresis gcommaaccent Nacute nacute guillemotleft guillemotright endash emdash guilsinglleft guilsinglright Sacute sacute Oacute caron agrave acircumflex atilde aring questiondown exclamdown gbreve Scedilla scedilla perthousand circumflex tilde macron breve dotaccent ring cedilla hungarumlaut softhyphen abreve gcircumflex gdotaccent Tcedilla tcedilla commaaccentcomb exclam_equal.liga exclam_equal_equal.liga asterisk_asterisk.liga asterisk_asterisk_asterisk.liga asterisk_slash.liga numbersign_braceleft.liga slash_asterisk.liga slash_equal_start.seq ampersand_ampersand.liga bar_bar.liga plus_plus.liga plus_plus_plus.liga equal_equal.liga equal_equal_equal.liga greater_equal.liga less_asterisk.liga less_dollar.liga less_plus.liga less_less.liga percent_percent.liga equal_end.seq ampersand.spacer plus.spacer less.spacer asciitilde.spacer uni207C numbersign_equal.liga period_period_equal.liga colon_colon_equal.liga colon_equal.liga less_bar.liga less_bar_bar.liga less_bar_bar_bar.liga less_equal.liga equal.dnom equal_middle.seq equal.spacer equal_start.seq question_equal.liga bracketleft_bar.liga asciicircum_equal.liga braceleft_bar.liga bar_bar_bar.liga bar_bar_equal_end.seq bar_bar_equal_middle.seq bar_bar_equal_start.seq bar_bar_hyphen_end.seq bar_bar_hyphen_middle.seq bar_bar_hyphen_start.seq bar_equal_end.seq bar_equal_middle.seq bar_equal_start.seq bar_hyphen_end.seq bar_hyphen_middle.seq bar_hyphen_start.seq bar.spacer bar_underscore_middle.seq hyphen.case less_exclam_hyphen_hyphen.liga hyphen.spacer hyphen_end.seq hyphen_middle.seq hyphen_start.seq less_equal_end.seq less_equal_middle.seq less_equal_start.seq less_hyphen_end.seq less_hyphen_middle.seq less_hyphen_start.seq less_less_equal_end.seq less_less_equal_middle.seq less_less_equal_start.seq less_less_hyphen_end.seq less_less_hyphen_middle.seq less_less_hyphen_start.seq hyphen.lc hyphen_hyphen.liga period_period_less.liga less.center less_less_less.liga fraction less_slash.liga slash.spacer slash_equal_end.seq slash_equal_middle.seq slash_slash_equal_end.seq slash_slash_equal_middle.seq slash_slash_equal_start.seq slash_slash.liga slash_slash_slash.liga backslash_slash.liga];
 @asc = [b d dcaron f florin germandbls h hcircumflex k kcommaaccent l lacute lcaron lcommaaccent ldot lslash thorn eth];
 @auto = [Hbar dcroat gcommaaccent hbar lcommaaccent.cv09 lcommaaccent.cv10 ldot.cv10 lslash.cv10 scommaaccent lcaron.cv07];
-@blank = [CR F.spacer T.spacer ampersand.spacer asciicircum.spacer asciitilde.spacer asterisk.spacer at.spacer backslash.spacer backslash.ss06 bar.cv30 bar.spacer braceleft.spacer braceright.spacer bracketleft.spacer bracketright.spacer colon.center colon.spacer dollar.spacer equal.spacer exclam.spacer f.spacer greater.center greater.spacer hyphen.spacer l.spacer less.center less.spacer numbersign.spacer parenleft.spacer percent.spacer period.spacer plus.spacer question.spacer semicolon.spacer slash.spacer space underscore.spacer uni00A0 w.spacer AEacute Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde Cacute Cacute.loclPLK Ccaron Ccedilla Ccircumflex Cdotaccent Dcaron Dcroat Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek Eth Gbreve Gcircumflex Gdotaccent Hbar Hcircumflex Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde Jcircumflex Kcommaaccent Lacute Lcaron Lcommaaccent Ldot Lslash Nacute Nacute.loclPLK Ncaron Ncommaaccent Ntilde Oacute Oacute.loclPLK Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Oslashacute Otilde Racute Rcaron Rcommaaccent Sacute Sacute.loclPLK Scaron Scedilla Scircumflex Scommaaccent Tbar Tcaron Tcedilla Tcommaaccent Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde Wacute Wcircumflex Wdieresis Wgrave Yacute Ycircumflex Ydieresis Ygrave Zacute Zacute.loclPLK Zcaron Zdotaccent aacute aacute.cv01 abreve abreve.cv01 acircumflex acircumflex.cv01 acute acute.case acute.case.loclPLK acute.loclPLK adieresis adieresis.cv01 aeacute agrave agrave.cv01 amacron amacron.cv01 aogonek aogonek.cv01 aring aring.cv01 asciicircum_equal.liga asterisk_asterisk.liga asterisk_asterisk_asterisk.liga asterisk_greater.liga asterisk_slash.liga atilde atilde.cv01 backslash bar_bar.liga bar_bar_bar.liga bar_bar_bar_greater.liga bar_bar_equal_end.seq bar_bar_equal_middle.seq bar_bar_equal_start.seq bar_bar_greater.liga bar_bar_hyphen_end.seq bar_bar_hyphen_middle.seq bar_bar_hyphen_start.seq bar_braceright.liga bar_bracketright.liga bar_equal_end.seq bar_equal_middle.seq bar_equal_start.seq bar_greater.liga bar_hyphen_end.seq bar_hyphen_middle.seq bar_hyphen_start.seq bar_underscore_middle.seq braceleft_bar.liga bracketleft_bar.liga breve.case brevecy.case cacute cacute.loclPLK caron.case caron.salt ccaron ccedilla ccircumflex cdotaccent cedilla.case cedillacomb cent circumflex.case circumflexcomb colon_colon.liga colon_colon_colon.liga colon_colon_equal.liga colon_equal.liga colon_equal_middle.seq commaaccentcomb.salt commabelowcomb.case commareversedbelowcomb.case dagger daggerdbl dcaron dcroat dieresis dieresis.case divisionslash dollar.ss04 dotaccent dotaccent.case dotlessi.cv03 dotlessi.cv04 dotlessi.cv05 dotlessi.cv06 eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron endash.case eogonek equal.dnom equal_asciitilde.ss07 equal_end.seq equal_equal.liga equal_middle.seq equal_start.seq exclam_equal.liga exclam_equal_equal.liga exclam_exclam.liga exclam_exclam_period.liga gbreve gbreve.cv02 gcircumflex gcircumflex.cv02 gcommaaccent gcommaaccent.cv02 gdotaccent gdotaccent.cv02 gravecomb greater_equal_end.seq greater_equal_middle.seq greater_equal_start.seq greater_greater.liga greater_greater_equal_end.seq greater_greater_equal_middle.seq greater_greater_equal_start.seq greater_greater_greater.liga greater_greater_hyphen_end.seq greater_greater_hyphen_middle.seq greater_greater_hyphen_start.seq greater_hyphen_end.seq greater_hyphen_end.seq.1 greater_hyphen_middle.seq greater_hyphen_start.seq greaterequal guillemotright guilsinglleft.case guilsinglright.case hbar hcircumflex horizontalbar hungarumlaut hungarumlaut.case hyphen.case hyphen_hyphen.liga i iacute iacute.cv03 iacute.cv04 iacute.cv05 iacute.cv06 ibreve ibreve.cv03 ibreve.cv04 ibreve.cv05 ibreve.cv06 icircumflex icircumflex.cv03 icircumflex.cv04 icircumflex.cv05 icircumflex.cv06 idieresis idieresis.cv03 idieresis.cv04 idieresis.cv05 idieresis.cv06 igrave igrave.cv03 igrave.cv04 igrave.cv05 igrave.cv06 imacron imacron.cv03 imacron.cv04 imacron.cv05 imacron.cv06 iogonek iogonek.cv03 iogonek.cv04 iogonek.cv05 iogonek.cv06 itilde itilde.cv03 itilde.cv04 itilde.cv05 itilde.cv06 j jcircumflex kcommaaccent kgreenlandic lacute lacute.cv07 lacute.cv08 lacute.cv09 lacute.cv10 lcaron lcaron.cv07 lcaron.cv08 lcaron.cv09 lcaron.cv10 lcommaaccent lcommaaccent.cv07 lcommaaccent.cv08 lcommaaccent.cv09 lcommaaccent.cv10 ldot ldot.cv07 ldot.cv08 ldot.cv09 ldot.cv10 less_asterisk.liga less_asterisk_greater.liga less_bar.liga less_bar_bar.liga less_bar_bar_bar.liga less_bar_greater.liga less_equal.liga less_equal_middle.seq less_equal_start.seq less_greater.liga less_hyphen_end.seq less_hyphen_middle.seq less_hyphen_start.seq less_less.liga less_less_equal_end.seq less_less_equal_middle.seq less_less_equal_start.seq less_less_hyphen_end.seq less_less_hyphen_middle.seq less_less_hyphen_start.seq less_less_less.liga less_plus.liga less_plus_greater.liga lessequal lslash lslash.cv07 lslash.cv08 lslash.cv09 lslash.cv10 macron macron.case nacute nacute.loclPLK napostrophe ncaron ncommaaccent notalmostequal ntilde numbersign_braceleft.liga numbersign_bracketleft.liga numbersign_colon.liga numbersign_exclam.liga numbersign_parenleft.liga numbersign_question.liga oacute oacute.loclPLK obreve ocircumflex odieresis ogonekcomb ograve ohungarumlaut omacron oslashacute otilde period_equal.cv32 period_period.liga period_period_equal.liga period_period_less.liga period_period_period.liga period_question.liga question_period.liga questiondbl.liga racute rcaron rcommaaccent ring ring.case sacute sacute.loclPLK scaron scedilla scircumflex scommaaccent semicolon_semicolon.liga slash_asterisk.liga slash_equal_middle.seq slash_slash.liga slash_slash_equal_end.seq slash_slash_equal_middle.seq slash_slash_equal_start.seq slash_slash_slash.liga softhyphen softhyphen.case strokelongoverlay strokeshortoverlay tbar tcaron tcedilla tcommaaccent tilde tilde.case uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron underscoredbl uni0122 uni2007.tf uni207B uni207C uni208B uogonek uring utilde wacute wcircumflex wdieresis wgrave yacute ycircumflex ydieresis yen ygrave zacute zacute.loclPLK zcaron zdotaccent zerowidthnobreakspace];
+@blank = [CR F.spacer T.spacer ampersand.spacer asciicircum.spacer asciitilde.spacer asterisk.spacer at.spacer backslash.spacer backslash.ss06 bar.cv30 bar.spacer braceleft.spacer braceright.spacer bracketleft.spacer bracketright.spacer colon.center colon.spacer dollar.spacer equal.spacer exclam.spacer f.spacer greater.center greater.spacer hyphen.spacer l.spacer less.center less.spacer numbersign.spacer parenleft.spacer percent.spacer period.spacer plus.spacer question.spacer semicolon.spacer slash.spacer space underscore.spacer uni00A0 w.spacer AEacute Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde Cacute Cacute.loclPLK Ccaron Ccedilla Ccircumflex Cdotaccent Dcaron Dcroat Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek Eth Gbreve Gcircumflex Gdotaccent Hbar Hcircumflex Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde Jcircumflex Kcommaaccent Lacute Lcaron Lcommaaccent Ldot Lslash Nacute Nacute.loclPLK Ncaron Ncommaaccent Ntilde Oacute Oacute.loclPLK Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Oslashacute Otilde Racute Rcaron Rcommaaccent Sacute Sacute.loclPLK Scaron Scedilla Scircumflex Scommaaccent Tbar Tcaron Tcedilla Tcommaaccent Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde Wacute Wcircumflex Wdieresis Wgrave Yacute Ycircumflex Ydieresis Ygrave Zacute Zacute.loclPLK Zcaron Zdotaccent aacute aacute.cv01 abreve abreve.cv01 acircumflex acircumflex.cv01 acute acute.case acute.case.loclPLK acute.loclPLK adieresis adieresis.cv01 aeacute agrave agrave.cv01 amacron amacron.cv01 aogonek aogonek.cv01 aring aring.cv01 asciicircum_equal.liga asterisk_asterisk.liga asterisk_asterisk_asterisk.liga asterisk_greater.liga asterisk_slash.liga atilde atilde.cv01 backslash bar_bar.liga bar_bar_bar.liga bar_bar_bar_greater.liga bar_bar_equal_end.seq bar_bar_equal_middle.seq bar_bar_equal_start.seq bar_bar_greater.liga bar_bar_hyphen_end.seq bar_bar_hyphen_middle.seq bar_bar_hyphen_start.seq bar_braceright.liga bar_bracketright.liga bar_equal_end.seq bar_equal_middle.seq bar_equal_start.seq bar_greater.liga bar_hyphen_end.seq bar_hyphen_middle.seq bar_hyphen_start.seq bar_underscore_middle.seq braceleft_bar.liga bracketleft_bar.liga breve.case brevecy.case cacute cacute.loclPLK caron.case caron.salt ccaron ccedilla ccircumflex cdotaccent cedilla.case cedillacomb cent circumflex.case circumflexcomb colon_colon.liga colon_colon_colon.liga colon_colon_equal.liga colon_equal.liga colon_equal_middle.seq commaaccentcomb.salt commabelowcomb.case commareversedbelowcomb.case dagger daggerdbl dcaron dcroat dieresis dieresis.case divisionslash dollar.ss04 dotaccent dotaccent.case dotlessi.cv03 dotlessi.cv04 dotlessi.cv05 dotlessi.cv06 eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron endash.case eogonek equal.dnom equal_asciitilde.ss07 equal_end.seq equal_equal.liga equal_middle.seq equal_start.seq exclam_equal.liga exclam_equal_equal.liga exclam_exclam.liga exclam_exclam_period.liga gbreve gbreve.cv02 gcircumflex gcircumflex.cv02 gcommaaccent gcommaaccent.cv02 gdotaccent gdotaccent.cv02 gravecomb greater_equal_end.seq greater_equal_middle.seq greater_equal_start.seq greater_greater.liga greater_greater_equal_end.seq greater_greater_equal_middle.seq greater_greater_equal_start.seq greater_greater_greater.liga greater_greater_hyphen_end.seq greater_greater_hyphen_middle.seq greater_greater_hyphen_start.seq greater_hyphen_end.seq greater_hyphen_end.seq.1 greater_hyphen_middle.seq greater_hyphen_start.seq greaterequal guillemotright guilsinglleft.case guilsinglright.case hbar hcircumflex horizontalbar hungarumlaut hungarumlaut.case hyphen.case hyphen_hyphen.liga i iacute iacute.cv03 iacute.cv04 iacute.cv05 iacute.cv06 ibreve ibreve.cv03 ibreve.cv04 ibreve.cv05 ibreve.cv06 icircumflex icircumflex.cv03 icircumflex.cv04 icircumflex.cv05 icircumflex.cv06 idieresis idieresis.cv03 idieresis.cv04 idieresis.cv05 idieresis.cv06 igrave igrave.cv03 igrave.cv04 igrave.cv05 igrave.cv06 imacron imacron.cv03 imacron.cv04 imacron.cv05 imacron.cv06 iogonek iogonek.cv03 iogonek.cv04 iogonek.cv05 iogonek.cv06 itilde itilde.cv03 itilde.cv04 itilde.cv05 itilde.cv06 jcircumflex kcommaaccent kgreenlandic lacute lacute.cv07 lacute.cv08 lacute.cv09 lacute.cv10 lcaron lcaron.cv07 lcaron.cv08 lcaron.cv09 lcaron.cv10 lcommaaccent lcommaaccent.cv07 lcommaaccent.cv08 lcommaaccent.cv10 ldot ldot.cv07 ldot.cv08 ldot.cv09 ldot.cv10 less_asterisk.liga less_asterisk_greater.liga less_bar.liga less_bar_bar.liga less_bar_bar_bar.liga less_bar_greater.liga less_equal.liga less_equal_middle.seq less_equal_start.seq less_greater.liga less_hyphen_end.seq less_hyphen_middle.seq less_hyphen_start.seq less_less.liga less_less_equal_end.seq less_less_equal_middle.seq less_less_equal_start.seq less_less_hyphen_end.seq less_less_hyphen_middle.seq less_less_hyphen_start.seq less_less_less.liga less_plus.liga less_plus_greater.liga lessequal lslash lslash.cv07 lslash.cv08 lslash.cv09 lslash.cv10 macron macron.case nacute nacute.loclPLK napostrophe ncaron ncommaaccent notalmostequal ntilde numbersign_braceleft.liga numbersign_bracketleft.liga numbersign_colon.liga numbersign_exclam.liga numbersign_parenleft.liga numbersign_question.liga oacute oacute.loclPLK obreve ocircumflex odieresis ogonekcomb ograve ohungarumlaut omacron oslashacute otilde period_equal.cv32 period_period.liga period_period_equal.liga period_period_less.liga period_period_period.liga period_question.liga question_period.liga questiondbl.liga racute rcaron rcommaaccent ring ring.case sacute sacute.loclPLK scaron scedilla scircumflex scommaaccent semicolon_semicolon.liga slash_asterisk.liga slash_equal_middle.seq slash_slash.liga slash_slash_equal_end.seq slash_slash_equal_middle.seq slash_slash_equal_start.seq slash_slash_slash.liga softhyphen softhyphen.case strokelongoverlay strokeshortoverlay tbar tcaron tcedilla tcommaaccent tilde tilde.case uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron underscoredbl uni0122 uni2007.tf uni207B uni207C uni208B uogonek uring utilde wacute wcircumflex wdieresis wgrave yacute ycircumflex ydieresis yen ygrave zacute zacute.loclPLK zcaron zdotaccent zerowidthnobreakspace];
 @bos = [a aacute abreve acircumflex adieresis ae aeacute agrave amacron aogonek aring atilde b c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat e eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eogonek g gbreve gcircumflex gcommaaccent gdotaccent germandbls mu o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron ordfeminine ordmasculine oslash oslashacute otilde p q s sacute scaron scedilla scircumflex scommaaccent t tbar tcaron tcedilla tcommaaccent thorn u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde eth];
 @calt = [colon exclam slash bar equal greater less CR quotedbl numbersign dollar percent ampersand quotesingle parenleft parenright asterisk plus comma hyphen period zero one two three four five six seven eight nine semicolon question at A B C D E F G H I J K L M N O P Q R S T U V W X Y Z bracketleft backslash bracketright asciicircum underscore grave a b c d e f g h i j k l m n o p q r s t u v w x y z braceleft braceright asciitilde Adieresis Amacron amacron Eacute Aogonek Odieresis Udieresis aacute aogonek Ccaron adieresis ccaron Cacute cacute eacute Zacute zacute Dcaron iacute dcaron Emacron emacron Edotaccent oacute edotaccent ocircumflex odieresis otilde uacute Ecaron ecaron udieresis dagger degree Eogonek bullet germandbls registered copyright trademark eogonek dieresis notequal Iogonek iogonek Imacron lessequal greaterequal imacron summation lslash Lcaron lcaron Lacute lacute Nacute logicalnot nacute Ncaron guillemotleft guillemotright ellipsis ncaron Ohungarumlaut Otilde ohungarumlaut Omacron endash emdash quotedblleft quotedblright quoteleft quoteright divide lozenge omacron Racute racute Rcaron guilsinglleft guilsinglright rcaron Scaron quotesinglbase quotedblbase scaron Sacute sacute Aacute Tcaron tcaron Iacute Zcaron zcaron Umacron Oacute Ocircumflex umacron Uring Uacute uring Uhungarumlaut uhungarumlaut Uogonek uogonek Yacute yacute Zdotaccent Lslash zdotaccent uni0122 caron Aring Ccedilla Ntilde agrave acircumflex atilde aring ccedilla egrave ecircumflex edieresis igrave icircumflex idieresis ntilde ograve ugrave ucircumflex cent acute AE Oslash plusminus yen product ordfeminine ordmasculine ae oslash questiondown exclamdown florin approxequal Agrave Atilde OE oe ydieresis Ydieresis Gbreve gbreve Idotaccent dotlessi Scedilla scedilla daggerdbl periodcentered perthousand Acircumflex Ecircumflex Edieresis Egrave Icircumflex Idieresis Igrave Ograve Ucircumflex Ugrave circumflex tilde macron breve dotaccent ring cedilla hungarumlaut ogonek fraction currency brokenbar Eth multiply Thorn thorn Abreve abreve Ccircumflex ccircumflex Cdotaccent cdotaccent Dcroat dcroat Ebreve ebreve Gcircumflex gcircumflex Gdotaccent gdotaccent Hcircumflex hcircumflex Hbar hbar Itilde itilde IJ ij Jcircumflex jcircumflex kgreenlandic Ldot ldot napostrophe Obreve obreve Scircumflex scircumflex Tbar tbar Utilde utilde Ubreve ubreve Wcircumflex wcircumflex Ycircumflex ycircumflex uni02C9 Wgrave wgrave Wacute wacute Wdieresis wdieresis Euro minus uni2219 grave.case dieresis.case macron.case acute.case circumflex.case caron.case breve.case dotaccent.case ring.case tilde.case hungarumlaut.case gravecomb tildecomb acutecomb Ibreve ibreve AEacute aeacute Oslashacute oslashacute Ygrave ygrave universal Kcommaaccent Lcommaaccent Ncommaaccent Rcommaaccent Scommaaccent Tcedilla Tcommaaccent brevecomb caroncomb cedilla.case cedillacomb circumflexcomb commaaccentcomb dieresiscomb dotaccentcomb dotlessj gcommaaccent hungarumlautcomb kcommaaccent lcommaaccent macroncomb ncommaaccent rcommaaccent ringcomb scommaaccent tcedilla tcommaaccent overlinecomb dblgravecomb commaabovecomb commareversedabovecomb w_w_w.liga w.spacer uniEE03 uniEE04 uniEE05 uniEE00 uniEE01 uniEE02 commabelowcomb.case divisionslash slash_greater.liga less_slash.liga less_slash_greater.liga slash.spacer less.spacer less_exclam_hyphen_hyphen.liga exclam.spacer hyphen.spacer hyphen_end.seq hyphen_middle.seq hyphen_start.seq greater_hyphen_end.seq uni2E3B uni2E3A slash_equal_end.seq slash_equal_middle.seq slash_equal_start.seq slash_slash_equal_end.seq slash_slash_equal_middle.seq slash_slash_equal_start.seq colon_equal_middle.seq less_equal_end.seq less_equal_middle.seq less_equal_start.seq less_hyphen_end.seq less_hyphen_middle.seq less_hyphen_start.seq less_less_equal_end.seq less_less_equal_middle.seq less_less_equal_start.seq less_less_hyphen_end.seq less_less_hyphen_middle.seq less_less_hyphen_start.seq equal_end.seq equal_middle.seq equal_start.seq greater_equal_end.seq greater_equal_middle.seq greater_equal_start.seq greater_greater_equal_end.seq greater_greater_equal_middle.seq greater_greater_equal_start.seq greater_greater_hyphen_end.seq greater_greater_hyphen_middle.seq greater_greater_hyphen_start.seq greater_hyphen_middle.seq greater_hyphen_start.seq underscore_end.seq underscore_middle.seq underscore_start.seq bar_bar_equal_end.seq bar_bar_equal_middle.seq bar_bar_equal_start.seq bar_bar_hyphen_end.seq bar_bar_hyphen_middle.seq bar_bar_hyphen_start.seq bar_equal_end.seq bar_equal_middle.seq bar_equal_start.seq bar_hyphen_end.seq bar_hyphen_middle.seq bar_hyphen_start.seq bar_underscore_middle.seq exclam_equal_middle.seq greater.spacer bar.spacer hyphen.lc exclam_equal.liga exclam_equal_equal.liga exclam_exclam.liga exclam_exclam_period.liga numbersign_braceleft.liga numbersign_bracketleft.liga numbersign_colon.liga numbersign_end.seq numbersign_equal.liga numbersign_exclam.liga numbersign_middle.seq numbersign_parenleft.liga numbersign_question.liga numbersign.spacer numbersign_start.seq numbersign_underscore.liga numbersign_underscore_parenleft.liga dollar_greater.liga dollar.spacer dollar.ss04 percent_percent.liga percent.spacer ampersand_ampersand.liga ampersand.spacer parenleft.spacer asterisk_asterisk.liga asterisk_asterisk_asterisk.liga asterisk_greater.liga asterisk_slash.liga asterisk.spacer plus_greater.liga plus_plus.liga plus_plus_plus.liga plus.spacer hyphen_hyphen.liga period_period.liga period_period_equal.liga period_period_less.liga period_period_period.liga period_question.liga period.spacer slash_asterisk.liga slash_backslash.liga slash_slash.liga slash_slash_slash.liga colon.center colon_colon.liga colon_colon_colon.liga colon_colon_equal.liga colon_equal.liga colon.spacer semicolon_semicolon.liga semicolon.spacer less_asterisk.liga less_asterisk_greater.liga less_bar.liga less_bar_bar.liga less_bar_bar_bar.liga less_bar_greater.liga less.center less_dollar.liga less_dollar_greater.liga less_equal.liga less_greater.liga less_less.liga less_less_less.liga less_plus.liga less_plus_greater.liga equal_asciitilde.ss07 equal_equal.liga equal_equal_equal.liga equal.spacer greater.center greater_equal.liga greater_greater.liga greater_greater_greater.liga question_equal.liga question_period.liga question.spacer at.spacer F.spacer T.spacer bracketleft.spacer backslash_slash.liga backslash.spacer backslash.ss06 bracketright.spacer asciicircum_equal.liga asciicircum.spacer underscore.spacer f.spacer l.spacer braceleft.spacer bar_bar.liga bar_bar_bar.liga bar_bar_bar_greater.liga bar_bar_greater.liga bar_braceright.liga bar_bracketright.liga bar.cv30 bar_greater.liga braceright.spacer asciitilde.spacer acute.case.loclPLK acute.loclPLK Oacute.loclPLK agrave.cv01 aacute.cv01 acircumflex.cv01 atilde.cv01 adieresis.cv01 aring.cv01 igrave.cv03 igrave.cv04 igrave.cv05 igrave.cv06 iacute.cv03 iacute.cv04 iacute.cv05 iacute.cv06 icircumflex.cv03 icircumflex.cv04 icircumflex.cv05 icircumflex.cv06 idieresis.cv03 idieresis.cv04 idieresis.cv05 idieresis.cv06 oacute.loclPLK amacron.cv01 abreve.cv01 aogonek.cv01 Cacute.loclPLK cacute.loclPLK gcircumflex.cv02 gbreve.cv02 gdotaccent.cv02 itilde.cv03 itilde.cv04 itilde.cv05 itilde.cv06 imacron.cv03 imacron.cv04 imacron.cv05 imacron.cv06 ibreve.cv03 ibreve.cv04 ibreve.cv05 ibreve.cv06 iogonek.cv03 iogonek.cv04 iogonek.cv05 iogonek.cv06 dotlessi.cv03 dotlessi.cv04 dotlessi.cv05 dotlessi.cv06 lacute.cv07 lacute.cv08 lacute.cv09 lacute.cv10 lcaron.cv07 lcaron.cv08 lcaron.cv09 lcaron.cv10 ldot.cv07 ldot.cv08 ldot.cv09 ldot.cv10 lslash.cv07 lslash.cv08 lslash.cv09 lslash.cv10 Nacute.loclPLK nacute.loclPLK Sacute.loclPLK sacute.loclPLK Zacute.loclPLK zacute.loclPLK softhyphen horizontalbar notalmostequal gcommaaccent.cv02 lcommaaccent.cv07 lcommaaccent.cv08 lcommaaccent.cv09 lcommaaccent.cv10 questiondbl.liga softhyphen.case];
 @calt10 = [exclam_equal_middle.seq slash_equal_middle.seq slash_equal_start.seq slash_slash_equal_middle.seq slash_slash_equal_start.seq colon_equal_middle.seq less_equal_middle.seq less_equal_start.seq less_less_equal_middle.seq less_less_equal_start.seq equal_middle.seq equal_start.seq greater_equal_middle.seq greater_equal_start.seq greater_greater_equal_middle.seq greater_greater_equal_start.seq bar_bar_equal_middle.seq bar_bar_equal_start.seq bar_equal_middle.seq bar_equal_start.seq zero one two three four five six seven eight nine A B C D E F a b c d e f hyphen_middle.seq hyphen_start.seq less_hyphen_middle.seq less_hyphen_start.seq less_less_hyphen_middle.seq less_less_hyphen_start.seq greater_greater_hyphen_middle.seq greater_greater_hyphen_start.seq greater_hyphen_middle.seq greater_hyphen_start.seq g h i j k l m n o p q r s t u v w x y z amacron aacute aogonek adieresis ccaron cacute eacute zacute iacute dcaron emacron oacute edotaccent ocircumflex odieresis otilde uacute ecaron udieresis germandbls eogonek iogonek imacron lslash lcaron lacute nacute ncaron ohungarumlaut omacron racute rcaron scaron sacute tcaron zcaron umacron uring uhungarumlaut uogonek yacute zdotaccent agrave acircumflex atilde aring ccedilla egrave ecircumflex edieresis igrave icircumflex idieresis ntilde ograve ugrave ucircumflex ordfeminine ordmasculine ae oslash oe ydieresis gbreve dotlessi scedilla thorn abreve ccircumflex cdotaccent dcroat ebreve gcircumflex gdotaccent hcircumflex hbar itilde ij jcircumflex kgreenlandic ldot napostrophe obreve scircumflex tbar utilde ubreve wcircumflex ycircumflex wgrave wacute wdieresis ibreve aeacute oslashacute ygrave dotlessj gcommaaccent kcommaaccent lcommaaccent ncommaaccent rcommaaccent scommaaccent tcedilla tcommaaccent w_w_w.liga bar_bar_hyphen_middle.seq bar_bar_hyphen_start.seq bar_hyphen_middle.seq bar_hyphen_start.seq cacute.loclPLK nacute.loclPLK oacute.loclPLK sacute.loclPLK zacute.loclPLK];
@@ -69,7 +69,7 @@
 @class_numbersign_colon.liga = [numbersign_colon.liga colon.center colon_colon.liga colon_colon_colon.liga colon_equal_middle.seq colon.spacer];
 @class_uni207D = [numbersign_parenleft.liga numbersign_underscore_parenleft.liga];
 @color = [M N Nacute Nacute.loclPLK Ncaron Ncommaaccent Ntilde O Oacute Oacute.loclPLK Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Oslashacute Otilde Q R Racute Rcaron Rcommaaccent S Sacute Sacute.loclPLK Scaron Scedilla Scircumflex Scommaaccent T Tbar Tcaron Tcedilla Tcommaaccent U Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Z Zacute Zacute.loclPLK Zcaron Zdotaccent dollar.ss04 universal yen];
-@composite = [AEacute Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde Cacute Cacute.loclPLK Ccaron Ccedilla Ccircumflex Cdotaccent Dcaron Dcroat Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek Eth Gbreve Gcircumflex Gdotaccent Hbar Hcircumflex Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde Jcircumflex Kcommaaccent Lacute Lcaron Lcommaaccent Ldot Lslash Nacute Nacute.loclPLK Ncaron Ncommaaccent Ntilde Oacute Oacute.loclPLK Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Oslashacute Otilde Racute Rcaron Rcommaaccent Sacute Sacute.loclPLK Scaron Scedilla Scircumflex Scommaaccent Tbar Tcaron Tcedilla Tcommaaccent Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde Wacute Wcircumflex Wdieresis Wgrave Yacute Ycircumflex Ydieresis Ygrave Zacute Zacute.loclPLK Zcaron Zdotaccent aacute aacute.cv01 abreve abreve.cv01 acircumflex acircumflex.cv01 acute acute.case acute.case.loclPLK acute.loclPLK adieresis adieresis.cv01 aeacute agrave agrave.cv01 amacron amacron.cv01 ampersand_ampersand.liga aogonek aogonek.cv01 aring aring.cv01 asciicircum_equal.liga asterisk_asterisk.liga asterisk_asterisk_asterisk.liga asterisk_greater.liga asterisk_slash.liga atilde atilde.cv01 backslash backslash_slash.liga bar_bar.liga bar_bar_bar.liga bar_bar_bar_greater.liga bar_bar_greater.liga bar_braceright.liga bar_bracketright.liga bar_greater.liga breve.case cacute cacute.loclPLK caron.case caron.salt ccaron ccedilla ccircumflex cdotaccent cedilla.case cedillacomb cent circumflex.case colon_colon.liga colon_colon_colon.liga colon_colon_equal.liga colon_equal.liga commaaccentcomb.salt commabelowcomb.case commareversedbelowcomb.case dagger daggerdbl dcaron dcroat dieresis dieresis.case divisionslash dollar.ss04 dollar_greater.liga dotaccent dotaccent.case dotlessi.cv03 dotlessi.cv04 dotlessi.cv05 dotlessi.cv06 eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eogonek equal_asciitilde.ss07 equal_equal.liga equal_equal_equal.liga exclam_equal.liga exclam_equal_equal.liga exclam_exclam.liga exclam_exclam_period.liga gbreve gbreve.cv02 gcircumflex gcircumflex.cv02 gcommaaccent gcommaaccent.cv02 gdotaccent gdotaccent.cv02 greater_equal.liga greater_greater.liga greater_greater_greater.liga greaterequal guillemotright hbar hcircumflex horizontalbar hungarumlaut hungarumlaut.case hyphen_hyphen.liga iacute iacute.cv03 iacute.cv04 iacute.cv05 iacute.cv06 ibreve ibreve.cv03 ibreve.cv04 ibreve.cv05 ibreve.cv06 icircumflex icircumflex.cv03 icircumflex.cv04 icircumflex.cv05 icircumflex.cv06 idieresis idieresis.cv03 idieresis.cv04 idieresis.cv05 idieresis.cv06 igrave igrave.cv03 igrave.cv04 igrave.cv05 igrave.cv06 imacron imacron.cv03 imacron.cv04 imacron.cv05 imacron.cv06 iogonek iogonek.cv03 iogonek.cv04 iogonek.cv05 iogonek.cv06 itilde itilde.cv03 itilde.cv04 itilde.cv05 itilde.cv06 jcircumflex kcommaaccent kgreenlandic lacute lacute.cv07 lacute.cv08 lacute.cv09 lacute.cv10 lcaron lcaron.cv07 lcaron.cv08 lcaron.cv09 lcaron.cv10 lcommaaccent lcommaaccent.cv07 lcommaaccent.cv08 lcommaaccent.cv09 lcommaaccent.cv10 ldot ldot.cv07 ldot.cv08 ldot.cv09 ldot.cv10 less_asterisk.liga less_asterisk_greater.liga less_bar.liga less_bar_bar.liga less_bar_bar_bar.liga less_bar_greater.liga less_dollar.liga less_dollar_greater.liga less_equal.liga less_greater.liga less_less.liga less_less_less.liga less_plus.liga less_plus_greater.liga lessequal lslash lslash.cv07 lslash.cv08 lslash.cv09 lslash.cv10 macron macron.case nacute nacute.loclPLK napostrophe ncaron ncommaaccent notalmostequal ntilde numbersign_braceleft.liga numbersign_bracketleft.liga numbersign_colon.liga numbersign_end.seq numbersign_equal.liga numbersign_exclam.liga numbersign_middle.seq numbersign_parenleft.liga numbersign_question.liga numbersign_start.seq numbersign_underscore.liga numbersign_underscore_parenleft.liga oacute oacute.loclPLK obreve ocircumflex odieresis ograve ohungarumlaut omacron oslash oslashacute otilde percent_percent.liga period_period.liga period_period_equal.liga period_period_less.liga period_period_period.liga period_question.liga plus_greater.liga plus_plus.liga plus_plus_plus.liga question_equal.liga question_period.liga questiondbl.liga racute rcaron rcommaaccent ring ring.case sacute sacute.loclPLK scaron scedilla scircumflex scommaaccent semicolon_semicolon.liga slash_asterisk.liga slash_backslash.liga slash_slash.liga slash_slash_slash.liga softhyphen softhyphen.case tbar tcaron tcedilla tcommaaccent tilde tilde.case uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uni0122 uogonek uring utilde wacute wcircumflex wdieresis wgrave yacute ycircumflex ydieresis yen ygrave zacute zacute.loclPLK zcaron zdotaccent];
+@composite = [AEacute Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde Cacute Cacute.loclPLK Ccaron Ccedilla Ccircumflex Cdotaccent Dcaron Dcroat Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek Eth Gbreve Gcircumflex Gdotaccent Hbar Hcircumflex Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde Jcircumflex Kcommaaccent Lacute Lcaron Lcommaaccent Ldot Lslash Nacute Nacute.loclPLK Ncaron Ncommaaccent Ntilde Oacute Oacute.loclPLK Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Oslashacute Otilde Racute Rcaron Rcommaaccent Sacute Sacute.loclPLK Scaron Scedilla Scircumflex Scommaaccent Tbar Tcaron Tcedilla Tcommaaccent Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde Wacute Wcircumflex Wdieresis Wgrave Yacute Ycircumflex Ydieresis Ygrave Zacute Zacute.loclPLK Zcaron Zdotaccent aacute aacute.cv01 abreve abreve.cv01 acircumflex acircumflex.cv01 acute acute.case acute.case.loclPLK acute.loclPLK adieresis adieresis.cv01 aeacute agrave agrave.cv01 amacron amacron.cv01 ampersand_ampersand.liga aogonek aogonek.cv01 aring aring.cv01 asciicircum_equal.liga asterisk_asterisk.liga asterisk_asterisk_asterisk.liga asterisk_greater.liga asterisk_slash.liga atilde atilde.cv01 backslash backslash_slash.liga bar_bar.liga bar_bar_bar.liga bar_bar_bar_greater.liga bar_bar_greater.liga bar_braceright.liga bar_bracketright.liga bar_greater.liga breve.case cacute cacute.loclPLK caron.case caron.salt ccaron ccedilla ccircumflex cdotaccent cedilla.case cedillacomb cent circumflex.case colon_colon.liga colon_colon_colon.liga colon_colon_equal.liga colon_equal.liga commaaccentcomb.salt commabelowcomb.case commareversedbelowcomb.case dagger daggerdbl dcaron dcroat dieresis dieresis.case divisionslash dollar.ss04 dollar_greater.liga dotaccent dotaccent.case dotlessi.cv03 dotlessi.cv04 dotlessi.cv05 dotlessi.cv06 eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eogonek equal_asciitilde.ss07 equal_equal.liga equal_equal_equal.liga exclam_equal.liga exclam_equal_equal.liga exclam_exclam.liga exclam_exclam_period.liga gbreve gbreve.cv02 gcircumflex gcircumflex.cv02 gcommaaccent gcommaaccent.cv02 gdotaccent gdotaccent.cv02 greater_equal.liga greater_greater.liga greater_greater_greater.liga greaterequal guillemotright hbar hcircumflex horizontalbar hungarumlaut hungarumlaut.case hyphen_hyphen.liga iacute iacute.cv03 iacute.cv04 iacute.cv05 iacute.cv06 ibreve ibreve.cv03 ibreve.cv04 ibreve.cv05 ibreve.cv06 icircumflex icircumflex.cv03 icircumflex.cv04 icircumflex.cv05 icircumflex.cv06 idieresis idieresis.cv03 idieresis.cv04 idieresis.cv05 idieresis.cv06 igrave igrave.cv03 igrave.cv04 igrave.cv05 igrave.cv06 imacron imacron.cv03 imacron.cv04 imacron.cv05 imacron.cv06 iogonek iogonek.cv03 iogonek.cv04 iogonek.cv05 iogonek.cv06 itilde itilde.cv03 itilde.cv04 itilde.cv05 itilde.cv06 jcircumflex kcommaaccent kgreenlandic lacute lacute.cv07 lacute.cv08 lacute.cv09 lacute.cv10 lcaron lcaron.cv07 lcaron.cv08 lcaron.cv09 lcaron.cv10 lcommaaccent lcommaaccent.cv07 lcommaaccent.cv08 lcommaaccent.cv09 lcommaaccent.cv10 ldot ldot.cv07 ldot.cv08 ldot.cv09 ldot.cv10 less_asterisk.liga less_asterisk_greater.liga less_bar.liga less_bar_bar.liga less_bar_bar_bar.liga less_bar_greater.liga less_dollar.liga less_dollar_greater.liga less_equal.liga less_greater.liga less_less.liga less_less_less.liga less_plus.liga less_plus_greater.liga lessequal lslash lslash.cv07 lslash.cv08 lslash.cv09 lslash.cv10 macron macron.case nacute nacute.loclPLK napostrophe ncaron ncommaaccent notalmostequal ntilde numbersign_braceleft.liga numbersign_bracketleft.liga numbersign_colon.liga numbersign_end.seq numbersign_equal.liga numbersign_exclam.liga numbersign_middle.seq numbersign_parenleft.liga numbersign_question.liga numbersign_start.seq numbersign_underscore.liga numbersign_underscore_parenleft.liga oacute oacute.loclPLK obreve ocircumflex odieresis ograve ohungarumlaut omacron oslash oslashacute otilde percent_percent.liga period_period.liga period_period_equal.liga period_period_less.liga period_period_period.liga period_question.liga plus_greater.liga plus_plus.liga plus_plus_plus.liga question_equal.liga question_period.liga questiondbl.liga racute rcaron rcommaaccent ring ring.case sacute sacute.loclPLK scaron scedilla scircumflex scommaaccent semicolon_semicolon.liga slash_asterisk.liga slash_backslash.liga slash_slash.liga slash_slash_slash.liga softhyphen softhyphen.case tbar tcaron tcedilla tcommaaccent tilde tilde.case uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uni0122 uogonek uring utilde wacute wcircumflex wdieresis wgrave yacute ycircumflex ydieresis yen ygrave zacute zacute.loclPLK zcaron zdotaccent j];
 @cv01 = [a aacute abreve acircumflex adieresis agrave amacron aogonek aring atilde];
 @cv012 = [aacute.cv01 abreve.cv01 acircumflex.cv01 adieresis.cv01 agrave.cv01 amacron.cv01 aogonek.cv01 aring.cv01 atilde.cv01];
 @cv03 = [dotlessi.cv03 iacute.cv03 ibreve.cv03 icircumflex.cv03 idieresis.cv03 igrave.cv03 imacron.cv03 iogonek.cv03 itilde.cv03];
@@ -92,7 +92,7 @@
 @lc = [a aacute abreve acircumflex adieresis ae aeacute agrave amacron aogonek aring atilde b c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat dotlessi dotlessj e eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eogonek f florin g gbreve gcircumflex gcommaaccent gdotaccent germandbls h hbar hcircumflex i iacute ibreve icircumflex idieresis igrave ij imacron iogonek itilde j jcircumflex k kcommaaccent kgreenlandic l lacute lcaron lcommaaccent ldot lslash m mu n nacute napostrophe ncaron ncommaaccent ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron ordfeminine ordmasculine oslash oslashacute otilde p pi q r racute rcaron rcommaaccent s sacute scaron scedilla scircumflex scommaaccent t tbar tcaron tcedilla tcommaaccent thorn u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w w_w_w.liga wacute wcircumflex wdieresis wgrave x y yacute ycircumflex ydieresis ygrave z zacute zcaron zdotaccent eng eth];
 @locl = [Cacute Nacute Oacute Sacute Zacute cacute nacute oacute sacute zacute acute];
 @locl2 = [Cacute.loclPLK Nacute.loclPLK Oacute.loclPLK Sacute.loclPLK Zacute.loclPLK cacute.loclPLK nacute.loclPLK oacute.loclPLK sacute.loclPLK zacute.loclPLK acute.loclPLK];
-@manualcomposite = [AEacute Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde Cacute Cacute.loclPLK Ccaron Ccedilla Ccircumflex Cdotaccent Dcaron Dcroat Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek Eth Gbreve Gcircumflex Gdotaccent Hcircumflex Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde Jcircumflex Kcommaaccent Lacute Lcaron Lcommaaccent Ldot Lslash Nacute Nacute.loclPLK Ncaron Ncommaaccent Ntilde Oacute Oacute.loclPLK Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Oslashacute Otilde Racute Rcaron Rcommaaccent Sacute Sacute.loclPLK Scaron Scedilla Scircumflex Scommaaccent Tbar Tcaron Tcedilla Tcommaaccent Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde Wacute Wcircumflex Wdieresis Wgrave Yacute Ycircumflex Ydieresis Ygrave Zacute Zacute.loclPLK Zcaron Zdotaccent aacute aacute.cv01 abreve abreve.cv01 acircumflex acircumflex.cv01 acute acute.case acute.case.loclPLK acute.loclPLK adieresis adieresis.cv01 aeacute agrave agrave.cv01 amacron amacron.cv01 ampersand_ampersand.liga aogonek aogonek.cv01 aring aring.cv01 asciicircum_equal.liga asterisk_asterisk.liga asterisk_asterisk_asterisk.liga asterisk_greater.liga asterisk_slash.liga atilde atilde.cv01 backslash backslash_slash.liga bar_bar.liga bar_bar_bar.liga bar_bar_bar_greater.liga bar_bar_greater.liga bar_braceright.liga bar_bracketright.liga bar_greater.liga breve.case cacute cacute.loclPLK caron.case caron.salt ccaron ccedilla ccircumflex cdotaccent cedilla.case cedillacomb cent circumflex.case colon_colon.liga colon_colon_colon.liga colon_colon_equal.liga colon_equal.liga commaaccentcomb.salt commabelowcomb.case commareversedbelowcomb.case dagger daggerdbl dcaron dieresis dieresis.case divisionslash dollar.ss04 dollar_greater.liga dotaccent dotaccent.case dotlessi.cv03 dotlessi.cv04 dotlessi.cv05 dotlessi.cv06 eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eogonek equal_asciitilde.ss07 equal_equal.liga equal_equal_equal.liga exclam_equal.liga exclam_equal_equal.liga exclam_exclam.liga exclam_exclam_period.liga gbreve gbreve.cv02 gcircumflex gcircumflex.cv02 gcommaaccent.cv02 gdotaccent gdotaccent.cv02 greater_equal.liga greater_greater.liga greater_greater_greater.liga greaterequal guillemotright hcircumflex horizontalbar hungarumlaut hungarumlaut.case hyphen_hyphen.liga iacute iacute.cv03 iacute.cv04 iacute.cv05 iacute.cv06 ibreve ibreve.cv03 ibreve.cv04 ibreve.cv05 ibreve.cv06 icircumflex icircumflex.cv03 icircumflex.cv04 icircumflex.cv05 icircumflex.cv06 idieresis idieresis.cv03 idieresis.cv04 idieresis.cv05 idieresis.cv06 igrave igrave.cv03 igrave.cv04 igrave.cv05 igrave.cv06 imacron imacron.cv03 imacron.cv04 imacron.cv05 imacron.cv06 iogonek iogonek.cv03 iogonek.cv04 iogonek.cv05 iogonek.cv06 itilde itilde.cv03 itilde.cv04 itilde.cv05 itilde.cv06 jcircumflex kcommaaccent kgreenlandic lacute lacute.cv07 lacute.cv08 lacute.cv09 lacute.cv10 lcaron lcaron.cv07 lcaron.cv08 lcaron.cv09 lcaron.cv10 lcommaaccent lcommaaccent.cv07 lcommaaccent.cv08 ldot ldot.cv07 ldot.cv08 ldot.cv09 less_asterisk.liga less_asterisk_greater.liga less_bar.liga less_bar_bar.liga less_bar_bar_bar.liga less_bar_greater.liga less_dollar.liga less_dollar_greater.liga less_equal.liga less_greater.liga less_less.liga less_less_less.liga less_plus.liga less_plus_greater.liga lessequal lslash lslash.cv07 lslash.cv08 lslash.cv09 macron macron.case nacute nacute.loclPLK napostrophe ncaron ncommaaccent notalmostequal ntilde numbersign_braceleft.liga numbersign_bracketleft.liga numbersign_colon.liga numbersign_end.seq numbersign_equal.liga numbersign_exclam.liga numbersign_middle.seq numbersign_parenleft.liga numbersign_question.liga numbersign_start.seq numbersign_underscore.liga numbersign_underscore_parenleft.liga oacute oacute.loclPLK obreve ocircumflex odieresis ograve ohungarumlaut omacron oslash oslashacute otilde percent_percent.liga period_period.liga period_period_equal.liga period_period_less.liga period_period_period.liga period_question.liga plus_greater.liga plus_plus.liga plus_plus_plus.liga question_equal.liga question_period.liga questiondbl.liga racute rcaron rcommaaccent ring ring.case sacute sacute.loclPLK scaron scedilla scircumflex semicolon_semicolon.liga slash_asterisk.liga slash_backslash.liga slash_slash.liga slash_slash_slash.liga softhyphen softhyphen.case tbar tcaron tcedilla tcommaaccent tilde tilde.case uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uni0122 uogonek uring utilde wacute wcircumflex wdieresis wgrave yacute ycircumflex ydieresis yen ygrave zacute zacute.loclPLK zcaron zdotaccent];
+@manualcomposite = [AEacute Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde Cacute Cacute.loclPLK Ccaron Ccedilla Ccircumflex Cdotaccent Dcaron Dcroat Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek Eth Gbreve Gcircumflex Gdotaccent Hcircumflex Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde Jcircumflex Kcommaaccent Lacute Lcaron Lcommaaccent Ldot Lslash Nacute Nacute.loclPLK Ncaron Ncommaaccent Ntilde Oacute Oacute.loclPLK Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Oslashacute Otilde Racute Rcaron Rcommaaccent Sacute Sacute.loclPLK Scaron Scedilla Scircumflex Scommaaccent Tbar Tcaron Tcedilla Tcommaaccent Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde Wacute Wcircumflex Wdieresis Wgrave Yacute Ycircumflex Ydieresis Ygrave Zacute Zacute.loclPLK Zcaron Zdotaccent aacute aacute.cv01 abreve abreve.cv01 acircumflex acircumflex.cv01 acute acute.case acute.case.loclPLK acute.loclPLK adieresis adieresis.cv01 aeacute agrave agrave.cv01 amacron amacron.cv01 ampersand_ampersand.liga aogonek aogonek.cv01 aring aring.cv01 asciicircum_equal.liga asterisk_asterisk.liga asterisk_asterisk_asterisk.liga asterisk_greater.liga asterisk_slash.liga atilde atilde.cv01 backslash backslash_slash.liga bar_bar.liga bar_bar_bar.liga bar_bar_bar_greater.liga bar_bar_greater.liga bar_braceright.liga bar_bracketright.liga bar_greater.liga breve.case cacute cacute.loclPLK caron.case caron.salt ccaron ccedilla ccircumflex cdotaccent cedilla.case cedillacomb cent circumflex.case colon_colon.liga colon_colon_colon.liga colon_colon_equal.liga colon_equal.liga commaaccentcomb.salt commabelowcomb.case commareversedbelowcomb.case dagger daggerdbl dcaron dieresis dieresis.case divisionslash dollar.ss04 dollar_greater.liga dotaccent dotaccent.case dotlessi.cv03 dotlessi.cv04 dotlessi.cv05 dotlessi.cv06 eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eogonek equal_asciitilde.ss07 equal_equal.liga equal_equal_equal.liga exclam_equal.liga exclam_equal_equal.liga exclam_exclam.liga exclam_exclam_period.liga gbreve gbreve.cv02 gcircumflex gcircumflex.cv02 gcommaaccent.cv02 gdotaccent gdotaccent.cv02 greater_equal.liga greater_greater.liga greater_greater_greater.liga greaterequal guillemotright hcircumflex horizontalbar hungarumlaut hungarumlaut.case hyphen_hyphen.liga iacute iacute.cv03 iacute.cv04 iacute.cv05 iacute.cv06 ibreve ibreve.cv03 ibreve.cv04 ibreve.cv05 ibreve.cv06 icircumflex icircumflex.cv03 icircumflex.cv04 icircumflex.cv05 icircumflex.cv06 idieresis idieresis.cv03 idieresis.cv04 idieresis.cv05 idieresis.cv06 igrave igrave.cv03 igrave.cv04 igrave.cv05 igrave.cv06 imacron imacron.cv03 imacron.cv04 imacron.cv05 imacron.cv06 iogonek iogonek.cv03 iogonek.cv04 iogonek.cv05 iogonek.cv06 itilde itilde.cv03 itilde.cv04 itilde.cv05 itilde.cv06 jcircumflex kcommaaccent kgreenlandic lacute lacute.cv07 lacute.cv08 lacute.cv09 lacute.cv10 lcaron lcaron.cv07 lcaron.cv08 lcaron.cv09 lcaron.cv10 lcommaaccent lcommaaccent.cv07 lcommaaccent.cv08 ldot ldot.cv07 ldot.cv08 ldot.cv09 less_asterisk.liga less_asterisk_greater.liga less_bar.liga less_bar_bar.liga less_bar_bar_bar.liga less_bar_greater.liga less_dollar.liga less_dollar_greater.liga less_equal.liga less_greater.liga less_less.liga less_less_less.liga less_plus.liga less_plus_greater.liga lessequal lslash lslash.cv07 lslash.cv08 lslash.cv09 macron macron.case nacute nacute.loclPLK napostrophe ncaron ncommaaccent notalmostequal ntilde numbersign_braceleft.liga numbersign_bracketleft.liga numbersign_colon.liga numbersign_end.seq numbersign_equal.liga numbersign_exclam.liga numbersign_middle.seq numbersign_parenleft.liga numbersign_question.liga numbersign_start.seq numbersign_underscore.liga numbersign_underscore_parenleft.liga oacute oacute.loclPLK obreve ocircumflex odieresis ograve ohungarumlaut omacron oslash oslashacute otilde percent_percent.liga period_period.liga period_period_equal.liga period_period_less.liga period_period_period.liga period_question.liga plus_greater.liga plus_plus.liga plus_plus_plus.liga question_equal.liga question_period.liga questiondbl.liga racute rcaron rcommaaccent ring ring.case sacute sacute.loclPLK scaron scedilla scircumflex semicolon_semicolon.liga slash_asterisk.liga slash_backslash.liga slash_slash.liga slash_slash_slash.liga softhyphen softhyphen.case tbar tcaron tcedilla tcommaaccent tilde tilde.case uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uni0122 uogonek uring utilde wacute wcircumflex wdieresis wgrave yacute ycircumflex ydieresis yen ygrave zacute zacute.loclPLK zcaron zdotaccent j lcommaaccent.cv09];
 @match = [A AE AEacute Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde B C CR Cacute Cacute.loclPLK Ccaron Ccedilla Ccircumflex Cdotaccent D Dcaron Dcroat E Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek Eth Euro F G Gbreve Gcircumflex Gdotaccent H Hbar Hcircumflex I IJ Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J Jcircumflex K Kcommaaccent L Lacute Lcaron Lcommaaccent Ldot Lslash M N Nacute Nacute.loclPLK Ncaron Ncommaaccent Ntilde O OE Oacute Oacute.loclPLK Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Oslashacute Otilde P Q R Racute Rcaron Rcommaaccent S Sacute Sacute.loclPLK Scaron Scedilla Scircumflex Scommaaccent T Tbar Tcaron Tcedilla Tcommaaccent Thorn U Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Z Zacute Zacute.loclPLK Zcaron Zdotaccent a aacute aacute.cv01 abreve abreve.cv01 acircumflex acircumflex.cv01 acute acute.case acute.case.loclPLK acute.loclPLK acutebelowcomb acutecomb adieresis adieresis.cv01 ae aeacute agrave agrave.cv01 amacron amacron.cv01 ampersand ampersand_ampersand.liga aogonek aogonek.cv01 approxequal aring aring.cv01 asciicircum asciicircum_equal.liga asciitilde asciitilde.spacer asterisk asterisk_asterisk.liga asterisk_asterisk_asterisk.liga asterisk_greater.liga asterisk_slash.liga at atilde atilde.cv01 b backslash backslash.spacer backslash_slash.liga bar bar.cv30 bar.spacer bar_bar.liga bar_bar_bar.liga bar_bar_bar_greater.liga bar_bar_equal_end.seq bar_bar_equal_middle.seq bar_bar_equal_start.seq bar_bar_greater.liga bar_bar_hyphen_end.seq bar_bar_hyphen_middle.seq bar_bar_hyphen_start.seq bar_braceright.liga bar_bracketright.liga bar_equal_end.seq bar_equal_middle.seq bar_equal_start.seq bar_greater.liga bar_hyphen_end.seq bar_hyphen_middle.seq bar_hyphen_start.seq bar_underscore_middle.seq braceleft braceright bracketleft bracketright breve breve.case brevecomb breveinvertedcomb brokenbar bullet c cacute cacute.loclPLK candraBinducomb caron caron.case caron.salt caroncomb ccaron ccedilla ccircumflex cdotaccent cedilla cedilla.case cedillacomb cent circumflex circumflex.case circumflexcomb colon colon.center colon.spacer colon_colon.liga colon_colon_colon.liga colon_colon_equal.liga colon_equal.liga colon_equal_middle.seq comma commaabovecomb commaaboverightcomb commaaccentcomb commaaccentcomb.salt commabelowcomb.case commareversedabovecomb commareversedbelowcomb.case commaturnedabovecomb copyright currency d dagger daggerdbl dblgravecomb dblvlinecomb dcaron dcroat degree dieresis dieresis.case dieresiscomb divide divisionslash dollar dollar.spacer dollar.ss04 dollar_greater.liga dotaccent dotaccent.case dotaccentcomb dotlessi dotlessi.cv03 dotlessi.cv04 dotlessi.cv05 dotlessi.cv06 dotlessj e eacute ebreve ecaron ecircumflex edieresis edotaccent egrave eight ellipsis emacron emdash endash eogonek equal equal.spacer equal_asciitilde.ss07 equal_end.seq equal_equal.liga equal_equal_equal.liga equal_middle.seq equal_start.seq exclam exclam.spacer exclam_equal.liga exclam_equal_equal.liga exclam_equal_middle.seq exclam_exclam.liga exclam_exclam_period.liga exclamdown f five florin four fraction g gbreve gbreve.cv02 gcircumflex gcircumflex.cv02 gcommaaccent gcommaaccent.cv02 gdotaccent gdotaccent.cv02 germandbls grave grave.case gravebelowcomb gravecomb greater greater.center greater.spacer greater_equal.liga greater_equal_end.seq greater_equal_middle.seq greater_equal_start.seq greater_greater.liga greater_greater_equal_end.seq greater_greater_equal_middle.seq greater_greater_equal_start.seq greater_greater_greater.liga greater_greater_hyphen_end.seq greater_greater_hyphen_middle.seq greater_greater_hyphen_start.seq greater_hyphen_end.seq greater_hyphen_end.seq.1 greater_hyphen_middle.seq greater_hyphen_start.seq greaterequal guillemotleft guillemotright guilsinglleft guilsinglright h hbar hcircumflex hookabovecomb horizontalbar hungarumlaut hungarumlaut.case hungarumlautcomb hyphen hyphen.lc hyphen.spacer hyphen_end.seq hyphen_hyphen.liga hyphen_middle.seq hyphen_start.seq i iacute iacute.cv03 iacute.cv04 iacute.cv05 iacute.cv06 ibreve ibreve.cv03 ibreve.cv04 ibreve.cv05 ibreve.cv06 icircumflex icircumflex.cv03 icircumflex.cv04 icircumflex.cv05 icircumflex.cv06 idieresis idieresis.cv03 idieresis.cv04 idieresis.cv05 idieresis.cv06 igrave igrave.cv03 igrave.cv04 igrave.cv05 igrave.cv06 ij imacron imacron.cv03 imacron.cv04 imacron.cv05 imacron.cv06 iogonek iogonek.cv03 iogonek.cv04 iogonek.cv05 iogonek.cv06 itilde itilde.cv03 itilde.cv04 itilde.cv05 itilde.cv06 j jcircumflex k kcommaaccent kgreenlandic l lacute lacute.cv07 lacute.cv08 lacute.cv09 lacute.cv10 lcaron lcaron.cv07 lcaron.cv08 lcaron.cv09 lcaron.cv10 lcommaaccent lcommaaccent.cv07 lcommaaccent.cv08 lcommaaccent.cv09 lcommaaccent.cv10 ldot ldot.cv07 ldot.cv08 ldot.cv09 ldot.cv10 less less.center less.spacer less_asterisk.liga less_asterisk_greater.liga less_bar.liga less_bar_bar.liga less_bar_bar_bar.liga less_bar_greater.liga less_dollar.liga less_dollar_greater.liga less_equal.liga less_equal_end.seq less_equal_middle.seq less_equal_start.seq less_exclam_hyphen_hyphen.liga less_greater.liga less_hyphen_end.seq less_hyphen_middle.seq less_hyphen_start.seq less_less.liga less_less_equal_end.seq less_less_equal_middle.seq less_less_equal_start.seq less_less_hyphen_end.seq less_less_hyphen_middle.seq less_less_hyphen_start.seq less_less_less.liga less_plus.liga less_plus_greater.liga less_slash.liga less_slash_greater.liga lessequal logicalnot lozenge lslash lslash.cv07 lslash.cv08 lslash.cv09 lslash.cv10 m macron macron.case macroncomb minus mu multiply n nacute nacute.loclPLK napostrophe ncaron ncommaaccent nine notalmostequal notequal ntilde numbersign numbersign_braceleft.liga numbersign_bracketleft.liga numbersign_colon.liga numbersign_end.seq numbersign_equal.liga numbersign_exclam.liga numbersign_middle.seq numbersign_parenleft.liga numbersign_question.liga numbersign_start.seq numbersign_underscore.liga numbersign_underscore_parenleft.liga o oacute oacute.loclPLK obreve ocircumflex odieresis oe ogonek ograve ohungarumlaut omacron one ordfeminine ordmasculine oslash oslashacute otilde overlinecomb p parenleft parenright percent percent_percent.liga period period.spacer period_period.liga period_period_equal.liga period_period_less.liga period_period_period.liga period_question.liga periodcentered perthousand pi plus plus.spacer plus_greater.liga plus_plus.liga plus_plus_plus.liga plusminus product q question question_equal.liga question_period.liga questiondbl.liga questiondown quotedbl quotedblbase quotedblleft quotedblright quoteleft quoteright quotesinglbase quotesingle r racute rcaron rcommaaccent registered ring ring.case ringcomb s sacute sacute.loclPLK scaron scedilla scircumflex scommaaccent semicolon semicolon.spacer semicolon_semicolon.liga seven six slash slash.spacer slash_asterisk.liga slash_backslash.liga slash_equal_end.seq slash_equal_middle.seq slash_equal_start.seq slash_greater.liga slash_slash.liga slash_slash_equal_end.seq slash_slash_equal_middle.seq slash_slash_equal_start.seq slash_slash_slash.liga softhyphen softhyphen.case space summation t tbar tcaron tcedilla tcommaaccent thorn three tilde tilde.case tildecomb trademark two u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron underscore underscore.spacer underscore_end.seq underscore_middle.seq underscore_start.seq uni00A0 uni0122 uni02C9 uni2219 uni2E3A uni2E3B uniEE00 uniEE01 uniEE02 uniEE03 uniEE04 uniEE05 universal uogonek uring utilde v vlinecomb w w.spacer w_w_w.liga wacute wcircumflex wdieresis wgrave x y yacute ycircumflex ydieresis yen ygrave z zacute zacute.loclPLK zcaron zdotaccent zero Eng F.spacer Germandbls T.spacer ampersand.spacer asciicircum.spacer asterisk.spacer at.spacer backslash.ss06 braceleft.spacer braceleft_bar.liga braceright.spacer bracketleft.spacer bracketleft_bar.liga bracketleft_bracketright.cv27 bracketright.spacer brevecy.case endash.case eng equal.dnom eth f.spacer guilsinglleft.case guilsinglright.case hyphen.case l.spacer numbersign.spacer ogonekcomb paragraph parenleft.spacer percent.spacer period_equal.cv32 question.spacer section sterling strokelongoverlay strokeshortoverlay underscoredbl uni2007.tf uni207B uni207C uni208B zerowidthnobreakspace];
 @mkmk = [gravecomb tildecomb acutecomb brevecomb caroncomb circumflexcomb dieresiscomb dotaccentcomb hungarumlautcomb macroncomb ringcomb overlinecomb dblgravecomb commaabovecomb commareversedabovecomb];
 @noblank = [A AE AEacute Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde B C Cacute Cacute.loclPLK Ccaron Ccedilla Ccircumflex Cdotaccent D Dcaron Dcroat E Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek Eth Euro F G Gbreve Gcircumflex Gdotaccent H Hbar Hcircumflex I IJ Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J Jcircumflex K Kcommaaccent L Lacute Lcaron Lcommaaccent Ldot Lslash M N Nacute Nacute.loclPLK Ncaron Ncommaaccent Ntilde O OE Oacute Oacute.loclPLK Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Oslashacute Otilde P Q R Racute Rcaron Rcommaaccent S Sacute Sacute.loclPLK Scaron Scedilla Scircumflex Scommaaccent T Tbar Tcaron Tcedilla Tcommaaccent Thorn U Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Z Zacute Zacute.loclPLK Zcaron Zdotaccent a aacute aacute.cv01 abreve abreve.cv01 acircumflex acircumflex.cv01 acute acute.case acute.case.loclPLK acute.loclPLK acutebelowcomb acutecomb adieresis adieresis.cv01 ae aeacute agrave agrave.cv01 amacron amacron.cv01 ampersand ampersand_ampersand.liga aogonek aogonek.cv01 approxequal aring aring.cv01 asciicircum asciicircum_equal.liga asciitilde asterisk asterisk_asterisk.liga asterisk_asterisk_asterisk.liga asterisk_greater.liga asterisk_slash.liga at atilde atilde.cv01 b backslash backslash_slash.liga bar bar_bar.liga bar_bar_bar.liga bar_bar_bar_greater.liga bar_bar_equal_end.seq bar_bar_equal_middle.seq bar_bar_equal_start.seq bar_bar_greater.liga bar_bar_hyphen_end.seq bar_bar_hyphen_middle.seq bar_bar_hyphen_start.seq bar_braceright.liga bar_bracketright.liga bar_equal_end.seq bar_equal_middle.seq bar_equal_start.seq bar_greater.liga bar_hyphen_end.seq bar_hyphen_middle.seq bar_hyphen_start.seq bar_underscore_middle.seq braceleft braceright bracketleft bracketright breve breve.case brevecomb breveinvertedcomb brokenbar bullet c cacute cacute.loclPLK candraBinducomb caron caron.case caron.salt caroncomb ccaron ccedilla ccircumflex cdotaccent cedilla cedilla.case cedillacomb cent circumflex circumflex.case circumflexcomb colon colon_colon.liga colon_colon_colon.liga colon_colon_equal.liga colon_equal.liga colon_equal_middle.seq comma commaabovecomb commaaboverightcomb commaaccentcomb commaaccentcomb.salt commabelowcomb.case commareversedabovecomb commareversedbelowcomb.case commaturnedabovecomb copyright currency d dagger daggerdbl dblgravecomb dblvlinecomb dcaron dcroat degree dieresis dieresis.case dieresiscomb divide divisionslash dollar dollar.ss04 dollar_greater.liga dotaccent dotaccent.case dotaccentcomb dotlessi dotlessi.cv03 dotlessi.cv04 dotlessi.cv05 dotlessi.cv06 dotlessj e eacute ebreve ecaron ecircumflex edieresis edotaccent egrave eight ellipsis emacron emdash endash eogonek equal equal_asciitilde.ss07 equal_end.seq equal_equal.liga equal_equal_equal.liga equal_middle.seq equal_start.seq exclam exclam_equal.liga exclam_equal_equal.liga exclam_equal_middle.seq exclam_exclam.liga exclam_exclam_period.liga exclamdown f five florin four fraction g gbreve gbreve.cv02 gcircumflex gcircumflex.cv02 gcommaaccent gcommaaccent.cv02 gdotaccent gdotaccent.cv02 germandbls grave grave.case gravebelowcomb gravecomb greater greater_equal.liga greater_equal_end.seq greater_equal_middle.seq greater_equal_start.seq greater_greater.liga greater_greater_equal_end.seq greater_greater_equal_middle.seq greater_greater_equal_start.seq greater_greater_greater.liga greater_greater_hyphen_end.seq greater_greater_hyphen_middle.seq greater_greater_hyphen_start.seq greater_hyphen_end.seq greater_hyphen_end.seq.1 greater_hyphen_middle.seq greater_hyphen_start.seq greaterequal guillemotleft guillemotright guilsinglleft guilsinglright h hbar hcircumflex hookabovecomb horizontalbar hungarumlaut hungarumlaut.case hungarumlautcomb hyphen hyphen.lc hyphen_end.seq hyphen_hyphen.liga hyphen_middle.seq hyphen_start.seq i iacute iacute.cv03 iacute.cv04 iacute.cv05 iacute.cv06 ibreve ibreve.cv03 ibreve.cv04 ibreve.cv05 ibreve.cv06 icircumflex icircumflex.cv03 icircumflex.cv04 icircumflex.cv05 icircumflex.cv06 idieresis idieresis.cv03 idieresis.cv04 idieresis.cv05 idieresis.cv06 igrave igrave.cv03 igrave.cv04 igrave.cv05 igrave.cv06 ij imacron imacron.cv03 imacron.cv04 imacron.cv05 imacron.cv06 iogonek iogonek.cv03 iogonek.cv04 iogonek.cv05 iogonek.cv06 itilde itilde.cv03 itilde.cv04 itilde.cv05 itilde.cv06 j jcircumflex k kcommaaccent kgreenlandic l lacute lacute.cv07 lacute.cv08 lacute.cv09 lacute.cv10 lcaron lcaron.cv07 lcaron.cv08 lcaron.cv09 lcaron.cv10 lcommaaccent lcommaaccent.cv07 lcommaaccent.cv08 lcommaaccent.cv09 lcommaaccent.cv10 ldot ldot.cv07 ldot.cv08 ldot.cv09 ldot.cv10 less less_asterisk.liga less_asterisk_greater.liga less_bar.liga less_bar_bar.liga less_bar_bar_bar.liga less_bar_greater.liga less_dollar.liga less_dollar_greater.liga less_equal.liga less_equal_end.seq less_equal_middle.seq less_equal_start.seq less_exclam_hyphen_hyphen.liga less_greater.liga less_hyphen_end.seq less_hyphen_middle.seq less_hyphen_start.seq less_less.liga less_less_equal_end.seq less_less_equal_middle.seq less_less_equal_start.seq less_less_hyphen_end.seq less_less_hyphen_middle.seq less_less_hyphen_start.seq less_less_less.liga less_plus.liga less_plus_greater.liga less_slash.liga less_slash_greater.liga lessequal logicalnot lozenge lslash lslash.cv07 lslash.cv08 lslash.cv09 lslash.cv10 m macron macron.case macroncomb minus mu multiply n nacute nacute.loclPLK napostrophe ncaron ncommaaccent nine notalmostequal notequal ntilde numbersign numbersign_braceleft.liga numbersign_bracketleft.liga numbersign_colon.liga numbersign_end.seq numbersign_equal.liga numbersign_exclam.liga numbersign_middle.seq numbersign_parenleft.liga numbersign_question.liga numbersign_start.seq numbersign_underscore.liga numbersign_underscore_parenleft.liga o oacute oacute.loclPLK obreve ocircumflex odieresis oe ogonek ograve ohungarumlaut omacron one ordfeminine ordmasculine oslash oslashacute otilde overlinecomb p parenleft parenright percent percent_percent.liga period period_period.liga period_period_equal.liga period_period_less.liga period_period_period.liga period_question.liga periodcentered perthousand pi plus plus_greater.liga plus_plus.liga plus_plus_plus.liga plusminus product q question question_equal.liga question_period.liga questiondbl.liga questiondown quotedbl quotedblbase quotedblleft quotedblright quoteleft quoteright quotesinglbase quotesingle r racute rcaron rcommaaccent registered ring ring.case ringcomb s sacute sacute.loclPLK scaron scedilla scircumflex scommaaccent semicolon semicolon_semicolon.liga seven six slash slash_asterisk.liga slash_backslash.liga slash_equal_end.seq slash_equal_middle.seq slash_equal_start.seq slash_greater.liga slash_slash.liga slash_slash_equal_end.seq slash_slash_equal_middle.seq slash_slash_equal_start.seq slash_slash_slash.liga softhyphen softhyphen.case summation t tbar tcaron tcedilla tcommaaccent thorn three tilde tilde.case tildecomb trademark two u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron underscore underscore_end.seq underscore_middle.seq underscore_start.seq uni0122 uni02C9 uni2219 uni2E3A uni2E3B uniEE00 uniEE01 uniEE02 uniEE03 uniEE04 uniEE05 universal uogonek uring utilde v vlinecomb w w_w_w.liga wacute wcircumflex wdieresis wgrave x y yacute ycircumflex ydieresis yen ygrave z zacute zacute.loclPLK zcaron zdotaccent zero Eng Germandbls bracketleft_bracketright.cv27 eng eth paragraph section sterling];
@@ -2174,7 +2174,7 @@ feature ccmp {
 # GSUB feature: Glyph Composition / Decomposition
 # Lookups: 1
 
-  sub i' lookup ccmp_2 @ccmp2;
+  #sub i' lookup ccmp_2 @ccmp2;
   sub i' lookup ccmp_3 [commaaccentcomb cedillacomb] @ccmp2;
   sub @ccmp @ccmp' lookup ccmp_2;
   sub @ccmp3 @ccmp' lookup ccmp_3;
@@ -2469,3 +2469,1182 @@ feature salt {
 
 } salt;
 
+feature mark {
+# GPOS feature : Mark Positioning
+    markClass acute <anchor 600 1570> @bottom;
+    markClass acute <anchor 600 1290> @top;
+    markClass acute.case <anchor 600 1570> @bottom;
+    markClass acute.case <anchor 600 1290> @top;
+    markClass acutebelowcomb <anchor 600 -160> @bottom;
+    markClass acutebelowcomb <anchor 600 -440> @top;
+    markClass acutecomb <anchor 600 1570> @bottom;
+    markClass acutecomb <anchor 600 1290> @top;
+    markClass breve <anchor 600 1609> @bottom;
+    markClass breve <anchor 600 1300> @top;
+    markClass breve.case <anchor 600 1649> @bottom;
+    markClass breve.case <anchor 600 1340> @top;
+    markClass brevecomb <anchor 600 1649> @bottom;
+    markClass brevecomb <anchor 600 1340> @top;
+    markClass breveinvertedcomb <anchor 600 1640> @bottom;
+    markClass breveinvertedcomb <anchor 600 1340> @top;
+    markClass candraBinducomb <anchor 600 1800> @bottom;
+    markClass candraBinducomb <anchor 600 1300> @top;
+    markClass caroncomb <anchor 600 1480> @bottom;
+    markClass caroncomb <anchor 600 1200> @top;
+    markClass cedilla <anchor 600 -140> @bottom;
+    markClass cedilla.case <anchor 600 -140> @bottom;
+    markClass cedillacomb <anchor 600 -140> @bottom;
+    markClass circumflex <anchor 600 1480> @bottom;
+    markClass circumflex <anchor 600 1200> @top;
+    markClass circumflexcomb <anchor 600 1480> @bottom;
+    markClass circumflexcomb <anchor 600 1200> @top;
+    markClass commaabovecomb <anchor 600 1550> @bottom;
+    markClass commaabovecomb <anchor 600 1160> @top;
+    markClass commaaboverightcomb <anchor 600 1550> @bottom;
+    markClass commaaboverightcomb <anchor 600 1160> @top;
+    markClass commaaccentcomb <anchor 600 1020> @bottom;
+    markClass commaaccentcomb <anchor 600 330> @top;
+    markClass commaaccentcomb.salt <anchor 600 -140> @bottom;
+    markClass commaaccentcomb.salt <anchor 600 -530> @top;
+    markClass commabelowcomb.case <anchor 600 -140> @bottom;
+    markClass commabelowcomb.case <anchor 600 -530> @top;
+    markClass commareversedabovecomb <anchor 600 1550> @bottom;
+    markClass commareversedabovecomb <anchor 600 1160> @top;
+    markClass commareversedbelowcomb.case <anchor 600 -150> @bottom;
+    markClass commareversedbelowcomb.case <anchor 600 -530> @top;
+    markClass commaturnedabovecomb <anchor 600 1550> @bottom;
+    markClass commaturnedabovecomb <anchor 600 1160> @top;
+    markClass dblgravecomb <anchor 603 1660> @bottom;
+    markClass dblgravecomb <anchor 603 1240> @top;
+    markClass dblvlinecomb <anchor 600 1600> @bottom;
+    markClass dblvlinecomb <anchor 600 1250> @top;
+    markClass dieresis <anchor 600 1490> @bottom;
+    markClass dieresis <anchor 600 1301> @top;
+    markClass dieresis.case <anchor 600 1490> @bottom;
+    markClass dieresis.case <anchor 600 1301> @top;
+    markClass dieresiscomb <anchor 600 1490> @bottom;
+    markClass dieresiscomb <anchor 600 1301> @top;
+    markClass dotaccent <anchor 600 1490> @bottom;
+    markClass dotaccent <anchor 600 1300> @top;
+    markClass dotaccent.case <anchor 600 1490> @bottom;
+    markClass dotaccent.case <anchor 600 1300> @top;
+    markClass dotaccentcomb <anchor 600 1490> @bottom;
+    markClass dotaccentcomb <anchor 696 1396> @left;
+    markClass dotaccentcomb <anchor 496 1396> @right;
+    markClass dotaccentcomb <anchor 600 1300> @top;
+    markClass grave <anchor 600 1540> @bottom;
+    markClass grave <anchor 600 1240> @top;
+    markClass grave.case <anchor 604 2300> @bottom;
+    markClass grave.case <anchor 604 2000> @top;
+    markClass gravebelowcomb <anchor 600 -160> @bottom;
+    markClass gravebelowcomb <anchor 600 -440> @top;
+    markClass gravecomb <anchor 600 1570> @bottom;
+    markClass gravecomb <anchor 600 1290> @top;
+    markClass hookabovecomb <anchor 600 1560> @bottom;
+    markClass hookabovecomb <anchor 600 1010> @top;
+    markClass hungarumlaut <anchor 600 1570> @bottom;
+    markClass hungarumlaut <anchor 600 1290> @top;
+    markClass hungarumlautcomb <anchor 600 1540> @bottom;
+    markClass hungarumlautcomb <anchor 600 1160> @top;
+    markClass macron <anchor 603 1370> @bottom;
+    markClass macron <anchor 603 1230> @top;
+    markClass macron.case <anchor 603 1370> @middleBottom;
+    markClass macron.case <anchor 603 1230> @middleTop;
+    markClass macroncomb <anchor 603 1370> @bottom;
+    markClass macroncomb <anchor 603 1230> @top;
+    markClass ogonek <anchor 600 -140> @bottom;
+    markClass ogonekcomb <anchor 600 -140> @bottom;
+    markClass overlinecomb <anchor 602 1350> @bottom;
+    markClass overlinecomb <anchor 602 1250> @top;
+    markClass period_equal.cv32 <anchor -3 886> @bottom;
+    markClass period_equal.cv32 <anchor -3 358> @top;
+    markClass period_period.liga <anchor 0 192> @bottom;
+    markClass period_period.liga <anchor 0 0> @top;
+    markClass period_period_equal.liga <anchor -576 886> @bottom;
+    markClass period_period_equal.liga <anchor -576 0> @top;
+    markClass period_period_less.liga <anchor -576 1270> @bottom;
+    markClass period_period_less.liga <anchor -576 0> @top;
+    markClass period_period_period.liga <anchor -601 192> @bottom;
+    markClass period_period_period.liga <anchor -601 0> @top;
+    markClass period_question.liga <anchor 0 1435> @bottom;
+    markClass period_question.liga <anchor 0 0> @top;
+    markClass periodcentered <anchor 600 541> @bottom;
+    markClass periodcentered <anchor 460 672> @left;
+    markClass periodcentered <anchor 740 672> @right;
+    markClass periodcentered <anchor 600 804> @top;
+    markClass quoteleft <anchor 580 1653> @bottom;
+    markClass quoteleft <anchor 580 1056> @top;
+    markClass ring <anchor 602 1563> @bottom;
+    markClass ring <anchor 602 1140> @top;
+    markClass ring.case <anchor 602 1563> @bottom;
+    markClass ring.case <anchor 602 1140> @top;
+    markClass ringcomb <anchor 602 1563> @bottom;
+    markClass ringcomb <anchor 602 1140> @top;
+    markClass tilde <anchor 603 1510> @bottom;
+    markClass tilde <anchor 603 1281> @top;
+    markClass tilde.case <anchor 603 1510> @bottom;
+    markClass tilde.case <anchor 603 1281> @top;
+    markClass tildecomb <anchor 603 1510> @bottom;
+    markClass tildecomb <anchor 603 1281> @top;
+    markClass vlinecomb <anchor 600 1600> @bottom;
+    markClass vlinecomb <anchor 600 1250> @top;
+
+  lookup markLTR1 {
+      pos base A
+          <anchor 600 -150> mark @bottom;
+      pos base Aacute
+          <anchor 600 -150> mark @bottom;
+      pos base Abreve
+          <anchor 600 -150> mark @bottom;
+      pos base Acircumflex
+          <anchor 600 -150> mark @bottom;
+      pos base Adieresis
+          <anchor 600 -150> mark @bottom;
+      pos base Agrave
+          <anchor 600 -150> mark @bottom;
+      pos base Amacron
+          <anchor 600 -150> mark @bottom;
+      pos base Aring
+          <anchor 600 -150> mark @bottom;
+      pos base Atilde
+          <anchor 600 -150> mark @bottom;
+      pos base B
+          <anchor 600 -150> mark @bottom;
+      pos base C
+          <anchor 588 -150> mark @bottom;
+      pos base Cacute
+          <anchor 588 -150> mark @bottom;
+      pos base Cacute.loclPLK
+          <anchor 588 -150> mark @bottom;
+      pos base Ccaron
+          <anchor 588 -150> mark @bottom;
+      pos base Ccircumflex
+          <anchor 588 -150> mark @bottom;
+      pos base Cdotaccent
+          <anchor 588 -150> mark @bottom;
+      pos base D
+          <anchor 600 -150> mark @bottom;
+      pos base Dcaron
+          <anchor 600 -150> mark @bottom;
+      pos base Dcroat
+          <anchor 600 -150> mark @bottom;
+      pos base E
+          <anchor 600 -150> mark @bottom;
+      pos base Eacute
+          <anchor 600 -150> mark @bottom;
+      pos base Ebreve
+          <anchor 600 -150> mark @bottom;
+      pos base Ecaron
+          <anchor 600 -150> mark @bottom;
+      pos base Ecircumflex
+          <anchor 600 -150> mark @bottom;
+      pos base Edieresis
+          <anchor 600 -150> mark @bottom;
+      pos base Edotaccent
+          <anchor 600 -150> mark @bottom;
+      pos base Egrave
+          <anchor 600 -150> mark @bottom;
+      pos base Emacron
+          <anchor 600 -150> mark @bottom;
+      pos base Eogonek
+          <anchor 600 -150> mark @bottom;
+      pos base Eth
+          <anchor 600 -150> mark @bottom;
+      pos base F
+          <anchor 240 -150> mark @bottom;
+      pos base G
+          <anchor 600 -150> mark @bottom;
+      pos base Gbreve
+          <anchor 600 -150> mark @bottom;
+      pos base Gcircumflex
+          <anchor 600 -150> mark @bottom;
+      pos base Gdotaccent
+          <anchor 600 -150> mark @bottom;
+      pos base H
+          <anchor 600 -150> mark @bottom;
+      pos base Hbar
+          <anchor 600 -150> mark @bottom;
+      pos base Hcircumflex
+          <anchor 600 -150> mark @bottom;
+      pos base I
+          <anchor 600 -150> mark @bottom;
+      pos base Iacute
+          <anchor 600 -150> mark @bottom;
+      pos base Ibreve
+          <anchor 600 -150> mark @bottom;
+      pos base Icircumflex
+          <anchor 600 -150> mark @bottom;
+      pos base Idieresis
+          <anchor 600 -150> mark @bottom;
+      pos base Idotaccent
+          <anchor 600 -150> mark @bottom;
+      pos base Igrave
+          <anchor 600 -150> mark @bottom;
+      pos base Imacron
+          <anchor 600 -150> mark @bottom;
+      pos base Itilde
+          <anchor 600 -150> mark @bottom;
+      pos base J
+          <anchor 520 -294> mark @bottom;
+      pos base Jcircumflex
+          <anchor 520 -294> mark @bottom;
+      pos base K
+          <anchor 601 -150> mark @bottom;
+      pos base Kcommaaccent
+          <anchor 601 -150> mark @bottom;
+      pos base L
+          <anchor 600 -150> mark @bottom;
+      pos base Lacute
+          <anchor 600 -150> mark @bottom;
+      pos base Lcaron
+          <anchor 600 -150> mark @bottom;
+      pos base Lcommaaccent
+          <anchor 600 -150> mark @bottom;
+      pos base Ldot
+          <anchor 600 -150> mark @bottom;
+      pos base Lslash
+          <anchor 600 -150> mark @bottom;
+      pos base M
+          <anchor 600 -150> mark @bottom;
+      pos base N
+          <anchor 600 -150> mark @bottom;
+      pos base Nacute
+          <anchor 600 -150> mark @bottom;
+      pos base Nacute.loclPLK
+          <anchor 600 -150> mark @bottom;
+      pos base Ncaron
+          <anchor 600 -150> mark @bottom;
+      pos base Ncommaaccent
+          <anchor 600 -150> mark @bottom;
+      pos base Ntilde
+          <anchor 600 -150> mark @bottom;
+      pos base O
+          <anchor 600 -150> mark @bottom;
+      pos base Oacute
+          <anchor 600 -150> mark @bottom;
+      pos base Oacute.loclPLK
+          <anchor 600 -150> mark @bottom;
+      pos base Obreve
+          <anchor 600 -150> mark @bottom;
+      pos base Ocircumflex
+          <anchor 600 -150> mark @bottom;
+      pos base Odieresis
+          <anchor 600 -150> mark @bottom;
+      pos base Ograve
+          <anchor 600 -150> mark @bottom;
+      pos base Ohungarumlaut
+          <anchor 600 -150> mark @bottom;
+      pos base Omacron
+          <anchor 600 -150> mark @bottom;
+      pos base Oslash
+          <anchor 600 -150> mark @bottom;
+      pos base Oslashacute
+          <anchor 600 -150> mark @bottom;
+      pos base Otilde
+          <anchor 600 -150> mark @bottom;
+      pos base P
+          <anchor 600 -150> mark @bottom;
+      pos base Q
+          <anchor 600 -150> mark @bottom;
+      pos base R
+          <anchor 600 -150> mark @bottom;
+      pos base Racute
+          <anchor 600 -150> mark @bottom;
+      pos base Rcaron
+          <anchor 600 -150> mark @bottom;
+      pos base Rcommaaccent
+          <anchor 600 -150> mark @bottom;
+      pos base S
+          <anchor 600 -150> mark @bottom;
+      pos base Sacute
+          <anchor 600 -150> mark @bottom;
+      pos base Sacute.loclPLK
+          <anchor 600 -150> mark @bottom;
+      pos base Scaron
+          <anchor 600 -150> mark @bottom;
+      pos base Scircumflex
+          <anchor 600 -150> mark @bottom;
+      pos base Scommaaccent
+          <anchor 600 -150> mark @bottom;
+      pos base T
+          <anchor 600 -150> mark @bottom;
+      pos base Tbar
+          <anchor 600 -150> mark @bottom;
+      pos base Tcaron
+          <anchor 600 -150> mark @bottom;
+      pos base Tcommaaccent
+          <anchor 600 -150> mark @bottom;
+      pos base Thorn
+          <anchor 600 229> mark @bottom;
+      pos base U
+          <anchor 600 -150> mark @bottom;
+      pos base Uacute
+          <anchor 600 -150> mark @bottom;
+      pos base Ubreve
+          <anchor 600 -150> mark @bottom;
+      pos base Ucircumflex
+          <anchor 600 -150> mark @bottom;
+      pos base Udieresis
+          <anchor 600 -150> mark @bottom;
+      pos base Ugrave
+          <anchor 600 -150> mark @bottom;
+      pos base Uhungarumlaut
+          <anchor 600 -150> mark @bottom;
+      pos base Umacron
+          <anchor 600 -150> mark @bottom;
+      pos base Uring
+          <anchor 600 -150> mark @bottom;
+      pos base Utilde
+          <anchor 600 -150> mark @bottom;
+      pos base V
+          <anchor 544 -150> mark @bottom;
+      pos base W
+          <anchor 620 -150> mark @bottom;
+      pos base Wacute
+          <anchor 620 -150> mark @bottom;
+      pos base Wcircumflex
+          <anchor 620 -150> mark @bottom;
+      pos base Wdieresis
+          <anchor 620 -150> mark @bottom;
+      pos base Wgrave
+          <anchor 620 -150> mark @bottom;
+      pos base X
+          <anchor 600 -150> mark @bottom;
+      pos base Y
+          <anchor 600 -150> mark @bottom;
+      pos base Yacute
+          <anchor 600 -150> mark @bottom;
+      pos base Ycircumflex
+          <anchor 600 -150> mark @bottom;
+      pos base Ydieresis
+          <anchor 600 -150> mark @bottom;
+      pos base Ygrave
+          <anchor 600 -150> mark @bottom;
+      pos base Z
+          <anchor 600 -150> mark @bottom;
+      pos base Zacute
+          <anchor 600 -150> mark @bottom;
+      pos base Zacute.loclPLK
+          <anchor 600 -150> mark @bottom;
+      pos base Zcaron
+          <anchor 600 -150> mark @bottom;
+      pos base Zdotaccent
+          <anchor 600 -150> mark @bottom;
+      pos base a
+          <anchor 600 -150> mark @bottom;
+      pos base aacute
+          <anchor 600 -150> mark @bottom;
+      pos base aacute.cv01
+          <anchor 600 -150> mark @bottom;
+      pos base abreve
+          <anchor 600 -150> mark @bottom;
+      pos base abreve.cv01
+          <anchor 600 -150> mark @bottom;
+      pos base acircumflex
+          <anchor 600 -150> mark @bottom;
+      pos base acircumflex.cv01
+          <anchor 600 -150> mark @bottom;
+      pos base adieresis
+          <anchor 600 -150> mark @bottom;
+      pos base adieresis.cv01
+          <anchor 600 -150> mark @bottom;
+      pos base agrave
+          <anchor 600 -150> mark @bottom;
+      pos base agrave.cv01
+          <anchor 600 -150> mark @bottom;
+      pos base amacron
+          <anchor 600 -150> mark @bottom;
+      pos base amacron.cv01
+          <anchor 600 -150> mark @bottom;
+      pos base aring
+          <anchor 600 -150> mark @bottom;
+      pos base aring.cv01
+          <anchor 600 -150> mark @bottom;
+      pos base asciitilde
+          <anchor 600 1281> mark @bottom;
+      pos base atilde
+          <anchor 600 -150> mark @bottom;
+      pos base atilde.cv01
+          <anchor 600 -150> mark @bottom;
+      pos base b
+          <anchor 600 -150> mark @bottom;
+      pos base c
+          <anchor 591 -150> mark @bottom;
+      pos base cacute
+          <anchor 591 -150> mark @bottom;
+      pos base cacute.loclPLK
+          <anchor 591 -150> mark @bottom;
+      pos base ccaron
+          <anchor 591 -150> mark @bottom;
+      pos base ccircumflex
+          <anchor 591 -150> mark @bottom;
+      pos base cdotaccent
+          <anchor 591 -150> mark @bottom;
+      pos base cent
+          <anchor 591 -150> mark @bottom;
+      pos base copyright
+          <anchor 600 -110> mark @bottom;
+      pos base d
+          <anchor 600 -150> mark @bottom;
+      pos base dcaron
+          <anchor 600 -150> mark @bottom;
+      pos base dcroat
+          <anchor 600 -150> mark @bottom;
+      pos base dollar.spacer
+          <anchor 600 -150> mark @bottom;
+      pos base dollar.ss04
+          <anchor 600 -150> mark @bottom;
+      pos base dotlessi
+          <anchor 600 -150> mark @bottom;
+      pos base dotlessi.cv03
+          <anchor 600 -150> mark @bottom;
+      pos base dotlessi.cv04
+          <anchor 600 -150> mark @bottom;
+      pos base dotlessi.cv05
+          <anchor 600 -150> mark @bottom;
+      pos base dotlessi.cv06
+          <anchor 600 -150> mark @bottom;
+      pos base dotlessj
+          <anchor 530 -582> mark @bottom;
+      pos base e
+          <anchor 600 -150> mark @bottom;
+      pos base eacute
+          <anchor 600 -150> mark @bottom;
+      pos base ebreve
+          <anchor 600 -150> mark @bottom;
+      pos base ecaron
+          <anchor 600 -150> mark @bottom;
+      pos base ecircumflex
+          <anchor 600 -150> mark @bottom;
+      pos base edieresis
+          <anchor 600 -150> mark @bottom;
+      pos base edotaccent
+          <anchor 600 -150> mark @bottom;
+      pos base egrave
+          <anchor 600 -150> mark @bottom;
+      pos base emacron
+          <anchor 600 -150> mark @bottom;
+      pos base f
+          <anchor 400 -150> mark @bottom;
+      pos base g
+          <anchor 600 -534> mark @bottom;
+      pos base gbreve
+          <anchor 600 -534> mark @bottom;
+      pos base gbreve.cv02
+          <anchor 600 -534> mark @bottom;
+      pos base gcircumflex
+          <anchor 600 -534> mark @bottom;
+      pos base gcircumflex.cv02
+          <anchor 600 -534> mark @bottom;
+      pos base gcommaaccent
+          <anchor 600 -534> mark @bottom;
+      pos base gcommaaccent.cv02
+          <anchor 600 -534> mark @bottom;
+      pos base gdotaccent
+          <anchor 600 -534> mark @bottom;
+      pos base gdotaccent.cv02
+          <anchor 600 -534> mark @bottom;
+      pos base h
+          <anchor 600 -150> mark @bottom;
+      pos base hbar
+          <anchor 600 -150> mark @bottom;
+      pos base hcircumflex
+          <anchor 600 -150> mark @bottom;
+      pos base i
+          <anchor 600 -150> mark @bottom;
+      pos base iacute
+          <anchor 600 -150> mark @bottom;
+      pos base iacute.cv03
+          <anchor 600 -150> mark @bottom;
+      pos base iacute.cv04
+          <anchor 600 -150> mark @bottom;
+      pos base iacute.cv05
+          <anchor 600 -150> mark @bottom;
+      pos base iacute.cv06
+          <anchor 600 -150> mark @bottom;
+      pos base ibreve
+          <anchor 600 -150> mark @bottom;
+      pos base ibreve.cv03
+          <anchor 600 -150> mark @bottom;
+      pos base ibreve.cv04
+          <anchor 600 -150> mark @bottom;
+      pos base ibreve.cv05
+          <anchor 600 -150> mark @bottom;
+      pos base ibreve.cv06
+          <anchor 600 -150> mark @bottom;
+      pos base icircumflex
+          <anchor 600 -150> mark @bottom;
+      pos base icircumflex.cv03
+          <anchor 600 -150> mark @bottom;
+      pos base icircumflex.cv04
+          <anchor 600 -150> mark @bottom;
+      pos base icircumflex.cv05
+          <anchor 600 -150> mark @bottom;
+      pos base icircumflex.cv06
+          <anchor 600 -150> mark @bottom;
+      pos base idieresis
+          <anchor 600 -150> mark @bottom;
+      pos base idieresis.cv03
+          <anchor 600 -150> mark @bottom;
+      pos base idieresis.cv04
+          <anchor 600 -150> mark @bottom;
+      pos base idieresis.cv05
+          <anchor 600 -150> mark @bottom;
+      pos base idieresis.cv06
+          <anchor 600 -150> mark @bottom;
+      pos base igrave
+          <anchor 600 -150> mark @bottom;
+      pos base igrave.cv03
+          <anchor 600 -150> mark @bottom;
+      pos base igrave.cv04
+          <anchor 600 -150> mark @bottom;
+      pos base igrave.cv05
+          <anchor 600 -150> mark @bottom;
+      pos base igrave.cv06
+          <anchor 600 -150> mark @bottom;
+      pos base imacron
+          <anchor 600 -150> mark @bottom;
+      pos base imacron.cv03
+          <anchor 600 -150> mark @bottom;
+      pos base imacron.cv04
+          <anchor 600 -150> mark @bottom;
+      pos base imacron.cv05
+          <anchor 600 -150> mark @bottom;
+      pos base imacron.cv06
+          <anchor 600 -150> mark @bottom;
+      pos base itilde
+          <anchor 600 -150> mark @bottom;
+      pos base itilde.cv03
+          <anchor 600 -150> mark @bottom;
+      pos base itilde.cv04
+          <anchor 600 -150> mark @bottom;
+      pos base itilde.cv05
+          <anchor 600 -150> mark @bottom;
+      pos base itilde.cv06
+          <anchor 600 -150> mark @bottom;
+      pos base j
+          <anchor 519 -582> mark @bottom;
+      pos base jcircumflex
+          <anchor 530 -582> mark @bottom;
+      pos base k
+          <anchor 600 -150> mark @bottom;
+      pos base kcommaaccent
+          <anchor 600 -150> mark @bottom;
+      pos base kgreenlandic
+          <anchor 601 -150> mark @bottom;
+      pos base l
+          <anchor 490 -150> mark @bottom;
+      pos base lacute
+          <anchor 490 -150> mark @bottom;
+      pos base lacute.cv07
+          <anchor 490 -150> mark @bottom;
+      pos base lacute.cv08
+          <anchor 490 -150> mark @bottom;
+      pos base lacute.cv09
+          <anchor 490 -150> mark @bottom;
+      pos base lacute.cv10
+          <anchor 490 -150> mark @bottom;
+      pos base lcaron
+          <anchor 490 -150> mark @bottom;
+      pos base lcaron.cv07
+          <anchor 490 -150> mark @bottom;
+      pos base lcaron.cv08
+          <anchor 490 -150> mark @bottom;
+      pos base lcaron.cv09
+          <anchor 490 -150> mark @bottom;
+      pos base lcaron.cv10
+          <anchor 490 -150> mark @bottom;
+      pos base lcommaaccent
+          <anchor 490 -150> mark @bottom;
+      pos base lcommaaccent.cv07
+          <anchor 490 -150> mark @bottom;
+      pos base lcommaaccent.cv08
+          <anchor 490 -150> mark @bottom;
+      pos base lcommaaccent.cv09
+          <anchor 490 -150> mark @bottom;
+      pos base lcommaaccent.cv10
+          <anchor 490 -150> mark @bottom;
+      pos base ldot
+          <anchor 490 -150> mark @bottom;
+      pos base ldot.cv07
+          <anchor 490 -150> mark @bottom;
+      pos base ldot.cv08
+          <anchor 490 -150> mark @bottom;
+      pos base ldot.cv09
+          <anchor 490 -150> mark @bottom;
+      pos base ldot.cv10
+          <anchor 490 -150> mark @bottom;
+      pos base lslash
+          <anchor 490 -150> mark @bottom;
+      pos base lslash.cv07
+          <anchor 490 -150> mark @bottom;
+      pos base lslash.cv08
+          <anchor 490 -150> mark @bottom;
+      pos base lslash.cv09
+          <anchor 490 -150> mark @bottom;
+      pos base lslash.cv10
+          <anchor 490 -150> mark @bottom;
+      pos base m
+          <anchor 600 -150> mark @bottom;
+      pos base n
+          <anchor 600 -150> mark @bottom;
+      pos base nacute
+          <anchor 600 -150> mark @bottom;
+      pos base nacute.loclPLK
+          <anchor 600 -150> mark @bottom;
+      pos base napostrophe
+          <anchor 600 -150> mark @bottom;
+      pos base ncaron
+          <anchor 600 -150> mark @bottom;
+      pos base ncommaaccent
+          <anchor 600 -150> mark @bottom;
+      pos base ntilde
+          <anchor 600 -150> mark @bottom;
+      pos base o
+          <anchor 600 -150> mark @bottom;
+      pos base oacute
+          <anchor 600 -150> mark @bottom;
+      pos base oacute.loclPLK
+          <anchor 600 -150> mark @bottom;
+      pos base obreve
+          <anchor 600 -150> mark @bottom;
+      pos base ocircumflex
+          <anchor 600 -150> mark @bottom;
+      pos base odieresis
+          <anchor 600 -150> mark @bottom;
+      pos base ograve
+          <anchor 600 -150> mark @bottom;
+      pos base ohungarumlaut
+          <anchor 600 -150> mark @bottom;
+      pos base omacron
+          <anchor 600 -150> mark @bottom;
+      pos base oslash
+          <anchor 600 -150> mark @bottom;
+      pos base oslashacute
+          <anchor 600 -150> mark @bottom;
+      pos base otilde
+          <anchor 600 -150> mark @bottom;
+      pos base p
+          <anchor 240 -581> mark @bottom;
+      pos base pi
+          <anchor 600 -150> mark @bottom;
+      pos base q
+          <anchor 560 -581> mark @bottom;
+      pos base r
+          <anchor 609 -150> mark @bottom;
+      pos base racute
+          <anchor 617 -150> mark @bottom;
+      pos base rcaron
+          <anchor 617 -150> mark @bottom;
+      pos base rcommaaccent
+          <anchor 609 -150> mark @bottom;
+      pos base s
+          <anchor 585 -150> mark @bottom;
+      pos base sacute
+          <anchor 585 -150> mark @bottom;
+      pos base sacute.loclPLK
+          <anchor 585 -150> mark @bottom;
+      pos base scaron
+          <anchor 585 -150> mark @bottom;
+      pos base scircumflex
+          <anchor 585 -150> mark @bottom;
+      pos base scommaaccent
+          <anchor 585 -150> mark @bottom;
+      pos base t
+          <anchor 656 -130> mark @bottom;
+      pos base tbar
+          <anchor 656 -130> mark @bottom;
+      pos base tcaron
+          <anchor 656 -130> mark @bottom;
+      pos base tcommaaccent
+          <anchor 656 -130> mark @bottom;
+      pos base thorn
+          <anchor 600 -150> mark @bottom;
+      pos base u
+          <anchor 600 -150> mark @bottom;
+      pos base uacute
+          <anchor 600 -150> mark @bottom;
+      pos base ubreve
+          <anchor 600 -150> mark @bottom;
+      pos base ucircumflex
+          <anchor 600 -150> mark @bottom;
+      pos base udieresis
+          <anchor 600 -150> mark @bottom;
+      pos base ugrave
+          <anchor 600 -150> mark @bottom;
+      pos base uhungarumlaut
+          <anchor 600 -150> mark @bottom;
+      pos base umacron
+          <anchor 600 -150> mark @bottom;
+      pos base uni0122
+          <anchor 600 -150> mark @bottom;
+      pos base uring
+          <anchor 600 -150> mark @bottom;
+      pos base utilde
+          <anchor 600 -150> mark @bottom;
+      pos base v
+          <anchor 600 -150> mark @bottom;
+      pos base w
+          <anchor 600 -150> mark @bottom;
+      pos base wacute
+          <anchor 600 -150> mark @bottom;
+      pos base wcircumflex
+          <anchor 600 -150> mark @bottom;
+      pos base wdieresis
+          <anchor 600 -150> mark @bottom;
+      pos base wgrave
+          <anchor 600 -150> mark @bottom;
+      pos base x
+          <anchor 600 -150> mark @bottom;
+      pos base y
+          <anchor 600 -583> mark @bottom;
+      pos base yacute
+          <anchor 600 -583> mark @bottom;
+      pos base ycircumflex
+          <anchor 600 -583> mark @bottom;
+      pos base ydieresis
+          <anchor 600 -583> mark @bottom;
+      pos base yen
+          <anchor 600 -150> mark @bottom;
+      pos base ygrave
+          <anchor 600 -583> mark @bottom;
+      pos base z
+          <anchor 600 -150> mark @bottom;
+      pos base zacute
+          <anchor 600 -150> mark @bottom;
+      pos base zacute.loclPLK
+          <anchor 600 -150> mark @bottom;
+      pos base zcaron
+          <anchor 600 -150> mark @bottom;
+      pos base zdotaccent
+          <anchor 600 -150> mark @bottom;
+  } markLTR1;
+
+  lookup markLTR2 {
+      pos base A
+          <anchor 600 1550> mark @top;
+      pos base Aogonek
+          <anchor 600 1550> mark @top;
+      pos base B
+          <anchor 600 1543> mark @top;
+      pos base C
+          <anchor 588 1542> mark @top;
+      pos base Ccedilla
+          <anchor 588 1542> mark @top;
+      pos base D
+          <anchor 600 1542> mark @top;
+      pos base Dcroat
+          <anchor 600 1542> mark @top;
+      pos base E
+          <anchor 600 1542> mark @top;
+      pos base Eng
+          <anchor 960 1541> mark @top;
+      pos base Eogonek
+          <anchor 600 1542> mark @top;
+      pos base Eth
+          <anchor 600 1542> mark @top;
+      pos base F
+          <anchor 600 1542> mark @top;
+      pos base G
+          <anchor 600 1542> mark @top;
+      pos base H
+          <anchor 600 1542> mark @top;
+      pos base Hbar
+          <anchor 600 1542> mark @top;
+      pos base I
+          <anchor 600 1542> mark @top;
+      pos base Iogonek
+          <anchor 600 1542> mark @top;
+      pos base J
+          <anchor 800 1541> mark @top;
+      pos base K
+          <anchor 601 1542> mark @top;
+      pos base L
+          <anchor 600 1542> mark @top;
+      pos base Lcaron
+          <anchor 600 1542> mark @top;
+      pos base Lslash
+          <anchor 600 1542> mark @top;
+      pos base M
+          <anchor 600 1542> mark @top;
+      pos base N
+          <anchor 600 1542> mark @top;
+      pos base O
+          <anchor 600 1542> mark @top;
+      pos base Oslash
+          <anchor 600 1542> mark @top;
+      pos base P
+          <anchor 600 1542> mark @top;
+      pos base Q
+          <anchor 600 1542> mark @top;
+      pos base R
+          <anchor 600 1542> mark @top;
+      pos base S
+          <anchor 600 1543> mark @top;
+      pos base Scedilla
+          <anchor 600 1543> mark @top;
+      pos base T
+          <anchor 600 1542> mark @top;
+      pos base Tbar
+          <anchor 600 1542> mark @top;
+      pos base Tcedilla
+          <anchor 600 1542> mark @top;
+      pos base Thorn
+          <anchor 600 2017> mark @top;
+      pos base U
+          <anchor 600 1542> mark @top;
+      pos base Uogonek
+          <anchor 600 1542> mark @top;
+      pos base V
+          <anchor 600 1543> mark @top;
+      pos base W
+          <anchor 600 1542> mark @top;
+      pos base X
+          <anchor 600 1542> mark @top;
+      pos base Y
+          <anchor 600 1542> mark @top;
+      pos base Z
+          <anchor 600 1542> mark @top;
+      pos base a
+          <anchor 640 1206> mark @top;
+      pos base aogonek
+          <anchor 640 1206> mark @top;
+      pos base aogonek.cv01
+          <anchor 640 1206> mark @top;
+      pos base asciitilde
+          <anchor 600 1510> mark @top;
+      pos base b
+          <anchor 600 1638> mark @top;
+      pos base c
+          <anchor 591 1206> mark @top;
+      pos base ccedilla
+          <anchor 591 1206> mark @top;
+      pos base cent
+          <anchor 591 1206> mark @top;
+      pos base copyright
+          <anchor 600 1308> mark @top;
+      pos base d
+          <anchor 600 1638> mark @top;
+      pos base dcaron
+          <anchor 600 1638> mark @top;
+      pos base dcroat
+          <anchor 600 1638> mark @top;
+      pos base dollar.spacer
+          <anchor 600 1543> mark @top;
+      pos base dollar.ss04
+          <anchor 600 1543> mark @top;
+      pos base dotlessi
+          <anchor 600 1310> mark @top;
+      pos base dotlessi.cv03
+          <anchor 600 1310> mark @top;
+      pos base dotlessi.cv04
+          <anchor 600 1310> mark @top;
+      pos base dotlessi.cv05
+          <anchor 600 1310> mark @top;
+      pos base dotlessi.cv06
+          <anchor 600 1310> mark @top;
+      pos base dotlessj
+          <anchor 800 1300> mark @top;
+      pos base e
+          <anchor 600 1206> mark @top;
+      pos base eng
+          <anchor 725 1300> mark @top;
+      pos base eogonek
+          <anchor 600 1206> mark @top;
+      pos base f
+          <anchor 600 1542> mark @top;
+      pos base g
+          <anchor 600 1208> mark @top;
+      pos base h
+          <anchor 600 1639> mark @top;
+      pos base hbar
+          <anchor 600 1639> mark @top;
+      pos base i
+          <anchor 600 1310> mark @top;
+      pos base iogonek
+          <anchor 600 1310> mark @top;
+      pos base iogonek.cv03
+          <anchor 600 1310> mark @top;
+      pos base iogonek.cv04
+          <anchor 600 1310> mark @top;
+      pos base iogonek.cv05
+          <anchor 600 1310> mark @top;
+      pos base iogonek.cv06
+          <anchor 600 1310> mark @top;
+      pos base j
+          <anchor 696 1310> mark @top;
+      pos base k
+          <anchor 600 1637> mark @top;
+      pos base kgreenlandic
+          <anchor 601 1542> mark @top;
+      pos base l
+          <anchor 490 1638> mark @top;
+      pos base lcaron
+          <anchor 490 1638> mark @top;
+      pos base lcaron.cv07
+          <anchor 490 1638> mark @top;
+      pos base lcaron.cv08
+          <anchor 490 1638> mark @top;
+      pos base lcaron.cv09
+          <anchor 490 1638> mark @top;
+      pos base lcaron.cv10
+          <anchor 490 1638> mark @top;
+      pos base lslash
+          <anchor 490 1638> mark @top;
+      pos base lslash.cv07
+          <anchor 490 1638> mark @top;
+      pos base lslash.cv08
+          <anchor 490 1638> mark @top;
+      pos base lslash.cv09
+          <anchor 490 1638> mark @top;
+      pos base lslash.cv10
+          <anchor 490 1638> mark @top;
+      pos base m
+          <anchor 600 1206> mark @top;
+      pos base n
+          <anchor 600 1206> mark @top;
+      pos base o
+          <anchor 600 1206> mark @top;
+      pos base oslash
+          <anchor 600 1206> mark @top;
+      pos base p
+          <anchor 600 1206> mark @top;
+      pos base pi
+          <anchor 600 1310> mark @top;
+      pos base q
+          <anchor 560 1206> mark @top;
+      pos base r
+          <anchor 609 1206> mark @top;
+      pos base s
+          <anchor 585 1196> mark @top;
+      pos base scedilla
+          <anchor 585 1196> mark @top;
+      pos base t
+          <anchor 560 1638> mark @top;
+      pos base tbar
+          <anchor 560 1638> mark @top;
+      pos base tcedilla
+          <anchor 560 1638> mark @top;
+      pos base thorn
+          <anchor 600 1638> mark @top;
+      pos base u
+          <anchor 600 1196> mark @top;
+      pos base uogonek
+          <anchor 600 1196> mark @top;
+      pos base v
+          <anchor 600 1197> mark @top;
+      pos base w
+          <anchor 600 1196> mark @top;
+      pos base x
+          <anchor 600 1196> mark @top;
+      pos base y
+          <anchor 600 1196> mark @top;
+      pos base yen
+          <anchor 600 1542> mark @top;
+      pos base z
+          <anchor 600 1196> mark @top;
+  } markLTR2;
+
+  lookup markLTR3 {
+      pos base D
+          <anchor 60 696> mark @left;
+      pos base Dcroat
+          <anchor 60 696> mark @left;
+      pos base Eth
+          <anchor 60 696> mark @left;
+      pos base H
+          <anchor 60 696> mark @left;
+      pos base Hbar
+          <anchor 60 696> mark @left;
+      pos base L
+          <anchor 60 696> mark @left;
+      pos base Lcaron
+          <anchor 460 2092> mark @left;
+      pos base Lcommaaccent
+          <anchor 60 696> mark @left;
+      pos base Ldot
+          <anchor 60 696> mark @left;
+      pos base Lslash
+          <anchor 60 696> mark @left;
+      pos base d
+          <anchor 60 744> mark @left;
+      pos base dcaron
+          <anchor 80 580> mark @left;
+      pos base dcroat
+          <anchor 60 744> mark @left;
+      pos base h
+          <anchor 60 745> mark @left;
+      pos base hbar
+          <anchor 60 745> mark @left;
+      pos base hcircumflex
+          <anchor 60 959> mark @left;
+      pos base l
+          <anchor 120 744> mark @left;
+      pos base lacute.cv07
+          <anchor 120 744> mark @left;
+      pos base lacute.cv08
+          <anchor 120 744> mark @left;
+      pos base lacute.cv09
+          <anchor 120 744> mark @left;
+      pos base lcaron
+          <anchor 1720 1430> mark @left;
+      pos base lcaron.cv07
+          <anchor 1720 1430> mark @left;
+      pos base lcaron.cv08
+          <anchor 1720 1430> mark @left;
+      pos base lcaron.cv09
+          <anchor 1720 1430> mark @left;
+      pos base lcaron.cv10
+          <anchor 848 1430> mark @left;
+      pos base lcommaaccent
+          <anchor 120 744> mark @left;
+      pos base lcommaaccent.cv07
+          <anchor 120 744> mark @left;
+      pos base lcommaaccent.cv08
+          <anchor 120 744> mark @left;
+      pos base lcommaaccent.cv09
+          <anchor 120 744> mark @left;
+      pos base lcommaaccent.cv10
+          <anchor 120 744> mark @left;
+      pos base ldot
+          <anchor 120 744> mark @left;
+      pos base ldot.cv07
+          <anchor 120 744> mark @left;
+      pos base ldot.cv08
+          <anchor 120 744> mark @left;
+      pos base ldot.cv09
+          <anchor 120 744> mark @left;
+      pos base ldot.cv10
+          <anchor 120 744> mark @left;
+      pos base lslash
+          <anchor 120 744> mark @left;
+      pos base lslash.cv07
+          <anchor 120 744> mark @left;
+      pos base lslash.cv08
+          <anchor 120 744> mark @left;
+      pos base lslash.cv09
+          <anchor 120 744> mark @left;
+      pos base lslash.cv10
+          <anchor 120 744> mark @left;
+      pos base quoteright
+          <anchor 520 1430> mark @left;
+  } markLTR3;
+
+  lookup markLTR4 {
+      pos base D
+          <anchor 1140 696> mark @right;
+      pos base Dcroat
+          <anchor 1140 696> mark @right;
+      pos base Eth
+          <anchor 1140 696> mark @right;
+      pos base H
+          <anchor 1140 696> mark @right;
+      pos base Hbar
+          <anchor 1140 696> mark @right;
+      pos base L
+          <anchor 768 940> mark @right;
+      pos base Lcaron
+          <anchor 740 2092> mark @right;
+      pos base Lcommaaccent
+          <anchor 768 940> mark @right;
+      pos base Ldot
+          <anchor 768 940> mark @right;
+      pos base Lslash
+          <anchor 768 940> mark @right;
+      pos base d
+          <anchor 1140 744> mark @right;
+      pos base dcaron
+          <anchor 960 580> mark @right;
+      pos base dcroat
+          <anchor 1140 744> mark @right;
+      pos base h
+          <anchor 1140 745> mark @right;
+      pos base hbar
+          <anchor 1140 745> mark @right;
+      pos base hcircumflex
+          <anchor 1140 959> mark @right;
+      pos base l
+          <anchor 980 744> mark @right;
+      pos base lacute.cv07
+          <anchor 980 744> mark @right;
+      pos base lacute.cv08
+          <anchor 980 744> mark @right;
+      pos base lacute.cv09
+          <anchor 980 744> mark @right;
+      pos base lcaron
+          <anchor 1880 1430> mark @right;
+      pos base lcaron.cv07
+          <anchor 1880 1430> mark @right;
+      pos base lcaron.cv08
+          <anchor 1880 1430> mark @right;
+      pos base lcaron.cv09
+          <anchor 1880 1430> mark @right;
+      pos base lcaron.cv10
+          <anchor 1008 1430> mark @right;
+      pos base lcommaaccent
+          <anchor 980 744> mark @right;
+      pos base lcommaaccent.cv07
+          <anchor 980 744> mark @right;
+      pos base lcommaaccent.cv08
+          <anchor 980 744> mark @right;
+      pos base lcommaaccent.cv09
+          <anchor 980 744> mark @right;
+      pos base lcommaaccent.cv10
+          <anchor 980 744> mark @right;
+      pos base ldot
+          <anchor 980 744> mark @right;
+      pos base ldot.cv07
+          <anchor 980 744> mark @right;
+      pos base ldot.cv08
+          <anchor 980 744> mark @right;
+      pos base ldot.cv09
+          <anchor 980 744> mark @right;
+      pos base ldot.cv10
+          <anchor 980 744> mark @right;
+      pos base lslash
+          <anchor 980 744> mark @right;
+      pos base lslash.cv07
+          <anchor 980 744> mark @right;
+      pos base lslash.cv08
+          <anchor 980 744> mark @right;
+      pos base lslash.cv09
+          <anchor 980 744> mark @right;
+      pos base lslash.cv10
+          <anchor 980 744> mark @right;
+      pos base quoteright
+          <anchor 680 1430> mark @right;
+  } markLTR4;
+
+  lookup markLTR5 {
+      pos base H
+          <anchor 600 696> mark @middleBottom;
+      pos base Hbar
+          <anchor 600 696> mark @middleBottom;
+      pos base h
+          <anchor 600 665> mark @middleBottom;
+      pos base hbar
+          <anchor 600 665> mark @middleBottom;
+  } markLTR5;
+
+  lookup markLTR6 {
+      pos base H
+          <anchor 600 1051> mark @middleTop;
+      pos base T
+          <anchor 600 596> mark @middleTop;
+      pos base d
+          <anchor 800 1200> mark @middleTop;
+      pos base dcaron
+          <anchor 800 1200> mark @middleTop;
+      pos base h
+          <anchor 400 1210> mark @middleTop;
+      pos base t
+          <anchor 552 644> mark @middleTop;
+  } markLTR6;
+
+  lookup markLTR1;
+  lookup markLTR2;
+  lookup markLTR3;
+  lookup markLTR4;
+  lookup markLTR5;
+  lookup markLTR6;
+} mark;
