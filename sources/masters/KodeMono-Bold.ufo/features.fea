@@ -109,6 +109,7 @@
 @sups2 = [uni207B uni207C];
 @tos = [a aacute abreve acircumflex adieresis ae aeacute agrave amacron aogonek aring atilde b c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat e eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eogonek g gbreve gcircumflex gcommaaccent gdotaccent h hbar hcircumflex m n nacute napostrophe ncaron ncommaaccent ntilde o oacute obreve ocircumflex odieresis oe ograve ohungarumlaut omacron ordfeminine ordmasculine oslash oslashacute otilde p q r racute rcaron rcommaaccent s sacute scaron scedilla scircumflex scommaaccent thorn eng];
 @uc = [A AE AEacute Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde B C Cacute Cacute.loclPLK Ccaron Ccedilla Ccircumflex Cdotaccent D Dcaron Dcroat E Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek Eth F F.spacer G Gbreve Gcircumflex Gdotaccent H Hbar Hcircumflex I IJ Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J Jcircumflex K Kcommaaccent L Lacute Lcaron Lcommaaccent Ldot Lslash M N Nacute Nacute.loclPLK Ncaron Ncommaaccent Ntilde O OE Oacute Oacute.loclPLK Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Oslashacute Otilde P Q R Racute Rcaron Rcommaaccent S Sacute Sacute.loclPLK Scaron Scedilla Scircumflex Scommaaccent T T.spacer Tbar Tcaron Tcedilla Tcommaaccent Thorn U Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Z Zacute Zacute.loclPLK Zcaron Zdotaccent uni0122 Eng Germandbls];
+@calt2_equal_hyphen = [zero one two three four five six seven eight nine A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z];
 #/< otclasses
 
 #/> vtags
@@ -1867,8 +1868,8 @@ feature calt {
   ignore sub parenleft question' equal;
   ignore sub less question' equal;
   sub question' lookup calt_125 equal;
-  sub question.spacer equal' lookup calt_125 space;
-  sub question.spacer period' lookup calt_126 space;
+  sub question.spacer equal' lookup calt_125;
+  sub question.spacer period' lookup calt_126;
   ignore sub question question' period;
   ignore sub question' period period;
   sub question' lookup calt_126 period;
@@ -1919,6 +1920,7 @@ feature calt {
   ignore sub bar bar' bar equal;
   ignore sub bar bar' equal;
   ignore sub [equal_middle.seq equal_start.seq] bar' bar bar;
+	ignore sub @calt2_equal_hyphen equal';
   sub @calt2 equal' lookup calt_141 @calt;
   sub @calt2 equal' lookup calt_142;
   sub [equal_middle.seq equal_start.seq] less.spacer less' lookup calt_141 equal;
@@ -1969,6 +1971,7 @@ feature calt {
   ignore sub bar bar' bar hyphen;
   ignore sub bar bar' hyphen;
   ignore sub [hyphen_middle.seq hyphen_start.seq] bar' bar bar;
+	ignore sub @calt2_equal_hyphen hyphen';
   sub @calt4 hyphen' lookup calt_151 [hyphen less greater bar];
   sub @calt4 hyphen' lookup calt_152;
   sub [hyphen_middle.seq hyphen_start.seq] less.spacer less' lookup calt_151 hyphen;
