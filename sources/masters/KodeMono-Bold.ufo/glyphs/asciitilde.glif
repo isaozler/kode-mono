@@ -2,18 +2,18 @@
 <glyph name="asciitilde" format="2">
   <advance width="1200"/>
   <unicode hex="007E"/>
-  <anchor x="600" y="1540" name="top"/>
-  <anchor x="600" y="1231" name="bottom"/>
+  <anchor x="600" y="871" name="_bottom"/>
+  <anchor x="600" y="541" name="_top"/>
   <outline>
     <contour>
-      <point x="946" y="850" type="line"/>
-      <point x="1040" y="690" type="line"/>
-      <point x="798" y="545" type="line"/>
-      <point x="437" y="647" type="line"/>
-      <point x="260" y="539" type="line"/>
-      <point x="166" y="699" type="line"/>
-      <point x="408" y="844" type="line"/>
-      <point x="774" y="746" type="line"/>
+      <point x="1066" y="871" type="line"/>
+      <point x="1145" y="704" type="line"/>
+      <point x="801" y="538" type="line"/>
+      <point x="450" y="673" type="line"/>
+      <point x="174" y="538" type="line"/>
+      <point x="95" y="706" type="line"/>
+      <point x="439" y="871" type="line"/>
+      <point x="795" y="741" type="line"/>
     </contour>
   </outline>
 </glyph>
