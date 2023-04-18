@@ -41,12 +41,7 @@ If you want to build fonts manually on your own computer:
 The proof files and QA tests are also available automatically via GitHub Actions - look at `https://isaozler.github.io/kode-mono`.
 
 ## Changelog
-
-**29 January 2023. Version 1.001**
-- MINOR Readme and Fontbakery errors resolved.
-
-**29 January 2023. Version 1.000**
-- MAJOR Sneak Peek Released.
+[See CHANGELOG.md](./CHANGELOG.md)
 
 ## License
 
