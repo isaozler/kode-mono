@@ -1,6 +1,7 @@
 # Changelog
 
-**14-18 April 2023. Version 1.002 ... 1.005**
+**14-18 April 2023. Version 1.002 ... 1.006**
+- Glyph fixes: at grave tilde & plus_plus(_plus) liga
 - Overall ligature fixes
 - i and j dotaccentcomb bug fixed
 - Proof images added

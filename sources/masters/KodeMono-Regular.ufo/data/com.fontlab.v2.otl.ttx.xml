@@ -12506,7 +12506,6 @@
         <Substitution in="commaaccentcomb" out="commabelowcomb.case"/>
         <Substitution in="dieresis" out="dieresis.case"/>
         <Substitution in="dotaccent" out="dotaccent.case"/>
-        <Substitution in="grave" out="grave.case"/>
         <Substitution in="hungarumlaut" out="hungarumlaut.case"/>
         <Substitution in="i" out="dotlessi"/>
         <Substitution in="macron" out="macron.case"/>
@@ -12527,7 +12526,6 @@
         <Substitution in="commaaccentcomb" out="commabelowcomb.case"/>
         <Substitution in="dieresis" out="dieresis.case"/>
         <Substitution in="dotaccent" out="dotaccent.case"/>
-        <Substitution in="grave" out="grave.case"/>
         <Substitution in="hungarumlaut" out="hungarumlaut.case"/>
         <Substitution in="i" out="dotlessi"/>
         <Substitution in="macron" out="macron.case"/>

@@ -10200,71 +10200,6 @@
     <string>sacute.loclPLK</string>
     <string>zacute.loclPLK</string>
   </array>
-  <key>calt2_equal_hyphen</key>
-  <array>
-    <string>zero</string>
-    <string>one</string>
-    <string>two</string>
-    <string>three</string>
-    <string>four</string>
-    <string>five</string>
-    <string>six</string>
-    <string>seven</string>
-    <string>eight</string>
-    <string>nine</string>
-    <string>A</string>
-    <string>B</string>
-    <string>C</string>
-    <string>D</string>
-    <string>E</string>
-    <string>F</string>
-    <string>G</string>
-    <string>H</string>
-    <string>I</string>
-    <string>J</string>
-    <string>K</string>
-    <string>L</string>
-    <string>M</string>
-    <string>N</string>
-    <string>O</string>
-    <string>P</string>
-    <string>Q</string>
-    <string>R</string>
-    <string>S</string>
-    <string>T</string>
-    <string>U</string>
-    <string>V</string>
-    <string>W</string>
-    <string>X</string>
-    <string>Y</string>
-    <string>Z</string>
-    <string>a</string>
-    <string>b</string>
-    <string>c</string>
-    <string>d</string>
-    <string>e</string>
-    <string>f</string>
-    <string>g</string>
-    <string>h</string>
-    <string>i</string>
-    <string>j</string>
-    <string>k</string>
-    <string>l</string>
-    <string>m</string>
-    <string>n</string>
-    <string>o</string>
-    <string>p</string>
-    <string>q</string>
-    <string>r</string>
-    <string>s</string>
-    <string>t</string>
-    <string>u</string>
-    <string>v</string>
-    <string>w</string>
-    <string>x</string>
-    <string>y</string>
-    <string>z</string>
-  </array>
   <key>calt3</key>
   <array>
     <string>zero</string>
@@ -14369,6 +14304,9 @@
     <string>cedillacomb</string>
     <string>commaaccentcomb</string>
   </array>
+  <key>class</key>
+  <array>
+  </array>
   <key>class_asteriskmath</key>
   <array>
     <string>asterisk_asterisk.liga</string>
@@ -17304,6 +17242,11 @@
     <string>zdotaccent</string>
     <string>zero</string>
   </array>
+  <key>nomatch</key>
+  <array>
+    <string>less_equal_end.seq</string>
+    <string>less_less_hyphen_end.seq</string>
+  </array>
   <key>noncomposite</key>
   <array>
     <string>A</string>
@@ -18638,6 +18581,15 @@
     <string>Zcaron</string>
     <string>Zdotaccent</string>
     <string>uni0122</string>
+  </array>
+  <key>zzzz</key>
+  <array>
+    <string>uniEE00</string>
+    <string>uniEE01</string>
+    <string>uniEE02</string>
+    <string>uniEE03</string>
+    <string>uniEE04</string>
+    <string>uniEE05</string>
   </array>
 </dict>
 </plist>
