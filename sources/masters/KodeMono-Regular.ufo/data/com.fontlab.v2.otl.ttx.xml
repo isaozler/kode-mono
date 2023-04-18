@@ -21275,7 +21275,10 @@
         <InputCoverage index="0" Format="1">
           <Glyph value="equal"/>
         </InputCoverage>
-        <!-- LookAheadGlyphCount=0 -->
+        <!-- LookAheadGlyphCount=1 -->
+        <LookAheadCoverage index="0" Format="1">
+          <Glyph value="space"/>
+        </LookAheadCoverage>
         <!-- SubstCount=1 -->
         <SubstLookupRecord index="0">
           <SequenceIndex value="0"/>
@@ -21291,7 +21294,10 @@
         <InputCoverage index="0" Format="1">
           <Glyph value="period"/>
         </InputCoverage>
-        <!-- LookAheadGlyphCount=0 -->
+        <!-- LookAheadGlyphCount=1 -->
+        <LookAheadCoverage index="0" Format="1">
+          <Glyph value="space"/>
+        </LookAheadCoverage>
         <!-- SubstCount=1 -->
         <SubstLookupRecord index="0">
           <SequenceIndex value="0"/>
@@ -21383,7 +21389,10 @@
         <InputCoverage index="0" Format="1">
           <Glyph value="question"/>
         </InputCoverage>
-        <!-- LookAheadGlyphCount=0 -->
+        <!-- LookAheadGlyphCount=1 -->
+        <LookAheadCoverage index="0" Format="1">
+          <Glyph value="space"/>
+        </LookAheadCoverage>
         <!-- SubstCount=1 -->
         <SubstLookupRecord index="0">
           <SequenceIndex value="0"/>
@@ -21396,9 +21405,12 @@
         <InputCoverage index="0" Format="1">
           <Glyph value="question"/>
         </InputCoverage>
-        <!-- LookAheadGlyphCount=1 -->
+        <!-- LookAheadGlyphCount=2 -->
         <LookAheadCoverage index="0" Format="1">
           <Glyph value="question"/>
+        </LookAheadCoverage>
+        <LookAheadCoverage index="1" Format="1">
+          <Glyph value="space"/>
         </LookAheadCoverage>
         <!-- SubstCount=1 -->
         <SubstLookupRecord index="0">
