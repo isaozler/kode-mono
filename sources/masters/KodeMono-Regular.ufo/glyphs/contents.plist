@@ -560,6 +560,30 @@
   <string>divide.glif</string>
   <key>divisionslash</key>
   <string>divisionslash.glif</string>
+  <key>dnheavyhorzlight</key>
+  <string>dnheavyhorzlight.glif</string>
+  <key>dnheavyleftlight</key>
+  <string>dnheavyleftlight.glif</string>
+  <key>dnheavyleftuplight</key>
+  <string>dnheavyleftuplight.glif</string>
+  <key>dnheavyrightlight</key>
+  <string>dnheavyrightlight.glif</string>
+  <key>dnheavyrightuplight</key>
+  <string>dnheavyrightuplight.glif</string>
+  <key>dnheavyuphorzlight</key>
+  <string>dnheavyuphorzlight.glif</string>
+  <key>dnlighthorzheavy</key>
+  <string>dnlighthorzheavy.glif</string>
+  <key>dnlightleftheavy</key>
+  <string>dnlightleftheavy.glif</string>
+  <key>dnlightleftupheavy</key>
+  <string>dnlightleftupheavy.glif</string>
+  <key>dnlightrightheavy</key>
+  <string>dnlightrightheavy.glif</string>
+  <key>dnlightrightupheavy</key>
+  <string>dnlightrightupheavy.glif</string>
+  <key>dnlightuphorzheavy</key>
+  <string>dnlightuphorzheavy.glif</string>
   <key>dollar</key>
   <string>dollar.glif</string>
   <key>dollar.spacer</key>
@@ -752,6 +776,40 @@
   <string>hbar.glif</string>
   <key>hcircumflex</key>
   <string>hcircumflex.glif</string>
+  <key>heavydbldashhorz</key>
+  <string>heavydbldashhorz.glif</string>
+  <key>heavydbldashvert</key>
+  <string>heavydbldashvert.glif</string>
+  <key>heavydnhorz</key>
+  <string>heavydnhorz.glif</string>
+  <key>heavydnleft</key>
+  <string>heavydnleft.glif</string>
+  <key>heavydnright</key>
+  <string>heavydnright.glif</string>
+  <key>heavyhorz</key>
+  <string>heavyhorz.glif</string>
+  <key>heavyquaddashhorz</key>
+  <string>heavyquaddashhorz.glif</string>
+  <key>heavyquaddashvert</key>
+  <string>heavyquaddashvert.glif</string>
+  <key>heavytrpldashhorz</key>
+  <string>heavytrpldashhorz.glif</string>
+  <key>heavytrpldashvert</key>
+  <string>heavytrpldashvert.glif</string>
+  <key>heavyuphorz</key>
+  <string>heavyuphorz.glif</string>
+  <key>heavyupleft</key>
+  <string>heavyupleft.glif</string>
+  <key>heavyupright</key>
+  <string>heavyupright.glif</string>
+  <key>heavyvert</key>
+  <string>heavyvert.glif</string>
+  <key>heavyverthorz</key>
+  <string>heavyverthorz.glif</string>
+  <key>heavyvertleft</key>
+  <string>heavyvertleft.glif</string>
+  <key>heavyvertright</key>
+  <string>heavyvertright.glif</string>
   <key>hookabovecomb</key>
   <string>hookabovecomb.glif</string>
   <key>horizontalbar</key>
@@ -916,6 +974,22 @@
   <string>ldot.cv09.glif</string>
   <key>ldot.cv10</key>
   <string>ldot.cv10.glif</string>
+  <key>leftdnheavyrightuplight</key>
+  <string>leftdnheavyrightuplight.glif</string>
+  <key>leftheavyrightdnlight</key>
+  <string>leftheavyrightdnlight.glif</string>
+  <key>leftheavyrightuplight</key>
+  <string>leftheavyrightuplight.glif</string>
+  <key>leftheavyrightvertlight</key>
+  <string>leftheavyrightvertlight.glif</string>
+  <key>leftlightrightdnheavy</key>
+  <string>leftlightrightdnheavy.glif</string>
+  <key>leftlightrightupheavy</key>
+  <string>leftlightrightupheavy.glif</string>
+  <key>leftlightrightvertheavy</key>
+  <string>leftlightrightvertheavy.glif</string>
+  <key>leftupheavyrightdnlight</key>
+  <string>leftupheavyrightdnlight.glif</string>
   <key>less</key>
   <string>less.glif</string>
   <key>less.center</key>
@@ -982,6 +1056,40 @@
   <string>less_slash_greater.liga.glif</string>
   <key>lessequal</key>
   <string>lessequal.glif</string>
+  <key>lightdbldashhorz</key>
+  <string>lightdbldashhorz.glif</string>
+  <key>lightdbldashvert</key>
+  <string>lightdbldashvert.glif</string>
+  <key>lightdnhorz</key>
+  <string>lightdnhorz.glif</string>
+  <key>lightdnleft</key>
+  <string>lightdnleft.glif</string>
+  <key>lightdnright</key>
+  <string>lightdnright.glif</string>
+  <key>lighthorz</key>
+  <string>lighthorz.glif</string>
+  <key>lightquaddashhorz</key>
+  <string>lightquaddashhorz.glif</string>
+  <key>lightquaddashvert</key>
+  <string>lightquaddashvert.glif</string>
+  <key>lighttrpldashhorz</key>
+  <string>lighttrpldashhorz.glif</string>
+  <key>lighttrpldashvert</key>
+  <string>lighttrpldashvert.glif</string>
+  <key>lightuphorz</key>
+  <string>lightuphorz.glif</string>
+  <key>lightupleft</key>
+  <string>lightupleft.glif</string>
+  <key>lightupright</key>
+  <string>lightupright.glif</string>
+  <key>lightvert</key>
+  <string>lightvert.glif</string>
+  <key>lightverthorz</key>
+  <string>lightverthorz.glif</string>
+  <key>lightvertleft</key>
+  <string>lightvertleft.glif</string>
+  <key>lightvertright</key>
+  <string>lightvertright.glif</string>
   <key>logicalnot</key>
   <string>logicalnot.glif</string>
   <key>lozenge</key>
@@ -1188,6 +1296,22 @@
   <string>rcommaaccent.glif</string>
   <key>registered</key>
   <string>registered.glif</string>
+  <key>rightdnheavyleftuplight</key>
+  <string>rightdnheavyleftuplight.glif</string>
+  <key>rightheavyleftdnlight</key>
+  <string>rightheavyleftdnlight.glif</string>
+  <key>rightheavyleftuplight</key>
+  <string>rightheavyleftuplight.glif</string>
+  <key>rightheavyleftvertlight</key>
+  <string>rightheavyleftvertlight.glif</string>
+  <key>rightlightleftdnheavy</key>
+  <string>rightlightleftdnheavy.glif</string>
+  <key>rightlightleftupheavy</key>
+  <string>rightlightleftupheavy.glif</string>
+  <key>rightlightleftvertheavy</key>
+  <string>rightlightleftvertheavy.glif</string>
+  <key>rightupheavyleftdnlight</key>
+  <string>rightupheavyleftdnlight.glif</string>
   <key>ring</key>
   <string>ring.glif</string>
   <key>ring.case</key>
@@ -1348,12 +1472,48 @@
   <string>universal.glif</string>
   <key>uogonek</key>
   <string>uogonek.glif</string>
+  <key>upheavydnhorzlight</key>
+  <string>upheavydnhorzlight.glif</string>
+  <key>upheavyhorzlight</key>
+  <string>upheavyhorzlight.glif</string>
+  <key>upheavyleftdnlight</key>
+  <string>upheavyleftdnlight.glif</string>
+  <key>upheavyleftlight</key>
+  <string>upheavyleftlight.glif</string>
+  <key>upheavyrightdnlight</key>
+  <string>upheavyrightdnlight.glif</string>
+  <key>upheavyrightlight</key>
+  <string>upheavyrightlight.glif</string>
+  <key>uplightdnhorzheavy</key>
+  <string>uplightdnhorzheavy.glif</string>
+  <key>uplighthorzheavy</key>
+  <string>uplighthorzheavy.glif</string>
+  <key>uplightleftdnheavy</key>
+  <string>uplightleftdnheavy.glif</string>
+  <key>uplightleftheavy</key>
+  <string>uplightleftheavy.glif</string>
+  <key>uplightrightdnheavy</key>
+  <string>uplightrightdnheavy.glif</string>
+  <key>uplightrightheavy</key>
+  <string>uplightrightheavy.glif</string>
   <key>uring</key>
   <string>uring.glif</string>
   <key>utilde</key>
   <string>utilde.glif</string>
   <key>v</key>
   <string>v.glif</string>
+  <key>vertheavyhorzlight</key>
+  <string>vertheavyhorzlight.glif</string>
+  <key>vertheavyleftlight</key>
+  <string>vertheavyleftlight.glif</string>
+  <key>vertheavyrightlight</key>
+  <string>vertheavyrightlight.glif</string>
+  <key>vertlighthorzheavy</key>
+  <string>vertlighthorzheavy.glif</string>
+  <key>vertlightleftheavy</key>
+  <string>vertlightleftheavy.glif</string>
+  <key>vertlightrightheavy</key>
+  <string>vertlightrightheavy.glif</string>
   <key>vlinecomb</key>
   <string>vlinecomb.glif</string>
   <key>w</key>

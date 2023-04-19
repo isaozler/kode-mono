@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lightdbldashvert" format="2">
+  <advance width="1200"/>
+  <unicode hex="254E"/>
+  <outline>
+    <contour>
+      <point x="680" y="760" type="line"/>
+      <point x="680" y="-520" type="line"/>
+      <point x="520" y="-520" type="line"/>
+      <point x="520" y="760" type="line"/>
+    </contour>
+    <contour>
+      <point x="680" y="2200" type="line"/>
+      <point x="680" y="920" type="line"/>
+      <point x="520" y="920" type="line"/>
+      <point x="520" y="2200" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

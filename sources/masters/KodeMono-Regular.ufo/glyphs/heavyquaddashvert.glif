@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="heavyquaddashvert" format="2">
+  <advance width="1200"/>
+  <unicode hex="250B"/>
+  <outline>
+    <contour>
+      <point x="360" y="20" type="line"/>
+      <point x="840" y="20" type="line"/>
+      <point x="840" y="-520" type="line"/>
+      <point x="360" y="-520" type="line"/>
+    </contour>
+    <contour>
+      <point x="360" y="720" type="line"/>
+      <point x="840" y="720" type="line"/>
+      <point x="840" y="180" type="line"/>
+      <point x="360" y="180" type="line"/>
+    </contour>
+    <contour>
+      <point x="360" y="1420" type="line"/>
+      <point x="840" y="1420" type="line"/>
+      <point x="840" y="880" type="line"/>
+      <point x="360" y="880" type="line"/>
+    </contour>
+    <contour>
+      <point x="360" y="2120" type="line"/>
+      <point x="840" y="2120" type="line"/>
+      <point x="840" y="1580" type="line"/>
+      <point x="360" y="1580" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>

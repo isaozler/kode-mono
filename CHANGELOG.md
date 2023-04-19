@@ -1,5 +1,8 @@
 # Changelog
 
+**19 April 2023. Version 1.007**
+- Box glyphs added
+
 **14-18 April 2023. Version 1.002 ... 1.006**
 - Glyph fixes: at grave tilde & plus_plus(_plus) liga
 - Overall ligature fixes
