@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="vertheavyleftlight" format="2">
+  <advance width="1200"/>
+  <unicode hex="2528"/>
+  <outline>
+    <contour>
+      <point x="840" y="2000" type="line"/>
+      <point x="840" y="-1000" type="line"/>
+      <point x="360" y="-1000" type="line"/>
+      <point x="360" y="620" type="line"/>
+      <point x="-10" y="620" type="line"/>
+      <point x="-10" y="780" type="line"/>
+      <point x="360" y="780" type="line"/>
+      <point x="360" y="2000" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>0.6,0.602,1,1</string>
+  </dict>
+  </lib>
+</glyph>
