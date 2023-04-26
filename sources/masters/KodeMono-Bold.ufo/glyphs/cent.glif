@@ -2,16 +2,59 @@
 <glyph name="cent" format="2">
   <advance width="1200"/>
   <unicode hex="00A2"/>
-  <anchor x="591" y="1250" name="top"/>
-  <anchor x="591" y="-150" name="bottom"/>
   <outline>
-    <component base="c"/>
-    <component base="bar" yScale="0.8485" yOffset="-36"/>
+    <contour>
+      <point x="297" y="1100" type="line"/>
+      <point x="480" y="1100" type="line"/>
+      <point x="480" y="1450" type="line"/>
+      <point x="720" y="1450" type="line"/>
+      <point x="720" y="1100" type="line"/>
+      <point x="896" y="1100" type="line"/>
+      <point x="1061" y="855" type="line"/>
+      <point x="906" y="695" type="line"/>
+      <point x="787" y="869" type="line"/>
+      <point x="404" y="869" type="line"/>
+      <point x="360" y="824" type="line"/>
+      <point x="360" y="297" type="line"/>
+      <point x="423" y="204" type="line"/>
+      <point x="806" y="204" type="line"/>
+      <point x="941" y="343" type="line"/>
+      <point x="1057" y="170" type="line"/>
+      <point x="893" y="0" type="line"/>
+      <point x="720" y="0" type="line"/>
+      <point x="720" y="-330" type="line"/>
+      <point x="480" y="-330" type="line"/>
+      <point x="480" y="0" type="line"/>
+      <point x="295" y="0" type="line"/>
+      <point x="120" y="260" type="line"/>
+      <point x="120" y="917" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
   <key>com.fontlab.recipe</key>
   <string>c+bar%</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>19c08d96e5e30b7729e50b94768805009a2d37a24d62e0826262a618dbd54580630c8f561d4cb4fb996430a47f80f8248bcb146756bddd820fcbea7280800962</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem -259.64 20.</string>
+          <string>hstem 0 203</string>
+          <string>hstem 869 230</string>
+          <string>hstem 1350.45 -20</string>
+          <string>vstem 119 240</string>
+          <string>vstem 480 240</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
   </dict>
   </lib>
 </glyph>

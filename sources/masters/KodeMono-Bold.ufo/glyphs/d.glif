@@ -9,28 +9,28 @@
   <anchor x="804" y="1190" name="middleTop"/>
   <outline>
     <contour>
-      <point x="840" y="1528" type="line"/>
-      <point x="1080" y="1528" type="line"/>
-      <point x="1080" y="0" type="line"/>
-      <point x="840" y="0" type="line"/>
-      <point x="840" y="65" type="line"/>
-      <point x="732" y="0" type="line"/>
-      <point x="303" y="0" type="line"/>
-      <point x="120" y="268" type="line"/>
-      <point x="120" y="905" type="line"/>
-      <point x="303" y="1097" type="line"/>
-      <point x="732" y="1097" type="line"/>
-      <point x="840" y="1032" type="line"/>
+      <point x="360" y="832" type="line"/>
+      <point x="400" y="872" type="line"/>
+      <point x="782" y="872" type="line"/>
+      <point x="840" y="786" type="line"/>
+      <point x="840" y="261" type="line"/>
+      <point x="804" y="225" type="line"/>
+      <point x="418" y="225" type="line"/>
+      <point x="360" y="311" type="line"/>
     </contour>
     <contour>
-      <point x="360" y="311" type="line"/>
-      <point x="418" y="225" type="line"/>
-      <point x="804" y="225" type="line"/>
-      <point x="840" y="261" type="line"/>
-      <point x="840" y="786" type="line"/>
-      <point x="782" y="872" type="line"/>
-      <point x="400" y="872" type="line"/>
-      <point x="360" y="832" type="line"/>
+      <point x="840" y="1032" type="line"/>
+      <point x="732" y="1097" type="line"/>
+      <point x="303" y="1097" type="line"/>
+      <point x="120" y="905" type="line"/>
+      <point x="120" y="268" type="line"/>
+      <point x="303" y="0" type="line"/>
+      <point x="732" y="0" type="line"/>
+      <point x="840" y="65" type="line"/>
+      <point x="840" y="0" type="line"/>
+      <point x="1080" y="0" type="line"/>
+      <point x="1080" y="1528" type="line"/>
+      <point x="840" y="1528" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -40,7 +40,7 @@
     <key>formatVersion</key>
     <string>1</string>
     <key>id</key>
-    <string>7dd518b5b3099db5ddd8e9a8eaace398aecd64a509a069e365b6d58615345074eddae68d52cf689137d686cf7399eec797f8ad5821ea7046338b87c143f8a0c6</string>
+    <string>f9d752a0f109b961ea2d5547df1f2e4e8362a5b44eb94e266a60c87943504471f466e03e95a8ee25e35d1e79b14e6937c509c290a0cf2f7bf30f1a5bc1f8ed3a</string>
     <key>hintSetList</key>
     <array>
       <dict>

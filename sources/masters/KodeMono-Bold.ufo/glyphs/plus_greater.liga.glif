@@ -5,17 +5,17 @@
     <component base="greater" xOffset="-18"/>
     <contour>
       <point x="-624" y="1095" type="line"/>
-      <point x="-400" y="1095" type="line"/>
-      <point x="-400" y="784" type="line"/>
-      <point x="792" y="784" type="line"/>
-      <point x="792" y="560" type="line"/>
-      <point x="-400" y="560" type="line"/>
-      <point x="-400" y="250" type="line"/>
-      <point x="-624" y="250" type="line"/>
-      <point x="-624" y="560" type="line"/>
-      <point x="-936" y="560" type="line"/>
-      <point x="-936" y="784" type="line"/>
       <point x="-624" y="784" type="line"/>
+      <point x="-936" y="784" type="line"/>
+      <point x="-936" y="560" type="line"/>
+      <point x="-624" y="560" type="line"/>
+      <point x="-624" y="250" type="line"/>
+      <point x="-400" y="250" type="line"/>
+      <point x="-400" y="560" type="line"/>
+      <point x="792" y="560" type="line"/>
+      <point x="792" y="784" type="line"/>
+      <point x="-400" y="784" type="line"/>
+      <point x="-400" y="1095" type="line"/>
     </contour>
   </outline>
   <lib>

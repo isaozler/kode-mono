@@ -5,15 +5,15 @@
   <outline>
     <contour>
       <point x="970" y="886" type="line"/>
-      <point x="970" y="726" type="line"/>
-      <point x="230" y="726" type="line"/>
       <point x="230" y="886" type="line"/>
+      <point x="230" y="726" type="line"/>
+      <point x="970" y="726" type="line"/>
     </contour>
     <contour>
       <point x="970" y="518" type="line"/>
-      <point x="970" y="358" type="line"/>
-      <point x="230" y="358" type="line"/>
       <point x="230" y="518" type="line"/>
+      <point x="230" y="358" type="line"/>
+      <point x="970" y="358" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -23,7 +23,7 @@
     <key>formatVersion</key>
     <string>1</string>
     <key>id</key>
-    <string>w1200m970,886l970,726l230,726l230,886m970,518l970,358l230,358l230,518</string>
+    <string>w1200m970,886l230,886l230,726l970,726m970,518l230,518l230,358l970,358</string>
     <key>hintSetList</key>
     <array>
       <dict>

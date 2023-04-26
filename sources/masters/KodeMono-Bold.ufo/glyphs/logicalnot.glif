@@ -25,10 +25,18 @@
       <dict>
         <key>stems</key>
         <array>
+          <string>vstem 780 160</string>
           <string>hstem 264 408</string>
+        </array>
+      </dict>
+      <dict>
+        <key>stems</key>
+        <array>
           <string>hstem 528 144</string>
           <string>vstem 780 160</string>
         </array>
+        <key>pointTag</key>
+        <string>.hr01</string>
       </dict>
     </array>
   </dict>

@@ -5,15 +5,15 @@
     <component base="slash"/>
     <contour>
       <point x="666" y="886" type="line"/>
-      <point x="666" y="726" type="line"/>
-      <point x="-24" y="726" type="line"/>
       <point x="-24" y="886" type="line"/>
+      <point x="-24" y="726" type="line"/>
+      <point x="666" y="726" type="line"/>
     </contour>
     <contour>
       <point x="496" y="518" type="line"/>
-      <point x="496" y="358" type="line"/>
-      <point x="-24" y="358" type="line"/>
       <point x="-24" y="518" type="line"/>
+      <point x="-24" y="358" type="line"/>
+      <point x="496" y="358" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -23,7 +23,7 @@
     <key>formatVersion</key>
     <string>1</string>
     <key>id</key>
-    <string>w1200m666,886l666,726l-24,726l-24,886m496,518l496,358l-24,358l-24,518</string>
+    <string>w1200m666,886l-24,886l-24,726l666,726m496,518l-24,518l-24,358l496,358</string>
     <key>hintSetList</key>
     <array>
       <dict>

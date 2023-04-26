@@ -8,15 +8,15 @@
   <outline>
     <contour>
       <point x="80" y="1391" type="line"/>
-      <point x="1120" y="1391" type="line"/>
-      <point x="1120" y="1167" type="line"/>
-      <point x="668" y="1167" type="line"/>
-      <point x="720" y="1135" type="line"/>
-      <point x="720" y="0" type="line"/>
-      <point x="480" y="0" type="line"/>
-      <point x="480" y="1079" type="line"/>
-      <point x="422" y="1167" type="line"/>
       <point x="80" y="1167" type="line"/>
+      <point x="422" y="1167" type="line"/>
+      <point x="480" y="1079" type="line"/>
+      <point x="480" y="0" type="line"/>
+      <point x="720" y="0" type="line"/>
+      <point x="720" y="1135" type="line"/>
+      <point x="668" y="1167" type="line"/>
+      <point x="1120" y="1167" type="line"/>
+      <point x="1120" y="1391" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -26,7 +26,7 @@
     <key>formatVersion</key>
     <string>1</string>
     <key>id</key>
-    <string>w1200m80,1391l1120,1391l1120,1167l668,1167l720,1135l720,0l480,0l480,1079l422,1167l80,1167</string>
+    <string>w1200m80,1391l80,1167l422,1167l480,1079l480,0l720,0l720,1135l668,1167l1120,1167l1120,1391</string>
     <key>hintSetList</key>
     <array>
       <dict>

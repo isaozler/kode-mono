@@ -2,7 +2,7 @@
 <glyph name="bar_equal_middle.seq" format="2">
   <advance width="1200"/>
   <outline>
-    <component base="bar" yScale="0.8672" yOffset="28"/>
+    <component base="bar" yScale="0.878338" yOffset="9.80104"/>
     <component base="equal_middle.seq"/>
   </outline>
   <lib>

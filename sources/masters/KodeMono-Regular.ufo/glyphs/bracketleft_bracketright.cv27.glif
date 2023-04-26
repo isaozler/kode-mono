@@ -3,10 +3,10 @@
   <advance width="1200"/>
   <outline>
     <contour>
-      <point x="960" y="-291" type="line"/>
       <point x="-960" y="-291" type="line"/>
       <point x="-960" y="1637" type="line"/>
       <point x="960" y="1637" type="line"/>
+      <point x="960" y="-291" type="line"/>
     </contour>
     <contour>
       <point x="-800" y="-133" type="line"/>
@@ -24,7 +24,7 @@
     <key>formatVersion</key>
     <string>1</string>
     <key>id</key>
-    <string>w1200m960,-291l-960,-291l-960,1637l960,1637m-800,-133l800,-133l800,1479l-800,1479</string>
+    <string>w1200m-960,-291l-960,1637l960,1637l960,-291m-800,-133l800,-133l800,1479l-800,1479</string>
     <key>hintSetList</key>
     <array>
       <dict>
@@ -32,8 +32,8 @@
         <array>
           <string>hstem -291 150</string>
           <string>hstem 1490 146</string>
-          <string>vstem 800 160</string>
           <string>vstem -960 158</string>
+          <string>vstem 800 160</string>
         </array>
       </dict>
       <dict>

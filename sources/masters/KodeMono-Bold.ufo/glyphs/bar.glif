@@ -5,9 +5,9 @@
   <outline>
     <contour>
       <point x="480" y="-240" type="line"/>
-      <point x="480" y="1634" type="line"/>
-      <point x="720" y="1634" type="line"/>
       <point x="720" y="-240" type="line"/>
+      <point x="720" y="1634" type="line"/>
+      <point x="480" y="1634" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -17,7 +17,7 @@
     <key>formatVersion</key>
     <string>1</string>
     <key>id</key>
-    <string>w1200m480,-240l480,1634l720,1634l720,-240</string>
+    <string>w1200m480,-240l720,-240l720,1634l480,1634</string>
     <key>hintSetList</key>
     <array>
       <dict>

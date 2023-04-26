@@ -10,19 +10,19 @@
   <outline>
     <contour>
       <point x="120" y="1391" type="line"/>
-      <point x="793" y="1391" type="line"/>
-      <point x="1080" y="964" type="line"/>
-      <point x="1080" y="190" type="line"/>
-      <point x="899" y="0" type="line"/>
       <point x="120" y="0" type="line"/>
+      <point x="899" y="0" type="line"/>
+      <point x="1080" y="190" type="line"/>
+      <point x="1080" y="964" type="line"/>
+      <point x="793" y="1391" type="line"/>
     </contour>
     <contour>
       <point x="360" y="1167" type="line"/>
-      <point x="360" y="224" type="line"/>
-      <point x="800" y="224" type="line"/>
-      <point x="840" y="264" type="line"/>
-      <point x="840" y="918" type="line"/>
       <point x="673" y="1167" type="line"/>
+      <point x="840" y="918" type="line"/>
+      <point x="840" y="264" type="line"/>
+      <point x="800" y="224" type="line"/>
+      <point x="360" y="224" type="line"/>
     </contour>
   </outline>
 </glyph>
