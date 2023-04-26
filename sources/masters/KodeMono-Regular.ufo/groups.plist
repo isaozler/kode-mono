@@ -14304,9 +14304,6 @@
     <string>cedillacomb</string>
     <string>commaaccentcomb</string>
   </array>
-  <key>class</key>
-  <array>
-  </array>
   <key>class_asteriskmath</key>
   <array>
     <string>asterisk_asterisk.liga</string>

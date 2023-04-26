@@ -3,53 +3,41 @@
   <advance width="1200"/>
   <outline>
     <contour>
-      <point x="-720" y="1393" type="line" name=".hr02"/>
-      <point x="-520" y="1393" type="line"/>
-      <point x="-520" y="1537" type="line"/>
-      <point x="-356" y="1537" type="line"/>
-      <point x="-356" y="1393" type="line"/>
-      <point x="260" y="1393" type="line"/>
-      <point x="965" y="712" type="line"/>
-      <point x="965" y="627" type="line"/>
-      <point x="388" y="70" type="line"/>
-      <point x="291" y="174" type="line"/>
-      <point x="802" y="670" type="line"/>
-      <point x="200" y="1249" type="line"/>
-      <point x="-356" y="1249" type="line"/>
-      <point x="-356" y="814" type="line"/>
-      <point x="-141" y="814" type="line"/>
-      <point x="0" y="602" type="line"/>
-      <point x="0" y="145" type="line"/>
-      <point x="-140" y="0" type="line" name=".hr01"/>
-      <point x="-356" y="0" type="line"/>
-      <point x="-356" y="-144" type="line"/>
-      <point x="-520" y="-144" type="line"/>
-      <point x="-520" y="0" type="line"/>
-      <point x="-793" y="0" type="line"/>
-      <point x="-880" y="123" type="line"/>
-      <point x="-780" y="228" type="line"/>
-      <point x="-718" y="144" type="line"/>
-      <point x="-520" y="144" type="line"/>
-      <point x="-520" y="670" type="line"/>
-      <point x="-720" y="670" type="line"/>
-      <point x="-880" y="908" type="line"/>
-      <point x="-880" y="1227" type="line"/>
-    </contour>
-    <contour>
-      <point x="-642" y="814" type="line"/>
-      <point x="-520" y="814" type="line"/>
-      <point x="-520" y="1249" type="line"/>
-      <point x="-661" y="1249" type="line"/>
-      <point x="-720" y="1186" type="line"/>
-      <point x="-720" y="929" type="line"/>
-    </contour>
-    <contour>
-      <point x="-356" y="144" type="line"/>
-      <point x="-208" y="144" type="line"/>
-      <point x="-160" y="185" type="line"/>
-      <point x="-160" y="586" type="line"/>
-      <point x="-220" y="670" type="line"/>
-      <point x="-356" y="670" type="line"/>
+      <point x="-359" y="1346" type="line"/>
+      <point x="260" y="1346" type="line"/>
+      <point x="965" y="665" type="line"/>
+      <point x="965" y="580" type="line"/>
+      <point x="388" y="23" type="line"/>
+      <point x="291" y="127" type="line"/>
+      <point x="802" y="623" type="line"/>
+      <point x="200" y="1202" type="line"/>
+      <point x="-664" y="1202" type="line"/>
+      <point x="-723" y="1139" type="line"/>
+      <point x="-723" y="868" type="line"/>
+      <point x="-645" y="753" type="line"/>
+      <point x="-144" y="753" type="line"/>
+      <point x="-3" y="541" type="line"/>
+      <point x="-3" y="145" type="line"/>
+      <point x="-143" y="0" type="line" name=".hr01"/>
+      <point x="-359" y="0" type="line"/>
+      <point x="-359" y="-288" type="line"/>
+      <point x="-523" y="-288" type="line"/>
+      <point x="-523" y="0" type="line"/>
+      <point x="-796" y="0" type="line"/>
+      <point x="-883" y="123" type="line"/>
+      <point x="-783" y="228" type="line"/>
+      <point x="-721" y="144" type="line"/>
+      <point x="-211" y="144" type="line"/>
+      <point x="-163" y="185" type="line"/>
+      <point x="-163" y="525" type="line"/>
+      <point x="-223" y="609" type="line"/>
+      <point x="-723" y="609" type="line"/>
+      <point x="-883" y="847" type="line"/>
+      <point x="-883" y="1180" type="line"/>
+      <point x="-723" y="1346" type="line"/>
+      <point x="-523" y="1346" type="line"/>
+      <point x="-523" y="1637" type="line"/>
+      <point x="-359" y="1637" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -61,51 +49,36 @@
     <key>formatVersion</key>
     <string>1</string>
     <key>id</key>
-    <string>5a700abcbb7dbd239b040185c2e834af75982bdb9b861b3e820065b71494a3276c8ecdb89245db2931bc8c183c8efb718d4337de9dcffef74016f568054a0ed4</string>
+    <string>8ad28a5d4167c526f3c40b4fd1d28cee8bfebad800dffce085a300470eae0b7a86b39cafb1fda9417e86f8b5a21f3e4f6ed5390068627fa30c247c56c15376ea</string>
     <key>hintSetList</key>
     <array>
       <dict>
         <key>stems</key>
         <array>
           <string>hstem 1249 144</string>
-          <string>vstem -880 160</string>
-          <string>vstem -520 164</string>
           <string>hstem 1537 -20</string>
           <string>hstem 70 -20</string>
           <string>hstem 670 144</string>
-          <string>vstem -160 160</string>
           <string>hstem -123 -21</string>
+          <string>vstem -880 160</string>
+          <string>vstem -520 164</string>
+          <string>vstem -160 160</string>
         </array>
       </dict>
       <dict>
         <key>stems</key>
         <array>
           <string>hstem 0 144</string>
-          <string>hstem 1266 -20</string>
-          <string>vstem -520 164</string>
+          <string>hstem 1249 144</string>
+          <string>hstem 1537 -20</string>
+          <string>hstem 670 144</string>
           <string>hstem -123 -21</string>
           <string>vstem -880 160</string>
-          <string>hstem 670 144</string>
-          <string>hstem 1537 -20</string>
+          <string>vstem -520 164</string>
           <string>vstem -160 160</string>
         </array>
         <key>pointTag</key>
         <string>.hr01</string>
-      </dict>
-      <dict>
-        <key>stems</key>
-        <array>
-          <string>hstem 1249 144</string>
-          <string>vstem -880 160</string>
-          <string>hstem 670 144</string>
-          <string>vstem -520 164</string>
-          <string>hstem 0 144</string>
-          <string>vstem -160 160</string>
-          <string>hstem 1537 -20</string>
-          <string>hstem -123 -21</string>
-        </array>
-        <key>pointTag</key>
-        <string>.hr02</string>
       </dict>
     </array>
   </dict>

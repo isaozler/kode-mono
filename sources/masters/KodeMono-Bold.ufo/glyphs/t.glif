@@ -4,27 +4,27 @@
   <unicode hex="0074"/>
   <anchor x="565" y="1638" name="top"/>
   <anchor x="641" y="-150" name="bottom"/>
-  <anchor x="519" y="500" name="middleTop"/>
+  <anchor x="559" y="500" name="middleTop"/>
   <outline>
     <contour>
-      <point x="279" y="1488" type="line"/>
-      <point x="519" y="1488" type="line"/>
-      <point x="519" y="1097" type="line"/>
-      <point x="841" y="1097" type="line"/>
-      <point x="841" y="872" type="line"/>
-      <point x="519" y="872" type="line"/>
-      <point x="519" y="311" type="line"/>
-      <point x="576" y="225" type="line"/>
-      <point x="742" y="225" type="line"/>
-      <point x="884" y="366" type="line"/>
-      <point x="1010" y="181" type="line"/>
-      <point x="841" y="0" type="line"/>
-      <point x="458" y="0" type="line"/>
-      <point x="279" y="263" type="line"/>
-      <point x="279" y="872" type="line"/>
-      <point x="120" y="872" type="line"/>
-      <point x="120" y="1097" type="line"/>
-      <point x="279" y="1097" type="line"/>
+      <point x="319" y="1488" type="line"/>
+      <point x="559" y="1488" type="line"/>
+      <point x="559" y="1097" type="line"/>
+      <point x="881" y="1097" type="line"/>
+      <point x="881" y="872" type="line"/>
+      <point x="559" y="872" type="line"/>
+      <point x="559" y="311" type="line"/>
+      <point x="616" y="225" type="line"/>
+      <point x="782" y="225" type="line"/>
+      <point x="924" y="366" type="line"/>
+      <point x="1050" y="181" type="line"/>
+      <point x="881" y="0" type="line"/>
+      <point x="498" y="0" type="line"/>
+      <point x="319" y="263" type="line"/>
+      <point x="319" y="872" type="line"/>
+      <point x="160" y="872" type="line"/>
+      <point x="160" y="1097" type="line"/>
+      <point x="319" y="1097" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -34,7 +34,7 @@
     <key>formatVersion</key>
     <string>1</string>
     <key>id</key>
-    <string>9a9893c3f66bef3fea2bb3305d13c0c5635789c074051905aa9156be95395af28cf6393daa89e8bae03ff31ca323cc51cb1e618b14a33418911aefac86f1087b</string>
+    <string>6048515af533b24088933b05a621a0074e5b27acd0e35736cd863818635edf61776a3fa6a6d5e03b1a73ce63ccfeb5cf47629f1e6d03187e97646335c8ac7742</string>
     <key>hintSetList</key>
     <array>
       <dict>

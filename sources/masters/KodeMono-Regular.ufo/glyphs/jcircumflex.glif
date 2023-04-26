@@ -4,8 +4,8 @@
   <unicode hex="0135"/>
   <anchor x="530" y="-582" name="bottom"/>
   <outline>
-    <component base="dotlessj"/>
-    <component base="circumflexcomb" xOffset="200" yOffset="100"/>
+    <component base="dotlessj" xOffset="-195"/>
+    <component base="circumflexcomb" xOffset="5" yOffset="100"/>
   </outline>
   <lib>
   <dict>

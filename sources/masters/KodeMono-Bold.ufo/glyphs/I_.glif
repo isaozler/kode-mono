@@ -7,21 +7,16 @@
   <outline>
     <contour>
       <point x="120" y="1391" type="line"/>
-      <point x="541" y="1391" type="line"/>
-      <point x="606" y="1299" type="line"/>
-      <point x="693" y="1391" type="line"/>
       <point x="1080" y="1391" type="line"/>
       <point x="1080" y="1166" type="line"/>
-      <point x="786" y="1166" type="line"/>
-      <point x="720" y="1097" type="line"/>
+      <point x="720" y="1166" type="line"/>
       <point x="720" y="225" type="line"/>
       <point x="1080" y="225" type="line"/>
       <point x="1080" y="0" type="line"/>
       <point x="120" y="0" type="line"/>
       <point x="120" y="225" type="line"/>
       <point x="480" y="225" type="line"/>
-      <point x="480" y="1079" type="line"/>
-      <point x="422" y="1166" type="line"/>
+      <point x="480" y="1166" type="line"/>
       <point x="120" y="1166" type="line"/>
     </contour>
   </outline>

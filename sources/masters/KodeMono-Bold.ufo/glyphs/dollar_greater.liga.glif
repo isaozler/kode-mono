@@ -3,53 +3,41 @@
   <advance width="1200"/>
   <outline>
     <contour>
-      <point x="-737" y="1391" type="line" name=".hr02"/>
-      <point x="-520" y="1391" type="line"/>
-      <point x="-520" y="1537" type="line"/>
-      <point x="-356" y="1537" type="line"/>
-      <point x="-356" y="1391" type="line"/>
-      <point x="292" y="1391" type="line"/>
-      <point x="974" y="733" type="line"/>
-      <point x="974" y="614" type="line"/>
-      <point x="356" y="17" type="line"/>
-      <point x="204" y="179" type="line"/>
-      <point x="713" y="674" type="line"/>
-      <point x="200" y="1167" type="line"/>
-      <point x="-356" y="1167" type="line"/>
-      <point x="-356" y="809" type="line"/>
-      <point x="-120" y="809" type="line"/>
-      <point x="40" y="569" type="line"/>
-      <point x="40" y="169" type="line"/>
-      <point x="-123" y="0" type="line" name=".hr01"/>
+      <point x="-356" y="1347" type="line"/>
+      <point x="292" y="1347" type="line"/>
+      <point x="974" y="689" type="line"/>
+      <point x="974" y="570" type="line"/>
+      <point x="356" y="-27" type="line"/>
+      <point x="204" y="135" type="line"/>
+      <point x="713" y="630" type="line"/>
+      <point x="200" y="1123" type="line"/>
+      <point x="-684" y="1123" type="line"/>
+      <point x="-720" y="1084" type="line"/>
+      <point x="-720" y="856" type="line"/>
+      <point x="-661" y="769" type="line"/>
+      <point x="-160" y="769" type="line"/>
+      <point x="0" y="529" type="line"/>
+      <point x="0" y="169" type="line"/>
+      <point x="-163" y="0" type="line" name=".hr01"/>
       <point x="-356" y="0" type="line"/>
-      <point x="-356" y="-144" type="line"/>
-      <point x="-520" y="-144" type="line"/>
-      <point x="-520" y="0" type="line"/>
-      <point x="-814" y="0" type="line"/>
-      <point x="-932" y="167" type="line"/>
-      <point x="-776" y="330" type="line"/>
-      <point x="-698" y="224" type="line"/>
-      <point x="-520" y="224" type="line"/>
-      <point x="-520" y="585" type="line"/>
-      <point x="-741" y="585" type="line"/>
-      <point x="-920" y="851" type="line"/>
-      <point x="-920" y="1201" type="line"/>
-    </contour>
-    <contour>
-      <point x="-621" y="809" type="line"/>
-      <point x="-520" y="809" type="line"/>
-      <point x="-520" y="1167" type="line"/>
-      <point x="-644" y="1167" type="line"/>
-      <point x="-680" y="1128" type="line"/>
-      <point x="-680" y="896" type="line"/>
-    </contour>
-    <contour>
-      <point x="-356" y="224" type="line" name=".hr03"/>
-      <point x="-223" y="224" type="line"/>
-      <point x="-200" y="243" type="line"/>
-      <point x="-200" y="528" type="line"/>
-      <point x="-241" y="585" type="line"/>
-      <point x="-356" y="585" type="line"/>
+      <point x="-356" y="-332" type="line"/>
+      <point x="-600" y="-332" type="line"/>
+      <point x="-600" y="0" type="line"/>
+      <point x="-854" y="0" type="line"/>
+      <point x="-972" y="167" type="line"/>
+      <point x="-816" y="330" type="line"/>
+      <point x="-738" y="224" type="line"/>
+      <point x="-263" y="224" type="line"/>
+      <point x="-240" y="244" type="line"/>
+      <point x="-240" y="488" type="line"/>
+      <point x="-281" y="545" type="line"/>
+      <point x="-781" y="545" type="line"/>
+      <point x="-960" y="811" type="line"/>
+      <point x="-960" y="1157" type="line"/>
+      <point x="-777" y="1347" type="line"/>
+      <point x="-600" y="1347" type="line"/>
+      <point x="-600" y="1677" type="line"/>
+      <point x="-356" y="1677" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -61,66 +49,22 @@
     <key>formatVersion</key>
     <string>1</string>
     <key>id</key>
-    <string>6f22d2f2133f9c2dd1d8439e1b252a427cafe8439c65773082da4a2071efc724022408185a4c5cb93365f02f02e7608a59932b6d8157a5cad51cc1d78b6f4f23</string>
+    <string>b6ba31449e69f06d27d4666b9e93679841cd883543384b4b4de504ebde28e6fc5054cfe6fa6ee725570173b6fefbf3537225a7b54dae90f9a2b613bd4665da21</string>
     <key>hintSetList</key>
     <array>
       <dict>
         <key>stems</key>
         <array>
-          <string>hstem 1167 224</string>
-          <string>hstem 37 -21</string>
-          <string>vstem -520 164</string>
-          <string>hstem 1537 -20</string>
-          <string>hstem 585 224</string>
-          <string>vstem -200 240</string>
           <string>hstem -123 -21</string>
-          <string>vstem -920 240</string>
-        </array>
-      </dict>
-      <dict>
-        <key>stems</key>
-        <array>
           <string>hstem 0 224</string>
-          <string>hstem 1326 -20</string>
-          <string>vstem -520 164</string>
-          <string>hstem -123 -21</string>
-          <string>hstem 585 224</string>
-          <string>vstem -920 240</string>
-          <string>hstem 1537 -20</string>
-          <string>vstem -200 240</string>
-        </array>
-        <key>pointTag</key>
-        <string>.hr01</string>
-      </dict>
-      <dict>
-        <key>stems</key>
-        <array>
-          <string>hstem 1167 224</string>
           <string>hstem 37 -21</string>
           <string>hstem 585 224</string>
-          <string>vstem -520 164</string>
-          <string>vstem -920 240</string>
-          <string>hstem -123 -21</string>
-          <string>hstem 1537 -20</string>
-          <string>vstem -200 240</string>
-        </array>
-        <key>pointTag</key>
-        <string>.hr02</string>
-      </dict>
-      <dict>
-        <key>stems</key>
-        <array>
-          <string>hstem 0 224</string>
-          <string>hstem 1326 -20</string>
-          <string>vstem -520 164</string>
-          <string>vstem -200 240</string>
-          <string>hstem 585 224</string>
-          <string>hstem -123 -21</string>
+          <string>hstem 1167 224</string>
           <string>hstem 1537 -20</string>
           <string>vstem -920 240</string>
+          <string>vstem -520 164</string>
+          <string>vstem -200 240</string>
         </array>
-        <key>pointTag</key>
-        <string>.hr03</string>
       </dict>
     </array>
   </dict>
