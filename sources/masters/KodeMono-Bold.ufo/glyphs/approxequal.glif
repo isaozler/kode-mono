@@ -5,23 +5,23 @@
   <outline>
     <contour>
       <point x="950" y="1020" type="line"/>
-      <point x="1065" y="826" type="line"/>
-      <point x="798" y="667" type="line"/>
-      <point x="437" y="769" type="line"/>
-      <point x="250" y="655" type="line"/>
-      <point x="135" y="849" type="line"/>
-      <point x="402" y="1008" type="line"/>
       <point x="768" y="910" type="line"/>
+      <point x="402" y="1008" type="line"/>
+      <point x="135" y="849" type="line"/>
+      <point x="250" y="655" type="line"/>
+      <point x="437" y="769" type="line"/>
+      <point x="798" y="667" type="line"/>
+      <point x="1065" y="826" type="line"/>
     </contour>
     <contour>
       <point x="950" y="628" type="line"/>
-      <point x="1065" y="434" type="line"/>
-      <point x="798" y="275" type="line"/>
-      <point x="437" y="377" type="line"/>
-      <point x="250" y="263" type="line"/>
-      <point x="135" y="457" type="line"/>
-      <point x="402" y="616" type="line"/>
       <point x="768" y="518" type="line"/>
+      <point x="402" y="616" type="line"/>
+      <point x="135" y="457" type="line"/>
+      <point x="250" y="263" type="line"/>
+      <point x="437" y="377" type="line"/>
+      <point x="798" y="275" type="line"/>
+      <point x="1065" y="434" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -31,7 +31,7 @@
     <key>formatVersion</key>
     <string>1</string>
     <key>id</key>
-    <string>e465f3da968b3af61c4acdf816e7b66e9f83eed27a35e4049102bbf85a9ba990387750cabaae11856b4763dbb20115bca365b15ee7467e3bf2139edea7fd8da8</string>
+    <string>acb039bc5ac84cc43546df6656c3e49992cde15c383ede419c1ce9b9af966262b3c4a38c4a815d7a4507b1e7947f2420fa2da41892357616d74dd062bd0288ea</string>
     <key>hintSetList</key>
     <array>
       <dict>

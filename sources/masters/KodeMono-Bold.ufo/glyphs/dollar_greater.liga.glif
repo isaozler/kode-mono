@@ -56,15 +56,29 @@
         <key>stems</key>
         <array>
           <string>hstem -123 -21</string>
-          <string>hstem 0 224</string>
           <string>hstem 37 -21</string>
           <string>hstem 585 224</string>
           <string>hstem 1167 224</string>
           <string>hstem 1537 -20</string>
-          <string>vstem -920 240</string>
           <string>vstem -520 164</string>
+          <string>vstem -920 240</string>
           <string>vstem -200 240</string>
         </array>
+      </dict>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 0 224</string>
+          <string>hstem -123 -21</string>
+          <string>hstem 585 224</string>
+          <string>hstem 1167 224</string>
+          <string>hstem 1537 -20</string>
+          <string>vstem -920 240</string>
+          <string>vstem -200 240</string>
+          <string>vstem -520 164</string>
+        </array>
+        <key>pointTag</key>
+        <string>.hr01</string>
       </dict>
     </array>
   </dict>

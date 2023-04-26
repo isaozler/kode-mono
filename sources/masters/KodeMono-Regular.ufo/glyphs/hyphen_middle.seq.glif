@@ -4,9 +4,9 @@
   <outline>
     <contour>
       <point x="-20" y="546" type="line"/>
-      <point x="-20" y="706" type="line"/>
-      <point x="1220" y="706" type="line"/>
       <point x="1220" y="546" type="line"/>
+      <point x="1220" y="706" type="line"/>
+      <point x="-20" y="706" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -16,7 +16,7 @@
     <key>formatVersion</key>
     <string>1</string>
     <key>id</key>
-    <string>w1200m-20,546l-20,706l1220,706l1220,546</string>
+    <string>w1200m-20,546l1220,546l1220,706l-20,706</string>
     <key>hintSetList</key>
     <array>
       <dict>

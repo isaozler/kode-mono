@@ -31,11 +31,30 @@
       <dict>
         <key>stems</key>
         <array>
-          <string>hstem 354 -20</string>
           <string>hstem 810 344</string>
+          <string>hstem 354 -20</string>
           <string>vstem 420 360</string>
-          <string>vstem 540 240</string>
         </array>
+      </dict>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 354 -20</string>
+          <string>vstem 540 240</string>
+          <string>hstem 810 344</string>
+        </array>
+        <key>pointTag</key>
+        <string>.hr01</string>
+      </dict>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 810 344</string>
+          <string>hstem 354 -20</string>
+          <string>vstem 420 360</string>
+        </array>
+        <key>pointTag</key>
+        <string>.hr02</string>
       </dict>
     </array>
   </dict>

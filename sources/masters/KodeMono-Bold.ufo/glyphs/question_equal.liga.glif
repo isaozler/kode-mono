@@ -5,15 +5,15 @@
     <component base="question" xOffset="-887" yOffset="-2"/>
     <contour>
       <point x="720" y="926" type="line"/>
-      <point x="-65" y="926" type="line"/>
-      <point x="-65" y="686" type="line"/>
       <point x="720" y="686" type="line"/>
+      <point x="-65" y="686" type="line"/>
+      <point x="-65" y="926" type="line"/>
     </contour>
     <contour>
       <point x="720" y="558" type="line"/>
-      <point x="-410" y="558" type="line"/>
-      <point x="-410" y="318" type="line"/>
       <point x="720" y="318" type="line"/>
+      <point x="-410" y="318" type="line"/>
+      <point x="-410" y="558" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -25,7 +25,7 @@
     <key>formatVersion</key>
     <string>1</string>
     <key>id</key>
-    <string>w1200m720,926l-65,926l-65,686l720,686m720,558l-410,558l-410,318l720,318</string>
+    <string>w1200m720,926l720,686l-65,686l-65,926m720,558l720,318l-410,318l-410,558</string>
     <key>hintSetList</key>
     <array>
       <dict>

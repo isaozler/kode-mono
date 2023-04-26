@@ -7,29 +7,29 @@
   <outline>
     <contour>
       <point x="332" y="1056" type="line"/>
-      <point x="880" y="1056" type="line"/>
-      <point x="984" y="902" type="line"/>
-      <point x="886" y="800" type="line"/>
-      <point x="807" y="916" type="line"/>
-      <point x="400" y="916" type="line"/>
-      <point x="340" y="863" type="line"/>
-      <point x="340" y="712" type="line"/>
-      <point x="414" y="604" type="line"/>
-      <point x="883" y="604" type="line"/>
-      <point x="1020" y="401" type="line"/>
-      <point x="1020" y="150" type="line"/>
-      <point x="884" y="0" type="line"/>
-      <point x="259" y="0" type="line"/>
-      <point x="180" y="123" type="line"/>
-      <point x="278" y="224" type="line"/>
-      <point x="332" y="144" type="line"/>
-      <point x="818" y="144" type="line"/>
-      <point x="860" y="190" type="line"/>
-      <point x="860" y="378" type="line"/>
-      <point x="802" y="460" type="line"/>
-      <point x="332" y="460" type="line"/>
-      <point x="180" y="688" type="line"/>
       <point x="180" y="908" type="line"/>
+      <point x="180" y="688" type="line"/>
+      <point x="332" y="460" type="line"/>
+      <point x="802" y="460" type="line"/>
+      <point x="860" y="378" type="line"/>
+      <point x="860" y="190" type="line"/>
+      <point x="818" y="144" type="line"/>
+      <point x="332" y="144" type="line"/>
+      <point x="278" y="224" type="line"/>
+      <point x="180" y="123" type="line"/>
+      <point x="259" y="0" type="line"/>
+      <point x="884" y="0" type="line"/>
+      <point x="1020" y="150" type="line"/>
+      <point x="1020" y="401" type="line"/>
+      <point x="883" y="604" type="line"/>
+      <point x="414" y="604" type="line"/>
+      <point x="340" y="712" type="line"/>
+      <point x="340" y="863" type="line"/>
+      <point x="400" y="916" type="line"/>
+      <point x="807" y="916" type="line"/>
+      <point x="886" y="800" type="line"/>
+      <point x="984" y="902" type="line"/>
+      <point x="880" y="1056" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -39,7 +39,7 @@
     <key>formatVersion</key>
     <string>1</string>
     <key>id</key>
-    <string>a337c3e10213d6338acf4199a71be6eea139473a67d15b5f066d8a67a1af5c3a91042327c568461146fc3252b2f8c7b5d9941d1791b163f2a5ef708df3624368</string>
+    <string>e5e433484cd48a609fb23aefa2a08e3fdad98d05d421a6a1714f8879105827a21a4b2dad14b382ad317b2a54c35bba6836ed8db00d5e3c7ce5aa579500b41363</string>
     <key>hintSetList</key>
     <array>
       <dict>

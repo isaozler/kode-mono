@@ -11,19 +11,19 @@
   <outline>
     <contour>
       <point x="120" y="1529" type="line"/>
-      <point x="360" y="1529" type="line"/>
-      <point x="360" y="1031" type="line"/>
-      <point x="468" y="1096" type="line"/>
-      <point x="896" y="1096" type="line"/>
-      <point x="1080" y="835" type="line"/>
-      <point x="1080" y="0" type="line"/>
-      <point x="840" y="0" type="line"/>
-      <point x="840" y="790" type="line"/>
-      <point x="783" y="872" type="line"/>
-      <point x="400" y="872" type="line"/>
-      <point x="360" y="835" type="line"/>
-      <point x="360" y="0" type="line"/>
       <point x="120" y="0" type="line"/>
+      <point x="360" y="0" type="line"/>
+      <point x="360" y="835" type="line"/>
+      <point x="400" y="872" type="line"/>
+      <point x="783" y="872" type="line"/>
+      <point x="840" y="790" type="line"/>
+      <point x="840" y="0" type="line"/>
+      <point x="1080" y="0" type="line"/>
+      <point x="1080" y="835" type="line"/>
+      <point x="896" y="1096" type="line"/>
+      <point x="468" y="1096" type="line"/>
+      <point x="360" y="1031" type="line"/>
+      <point x="360" y="1529" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -33,7 +33,7 @@
     <key>formatVersion</key>
     <string>1</string>
     <key>id</key>
-    <string>w1200m120,1529l360,1529l360,1031l468,1096l896,1096l1080,835l1080,0l840,0l840,790l783,872l400,872l360,835l360,0l120,0</string>
+    <string>w1200m120,1529l120,0l360,0l360,835l400,872l783,872l840,790l840,0l1080,0l1080,835l896,1096l468,1096l360,1031l360,1529</string>
     <key>hintSetList</key>
     <array>
       <dict>
