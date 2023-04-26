@@ -5,7 +5,7 @@
   <anchor x="729" y="1310" name="top"/>
   <anchor x="523" y="-590" name="bottom"/>
   <outline>
-    <component base="dotlessj"/>
-    <component base="dotaccentcomb" xOffset="332.175" yOffset="10"/>
+    <component base="dotlessj" xOffset="-190"/>
+    <component base="dotaccentcomb" xOffset="142.175" yOffset="10"/>
   </outline>
 </glyph>

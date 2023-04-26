@@ -6,7 +6,7 @@
   <anchor x="656" y="-130" name="bottom"/>
   <outline>
     <component base="t"/>
-    <component base="macron.case" xScale="0.806" xOffset="-6" yOffset="-586"/>
+    <component base="macron.case" xScale="0.806" xOffset="55.2299" yOffset="-687.15"/>
   </outline>
   <lib>
   <dict>

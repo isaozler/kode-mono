@@ -3,56 +3,44 @@
   <advance width="1200"/>
   <outline>
     <contour>
-      <point x="-853" y="1393" type="line" name=".hr02"/>
-      <point x="-653" y="1393" type="line"/>
-      <point x="-653" y="1537" type="line"/>
-      <point x="-489" y="1537" type="line"/>
-      <point x="-489" y="1393" type="line"/>
-      <point x="127" y="1393" type="line"/>
-      <point x="832" y="712" type="line"/>
-      <point x="832" y="627" type="line"/>
-      <point x="255" y="70" type="line"/>
-      <point x="158" y="174" type="line"/>
-      <point x="669" y="670" type="line"/>
-      <point x="67" y="1249" type="line"/>
-      <point x="-489" y="1249" type="line"/>
-      <point x="-489" y="814" type="line"/>
-      <point x="-274" y="814" type="line"/>
-      <point x="-133" y="602" type="line"/>
-      <point x="-133" y="145" type="line"/>
-      <point x="-273" y="0" type="line" name=".hr01"/>
-      <point x="-489" y="0" type="line"/>
-      <point x="-489" y="-144" type="line"/>
-      <point x="-653" y="-144" type="line"/>
-      <point x="-653" y="0" type="line"/>
+      <point x="-517" y="1346" type="line"/>
+      <point x="127" y="1346" type="line"/>
+      <point x="832" y="665" type="line"/>
+      <point x="832" y="580" type="line"/>
+      <point x="255" y="23" type="line"/>
+      <point x="158" y="127" type="line"/>
+      <point x="669" y="623" type="line"/>
+      <point x="67" y="1202" type="line"/>
+      <point x="-822" y="1202" type="line"/>
+      <point x="-881" y="1139" type="line"/>
+      <point x="-881" y="868" type="line"/>
+      <point x="-803" y="753" type="line"/>
+      <point x="-302" y="753" type="line"/>
+      <point x="-161" y="541" type="line"/>
+      <point x="-161" y="145" type="line"/>
+      <point x="-301" y="0" type="line" name=".hr01"/>
+      <point x="-517" y="0" type="line"/>
+      <point x="-517" y="-288" type="line"/>
+      <point x="-681" y="-288" type="line"/>
+      <point x="-681" y="0" type="line"/>
       <point x="-1381" y="0" type="line"/>
       <point x="-2032" y="633" type="line"/>
       <point x="-2032" y="718" type="line"/>
-      <point x="-1459" y="1272" type="line"/>
+      <point x="-1459" y="1272" type="line" name=".hr02"/>
       <point x="-1358" y="1167" type="line"/>
       <point x="-1869" y="676" type="line"/>
-      <point x="-1321" y="144" type="line"/>
-      <point x="-653" y="144" type="line"/>
-      <point x="-653" y="670" type="line"/>
-      <point x="-853" y="670" type="line"/>
-      <point x="-1013" y="908" type="line"/>
-      <point x="-1013" y="1227" type="line"/>
-    </contour>
-    <contour>
-      <point x="-775" y="814" type="line"/>
-      <point x="-653" y="814" type="line"/>
-      <point x="-653" y="1249" type="line"/>
-      <point x="-794" y="1249" type="line"/>
-      <point x="-853" y="1186" type="line"/>
-      <point x="-853" y="929" type="line"/>
-    </contour>
-    <contour>
-      <point x="-489" y="144" type="line" name=".hr03"/>
-      <point x="-341" y="144" type="line"/>
-      <point x="-293" y="185" type="line"/>
-      <point x="-293" y="586" type="line"/>
-      <point x="-353" y="670" type="line"/>
-      <point x="-489" y="670" type="line"/>
+      <point x="-1321" y="144" type="line" name=".hr03"/>
+      <point x="-369" y="144" type="line"/>
+      <point x="-321" y="185" type="line"/>
+      <point x="-321" y="525" type="line"/>
+      <point x="-381" y="609" type="line"/>
+      <point x="-881" y="609" type="line"/>
+      <point x="-1041" y="847" type="line"/>
+      <point x="-1041" y="1180" type="line"/>
+      <point x="-881" y="1346" type="line"/>
+      <point x="-681" y="1346" type="line"/>
+      <point x="-681" y="1637" type="line"/>
+      <point x="-517" y="1637" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -64,7 +52,7 @@
     <key>formatVersion</key>
     <string>1</string>
     <key>id</key>
-    <string>eebd22f6741dd58b3384a6f5e86fe5eb8fc524d6e847c02de884de425557ff35661ebcb7992ad4999cf10ee44eb02f27947adf832ad717e6d5fdfe70a8e70fdc</string>
+    <string>628c1051906b4a5c4b78ffb5843701bb4a8f0d1e5d55b71dbb9964f1dd3923185a1613364d130a0caffe0f2ecf387c4742a0bdc0eef8720993735e7be29a9710</string>
     <key>hintSetList</key>
     <array>
       <dict>
@@ -72,27 +60,26 @@
         <array>
           <string>hstem 1249 144</string>
           <string>hstem 76 -20</string>
-          <string>vstem -880 160</string>
-          <string>vstem -520 164</string>
-          <string>vstem -160 160</string>
           <string>hstem 1537 -20</string>
           <string>hstem 70 -20</string>
           <string>hstem 670 144</string>
           <string>hstem -123 -21</string>
+          <string>vstem -880 160</string>
+          <string>vstem -520 164</string>
+          <string>vstem -160 160</string>
         </array>
       </dict>
       <dict>
         <key>stems</key>
         <array>
           <string>hstem 0 144</string>
-          <string>hstem 1266 -20</string>
+          <string>hstem 1249 144</string>
+          <string>hstem 1537 -20</string>
+          <string>hstem 670 144</string>
+          <string>hstem -123 -21</string>
           <string>vstem -880 160</string>
           <string>vstem -520 164</string>
           <string>vstem -160 160</string>
-          <string>hstem -123 -21</string>
-          <string>hstem 1272 -20</string>
-          <string>hstem 670 144</string>
-          <string>hstem 1537 -20</string>
         </array>
         <key>pointTag</key>
         <string>.hr01</string>
@@ -100,15 +87,16 @@
       <dict>
         <key>stems</key>
         <array>
-          <string>hstem 1249 144</string>
+          <string>hstem 1272 -20</string>
           <string>hstem 76 -20</string>
+          <string>hstem 1537 -20</string>
+          <string>hstem 70 -20</string>
+          <string>hstem 670 144</string>
+          <string>hstem -123 -21</string>
+          <string>hstem 1266 -20</string>
           <string>vstem -880 160</string>
           <string>vstem -520 164</string>
           <string>vstem -160 160</string>
-          <string>hstem 670 144</string>
-          <string>hstem 1537 -20</string>
-          <string>hstem 70 -20</string>
-          <string>hstem -123 -21</string>
         </array>
         <key>pointTag</key>
         <string>.hr02</string>
@@ -117,14 +105,13 @@
         <key>stems</key>
         <array>
           <string>hstem 0 144</string>
-          <string>hstem 1266 -20</string>
+          <string>hstem 1249 144</string>
+          <string>hstem 1537 -20</string>
+          <string>hstem 670 144</string>
+          <string>hstem -123 -21</string>
           <string>vstem -880 160</string>
           <string>vstem -520 164</string>
           <string>vstem -160 160</string>
-          <string>hstem 670 144</string>
-          <string>hstem 1537 -20</string>
-          <string>hstem -123 -21</string>
-          <string>hstem 1272 -20</string>
         </array>
         <key>pointTag</key>
         <string>.hr03</string>

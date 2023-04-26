@@ -63,48 +63,11 @@
           <string>hstem 730 224</string>
           <string>hstem 1186 220</string>
           <string>hstem 1642 220</string>
+          <string>vstem 155 240</string>
           <string>vstem 160 240</string>
+          <string>vstem 775 240</string>
           <string>vstem 780 240</string>
         </array>
-      </dict>
-      <dict>
-        <key>stems</key>
-        <array>
-          <string>hstem 310 224</string>
-          <string>hstem 730 224</string>
-          <string>hstem 1186 220</string>
-          <string>hstem 1642 220</string>
-          <string>vstem 775 240</string>
-          <string>vstem 155 240</string>
-        </array>
-        <key>pointTag</key>
-        <string>.hr01</string>
-      </dict>
-      <dict>
-        <key>stems</key>
-        <array>
-          <string>hstem 310 224</string>
-          <string>hstem 730 224</string>
-          <string>hstem 1186 220</string>
-          <string>hstem 1642 220</string>
-          <string>vstem 160 240</string>
-          <string>vstem 780 240</string>
-        </array>
-        <key>pointTag</key>
-        <string>.hr02</string>
-      </dict>
-      <dict>
-        <key>stems</key>
-        <array>
-          <string>hstem 310 224</string>
-          <string>hstem 730 224</string>
-          <string>hstem 1186 220</string>
-          <string>hstem 1642 220</string>
-          <string>vstem 155 240</string>
-          <string>vstem 775 240</string>
-        </array>
-        <key>pointTag</key>
-        <string>.hr03</string>
       </dict>
     </array>
   </dict>

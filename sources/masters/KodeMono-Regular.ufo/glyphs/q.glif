@@ -7,14 +7,14 @@
   <outline>
     <contour>
       <point x="320" y="1056" type="line"/>
-      <point x="638" y="1056" type="line"/>
-      <point x="800" y="960" type="line"/>
-      <point x="800" y="1055" type="line"/>
-      <point x="960" y="1055" type="line"/>
-      <point x="960" y="-431" type="line"/>
-      <point x="800" y="-431" type="line"/>
-      <point x="800" y="95" type="line"/>
-      <point x="640" y="0" type="line"/>
+      <point x="716" y="1056" type="line"/>
+      <point x="878" y="960" type="line"/>
+      <point x="878" y="1055" type="line"/>
+      <point x="1038" y="1055" type="line"/>
+      <point x="1038" y="-431" type="line"/>
+      <point x="878" y="-431" type="line"/>
+      <point x="878" y="95" type="line"/>
+      <point x="718" y="0" type="line"/>
       <point x="320" y="0" type="line"/>
       <point x="160" y="239" type="line"/>
       <point x="160" y="891" type="line"/>
@@ -22,10 +22,10 @@
     <contour>
       <point x="320" y="260" type="line"/>
       <point x="398" y="144" type="line"/>
-      <point x="738" y="144" type="line"/>
-      <point x="800" y="206" type="line"/>
-      <point x="800" y="800" type="line"/>
-      <point x="721" y="912" type="line"/>
+      <point x="816" y="144" type="line"/>
+      <point x="878" y="206" type="line"/>
+      <point x="878" y="800" type="line"/>
+      <point x="799" y="912" type="line"/>
       <point x="382" y="912" type="line"/>
       <point x="320" y="850" type="line"/>
     </contour>
@@ -37,7 +37,7 @@
     <key>formatVersion</key>
     <string>1</string>
     <key>id</key>
-    <string>78576a0cc83cbd38a850bbfb26b20c062c704a9a04a3f624888d9129750e15537e1ce20b519dee939d1d039b0ba85bd8737de6093ad0652d9fc4374bcc4ef13c</string>
+    <string>90e1c38dd055e7ac76ca438472dbccdd228fc3b7edc6c8551d3d95d39b29c54f24434769152ca6f9bf2f3212ee53435a8ad361ad91e06ea97dd9b381f42b36ea</string>
     <key>hintSetList</key>
     <array>
       <dict>

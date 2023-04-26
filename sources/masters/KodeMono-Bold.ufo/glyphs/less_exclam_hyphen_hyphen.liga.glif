@@ -47,20 +47,10 @@
         <array>
           <string>hstem -42 263</string>
           <string>hstem 528 196</string>
+          <string>hstem 1433 -20</string>
           <string>vstem -2543 286</string>
-          <string>hstem 1433 -20</string>
-        </array>
-      </dict>
-      <dict>
-        <key>stems</key>
-        <array>
-          <string>hstem 528 196</string>
           <string>vstem -2520 244</string>
-          <string>hstem 1433 -20</string>
-          <string>hstem -42 263</string>
         </array>
-        <key>pointTag</key>
-        <string>.hr01</string>
       </dict>
     </array>
   </dict>

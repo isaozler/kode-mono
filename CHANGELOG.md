@@ -1,5 +1,8 @@
 # Changelog
 
+**26 April 2023. Version 1.008**
+- Updated glyphs: a, comma, dollar, exclam, germandbls, hbar, l, ij, j, l, less-greater-dollar liga, oe, tbar
+
 **19 April 2023. Version 1.007**
 - Box glyphs added
 

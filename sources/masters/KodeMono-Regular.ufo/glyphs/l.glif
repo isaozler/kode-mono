@@ -8,17 +8,17 @@
   <anchor x="980" y="744" name="right"/>
   <outline>
     <contour>
-      <point x="220" y="1488" type="line"/>
-      <point x="379" y="1488" type="line"/>
-      <point x="539" y="1393" type="line"/>
-      <point x="539" y="256" type="line"/>
-      <point x="614" y="143" type="line"/>
-      <point x="819" y="143" type="line"/>
-      <point x="880" y="0" type="line"/>
-      <point x="539" y="0" type="line"/>
-      <point x="379" y="236" type="line"/>
-      <point x="379" y="1345" type="line"/>
-      <point x="220" y="1345" type="line"/>
+      <point x="300" y="1488" type="line"/>
+      <point x="459" y="1488" type="line"/>
+      <point x="619" y="1393" type="line"/>
+      <point x="619" y="256" type="line"/>
+      <point x="694" y="143" type="line"/>
+      <point x="899" y="143" type="line"/>
+      <point x="960" y="0" type="line"/>
+      <point x="619" y="0" type="line"/>
+      <point x="459" y="236" type="line"/>
+      <point x="459" y="1345" type="line"/>
+      <point x="300" y="1345" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -28,7 +28,7 @@
     <key>formatVersion</key>
     <string>1</string>
     <key>id</key>
-    <string>w1200m220,1488l379,1488l539,1393l539,256l614,143l819,143l880,0l539,0l379,236l379,1345l220,1345</string>
+    <string>w1200m300,1488l459,1488l619,1393l619,256l694,143l899,143l960,0l619,0l459,236l459,1345l300,1345</string>
     <key>hintSetList</key>
     <array>
       <dict>
