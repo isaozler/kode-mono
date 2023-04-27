@@ -12,12 +12,12 @@
       <point x="369" y="1000" type="line"/>
       <point x="841" y="1000" type="line"/>
       <point x="1080" y="650" type="line"/>
-      <point x="1080" y="158" type="line"/>
-      <point x="891" y="-40" type="line"/>
-      <point x="120" y="-40" type="line"/>
-      <point x="120" y="184" type="line"/>
-      <point x="791" y="184" type="line"/>
-      <point x="840" y="233" type="line"/>
+      <point x="1080" y="198" type="line"/>
+      <point x="891" y="0" type="line"/>
+      <point x="120" y="0" type="line"/>
+      <point x="120" y="224" type="line"/>
+      <point x="791" y="224" type="line"/>
+      <point x="840" y="273" type="line"/>
       <point x="840" y="608" type="line"/>
       <point x="723" y="776" type="line"/>
       <point x="237" y="776" type="line"/>
@@ -31,7 +31,7 @@
     <key>formatVersion</key>
     <string>1</string>
     <key>id</key>
-    <string>8b5ce6969b31207c46e3e82e707fb6275d67f71a38a0bbd3332f4ee13dc389d634a9c46d67380ac38b7e8d5242c9eaed12f6faf03254fd84e1c8c10091b77adb</string>
+    <string>16d7af95889000706d09f500c72adbade05cc7a4ed3c4e51537d67b5376e541ca61b8c74eba2667a2c348e0ccf1699adeaf3f0d524cd620b82ac2a8ae558f847</string>
     <key>hintSetList</key>
     <array>
       <dict>

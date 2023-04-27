@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="commaaccentcomb.salt" format="2">
   <advance width="1200"/>
-  <anchor x="600" y="-650" name="_top"/>
   <anchor x="600" y="-150" name="_bottom"/>
+  <anchor x="597" y="-736" name="bottom"/>
   <outline>
     <component base="commabelowcomb.case"/>
   </outline>

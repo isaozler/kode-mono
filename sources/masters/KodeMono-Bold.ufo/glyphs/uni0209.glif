@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0209" format="2">
+  <advance width="1200"/>
+  <unicode hex="0209"/>
+  <anchor x="600" y="-150" name="bottom"/>
+  <outline>
+    <component base="dotlessi"/>
+    <component base="dblgravecomb" xOffset="27" yOffset="70"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.6,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="vlinebelowcomb" format="2">
+  <advance width="1200"/>
+  <unicode hex="0329"/>
+  <anchor x="600" y="-203" name="_bottom"/>
+  <anchor x="603" y="-732" name="bottom"/>
+  <outline>
+    <component base="vlinecomb" xOffset="1.13687e-13" yOffset="-1882.04"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>vlinecomb</string>
+  <key>public.markColor</key>
+  <string>1,0.6,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -2,8 +2,7 @@
 <glyph name="ldot.cv10" format="2">
   <advance width="1200"/>
   <anchor x="490" y="-150" name="bottom"/>
-  <anchor x="120" y="744" name="left"/>
-  <anchor x="980" y="744" name="right"/>
+  <anchor x="277" y="744" name="left"/>
   <outline>
     <component base="ldot"/>
   </outline>

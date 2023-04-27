@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dbllowlinecomb" format="2">
+  <advance width="1200"/>
+  <unicode hex="0333"/>
+  <anchor x="600" y="-204" name="_bottom"/>
+  <anchor x="603" y="-827" name="bottom"/>
+  <outline>
+    <contour>
+      <point x="980" y="-428" type="line"/>
+      <point x="980" y="-204" type="line"/>
+      <point x="220" y="-204" type="line"/>
+      <point x="220" y="-428" type="line"/>
+    </contour>
+    <contour>
+      <point x="980" y="-727" type="line"/>
+      <point x="980" y="-503" type="line"/>
+      <point x="220" y="-503" type="line"/>
+      <point x="220" y="-727" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>lowlinecomb+lowlinecomb</string>
+  <key>public.markColor</key>
+  <string>1,0.6,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

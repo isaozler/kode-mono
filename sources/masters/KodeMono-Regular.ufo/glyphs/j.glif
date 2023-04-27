@@ -2,7 +2,7 @@
 <glyph name="j" format="2">
   <advance width="1200"/>
   <unicode hex="006A"/>
-  <anchor x="696" y="1310" name="top"/>
+  <anchor x="696" y="1602" name="top"/>
   <anchor x="519" y="-582" name="bottom"/>
   <outline>
     <component base="dotlessj" xOffset="-194.825"/>

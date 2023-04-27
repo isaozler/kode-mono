@@ -2,8 +2,8 @@
 <glyph name="acutebelowcomb" format="2">
   <advance width="1200"/>
   <unicode hex="0317"/>
-  <anchor x="600" y="-550" name="_top"/>
   <anchor x="600" y="-160" name="_bottom"/>
+  <anchor x="583" y="-640" name="bottom"/>
   <outline>
     <contour>
       <point x="756" y="-161" type="line"/>

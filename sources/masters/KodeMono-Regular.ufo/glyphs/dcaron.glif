@@ -9,7 +9,7 @@
   <anchor x="800" y="1200" name="middleTop"/>
   <outline>
     <component base="d" xOffset="-80"/>
-    <component base="quoteright" xOffset="480" yOffset="-144"/>
+    <component base="commaaccentcomb" xOffset="513.043" yOffset="484.283"/>
   </outline>
   <lib>
   <dict>

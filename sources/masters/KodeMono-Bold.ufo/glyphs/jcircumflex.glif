@@ -4,7 +4,7 @@
   <unicode hex="0135"/>
   <anchor x="523" y="-590" name="bottom"/>
   <outline>
-    <component base="dotlessj" xOffset="-193.155"/>
+    <component base="dotlessj"/>
     <component base="circumflexcomb" xOffset="-31.1548" yOffset="107"/>
   </outline>
   <lib>

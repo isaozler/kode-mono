@@ -2,7 +2,7 @@
 <glyph name="vlinecomb" format="2">
   <advance width="1200"/>
   <unicode hex="030D"/>
-  <anchor x="600" y="1680" name="_bottom"/>
+  <anchor x="600" y="1780" name="top"/>
   <anchor x="600" y="1250" name="_top"/>
   <outline>
     <contour>
