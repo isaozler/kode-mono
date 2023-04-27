@@ -8,13 +8,56 @@
   <anchor x="960" y="580" name="right"/>
   <anchor x="800" y="1200" name="middleTop"/>
   <outline>
-    <component base="d" xOffset="-80"/>
-    <component base="commaaccentcomb" xOffset="513.043" yOffset="484.283"/>
+    <component base="commaaccentcomb" xOffset="422.244" yOffset="484.283"/>
+    <contour>
+      <point x="240" y="848" type="line"/>
+      <point x="303" y="912" type="line"/>
+      <point x="603" y="912" type="line"/>
+      <point x="680" y="798" type="line"/>
+      <point x="680" y="204" type="line"/>
+      <point x="621" y="145" type="line"/>
+      <point x="317" y="145" type="line"/>
+      <point x="240" y="259" type="line"/>
+    </contour>
+    <contour>
+      <point x="680" y="962" type="line"/>
+      <point x="521" y="1057" type="line"/>
+      <point x="240" y="1057" type="line"/>
+      <point x="80" y="889" type="line"/>
+      <point x="80" y="240" type="line"/>
+      <point x="244" y="0" type="line"/>
+      <point x="521" y="0" type="line"/>
+      <point x="680" y="95" type="line"/>
+      <point x="680" y="0" type="line"/>
+      <point x="840" y="0" type="line"/>
+      <point x="840" y="1488" type="line"/>
+      <point x="680" y="1488" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
   <key>com.fontlab.recipe</key>
   <string>d_quoteright</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>d47142f41a26fe23f9c93dd397bf079a380c8aaeeb16e0c5176e33eab44bd313d58a57b2c3cda83ea0da95164947db1695307adedf3143453cbcfdfb4c2e0a2a</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 0 145</string>
+          <string>hstem 912 145</string>
+          <string>hstem 1488 -20</string>
+          <string>vstem 80 160</string>
+          <string>vstem 720 160</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
   </dict>
   </lib>
 </glyph>
