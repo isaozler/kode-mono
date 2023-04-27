@@ -3,8 +3,6 @@
   <advance width="1200"/>
   <anchor x="515" y="1638" name="top"/>
   <anchor x="515" y="-150" name="bottom"/>
-  <anchor x="848" y="1450" name="left"/>
-  <anchor x="1088" y="1450" name="right"/>
   <outline>
     <component base="lcaron"/>
   </outline>

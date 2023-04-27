@@ -4,11 +4,9 @@
   <unicode hex="013E"/>
   <anchor x="515" y="1638" name="top"/>
   <anchor x="515" y="-150" name="bottom"/>
-  <anchor x="1680" y="1450" name="left"/>
-  <anchor x="1920" y="1450" name="right"/>
   <outline>
-    <component base="l"/>
-    <component base="quoteright" xOffset="368" yOffset="-86"/>
+    <component base="l" xOffset="-93.4198" yOffset="-2.22269e-06"/>
+    <component base="commaaccentcomb" xOffset="237.58" yOffset="411.456"/>
   </outline>
   <lib>
   <dict>

@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="period_period_period.liga" format="2">
   <advance width="1200"/>
-  <anchor x="-601" y="0" name="_top"/>
-  <anchor x="-601" y="273" name="_bottom"/>
   <outline>
     <component base="period" xOffset="-1200"/>
     <component base="period" xOffset="-600"/>

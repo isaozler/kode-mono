@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tildebelowcomb" format="2">
+  <advance width="1200"/>
+  <unicode hex="0330"/>
+  <anchor x="603" y="-198" name="_bottom"/>
+  <anchor x="603" y="-581" name="bottom"/>
+  <outline>
+    <component base="tilde" xOffset="3.41061e-13" yOffset="-1741.39"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>tilde</string>
+  <key>public.markColor</key>
+  <string>1,0.6,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

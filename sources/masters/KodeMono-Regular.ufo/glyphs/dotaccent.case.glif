@@ -2,7 +2,7 @@
 <glyph name="dotaccent.case" format="2">
   <advance width="1200"/>
   <anchor x="600" y="1300" name="_top"/>
-  <anchor x="600" y="1490" name="_bottom"/>
+  <anchor x="600" y="1642" name="top"/>
   <outline>
     <component base="dotaccentcomb"/>
   </outline>

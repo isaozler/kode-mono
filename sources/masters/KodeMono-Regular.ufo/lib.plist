@@ -814,6 +814,55 @@
     <string>heavydbldashvert</string>
     <string>heavydnright</string>
     <string>lightdnleft</string>
+    <string>uni1EC9</string>
+    <string>uni01D0</string>
+    <string>uni1ECB</string>
+    <string>dotbelowcomb</string>
+    <string>uni0209</string>
+    <string>uni020B</string>
+    <string>uni1E2D</string>
+    <string>tildebelowcomb</string>
+    <string>tildeoverlaycomb</string>
+    <string>dieresisbelowcomb</string>
+    <string>ringbelowcomb</string>
+    <string>vlinebelowcomb</string>
+    <string>circumflexbelowcomb</string>
+    <string>brevebelowcomb</string>
+    <string>breveinvertedbelowcomb</string>
+    <string>macronbelowcomb</string>
+    <string>lowlinecomb</string>
+    <string>dbllowlinecomb</string>
+    <string>strokeshortcomb</string>
+    <string>strokelongcomb</string>
+    <string>uni1E01</string>
+    <string>uni0268</string>
+    <string>uni1E2F</string>
+    <string>uni01F0</string>
+    <string>uni0249</string>
+    <string>Icaron</string>
+    <string>Idblgrave</string>
+    <string>Iinvertedbreve</string>
+    <string>longs</string>
+    <string>twosuperior</string>
+    <string>threesuperior</string>
+    <string>onesuperior</string>
+    <string>zero.superior</string>
+    <string>four.superior</string>
+    <string>five.superior</string>
+    <string>six.superior</string>
+    <string>seven.superior</string>
+    <string>eight.superior</string>
+    <string>nine.superior</string>
+    <string>zero.inferior</string>
+    <string>one.inferior</string>
+    <string>two.inferior</string>
+    <string>three.inferior</string>
+    <string>four.inferior</string>
+    <string>five.inferior</string>
+    <string>six.inferior</string>
+    <string>seven.inferior</string>
+    <string>eight.inferior</string>
+    <string>nine.inferior</string>
   </array>
 </dict>
 </plist>

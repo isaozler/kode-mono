@@ -3,16 +3,16 @@
   <advance width="1200"/>
   <unicode hex="0311"/>
   <anchor x="600" y="1340" name="_top"/>
-  <anchor x="600" y="1640" name="_bottom"/>
+  <anchor x="600" y="1745" name="top"/>
   <outline>
     <contour>
       <point x="280" y="1445" type="line"/>
       <point x="480" y="1645" type="line"/>
-      <point x="721" y="1645" type="line"/>
+      <point x="720" y="1645" type="line"/>
       <point x="920" y="1445" type="line"/>
       <point x="920" y="1340" type="line"/>
-      <point x="761" y="1340" type="line"/>
-      <point x="761" y="1525" type="line"/>
+      <point x="760" y="1340" type="line"/>
+      <point x="760" y="1525" type="line"/>
       <point x="440" y="1525" type="line"/>
       <point x="440" y="1340" type="line"/>
       <point x="280" y="1340" type="line"/>

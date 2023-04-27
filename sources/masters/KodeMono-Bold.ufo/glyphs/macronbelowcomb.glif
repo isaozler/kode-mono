@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="macronbelowcomb" format="2">
+  <advance width="1200"/>
+  <unicode hex="0331"/>
+  <anchor x="603" y="-205" name="_bottom"/>
+  <anchor x="603" y="-528" name="bottom"/>
+  <outline>
+    <component base="macroncomb" xOffset="1.13687e-13" yOffset="-1614.95"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>macroncomb</string>
+  <key>public.markColor</key>
+  <string>1,0.6,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

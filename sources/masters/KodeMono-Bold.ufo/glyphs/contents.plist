@@ -106,14 +106,20 @@
   <string>I_acute.glif</string>
   <key>Ibreve</key>
   <string>I_breve.glif</string>
+  <key>Icaron</key>
+  <string>I_caron.glif</string>
   <key>Icircumflex</key>
   <string>I_circumflex.glif</string>
+  <key>Idblgrave</key>
+  <string>I_dblgrave.glif</string>
   <key>Idieresis</key>
   <string>I_dieresis.glif</string>
   <key>Idotaccent</key>
   <string>I_dotaccent.glif</string>
   <key>Igrave</key>
   <string>I_grave.glif</string>
+  <key>Iinvertedbreve</key>
+  <string>I_invertedbreve.glif</string>
   <key>Imacron</key>
   <string>I_macron.glif</string>
   <key>Iogonek</key>
@@ -448,10 +454,14 @@
   <string>breve.glif</string>
   <key>breve.case</key>
   <string>breve.case.glif</string>
+  <key>brevebelowcomb</key>
+  <string>brevebelowcomb.glif</string>
   <key>brevecomb</key>
   <string>brevecomb.glif</string>
   <key>brevecy.case</key>
   <string>brevecy.case.glif</string>
+  <key>breveinvertedbelowcomb</key>
+  <string>breveinvertedbelowcomb.glif</string>
   <key>breveinvertedcomb</key>
   <string>breveinvertedcomb.glif</string>
   <key>brokenbar</key>
@@ -494,6 +504,8 @@
   <string>circumflex.glif</string>
   <key>circumflex.case</key>
   <string>circumflex.case.glif</string>
+  <key>circumflexbelowcomb</key>
+  <string>circumflexbelowcomb.glif</string>
   <key>circumflexcomb</key>
   <string>circumflexcomb.glif</string>
   <key>colon</key>
@@ -542,6 +554,8 @@
   <string>daggerdbl.glif</string>
   <key>dblgravecomb</key>
   <string>dblgravecomb.glif</string>
+  <key>dbllowlinecomb</key>
+  <string>dbllowlinecomb.glif</string>
   <key>dblvlinecomb</key>
   <string>dblvlinecomb.glif</string>
   <key>dcaron</key>
@@ -554,6 +568,8 @@
   <string>dieresis.glif</string>
   <key>dieresis.case</key>
   <string>dieresis.case.glif</string>
+  <key>dieresisbelowcomb</key>
+  <string>dieresisbelowcomb.glif</string>
   <key>dieresiscomb</key>
   <string>dieresiscomb.glif</string>
   <key>divide</key>
@@ -598,6 +614,8 @@
   <string>dotaccent.case.glif</string>
   <key>dotaccentcomb</key>
   <string>dotaccentcomb.glif</string>
+  <key>dotbelowcomb</key>
+  <string>dotbelowcomb.glif</string>
   <key>dotlessi</key>
   <string>dotlessi.glif</string>
   <key>dotlessi.cv03</key>
@@ -628,6 +646,10 @@
   <string>egrave.glif</string>
   <key>eight</key>
   <string>eight.glif</string>
+  <key>eight.inferior</key>
+  <string>eight.inferior.glif</string>
+  <key>eight.superior</key>
+  <string>eight.superior.glif</string>
   <key>ellipsis</key>
   <string>ellipsis.glif</string>
   <key>emacron</key>
@@ -684,10 +706,18 @@
   <string>f.spacer.glif</string>
   <key>five</key>
   <string>five.glif</string>
+  <key>five.inferior</key>
+  <string>five.inferior.glif</string>
+  <key>five.superior</key>
+  <string>five.superior.glif</string>
   <key>florin</key>
   <string>florin.glif</string>
   <key>four</key>
   <string>four.glif</string>
+  <key>four.inferior</key>
+  <string>four.inferior.glif</string>
+  <key>four.superior</key>
+  <string>four.superior.glif</string>
   <key>fraction</key>
   <string>fraction.glif</string>
   <key>g</key>
@@ -1092,6 +1122,10 @@
   <string>lightvertright.glif</string>
   <key>logicalnot</key>
   <string>logicalnot.glif</string>
+  <key>longs</key>
+  <string>longs.glif</string>
+  <key>lowlinecomb</key>
+  <string>lowlinecomb.glif</string>
   <key>lozenge</key>
   <string>lozenge.glif</string>
   <key>lslash</key>
@@ -1110,6 +1144,8 @@
   <string>macron.glif</string>
   <key>macron.case</key>
   <string>macron.case.glif</string>
+  <key>macronbelowcomb</key>
+  <string>macronbelowcomb.glif</string>
   <key>macroncomb</key>
   <string>macroncomb.glif</string>
   <key>minus</key>
@@ -1132,6 +1168,10 @@
   <string>ncommaaccent.glif</string>
   <key>nine</key>
   <string>nine.glif</string>
+  <key>nine.inferior</key>
+  <string>nine.inferior.glif</string>
+  <key>nine.superior</key>
+  <string>nine.superior.glif</string>
   <key>notalmostequal</key>
   <string>notalmostequal.glif</string>
   <key>notequal</key>
@@ -1192,6 +1232,10 @@
   <string>omacron.glif</string>
   <key>one</key>
   <string>one.glif</string>
+  <key>one.inferior</key>
+  <string>one.inferior.glif</string>
+  <key>onesuperior</key>
+  <string>onesuperior.glif</string>
   <key>ordfeminine</key>
   <string>ordfeminine.glif</string>
   <key>ordmasculine</key>
@@ -1316,6 +1360,8 @@
   <string>ring.glif</string>
   <key>ring.case</key>
   <string>ring.case.glif</string>
+  <key>ringbelowcomb</key>
+  <string>ringbelowcomb.glif</string>
   <key>ringcomb</key>
   <string>ringcomb.glif</string>
   <key>s</key>
@@ -1342,8 +1388,16 @@
   <string>semicolon_semicolon.liga.glif</string>
   <key>seven</key>
   <string>seven.glif</string>
+  <key>seven.inferior</key>
+  <string>seven.inferior.glif</string>
+  <key>seven.superior</key>
+  <string>seven.superior.glif</string>
   <key>six</key>
   <string>six.glif</string>
+  <key>six.inferior</key>
+  <string>six.inferior.glif</string>
+  <key>six.superior</key>
+  <string>six.superior.glif</string>
   <key>slash</key>
   <string>slash.glif</string>
   <key>slash.spacer</key>
@@ -1378,8 +1432,12 @@
   <string>space.glif</string>
   <key>sterling</key>
   <string>sterling.glif</string>
+  <key>strokelongcomb</key>
+  <string>strokelongcomb.glif</string>
   <key>strokelongoverlay</key>
   <string>strokelongoverlay.glif</string>
+  <key>strokeshortcomb</key>
+  <string>strokeshortcomb.glif</string>
   <key>strokeshortoverlay</key>
   <string>strokeshortoverlay.glif</string>
   <key>summation</key>
@@ -1398,16 +1456,28 @@
   <string>thorn.glif</string>
   <key>three</key>
   <string>three.glif</string>
+  <key>three.inferior</key>
+  <string>three.inferior.glif</string>
+  <key>threesuperior</key>
+  <string>threesuperior.glif</string>
   <key>tilde</key>
   <string>tilde.glif</string>
   <key>tilde.case</key>
   <string>tilde.case.glif</string>
+  <key>tildebelowcomb</key>
+  <string>tildebelowcomb.glif</string>
   <key>tildecomb</key>
   <string>tildecomb.glif</string>
+  <key>tildeoverlaycomb</key>
+  <string>tildeoverlaycomb.glif</string>
   <key>trademark</key>
   <string>trademark.glif</string>
   <key>two</key>
   <string>two.glif</string>
+  <key>two.inferior</key>
+  <string>two.inferior.glif</string>
+  <key>twosuperior</key>
+  <string>twosuperior.glif</string>
   <key>u</key>
   <string>u.glif</string>
   <key>uacute</key>
@@ -1440,8 +1510,30 @@
   <string>uni00A_0.glif</string>
   <key>uni0122</key>
   <string>uni0122.glif</string>
+  <key>uni01D0</key>
+  <string>uni01D_0.glif</string>
+  <key>uni01F0</key>
+  <string>uni01F_0.glif</string>
+  <key>uni0209</key>
+  <string>uni0209.glif</string>
+  <key>uni020B</key>
+  <string>uni020B_.glif</string>
+  <key>uni0249</key>
+  <string>uni0249.glif</string>
+  <key>uni0268</key>
+  <string>uni0268.glif</string>
   <key>uni02C9</key>
   <string>uni02C_9.glif</string>
+  <key>uni1E01</key>
+  <string>uni1E_01.glif</string>
+  <key>uni1E2D</key>
+  <string>uni1E_2D_.glif</string>
+  <key>uni1E2F</key>
+  <string>uni1E_2F_.glif</string>
+  <key>uni1EC9</key>
+  <string>uni1E_C_9.glif</string>
+  <key>uni1ECB</key>
+  <string>uni1E_C_B_.glif</string>
   <key>uni2007.tf</key>
   <string>uni2007.tf.glif</string>
   <key>uni207B</key>
@@ -1514,6 +1606,8 @@
   <string>vertlightleftheavy.glif</string>
   <key>vertlightrightheavy</key>
   <string>vertlightrightheavy.glif</string>
+  <key>vlinebelowcomb</key>
+  <string>vlinebelowcomb.glif</string>
   <key>vlinecomb</key>
   <string>vlinecomb.glif</string>
   <key>w</key>
@@ -1556,6 +1650,10 @@
   <string>zdotaccent.glif</string>
   <key>zero</key>
   <string>zero.glif</string>
+  <key>zero.inferior</key>
+  <string>zero.inferior.glif</string>
+  <key>zero.superior</key>
+  <string>zero.superior.glif</string>
   <key>zerowidthnobreakspace</key>
   <string>zerowidthnobreakspace.glif</string>
 </dict>

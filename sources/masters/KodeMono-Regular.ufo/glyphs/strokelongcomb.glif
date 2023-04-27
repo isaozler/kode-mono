@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="strokelongcomb" format="2">
+  <advance width="1200"/>
+  <unicode hex="0336"/>
+  <outline>
+    <contour>
+      <point x="40" y="640" type="line"/>
+      <point x="1160" y="640" type="line"/>
+      <point x="1160" y="800" type="line"/>
+      <point x="40" y="800" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>public.markColor</key>
+  <string>1,0.6,0.6,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w1200m40,640l1160,640l1160,800l40,800</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 662 116</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

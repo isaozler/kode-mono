@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0249" format="2">
+  <advance width="1200"/>
+  <unicode hex="0249"/>
+  <anchor x="696" y="1602" name="top"/>
+  <anchor x="519" y="-582" name="bottom"/>
+  <outline>
+    <component base="j"/>
+    <component base="strokeshortoverlay" xScale="0.881333" yScale="1" xOffset="170.028" yOffset="-1.36424e-12"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>j+strokeshortoverlay</string>
+  <key>public.markColor</key>
+  <string>1,0.6,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

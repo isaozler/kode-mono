@@ -2,7 +2,7 @@
 <glyph name="quoteleft" format="2">
   <advance width="1200"/>
   <unicode hex="2018"/>
-  <anchor x="580" y="1653" name="_bottom"/>
+  <anchor x="580" y="1747" name="top"/>
   <anchor x="580" y="1056" name="_top"/>
   <outline>
     <contour>

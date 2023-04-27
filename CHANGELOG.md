@@ -1,5 +1,8 @@
 # Changelog
 
+**27 April 2023. Version 1.010**
+- Updated glyphs: i, j and added strokeshort, lowlines, superior and inferior numbers
+
 **26 April 2023. Version 1.008 1.009**
 - Updated glyphs: a, comma, dollar, exclam, germandbls, hbar, l, ij, j, l, less-greater-dollar liga, oe, tbar
 - Overlay fixes

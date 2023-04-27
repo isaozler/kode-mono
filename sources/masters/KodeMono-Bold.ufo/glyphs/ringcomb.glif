@@ -2,8 +2,8 @@
 <glyph name="ringcomb" format="2">
   <advance width="1200"/>
   <unicode hex="030A"/>
-  <anchor x="602" y="1141" name="_top"/>
-  <anchor x="602" y="1583" name="_bottom"/>
+  <anchor x="602" y="1119" name="_top"/>
+  <anchor x="602" y="1683" name="top"/>
   <outline>
     <contour>
       <point x="503" y="1583" type="line"/>

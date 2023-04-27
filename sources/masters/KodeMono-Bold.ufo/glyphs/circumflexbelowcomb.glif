@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="circumflexbelowcomb" format="2">
+  <advance width="1200"/>
+  <unicode hex="032D"/>
+  <anchor x="600" y="-204" name="_bottom"/>
+  <anchor x="603" y="-654" name="bottom"/>
+  <outline>
+    <component base="circumflex" xOffset="1.13687e-13" yOffset="-1722.08"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>circumflex</string>
+  <key>public.markColor</key>
+  <string>1,0.6,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

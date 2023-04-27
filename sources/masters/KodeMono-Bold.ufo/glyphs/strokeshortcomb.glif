@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="strokeshortcomb" format="2">
+  <advance width="1200"/>
+  <unicode hex="0335"/>
+  <outline>
+    <contour>
+      <point x="980" y="599" type="line"/>
+      <point x="980" y="823" type="line"/>
+      <point x="220" y="823" type="line"/>
+      <point x="220" y="599" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>hyphen</string>
+  <key>public.markColor</key>
+  <string>1,0.6,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="longs" format="2">
+  <advance width="1200"/>
+  <unicode hex="017F"/>
+  <anchor x="600" y="1642" name="top"/>
+  <anchor x="400" y="-150" name="bottom"/>
+  <outline>
+    <contour>
+      <point x="502" y="1542" type="line"/>
+      <point x="808" y="1542" type="line"/>
+      <point x="808" y="1398" type="line"/>
+      <point x="567" y="1398" type="line"/>
+      <point x="480" y="1309" type="line"/>
+      <point x="480" y="0" type="line"/>
+      <point x="320" y="0" type="line"/>
+      <point x="320" y="1355" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>f</string>
+  <key>public.markColor</key>
+  <string>1,0.6,0.6,1</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>w1200m502,1542l808,1542l808,1398l567,1398l480,1309l480,0l320,0l320,1355</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 21 -21</string>
+          <string>hstem 672 144</string>
+          <string>hstem 1248 144</string>
+          <string>vstem 320 160</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
+  </dict>
+  </lib>
+</glyph>

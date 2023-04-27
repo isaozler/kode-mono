@@ -2,50 +2,7 @@
 <glyph name="quoteright" format="2">
   <advance width="1200"/>
   <unicode hex="2019"/>
-  <anchor x="520" y="1430" name="left"/>
-  <anchor x="680" y="1430" name="right"/>
   <outline>
-    <contour>
-      <point x="560" y="1632" type="line"/>
-      <point x="720" y="1632" type="line"/>
-      <point x="720" y="1326" type="line"/>
-      <point x="594" y="1196" type="line"/>
-      <point x="558" y="1251" type="line"/>
-      <point x="640" y="1338" type="line"/>
-      <point x="640" y="1447" type="line"/>
-      <point x="560" y="1447" type="line" name=".hr01"/>
-    </contour>
+    <component base="quoteleft" xScale="-1" yScale="-1" xOffset="1160" yOffset="2709"/>
   </outline>
-  <lib>
-  <dict>
-  <key>public.postscript.hints</key>
-  <dict>
-    <key>formatVersion</key>
-    <string>1</string>
-    <key>id</key>
-    <string>w1200m560,1632l720,1632l720,1326l594,1196l558,1251l640,1338l640,1447l560,1447</string>
-    <key>hintSetList</key>
-    <array>
-      <dict>
-        <key>stems</key>
-        <array>
-          <string>hstem 1367 265</string>
-          <string>hstem 1053 -21</string>
-          <string>vstem 440 280</string>
-        </array>
-      </dict>
-      <dict>
-        <key>stems</key>
-        <array>
-          <string>hstem 1053 -21</string>
-          <string>vstem 560 160</string>
-          <string>hstem 1367 265</string>
-        </array>
-        <key>pointTag</key>
-        <string>.hr01</string>
-      </dict>
-    </array>
-  </dict>
-  </dict>
-  </lib>
 </glyph>

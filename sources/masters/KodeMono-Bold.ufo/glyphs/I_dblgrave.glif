@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Idblgrave" format="2">
+  <advance width="1200"/>
+  <unicode hex="0208"/>
+  <anchor x="600" y="-150" name="bottom"/>
+  <outline>
+    <component base="I"/>
+    <component base="dblgravecomb" xOffset="33" yOffset="301"/>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.fontlab.recipe</key>
+  <string>I+uni030F</string>
+  <key>public.markColor</key>
+  <string>1,0.6,0.6,1</string>
+  </dict>
+  </lib>
+</glyph>
