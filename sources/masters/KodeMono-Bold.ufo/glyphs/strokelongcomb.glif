@@ -4,10 +4,10 @@
   <unicode hex="0336"/>
   <outline>
     <contour>
-      <point x="40" y="580" type="line"/>
-      <point x="1160" y="580" type="line"/>
-      <point x="1160" y="820" type="line"/>
-      <point x="40" y="820" type="line"/>
+      <point x="39.8065" y="579.514" type="line"/>
+      <point x="1159.99" y="579.514" type="line"/>
+      <point x="1159.99" y="819.514" type="line"/>
+      <point x="39.8065" y="819.514" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -21,7 +21,7 @@
     <key>formatVersion</key>
     <string>1</string>
     <key>id</key>
-    <string>w1200m40,580l1160,580l1160,820l40,820</string>
+    <string>w1200m39.81,579.51l1159.99,579.51l1159.99,819.51l39.81,819.51</string>
     <key>hintSetList</key>
     <array>
       <dict>

@@ -7,8 +7,8 @@
   <outline>
     <contour>
       <point x="502" y="1542" type="line"/>
-      <point x="808" y="1542" type="line"/>
-      <point x="808" y="1398" type="line"/>
+      <point x="807.764" y="1542" type="line"/>
+      <point x="807.764" y="1398" type="line"/>
       <point x="567" y="1398" type="line"/>
       <point x="480" y="1309" type="line"/>
       <point x="480" y="0" type="line"/>
@@ -27,7 +27,7 @@
     <key>formatVersion</key>
     <string>1</string>
     <key>id</key>
-    <string>w1200m502,1542l808,1542l808,1398l567,1398l480,1309l480,0l320,0l320,1355</string>
+    <string>w1200m502,1542l807.76,1542l807.76,1398l567,1398l480,1309l480,0l320,0l320,1355</string>
     <key>hintSetList</key>
     <array>
       <dict>

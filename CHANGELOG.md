@@ -1,7 +1,14 @@
 # Changelog
 
-**27 April 2023. Version 1.010**
+**28 April 2023. Version 1.012**
+- Renamed the file name according to the [PR feedback](https://github.com/google/fonts/pull/6239#issuecomment-1527315087)
+- Optimized underline and strikethrough params
+- Updated the contour fractionals.
+
+**27 April 2023. Version 1.010 ... 1.011**
 - Updated glyphs: i, j and added strokeshort, lowlines, superior and inferior numbers
+- Updated dcaron
+- Fixed the html proof pages
 
 **26 April 2023. Version 1.008 1.009**
 - Updated glyphs: a, comma, dollar, exclam, germandbls, hbar, l, ij, j, l, less-greater-dollar liga, oe, tbar

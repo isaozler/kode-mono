@@ -10,16 +10,7 @@
   <outline>
     <component base="commaaccentcomb" xOffset="411.48" yOffset="451.456"/>
     <contour>
-      <point x="283" y="832" type="line"/>
-      <point x="323" y="872" type="line"/>
-      <point x="505" y="872" type="line"/>
-      <point x="563" y="786" type="line"/>
-      <point x="563" y="261" type="line"/>
-      <point x="527" y="225" type="line"/>
-      <point x="341" y="225" type="line"/>
-      <point x="283" y="311" type="line"/>
-    </contour>
-    <contour>
+      <point x="563" y="1528" type="line"/>
       <point x="563" y="1032" type="line"/>
       <point x="455" y="1097" type="line"/>
       <point x="226" y="1097" type="line"/>
@@ -31,7 +22,16 @@
       <point x="563" y="0" type="line"/>
       <point x="803" y="0" type="line"/>
       <point x="803" y="1528" type="line"/>
-      <point x="563" y="1528" type="line"/>
+    </contour>
+    <contour>
+      <point x="283" y="311" type="line"/>
+      <point x="283" y="832" type="line"/>
+      <point x="323" y="872" type="line"/>
+      <point x="505" y="872" type="line"/>
+      <point x="563" y="786" type="line"/>
+      <point x="563" y="261" type="line"/>
+      <point x="527" y="225" type="line"/>
+      <point x="341" y="225" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -43,7 +43,7 @@
     <key>formatVersion</key>
     <string>1</string>
     <key>id</key>
-    <string>127851d28469cbe98e098e42db9d2bcb1d6da9b8170748b9bae869abd329dd5f05f2de2ae2c3c98443bddb39be6adc80a01daca1ebadf74ff47018b657fbdb59</string>
+    <string>0c48ab4df6816f19e32b7f2be02b9f4bee4cf0f6ea182b4afb0173d6dcd361563e3fa62d1188586336cb92ad7f864556b46768245d2f9a8a83d7d0b43bc1c108</string>
     <key>hintSetList</key>
     <array>
       <dict>
