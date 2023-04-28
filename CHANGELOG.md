@@ -1,9 +1,10 @@
 # Changelog
 
-**28 April 2023. Version 1.012**
+**28 April 2023. Version 1.012...1.013**
 - Renamed the file name according to the [PR feedback](https://github.com/google/fonts/pull/6239#issuecomment-1527315087)
 - Optimized underline and strikethrough params
 - Updated the contour fractionals.
+- Added missing build files
 
 **27 April 2023. Version 1.010 ... 1.011**
 - Updated glyphs: i, j and added strokeshort, lowlines, superior and inferior numbers

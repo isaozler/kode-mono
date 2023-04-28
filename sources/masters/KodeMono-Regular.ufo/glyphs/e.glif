@@ -8,7 +8,7 @@
     <contour>
       <point x="320" y="1056" type="line"/>
       <point x="880" y="1056" type="line"/>
-      <point x="1040" y="819" type="line"/>
+      <point x="1040" y="818.326" type="line"/>
       <point x="713" y="481" type="line"/>
       <point x="320" y="481" type="line"/>
       <point x="320" y="258" type="line"/>
@@ -19,15 +19,15 @@
       <point x="880" y="0" type="line"/>
       <point x="321" y="0" type="line"/>
       <point x="160" y="239" type="line"/>
-      <point x="160" y="891" type="line"/>
+      <point x="160" y="890.076" type="line"/>
     </contour>
     <contour>
-      <point x="320" y="850" type="line"/>
+      <point x="320" y="849.219" type="line"/>
       <point x="320" y="625" type="line"/>
       <point x="653" y="625" type="line"/>
-      <point x="855" y="836" type="line"/>
-      <point x="802" y="913" type="line"/>
-      <point x="382" y="913" type="line"/>
+      <point x="855" y="835.267" type="line"/>
+      <point x="802" y="912" type="line"/>
+      <point x="382" y="912" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -37,7 +37,7 @@
     <key>formatVersion</key>
     <string>1</string>
     <key>id</key>
-    <string>cd27bf64c26d2026f0d2347da1a77cdafd9d560726c1f70bcc67ae2c89a2e031510ac21cb15e5e42f40a3637353929fb3b6e34712459b22c86d3cd5edd148cac</string>
+    <string>2694f566c82ec1258cf953cdbe71b6355bb811da06f42c57ac17085ad6e70f128d8099b80a052de5847eb72c4b4dcd59687b74ddfe3ff2df9e0d8cf38f69f40a</string>
     <key>hintSetList</key>
     <array>
       <dict>
