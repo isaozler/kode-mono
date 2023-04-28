@@ -9,16 +9,7 @@
   <anchor x="804" y="1190" name="middleTop"/>
   <outline>
     <contour>
-      <point x="360" y="832" type="line"/>
-      <point x="400" y="872" type="line"/>
-      <point x="782" y="872" type="line"/>
-      <point x="840" y="786" type="line"/>
-      <point x="840" y="261" type="line"/>
-      <point x="804" y="225" type="line"/>
-      <point x="418" y="225" type="line"/>
-      <point x="360" y="311" type="line"/>
-    </contour>
-    <contour>
+      <point x="840" y="1528" type="line"/>
       <point x="840" y="1032" type="line"/>
       <point x="732" y="1097" type="line"/>
       <point x="303" y="1097" type="line"/>
@@ -30,7 +21,16 @@
       <point x="840" y="0" type="line"/>
       <point x="1080" y="0" type="line"/>
       <point x="1080" y="1528" type="line"/>
-      <point x="840" y="1528" type="line"/>
+    </contour>
+    <contour>
+      <point x="360" y="311" type="line"/>
+      <point x="360" y="832" type="line"/>
+      <point x="400" y="872" type="line"/>
+      <point x="782" y="872" type="line"/>
+      <point x="840" y="786" type="line"/>
+      <point x="840" y="261" type="line"/>
+      <point x="804" y="225" type="line"/>
+      <point x="418" y="225" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -40,7 +40,7 @@
     <key>formatVersion</key>
     <string>1</string>
     <key>id</key>
-    <string>f9d752a0f109b961ea2d5547df1f2e4e8362a5b44eb94e266a60c87943504471f466e03e95a8ee25e35d1e79b14e6937c509c290a0cf2f7bf30f1a5bc1f8ed3a</string>
+    <string>d211c1d9509bad73a8da3a83acc69a945bc525298f5ca7c457a695008b046c4d25a53d1fc2948f87d8cd0aa2df3938081fc9e9f926567892914631626a90d73c</string>
     <key>hintSetList</key>
     <array>
       <dict>

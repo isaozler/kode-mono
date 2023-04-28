@@ -1,7 +1,10 @@
 # config.yaml
 sources:
-    - ./Kode-Mono.designspace
+    - ./KodeMono.designspace
 axisOrder:
     - wght
 familyName: "Kode Mono"
 buildOTF: false
+googleFonts: true
+category:
+    - MONOSPACE

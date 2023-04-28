@@ -6,8 +6,8 @@
     <contour>
       <point x="320" y="1056" type="line"/>
       <point x="520" y="1056" type="line"/>
-      <point x="520" y="1350" type="line"/>
-      <point x="680" y="1350" type="line"/>
+      <point x="520" y="1349.8" type="line"/>
+      <point x="680" y="1349.8" type="line"/>
       <point x="680" y="1056" type="line"/>
       <point x="879" y="1056" type="line"/>
       <point x="1022" y="845" type="line"/>
@@ -22,8 +22,8 @@
       <point x="1018" y="143" type="line"/>
       <point x="880" y="0" type="line"/>
       <point x="680" y="0" type="line"/>
-      <point x="680" y="-289" type="line"/>
-      <point x="520" y="-289" type="line"/>
+      <point x="680" y="-289.25" type="line"/>
+      <point x="520" y="-289.25" type="line"/>
       <point x="520" y="0" type="line"/>
       <point x="321" y="0" type="line"/>
       <point x="160" y="239" type="line"/>
@@ -39,13 +39,13 @@
     <key>formatVersion</key>
     <string>1</string>
     <key>id</key>
-    <string>58d33f20985325e157ad85062efd34222b9b3f2b07c4baab94dfec73e5e91b37965d418c9345b05fe196952e656df235d5248f075f7f4aed287865795b3b339a</string>
+    <string>7e68974dde691805df7b6263c91b57cb1522387590705bc40155e2d818900c07639575b5ba824427423d3f9e23c24105fb8900c61b0ebe5f144807260b68ff3b</string>
     <key>hintSetList</key>
     <array>
       <dict>
         <key>stems</key>
         <array>
-          <string>hstem -260.23 20.</string>
+          <string>hstem -240.23 -20</string>
           <string>hstem 0 143</string>
           <string>hstem 912 143</string>
           <string>hstem 1299.82 -20</string>

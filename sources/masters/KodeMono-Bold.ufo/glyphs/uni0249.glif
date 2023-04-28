@@ -6,7 +6,7 @@
   <anchor x="523" y="-590" name="bottom"/>
   <outline>
     <component base="j"/>
-    <component base="strokeshortoverlay" xScale="0.846722" yScale="1" xOffset="248.341" yOffset="-1.36424e-12"/>
+    <component base="strokeshortoverlay" xScale="0.8467" xOffset="248.341"/>
   </outline>
   <lib>
   <dict>
