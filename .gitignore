@@ -2,7 +2,6 @@
 venv
 build.stamp
 proof
-fonts
 node_modules
 package-lock.json
 package.json
@@ -20,3 +19,6 @@ private_notes
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+sources/*.ttf
+sources/*.otf
