@@ -1,5 +1,8 @@
 # Changelog
 
+**3 May 2023. Version 1.014**
+- PR fixes for the Google submission process
+
 **28 April 2023. Version 1.012...1.013**
 - Renamed the file name according to the [PR feedback](https://github.com/google/fonts/pull/6239#issuecomment-1527315087)
 - Optimized underline and strikethrough params
