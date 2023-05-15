@@ -83,14 +83,36 @@
       <dict>
         <key>stems</key>
         <array>
-          <string>hstem 0 754</string>
-          <string>hstem 0 224</string>
           <string>hstem 1249 224</string>
           <string>vstem -1200 240</string>
           <string>vstem -320 320</string>
-          <string>vstem -172 240</string>
+          <string>hstem 0 754</string>
           <string>vstem 708 320</string>
         </array>
+      </dict>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>vstem -172 240</string>
+          <string>vstem -1200 240</string>
+          <string>hstem 1249 224</string>
+          <string>vstem 708 320</string>
+          <string>hstem 0 754</string>
+        </array>
+        <key>pointTag</key>
+        <string>.hr01</string>
+      </dict>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 0 224</string>
+          <string>vstem -1200 240</string>
+          <string>vstem -320 320</string>
+          <string>hstem 1249 224</string>
+          <string>vstem 708 320</string>
+        </array>
+        <key>pointTag</key>
+        <string>.hr02</string>
       </dict>
     </array>
   </dict>

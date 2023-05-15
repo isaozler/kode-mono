@@ -2456,21 +2456,28 @@ feature calt {
   sub numbersign' lookup calt_56 underscore parenleft;
   sub numbersign.spacer underscore' lookup calt_56 parenleft;
   sub numbersign.spacer underscore.spacer parenleft' lookup calt_56;
+
+
   ignore sub period period' period equal;
   ignore sub period' period equal equal;
+  sub period.spacer period.spacer equal' lookup calt_57;
   sub period.spacer period' lookup calt_57 equal;
   sub period' lookup calt_58 period equal;
-  sub period.spacer period.spacer equal' lookup calt_57;
+  
   ignore sub period period' period less;
   ignore sub period' period less less;
+  sub period.spacer period.spacer less' lookup calt_59;
   sub period.spacer period' lookup calt_59 less;
   sub period' lookup calt_60 period less;
-  sub period.spacer period.spacer less' lookup calt_59;
+
+  ignore sub period period period less;
+  ignore sub period period period equal;
   ignore sub period period' period period;
   ignore sub period' period period period;
   sub period.spacer period.spacer period' lookup calt_61;
   sub period.spacer period' lookup calt_62 period;
   sub period' lookup calt_63 period period;
+
   ignore sub plus plus' plus plus;
   ignore sub plus' plus plus plus;
   sub plus.spacer plus.spacer plus' lookup calt_64;
