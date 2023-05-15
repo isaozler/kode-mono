@@ -54,10 +54,89 @@
         <key>stems</key>
         <array>
           <string>hstem 0 560</string>
+          <string>hstem 913 225</string>
+        </array>
+      </dict>
+      <dict>
+        <key>stems</key>
+        <array>
           <string>hstem 335 225</string>
           <string>hstem 913 225</string>
-          <string>hstem 913 560</string>
         </array>
+        <key>pointTag</key>
+        <string>.hr01</string>
+      </dict>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 0 560</string>
+          <string>hstem 913 225</string>
+        </array>
+        <key>pointTag</key>
+        <string>.hr02</string>
+      </dict>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 335 225</string>
+          <string>hstem 913 225</string>
+        </array>
+        <key>pointTag</key>
+        <string>.hr03</string>
+      </dict>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 0 560</string>
+          <string>hstem 913 225</string>
+        </array>
+        <key>pointTag</key>
+        <string>.hr04</string>
+      </dict>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 335 225</string>
+          <string>hstem 913 225</string>
+        </array>
+        <key>pointTag</key>
+        <string>.hr05</string>
+      </dict>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 913 560</string>
+          <string>hstem 0 560</string>
+        </array>
+        <key>pointTag</key>
+        <string>.hr06</string>
+      </dict>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 913 225</string>
+          <string>hstem 0 560</string>
+        </array>
+        <key>pointTag</key>
+        <string>.hr07</string>
+      </dict>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 913 560</string>
+          <string>hstem 0 560</string>
+        </array>
+        <key>pointTag</key>
+        <string>.hr08</string>
+      </dict>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 913 225</string>
+          <string>hstem 0 560</string>
+        </array>
+        <key>pointTag</key>
+        <string>.hr09</string>
       </dict>
     </array>
   </dict>

@@ -1,5 +1,8 @@
 # Changelog
 
+**15 May 2023. Version 1.015**
+- Bugfix: period period period less/equal liga fixed. Ignoring ...< and ...= (thanks for reporting @ash-vd)
+
 **3 May 2023. Version 1.014**
 - PR fixes for the Google submission process
 
