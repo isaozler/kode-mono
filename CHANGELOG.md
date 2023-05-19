@@ -1,5 +1,8 @@
 # Changelog
 
+**19 May 2023. Version 1.016**
+- Bugfix: tile anchors fixed
+
 **15 May 2023. Version 1.015**
 - Bugfix: period period period less/equal liga fixed. Ignoring ...< and ...= (thanks for reporting @ash-vd)
 
