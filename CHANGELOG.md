@@ -1,5 +1,8 @@
 # Changelog
 
+**2 June 2023. Version 1.017**
+- Bugfix: slash slash asterisk and greater ligature bug
+
 **19 May 2023. Version 1.016**
 - Bugfix: tile anchors fixed
 
