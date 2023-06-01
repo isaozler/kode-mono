@@ -2699,7 +2699,9 @@ feature calt {
   ignore sub semicolon' semicolon semicolon;
   sub semicolon.spacer semicolon' lookup calt_129;
   sub semicolon' lookup calt_130 semicolon;
-  sub slash.spacer asterisk' lookup calt_131;
+  
+
+	sub slash.spacer asterisk' lookup calt_131;
   ignore sub slash slash' asterisk;
   ignore sub slash' asterisk asterisk;
   ignore sub slash' asterisk slash;
@@ -2713,8 +2715,10 @@ feature calt {
   ignore sub slash' slash slash;
   ignore sub equal slash' slash;
   ignore sub slash' slash equal;
-  sub slash.spacer slash' lookup calt_133;
-  sub slash' lookup calt_134 slash;
+  #sub slash.spacer slash' lookup calt_133;
+  #sub slash' lookup calt_134 slash;
+
+
   ignore sub colon' [less greater] [hyphen equal];
   ignore sub colon colon' [less greater];
   ignore sub [less greater]' colon colon;
