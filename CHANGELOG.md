@@ -1,5 +1,8 @@
 # Changelog
 
+**27 June 2023. Version 1.018**
+- Bugfix: the kerning of the glyph l is fixed
+
 **2 June 2023. Version 1.017**
 - Bugfix: slash slash asterisk and greater ligature bug
 
