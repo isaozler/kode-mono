@@ -31,7 +31,7 @@ diffenator2==0.1.1
 drawbot-skia==0.5.0
 exceptiongroup==1.1.1
 font-v==2.1.0
-fontbakery==0.8.12a0
+fontbakery==0.8.13
 fontFeatures==1.7.4
 fontmake==3.5.1
 fontMath==0.9.3

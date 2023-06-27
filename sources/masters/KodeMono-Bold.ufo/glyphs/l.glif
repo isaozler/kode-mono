@@ -8,13 +8,13 @@
   <anchor x="1089" y="744" name="right"/>
   <outline>
     <contour>
-      <point x="247" y="1488" type="line"/>
-      <point x="247" y="1265" type="line"/>
+      <point x="160" y="1488" type="line"/>
+      <point x="160" y="1265" type="line"/>
       <point x="406" y="1265" type="line"/>
       <point x="406" y="264" type="line"/>
       <point x="585" y="0" type="line"/>
-      <point x="1036" y="0" type="line"/>
-      <point x="941" y="223" type="line"/>
+      <point x="1040" y="0" type="line"/>
+      <point x="1040" y="223" type="line"/>
       <point x="702" y="223" type="line"/>
       <point x="646" y="308" type="line"/>
       <point x="646" y="1376" type="line"/>
@@ -28,7 +28,7 @@
     <key>formatVersion</key>
     <string>1</string>
     <key>id</key>
-    <string>w1200m247,1488l247,1265l406,1265l406,264l585,0l1036,0l941,223l702,223l646,308l646,1376l457,1488</string>
+    <string>w1200m160,1488l160,1265l406,1265l406,264l585,0l1040,0l1040,223l702,223l646,308l646,1376l457,1488</string>
     <key>hintSetList</key>
     <array>
       <dict>
