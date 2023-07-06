@@ -18,7 +18,6 @@
     <string>Atilde</string>
     <string>B</string>
     <string>C</string>
-    <string>CR</string>
     <string>Cacute</string>
     <string>Cacute.loclPLK</string>
     <string>Ccaron</string>
@@ -607,8 +606,6 @@
     <string>slash_slash_equal_middle.seq</string>
     <string>slash_slash_equal_start.seq</string>
     <string>slash_slash_slash.liga</string>
-    <string>softhyphen</string>
-    <string>softhyphen.case</string>
     <string>space</string>
     <string>summation</string>
     <string>t</string>
@@ -926,7 +923,6 @@
     <string>bar_hyphen_start.seq</string>
     <string>bar_underscore_middle.seq</string>
     <string>bar.spacer</string>
-    <string>softhyphen</string>
     <string>Cacute.loclPLK</string>
     <string>Nacute.loclPLK</string>
     <string>Oacute.loclPLK</string>
@@ -961,7 +957,6 @@
     <string>numbersign_braceleft.liga</string>
     <string>numbersign_equal.liga</string>
     <string>slash_asterisk.liga</string>
-    <string>softhyphen.case</string>
     <string>ampersand_ampersand.liga</string>
     <string>bar_bar.liga</string>
     <string>bar_bar_bar.liga</string>
@@ -1065,7 +1060,6 @@
     <string>hyphen_middle.seq</string>
     <string>hyphen_start.seq</string>
     <string>slash.spacer</string>
-    <string>softhyphen.case</string>
     <string>hyphen.lc</string>
     <string>hyphen.spacer</string>
     <string>less_exclam_hyphen_hyphen.liga</string>
@@ -1221,7 +1215,6 @@
     <string>bar_bar.liga</string>
     <string>bar_bar_bar.liga</string>
     <string>asciitilde.spacer</string>
-    <string>softhyphen</string>
   </array>
   <key>aalt11</key>
   <array>
@@ -1290,7 +1283,6 @@
     <string>ring</string>
     <string>cedilla</string>
     <string>hungarumlaut</string>
-    <string>softhyphen</string>
     <string>abreve</string>
     <string>gcircumflex</string>
     <string>gdotaccent</string>
@@ -1449,7 +1441,6 @@
     <string>oacute.loclPLK</string>
     <string>sacute.loclPLK</string>
     <string>zacute.loclPLK</string>
-    <string>softhyphen.case</string>
     <string>F.spacer</string>
     <string>T.spacer</string>
     <string>asciicircum.spacer</string>
@@ -1559,7 +1550,6 @@
     <string>bar_bar_equal_start.seq</string>
     <string>bar_bar_greater.liga</string>
     <string>bar_greater.liga</string>
-    <string>softhyphen.case</string>
     <string>Oacute.loclPLK</string>
     <string>agrave.cv01</string>
     <string>aacute.cv01</string>
@@ -1689,7 +1679,6 @@
     <string>bar_bar.liga</string>
     <string>bar_bar_bar.liga</string>
     <string>asciitilde.spacer</string>
-    <string>softhyphen</string>
   </array>
   <key>aalt13</key>
   <array>
@@ -1785,7 +1774,6 @@
     <string>cedilla</string>
     <string>hungarumlaut</string>
     <string>fraction</string>
-    <string>softhyphen</string>
     <string>abreve</string>
     <string>gcircumflex</string>
     <string>gdotaccent</string>
@@ -1917,7 +1905,6 @@
     <string>oacute.loclPLK</string>
     <string>sacute.loclPLK</string>
     <string>zacute.loclPLK</string>
-    <string>softhyphen.case</string>
     <string>F.spacer</string>
     <string>T.spacer</string>
     <string>asciicircum.spacer</string>
@@ -2091,7 +2078,6 @@
     <string>bar_underscore_middle.seq</string>
     <string>bar.spacer</string>
     <string>hyphen.lc</string>
-    <string>softhyphen</string>
     <string>Cacute.loclPLK</string>
     <string>Nacute.loclPLK</string>
     <string>Oacute.loclPLK</string>
@@ -2128,7 +2114,6 @@
     <string>numbersign_braceleft.liga</string>
     <string>numbersign_equal.liga</string>
     <string>slash_asterisk.liga</string>
-    <string>softhyphen.case</string>
     <string>ampersand_ampersand.liga</string>
     <string>bar_bar.liga</string>
     <string>bar_bar_bar.liga</string>
@@ -2242,7 +2227,6 @@
     <string>uni2007.tf</string>
     <string>brevecy.case</string>
     <string>gcommaaccent.cv02</string>
-    <string>softhyphen.case</string>
     <string>A</string>
     <string>F</string>
     <string>O</string>
@@ -2340,7 +2324,6 @@
     <string>bar_underscore_middle.seq</string>
     <string>greater.spacer</string>
     <string>bar.spacer</string>
-    <string>softhyphen</string>
     <string>period_period_equal.liga</string>
     <string>colon_colon_equal.liga</string>
     <string>colon_equal.liga</string>
@@ -2520,7 +2503,6 @@
     <string>uni2007.tf</string>
     <string>brevecy.case</string>
     <string>gcommaaccent.cv02</string>
-    <string>softhyphen.case</string>
   </array>
   <key>aalt17</key>
   <array>
@@ -2702,7 +2684,6 @@
     <string>bar_bar_greater.liga</string>
     <string>bar_greater.liga</string>
     <string>asciitilde.spacer</string>
-    <string>softhyphen</string>
   </array>
   <key>aalt18</key>
   <array>
@@ -2934,9 +2915,7 @@
     <string>zacute.loclPLK</string>
     <string>uni2007.tf</string>
     <string>brevecy.case</string>
-    <string>softhyphen</string>
     <string>gcommaaccent.cv02</string>
-    <string>softhyphen.case</string>
   </array>
   <key>aalt19</key>
   <array>
@@ -3097,7 +3076,6 @@
     <string>sacute.loclPLK</string>
     <string>zacute.loclPLK</string>
     <string>period_period_less.liga</string>
-    <string>softhyphen.case</string>
     <string>less.center</string>
     <string>F.spacer</string>
     <string>T.spacer</string>
@@ -3123,6 +3101,102 @@
     <string>plus_greater.liga</string>
     <string>less_plus.liga</string>
     <string>plus.spacer</string>
+    <string>A</string>
+    <string>F</string>
+    <string>O</string>
+    <string>T</string>
+    <string>asciicircum</string>
+    <string>grave</string>
+    <string>f</string>
+    <string>g</string>
+    <string>o</string>
+    <string>r</string>
+    <string>t</string>
+    <string>amacron</string>
+    <string>aacute</string>
+    <string>aogonek</string>
+    <string>adieresis</string>
+    <string>Cacute</string>
+    <string>cacute</string>
+    <string>Zacute</string>
+    <string>zacute</string>
+    <string>oacute</string>
+    <string>dieresis</string>
+    <string>Nacute</string>
+    <string>nacute</string>
+    <string>guillemotleft</string>
+    <string>guillemotright</string>
+    <string>endash</string>
+    <string>emdash</string>
+    <string>guilsinglleft</string>
+    <string>guilsinglright</string>
+    <string>Sacute</string>
+    <string>sacute</string>
+    <string>Oacute</string>
+    <string>caron</string>
+    <string>agrave</string>
+    <string>acircumflex</string>
+    <string>atilde</string>
+    <string>aring</string>
+    <string>questiondown</string>
+    <string>exclamdown</string>
+    <string>gbreve</string>
+    <string>Scedilla</string>
+    <string>scedilla</string>
+    <string>perthousand</string>
+    <string>circumflex</string>
+    <string>tilde</string>
+    <string>macron</string>
+    <string>breve</string>
+    <string>dotaccent</string>
+    <string>ring</string>
+    <string>cedilla</string>
+    <string>hungarumlaut</string>
+    <string>abreve</string>
+    <string>gcircumflex</string>
+    <string>gdotaccent</string>
+    <string>uni207C</string>
+    <string>Tcedilla</string>
+    <string>commaaccentcomb</string>
+    <string>gcommaaccent</string>
+    <string>tcedilla</string>
+    <string>ampersand.spacer</string>
+    <string>ampersand_ampersand.liga</string>
+    <string>asciicircum_equal.liga</string>
+    <string>asciitilde.spacer</string>
+    <string>asterisk_asterisk.liga</string>
+    <string>asterisk_asterisk_asterisk.liga</string>
+    <string>bar.spacer</string>
+    <string>bar_bar_bar.liga</string>
+    <string>bar_bar_equal_end.seq</string>
+    <string>bar_bar_equal_middle.seq</string>
+    <string>bar_bar_hyphen_end.seq</string>
+    <string>bar_bar_hyphen_middle.seq</string>
+    <string>bar_bar_hyphen_start.seq</string>
+    <string>bar_equal_end.seq</string>
+    <string>bar_equal_middle.seq</string>
+    <string>bar_equal_start.seq</string>
+    <string>bar_hyphen_end.seq</string>
+    <string>bar_hyphen_middle.seq</string>
+    <string>bar_hyphen_start.seq</string>
+    <string>bar_underscore_middle.seq</string>
+    <string>braceleft_bar.liga</string>
+    <string>bracketleft_bar.liga</string>
+    <string>colon_colon_equal.liga</string>
+    <string>colon_equal.liga</string>
+    <string>equal.dnom</string>
+    <string>equal.spacer</string>
+    <string>equal_middle.seq</string>
+    <string>equal_start.seq</string>
+    <string>exclam_equal_equal.liga</string>
+    <string>less_bar.liga</string>
+    <string>less_bar_bar.liga</string>
+    <string>less_bar_bar_bar.liga</string>
+    <string>numbersign_braceleft.liga</string>
+    <string>numbersign_equal.liga</string>
+    <string>period_period_equal.liga</string>
+    <string>question_equal.liga</string>
+    <string>slash_asterisk.liga</string>
   </array>
   <key>aalt3</key>
   <array>
@@ -3214,7 +3288,6 @@
     <string>greater_hyphen_middle.seq</string>
     <string>greater_hyphen_start.seq</string>
     <string>greater.spacer</string>
-    <string>softhyphen</string>
     <string>exclam_equal.liga</string>
     <string>exclam_equal_equal.liga</string>
     <string>asterisk_asterisk.liga</string>
@@ -3407,7 +3480,6 @@
     <string>period_period_less.liga</string>
     <string>exclam_equal.liga</string>
     <string>asterisk_greater.liga</string>
-    <string>softhyphen.case</string>
     <string>bar_bar.liga</string>
     <string>bar_bar_bar_greater.liga</string>
     <string>bar_bar_greater.liga</string>
@@ -3557,7 +3629,6 @@
     <string>bar_bar_greater.liga</string>
     <string>bar_greater.liga</string>
     <string>asciitilde.spacer</string>
-    <string>softhyphen</string>
     <string>fraction</string>
     <string>uni207C</string>
     <string>hyphen.case</string>
@@ -3752,7 +3823,6 @@
     <string>uni2007.tf</string>
     <string>brevecy.case</string>
     <string>gcommaaccent.cv02</string>
-    <string>softhyphen.case</string>
     <string>A</string>
     <string>F</string>
     <string>O</string>
@@ -3828,7 +3898,6 @@
     <string>bar_hyphen_start.seq</string>
     <string>bar_underscore_middle.seq</string>
     <string>bar.spacer</string>
-    <string>softhyphen</string>
     <string>period_period_equal.liga</string>
     <string>colon_colon_equal.liga</string>
     <string>colon_equal.liga</string>
@@ -4129,7 +4198,6 @@
     <string>bar_bar_greater.liga</string>
     <string>bar_greater.liga</string>
     <string>asciitilde.spacer</string>
-    <string>softhyphen</string>
     <string>asciitilde</string>
     <string>ordfeminine</string>
     <string>ordmasculine</string>
@@ -4196,7 +4264,6 @@
     <string>zacute.loclPLK</string>
     <string>hyphen_hyphen.liga</string>
     <string>period_period_less.liga</string>
-    <string>softhyphen.case</string>
     <string>less_less_less.liga</string>
     <string>less.center</string>
     <string>F.spacer</string>
@@ -4289,7 +4356,6 @@
     <string>ring</string>
     <string>cedilla</string>
     <string>hungarumlaut</string>
-    <string>softhyphen</string>
     <string>abreve</string>
     <string>gcircumflex</string>
     <string>gdotaccent</string>
@@ -4422,7 +4488,6 @@
   </array>
   <key>blank</key>
   <array>
-    <string>CR</string>
     <string>F.spacer</string>
     <string>T.spacer</string>
     <string>ampersand.spacer</string>
@@ -4553,7 +4618,6 @@
     <string>equal</string>
     <string>greater</string>
     <string>less</string>
-    <string>CR</string>
     <string>quotedbl</string>
     <string>numbersign</string>
     <string>dollar</string>
@@ -5189,7 +5253,6 @@
     <string>sacute.loclPLK</string>
     <string>Zacute.loclPLK</string>
     <string>zacute.loclPLK</string>
-    <string>softhyphen</string>
     <string>horizontalbar</string>
     <string>notalmostequal</string>
     <string>gcommaaccent.cv02</string>
@@ -5198,7 +5261,6 @@
     <string>lcommaaccent.cv09</string>
     <string>lcommaaccent.cv10</string>
     <string>questiondbl.liga</string>
-    <string>softhyphen.case</string>
   </array>
   <key>calt10</key>
   <array>
@@ -5448,7 +5510,6 @@
     <string>bar_bar_hyphen_start.seq</string>
     <string>bar_hyphen_middle.seq</string>
     <string>bar_hyphen_start.seq</string>
-    <string>CR</string>
     <string>exclam</string>
     <string>quotedbl</string>
     <string>numbersign</string>
@@ -5856,7 +5917,6 @@
     <string>greater.spacer</string>
     <string>bar.spacer</string>
     <string>hyphen.lc</string>
-    <string>softhyphen</string>
     <string>horizontalbar</string>
     <string>notalmostequal</string>
     <string>Cacute.loclPLK</string>
@@ -5982,7 +6042,6 @@
     <string>colon.spacer</string>
     <string>semicolon.spacer</string>
     <string>backslash.spacer</string>
-    <string>softhyphen.case</string>
     <string>underscore.spacer</string>
     <string>ampersand_ampersand.liga</string>
     <string>bar_braceright.liga</string>
@@ -6229,7 +6288,6 @@
     <string>nacute.loclPLK</string>
     <string>sacute.loclPLK</string>
     <string>zacute.loclPLK</string>
-    <string>CR</string>
     <string>exclam</string>
     <string>quotedbl</string>
     <string>numbersign</string>
@@ -6738,7 +6796,6 @@
     <string>d</string>
     <string>e</string>
     <string>f</string>
-    <string>CR</string>
     <string>exclam</string>
     <string>quotedbl</string>
     <string>numbersign</string>
@@ -7493,7 +7550,6 @@
     <string>sacute.loclPLK</string>
     <string>zacute.loclPLK</string>
     <string>w_w_w.liga</string>
-    <string>CR</string>
     <string>exclam</string>
     <string>quotedbl</string>
     <string>numbersign</string>
@@ -8012,7 +8068,6 @@
     <string>Nacute.loclPLK</string>
     <string>Sacute.loclPLK</string>
     <string>Zacute.loclPLK</string>
-    <string>softhyphen</string>
     <string>horizontalbar</string>
     <string>notalmostequal</string>
     <string>gcommaaccent.cv02</string>
@@ -8021,7 +8076,6 @@
     <string>lcommaaccent.cv09</string>
     <string>lcommaaccent.cv10</string>
     <string>questiondbl.liga</string>
-    <string>softhyphen.case</string>
   </array>
   <key>calt16</key>
   <array>
@@ -8427,7 +8481,6 @@
   </array>
   <key>calt19</key>
   <array>
-    <string>CR</string>
     <string>exclam</string>
     <string>quotedbl</string>
     <string>numbersign</string>
@@ -9083,7 +9136,6 @@
     <string>sacute.loclPLK</string>
     <string>Zacute.loclPLK</string>
     <string>zacute.loclPLK</string>
-    <string>softhyphen</string>
     <string>horizontalbar</string>
     <string>notalmostequal</string>
     <string>gcommaaccent.cv02</string>
@@ -9093,7 +9145,6 @@
     <string>lcommaaccent.cv10</string>
     <string>zerowidthnobreakspace</string>
     <string>questiondbl.liga</string>
-    <string>softhyphen.case</string>
   </array>
   <key>calt2</key>
   <array>
@@ -9164,7 +9215,6 @@
     <string>f</string>
     <string>hyphen_middle.seq</string>
     <string>hyphen_start.seq</string>
-    <string>CR</string>
     <string>exclam</string>
     <string>quotedbl</string>
     <string>numbersign</string>
@@ -9572,7 +9622,6 @@
     <string>greater.spacer</string>
     <string>bar.spacer</string>
     <string>hyphen.lc</string>
-    <string>softhyphen</string>
     <string>horizontalbar</string>
     <string>notalmostequal</string>
     <string>Cacute.loclPLK</string>
@@ -9697,7 +9746,6 @@
     <string>colon.spacer</string>
     <string>semicolon.spacer</string>
     <string>backslash.spacer</string>
-    <string>softhyphen.case</string>
     <string>underscore.spacer</string>
     <string>ampersand_ampersand.liga</string>
     <string>bar_braceright.liga</string>
@@ -10224,7 +10272,6 @@
     <string>d</string>
     <string>e</string>
     <string>f</string>
-    <string>CR</string>
     <string>exclam</string>
     <string>quotedbl</string>
     <string>numbersign</string>
@@ -10873,6 +10920,46 @@
     <string>bar_hyphen_middle.seq</string>
     <string>bar_hyphen_start.seq</string>
     <string>exclam_equal_middle.seq</string>
+    <string>G</string>
+    <string>H</string>
+    <string>I</string>
+    <string>J</string>
+    <string>K</string>
+    <string>L</string>
+    <string>M</string>
+    <string>N</string>
+    <string>O</string>
+    <string>P</string>
+    <string>Q</string>
+    <string>R</string>
+    <string>S</string>
+    <string>T</string>
+    <string>U</string>
+    <string>V</string>
+    <string>W</string>
+    <string>X</string>
+    <string>Y</string>
+    <string>Z</string>
+    <string>g</string>
+    <string>h</string>
+    <string>i</string>
+    <string>j</string>
+    <string>k</string>
+    <string>l</string>
+    <string>m</string>
+    <string>n</string>
+    <string>o</string>
+    <string>p</string>
+    <string>q</string>
+    <string>r</string>
+    <string>s</string>
+    <string>t</string>
+    <string>u</string>
+    <string>v</string>
+    <string>w</string>
+    <string>x</string>
+    <string>y</string>
+    <string>z</string>
   </array>
   <key>calt5</key>
   <array>
@@ -10886,7 +10973,6 @@
     <string>greater_greater_hyphen_start.seq</string>
     <string>greater_hyphen_middle.seq</string>
     <string>greater_hyphen_start.seq</string>
-    <string>CR</string>
     <string>exclam</string>
     <string>quotedbl</string>
     <string>numbersign</string>
@@ -11535,7 +11621,6 @@
     <string>Zacute.loclPLK</string>
     <string>zacute.loclPLK</string>
     <string>brevecy.case</string>
-    <string>softhyphen</string>
     <string>horizontalbar</string>
     <string>notalmostequal</string>
     <string>gcommaaccent.cv02</string>
@@ -11544,7 +11629,6 @@
     <string>lcommaaccent.cv09</string>
     <string>lcommaaccent.cv10</string>
     <string>questiondbl.liga</string>
-    <string>softhyphen.case</string>
   </array>
   <key>calt6</key>
   <array>
@@ -11735,6 +11819,485 @@
     <string>oacute.loclPLK</string>
     <string>sacute.loclPLK</string>
     <string>zacute.loclPLK</string>
+    <string>exclam</string>
+    <string>quotedbl</string>
+    <string>numbersign</string>
+    <string>dollar</string>
+    <string>percent</string>
+    <string>ampersand</string>
+    <string>quotesingle</string>
+    <string>parenleft</string>
+    <string>parenright</string>
+    <string>asterisk</string>
+    <string>plus</string>
+    <string>comma</string>
+    <string>hyphen</string>
+    <string>period</string>
+    <string>slash</string>
+    <string>colon</string>
+    <string>semicolon</string>
+    <string>less</string>
+    <string>equal</string>
+    <string>greater</string>
+    <string>question</string>
+    <string>at</string>
+    <string>G</string>
+    <string>H</string>
+    <string>I</string>
+    <string>J</string>
+    <string>K</string>
+    <string>L</string>
+    <string>M</string>
+    <string>N</string>
+    <string>O</string>
+    <string>P</string>
+    <string>Q</string>
+    <string>R</string>
+    <string>S</string>
+    <string>T</string>
+    <string>U</string>
+    <string>V</string>
+    <string>W</string>
+    <string>X</string>
+    <string>Y</string>
+    <string>Z</string>
+    <string>bracketleft</string>
+    <string>backslash</string>
+    <string>bracketright</string>
+    <string>asciicircum</string>
+    <string>underscore</string>
+    <string>grave</string>
+    <string>braceleft</string>
+    <string>bar</string>
+    <string>braceright</string>
+    <string>asciitilde</string>
+    <string>Adieresis</string>
+    <string>Amacron</string>
+    <string>Eacute</string>
+    <string>Aogonek</string>
+    <string>Odieresis</string>
+    <string>Udieresis</string>
+    <string>Ccaron</string>
+    <string>Cacute</string>
+    <string>Zacute</string>
+    <string>Dcaron</string>
+    <string>Emacron</string>
+    <string>Edotaccent</string>
+    <string>Ecaron</string>
+    <string>dagger</string>
+    <string>degree</string>
+    <string>Eogonek</string>
+    <string>bullet</string>
+    <string>registered</string>
+    <string>copyright</string>
+    <string>trademark</string>
+    <string>dieresis</string>
+    <string>notequal</string>
+    <string>Iogonek</string>
+    <string>Imacron</string>
+    <string>lessequal</string>
+    <string>greaterequal</string>
+    <string>summation</string>
+    <string>Lcaron</string>
+    <string>Lacute</string>
+    <string>Nacute</string>
+    <string>logicalnot</string>
+    <string>Ncaron</string>
+    <string>guillemotleft</string>
+    <string>guillemotright</string>
+    <string>ellipsis</string>
+    <string>Ohungarumlaut</string>
+    <string>Otilde</string>
+    <string>Omacron</string>
+    <string>endash</string>
+    <string>emdash</string>
+    <string>quotedblleft</string>
+    <string>quotedblright</string>
+    <string>quoteleft</string>
+    <string>quoteright</string>
+    <string>divide</string>
+    <string>lozenge</string>
+    <string>Racute</string>
+    <string>Rcaron</string>
+    <string>guilsinglleft</string>
+    <string>guilsinglright</string>
+    <string>Scaron</string>
+    <string>quotesinglbase</string>
+    <string>quotedblbase</string>
+    <string>Sacute</string>
+    <string>Aacute</string>
+    <string>Tcaron</string>
+    <string>Iacute</string>
+    <string>Zcaron</string>
+    <string>Umacron</string>
+    <string>Oacute</string>
+    <string>Ocircumflex</string>
+    <string>Uring</string>
+    <string>Uacute</string>
+    <string>Uhungarumlaut</string>
+    <string>Uogonek</string>
+    <string>Yacute</string>
+    <string>Zdotaccent</string>
+    <string>Lslash</string>
+    <string>uni0122</string>
+    <string>caron</string>
+    <string>Aring</string>
+    <string>Ccedilla</string>
+    <string>Ntilde</string>
+    <string>cent</string>
+    <string>acute</string>
+    <string>AE</string>
+    <string>Oslash</string>
+    <string>plusminus</string>
+    <string>yen</string>
+    <string>product</string>
+    <string>questiondown</string>
+    <string>exclamdown</string>
+    <string>florin</string>
+    <string>approxequal</string>
+    <string>Agrave</string>
+    <string>Atilde</string>
+    <string>OE</string>
+    <string>Ydieresis</string>
+    <string>Gbreve</string>
+    <string>Idotaccent</string>
+    <string>Scedilla</string>
+    <string>daggerdbl</string>
+    <string>periodcentered</string>
+    <string>perthousand</string>
+    <string>Acircumflex</string>
+    <string>Ecircumflex</string>
+    <string>Edieresis</string>
+    <string>Egrave</string>
+    <string>Icircumflex</string>
+    <string>Idieresis</string>
+    <string>Igrave</string>
+    <string>Ograve</string>
+    <string>Ucircumflex</string>
+    <string>Ugrave</string>
+    <string>circumflex</string>
+    <string>tilde</string>
+    <string>macron</string>
+    <string>breve</string>
+    <string>dotaccent</string>
+    <string>ring</string>
+    <string>cedilla</string>
+    <string>hungarumlaut</string>
+    <string>ogonek</string>
+    <string>fraction</string>
+    <string>currency</string>
+    <string>brokenbar</string>
+    <string>Eth</string>
+    <string>multiply</string>
+    <string>Thorn</string>
+    <string>Abreve</string>
+    <string>Ccircumflex</string>
+    <string>Cdotaccent</string>
+    <string>Dcroat</string>
+    <string>Ebreve</string>
+    <string>Gcircumflex</string>
+    <string>Gdotaccent</string>
+    <string>Hcircumflex</string>
+    <string>Hbar</string>
+    <string>Itilde</string>
+    <string>IJ</string>
+    <string>Jcircumflex</string>
+    <string>Ldot</string>
+    <string>Obreve</string>
+    <string>Scircumflex</string>
+    <string>Tbar</string>
+    <string>Utilde</string>
+    <string>Ubreve</string>
+    <string>Wcircumflex</string>
+    <string>Ycircumflex</string>
+    <string>uni02C9</string>
+    <string>Wgrave</string>
+    <string>Wacute</string>
+    <string>Wdieresis</string>
+    <string>Euro</string>
+    <string>minus</string>
+    <string>uni2219</string>
+    <string>grave.case</string>
+    <string>dieresis.case</string>
+    <string>macron.case</string>
+    <string>acute.case</string>
+    <string>circumflex.case</string>
+    <string>caron.case</string>
+    <string>breve.case</string>
+    <string>dotaccent.case</string>
+    <string>ring.case</string>
+    <string>tilde.case</string>
+    <string>hungarumlaut.case</string>
+    <string>gravecomb</string>
+    <string>tildecomb</string>
+    <string>acutecomb</string>
+    <string>Ibreve</string>
+    <string>AEacute</string>
+    <string>Oslashacute</string>
+    <string>Ygrave</string>
+    <string>underscoredbl</string>
+    <string>uni207B</string>
+    <string>uni207C</string>
+    <string>uni208B</string>
+    <string>hyphen.case</string>
+    <string>endash.case</string>
+    <string>guilsinglleft.case</string>
+    <string>guilsinglright.case</string>
+    <string>universal</string>
+    <string>Kcommaaccent</string>
+    <string>Lcommaaccent</string>
+    <string>Ncommaaccent</string>
+    <string>Rcommaaccent</string>
+    <string>Scommaaccent</string>
+    <string>Tcedilla</string>
+    <string>Tcommaaccent</string>
+    <string>brevecomb</string>
+    <string>caroncomb</string>
+    <string>cedilla.case</string>
+    <string>cedillacomb</string>
+    <string>circumflexcomb</string>
+    <string>commaaccentcomb</string>
+    <string>dieresiscomb</string>
+    <string>dotaccentcomb</string>
+    <string>hungarumlautcomb</string>
+    <string>macroncomb</string>
+    <string>ringcomb</string>
+    <string>Cacute.loclPLK</string>
+    <string>F.spacer</string>
+    <string>Nacute.loclPLK</string>
+    <string>Oacute.loclPLK</string>
+    <string>Sacute.loclPLK</string>
+    <string>T.spacer</string>
+    <string>Zacute.loclPLK</string>
+    <string>aacute.cv01</string>
+    <string>abreve.cv01</string>
+    <string>acircumflex.cv01</string>
+    <string>acute.case.loclPLK</string>
+    <string>acute.loclPLK</string>
+    <string>adieresis.cv01</string>
+    <string>agrave.cv01</string>
+    <string>amacron.cv01</string>
+    <string>ampersand.spacer</string>
+    <string>ampersand_ampersand.liga</string>
+    <string>aogonek.cv01</string>
+    <string>aring.cv01</string>
+    <string>asciicircum.spacer</string>
+    <string>asciicircum_equal.liga</string>
+    <string>asciitilde.spacer</string>
+    <string>asterisk.spacer</string>
+    <string>asterisk_asterisk.liga</string>
+    <string>asterisk_asterisk_asterisk.liga</string>
+    <string>asterisk_greater.liga</string>
+    <string>asterisk_slash.liga</string>
+    <string>at.spacer</string>
+    <string>atilde.cv01</string>
+    <string>backslash.spacer</string>
+    <string>backslash.ss06</string>
+    <string>backslash_slash.liga</string>
+    <string>bar.cv30</string>
+    <string>bar.spacer</string>
+    <string>bar_bar.liga</string>
+    <string>bar_bar_bar.liga</string>
+    <string>bar_bar_bar_greater.liga</string>
+    <string>bar_bar_equal_end.seq</string>
+    <string>bar_bar_greater.liga</string>
+    <string>bar_bar_hyphen_end.seq</string>
+    <string>bar_braceright.liga</string>
+    <string>bar_bracketright.liga</string>
+    <string>bar_equal_end.seq</string>
+    <string>bar_greater.liga</string>
+    <string>bar_hyphen_end.seq</string>
+    <string>bar_underscore_middle.seq</string>
+    <string>braceleft.spacer</string>
+    <string>braceleft_bar.liga</string>
+    <string>braceright.spacer</string>
+    <string>bracketleft.spacer</string>
+    <string>bracketleft_bar.liga</string>
+    <string>bracketleft_bracketright.cv27</string>
+    <string>bracketright.spacer</string>
+    <string>brevecy.case</string>
+    <string>colon.center</string>
+    <string>colon.spacer</string>
+    <string>colon_colon.liga</string>
+    <string>colon_colon_colon.liga</string>
+    <string>colon_colon_equal.liga</string>
+    <string>colon_equal.liga</string>
+    <string>commaabovecomb</string>
+    <string>commabelowcomb.case</string>
+    <string>commareversedabovecomb</string>
+    <string>dblgravecomb</string>
+    <string>divisionslash</string>
+    <string>dollar.spacer</string>
+    <string>dollar.ss04</string>
+    <string>dollar_greater.liga</string>
+    <string>dotlessi.cv03</string>
+    <string>dotlessi.cv04</string>
+    <string>dotlessi.cv05</string>
+    <string>dotlessi.cv06</string>
+    <string>equal.dnom</string>
+    <string>equal.spacer</string>
+    <string>equal_asciitilde.ss07</string>
+    <string>equal_end.seq</string>
+    <string>equal_equal.liga</string>
+    <string>equal_equal_equal.liga</string>
+    <string>exclam.spacer</string>
+    <string>exclam_equal.liga</string>
+    <string>exclam_equal_equal.liga</string>
+    <string>exclam_exclam.liga</string>
+    <string>exclam_exclam_period.liga</string>
+    <string>f.spacer</string>
+    <string>gbreve.cv02</string>
+    <string>gcircumflex.cv02</string>
+    <string>gcommaaccent.cv02</string>
+    <string>gdotaccent.cv02</string>
+    <string>greater.center</string>
+    <string>greater.spacer</string>
+    <string>greater_equal.liga</string>
+    <string>greater_equal_end.seq</string>
+    <string>greater_greater.liga</string>
+    <string>greater_greater_equal_end.seq</string>
+    <string>greater_greater_greater.liga</string>
+    <string>greater_greater_hyphen_end.seq</string>
+    <string>greater_hyphen_end.seq</string>
+    <string>horizontalbar</string>
+    <string>hyphen.lc</string>
+    <string>hyphen.spacer</string>
+    <string>hyphen_end.seq</string>
+    <string>hyphen_hyphen.liga</string>
+    <string>iacute.cv03</string>
+    <string>iacute.cv04</string>
+    <string>iacute.cv05</string>
+    <string>iacute.cv06</string>
+    <string>ibreve.cv03</string>
+    <string>ibreve.cv04</string>
+    <string>ibreve.cv05</string>
+    <string>ibreve.cv06</string>
+    <string>icircumflex.cv03</string>
+    <string>icircumflex.cv04</string>
+    <string>icircumflex.cv05</string>
+    <string>icircumflex.cv06</string>
+    <string>idieresis.cv03</string>
+    <string>idieresis.cv04</string>
+    <string>idieresis.cv05</string>
+    <string>idieresis.cv06</string>
+    <string>igrave.cv03</string>
+    <string>igrave.cv04</string>
+    <string>igrave.cv05</string>
+    <string>igrave.cv06</string>
+    <string>imacron.cv03</string>
+    <string>imacron.cv04</string>
+    <string>imacron.cv05</string>
+    <string>imacron.cv06</string>
+    <string>iogonek.cv03</string>
+    <string>iogonek.cv04</string>
+    <string>iogonek.cv05</string>
+    <string>iogonek.cv06</string>
+    <string>itilde.cv03</string>
+    <string>itilde.cv04</string>
+    <string>itilde.cv05</string>
+    <string>itilde.cv06</string>
+    <string>l.spacer</string>
+    <string>lacute.cv07</string>
+    <string>lacute.cv08</string>
+    <string>lacute.cv09</string>
+    <string>lacute.cv10</string>
+    <string>lcaron.cv07</string>
+    <string>lcaron.cv08</string>
+    <string>lcaron.cv09</string>
+    <string>lcaron.cv10</string>
+    <string>lcommaaccent.cv07</string>
+    <string>lcommaaccent.cv08</string>
+    <string>lcommaaccent.cv09</string>
+    <string>lcommaaccent.cv10</string>
+    <string>ldot.cv07</string>
+    <string>ldot.cv08</string>
+    <string>ldot.cv09</string>
+    <string>ldot.cv10</string>
+    <string>less.center</string>
+    <string>less.spacer</string>
+    <string>less_asterisk.liga</string>
+    <string>less_asterisk_greater.liga</string>
+    <string>less_bar.liga</string>
+    <string>less_bar_bar.liga</string>
+    <string>less_bar_bar_bar.liga</string>
+    <string>less_bar_greater.liga</string>
+    <string>less_dollar.liga</string>
+    <string>less_dollar_greater.liga</string>
+    <string>less_equal.liga</string>
+    <string>less_equal_end.seq</string>
+    <string>less_exclam_hyphen_hyphen.liga</string>
+    <string>less_greater.liga</string>
+    <string>less_hyphen_end.seq</string>
+    <string>less_less.liga</string>
+    <string>less_less_equal_end.seq</string>
+    <string>less_less_hyphen_end.seq</string>
+    <string>less_less_less.liga</string>
+    <string>less_plus.liga</string>
+    <string>less_plus_greater.liga</string>
+    <string>less_slash.liga</string>
+    <string>less_slash_greater.liga</string>
+    <string>lslash.cv07</string>
+    <string>lslash.cv08</string>
+    <string>lslash.cv09</string>
+    <string>lslash.cv10</string>
+    <string>notalmostequal</string>
+    <string>numbersign.spacer</string>
+    <string>numbersign_braceleft.liga</string>
+    <string>numbersign_bracketleft.liga</string>
+    <string>numbersign_colon.liga</string>
+    <string>numbersign_end.seq</string>
+    <string>numbersign_equal.liga</string>
+    <string>numbersign_exclam.liga</string>
+    <string>numbersign_middle.seq</string>
+    <string>numbersign_parenleft.liga</string>
+    <string>numbersign_question.liga</string>
+    <string>numbersign_start.seq</string>
+    <string>numbersign_underscore.liga</string>
+    <string>numbersign_underscore_parenleft.liga</string>
+    <string>overlinecomb</string>
+    <string>parenleft.spacer</string>
+    <string>percent.spacer</string>
+    <string>percent_percent.liga</string>
+    <string>period.spacer</string>
+    <string>period_equal.cv32</string>
+    <string>period_period.liga</string>
+    <string>period_period_equal.liga</string>
+    <string>period_period_less.liga</string>
+    <string>period_period_period.liga</string>
+    <string>period_question.liga</string>
+    <string>plus.spacer</string>
+    <string>plus_greater.liga</string>
+    <string>plus_plus.liga</string>
+    <string>plus_plus_plus.liga</string>
+    <string>question.spacer</string>
+    <string>question_equal.liga</string>
+    <string>question_period.liga</string>
+    <string>questiondbl.liga</string>
+    <string>semicolon.spacer</string>
+    <string>semicolon_semicolon.liga</string>
+    <string>slash.spacer</string>
+    <string>slash_asterisk.liga</string>
+    <string>slash_backslash.liga</string>
+    <string>slash_equal_end.seq</string>
+    <string>slash_greater.liga</string>
+    <string>slash_slash.liga</string>
+    <string>slash_slash_equal_end.seq</string>
+    <string>slash_slash_slash.liga</string>
+    <string>strokelongoverlay</string>
+    <string>strokeshortoverlay</string>
+    <string>underscore.spacer</string>
+    <string>underscore_end.seq</string>
+    <string>underscore_middle.seq</string>
+    <string>underscore_start.seq</string>
+    <string>uni2E3A</string>
+    <string>uni2E3B</string>
+    <string>uniEE00</string>
+    <string>uniEE01</string>
+    <string>uniEE02</string>
+    <string>uniEE03</string>
+    <string>uniEE04</string>
+    <string>uniEE05</string>
+    <string>w.spacer</string>
   </array>
   <key>calt7</key>
   <array>
@@ -11794,7 +12357,6 @@
     <string>bar_bar_hyphen_start.seq</string>
     <string>bar_hyphen_middle.seq</string>
     <string>bar_hyphen_start.seq</string>
-    <string>CR</string>
     <string>exclam</string>
     <string>quotedbl</string>
     <string>numbersign</string>
@@ -12202,7 +12764,6 @@
     <string>greater.spacer</string>
     <string>bar.spacer</string>
     <string>hyphen.lc</string>
-    <string>softhyphen</string>
     <string>horizontalbar</string>
     <string>notalmostequal</string>
     <string>Cacute.loclPLK</string>
@@ -12328,7 +12889,6 @@
     <string>colon.spacer</string>
     <string>semicolon.spacer</string>
     <string>backslash.spacer</string>
-    <string>softhyphen.case</string>
     <string>underscore.spacer</string>
     <string>ampersand_ampersand.liga</string>
     <string>bar_braceright.liga</string>
@@ -12584,7 +13144,6 @@
     <string>Nacute.loclPLK</string>
     <string>Sacute.loclPLK</string>
     <string>Zacute.loclPLK</string>
-    <string>CR</string>
     <string>exclam</string>
     <string>quotedbl</string>
     <string>numbersign</string>
@@ -13181,7 +13740,6 @@
     <string>nacute.loclPLK</string>
     <string>sacute.loclPLK</string>
     <string>zacute.loclPLK</string>
-    <string>CR</string>
     <string>exclam</string>
     <string>quotedbl</string>
     <string>numbersign</string>
@@ -13477,7 +14035,6 @@
     <string>greater.spacer</string>
     <string>bar.spacer</string>
     <string>hyphen.lc</string>
-    <string>softhyphen</string>
     <string>horizontalbar</string>
     <string>notalmostequal</string>
     <string>Cacute.loclPLK</string>
@@ -13598,7 +14155,6 @@
     <string>colon.spacer</string>
     <string>semicolon.spacer</string>
     <string>backslash.spacer</string>
-    <string>softhyphen.case</string>
     <string>underscore.spacer</string>
     <string>ampersand_ampersand.liga</string>
     <string>bar_braceright.liga</string>
@@ -13675,7 +14231,6 @@
     <string>exclamdown</string>
     <string>questiondown</string>
     <string>hyphen</string>
-    <string>softhyphen</string>
     <string>endash</string>
     <string>emdash</string>
     <string>parenleft</string>
@@ -13705,7 +14260,6 @@
   <key>case2</key>
   <array>
     <string>hyphen.case</string>
-    <string>softhyphen.case</string>
     <string>endash.case</string>
     <string>guilsinglleft.case</string>
     <string>guilsinglright.case</string>
@@ -14804,8 +15358,6 @@
     <string>slash_backslash.liga</string>
     <string>slash_slash.liga</string>
     <string>slash_slash_slash.liga</string>
-    <string>softhyphen</string>
-    <string>softhyphen.case</string>
     <string>tbar</string>
     <string>tcaron</string>
     <string>tcedilla</string>
@@ -15899,8 +16451,6 @@
     <string>slash_backslash.liga</string>
     <string>slash_slash.liga</string>
     <string>slash_slash_slash.liga</string>
-    <string>softhyphen</string>
-    <string>softhyphen.case</string>
     <string>tbar</string>
     <string>tcaron</string>
     <string>tcedilla</string>
@@ -15948,7 +16498,6 @@
     <string>Atilde</string>
     <string>B</string>
     <string>C</string>
-    <string>CR</string>
     <string>Cacute</string>
     <string>Cacute.loclPLK</string>
     <string>Ccaron</string>
@@ -16520,8 +17069,6 @@
     <string>slash_slash_equal_middle.seq</string>
     <string>slash_slash_equal_start.seq</string>
     <string>slash_slash_slash.liga</string>
-    <string>softhyphen</string>
-    <string>softhyphen.case</string>
     <string>space</string>
     <string>summation</string>
     <string>t</string>
@@ -17175,8 +17722,6 @@
     <string>slash_slash_equal_middle.seq</string>
     <string>slash_slash_equal_start.seq</string>
     <string>slash_slash_slash.liga</string>
-    <string>softhyphen</string>
-    <string>softhyphen.case</string>
     <string>summation</string>
     <string>t</string>
     <string>tbar</string>
@@ -17539,7 +18084,6 @@
     <string>Atilde</string>
     <string>B</string>
     <string>C</string>
-    <string>CR</string>
     <string>Cacute</string>
     <string>Cacute.loclPLK</string>
     <string>Ccaron</string>
@@ -18094,8 +18638,6 @@
     <string>slash_slash_equal_middle.seq</string>
     <string>slash_slash_equal_start.seq</string>
     <string>slash_slash_slash.liga</string>
-    <string>softhyphen</string>
-    <string>softhyphen.case</string>
     <string>space</string>
     <string>summation</string>
     <string>tbar</string>

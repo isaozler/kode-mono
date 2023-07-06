@@ -37,8 +37,6 @@
   <key>public.glyphOrder</key>
   <array>
     <string>.notdef</string>
-    <string>NULL</string>
-    <string>CR</string>
     <string>space</string>
     <string>A</string>
     <string>AE</string>
@@ -659,8 +657,6 @@
     <string>slash_slash_equal_middle.seq</string>
     <string>slash_slash_equal_start.seq</string>
     <string>slash_slash_slash.liga</string>
-    <string>softhyphen</string>
-    <string>softhyphen.case</string>
     <string>sterling</string>
     <string>strokelongoverlay</string>
     <string>strokeshortoverlay</string>
