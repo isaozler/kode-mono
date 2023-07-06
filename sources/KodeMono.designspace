@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <designspace format="4.0">
  <axes>
-  <axis name="weight" minimum="400" maximum="700" default="400" tag="wght">
+  <axis minimum="400" name="weight" tag="wght" default="400" maximum="700">
    <labelname xml:lang="en">Weight</labelname>
    <map input="400" output="400"/>
    <map input="500" output="500"/>
@@ -10,40 +10,40 @@
   </axis>
  </axes>
  <sources>
-  <source name="Bold" filename="masters/KodeMono-Bold.ufo" familyname="Kode Mono" stylename="Bold">
+  <source stylename="Bold" familyname="Kode Mono" name="Bold" filename="masters/KodeMono-Bold.ufo">
    <location>
-    <dimension name="weight" xvalue="700"/>
+    <dimension xvalue="700" name="weight"/>
    </location>
   </source>
-  <source name="Regular" filename="masters/KodeMono-Regular.ufo" familyname="Kode Mono" stylename="Regular">
+  <source stylename="Regular" familyname="Kode Mono" name="Regular" filename="masters/KodeMono-Regular.ufo">
    <lib copy="1"/>
    <groups copy="1"/>
    <info copy="1"/>
    <features copy="1"/>
    <location>
-    <dimension name="weight" xvalue="400"/>
+    <dimension xvalue="400" name="weight"/>
    </location>
   </source>
  </sources>
  <instances>
-  <instance name="Regular" filename="instances/KodeMono-Regular.ufo" familyname="Kode Mono" stylename="Regular">
+  <instance stylename="Regular" familyname="Kode Mono" name="Regular" filename="instances/KodeMono-Regular.ufo">
    <location>
-    <dimension name="weight" xvalue="400"/>
+    <dimension xvalue="400" name="weight"/>
    </location>
   </instance>
-  <instance name="Medium" filename="instances/KodeMono-Medium.ufo" familyname="Kode Mono" stylename="Medium">
+  <instance stylename="Medium" familyname="Kode Mono" name="Medium" filename="instances/KodeMono-Medium.ufo">
    <location>
-    <dimension name="weight" xvalue="500"/>
+    <dimension xvalue="500" name="weight"/>
    </location>
   </instance>
-  <instance name="SemiBold" filename="instances/KodeMono-SemiBold.ufo" familyname="Kode Mono" stylename="SemiBold">
+  <instance stylename="SemiBold" familyname="Kode Mono" name="SemiBold" filename="instances/KodeMono-SemiBold.ufo">
    <location>
-    <dimension name="weight" xvalue="600"/>
+    <dimension xvalue="600" name="weight"/>
    </location>
   </instance>
-  <instance name="Bold" filename="instances/KodeMono-Bold.ufo" familyname="Kode Mono" stylename="Bold">
+  <instance stylename="Bold" familyname="Kode Mono" name="Bold" filename="instances/KodeMono-Bold.ufo">
    <location>
-    <dimension name="weight" xvalue="700"/>
+    <dimension xvalue="700" name="weight"/>
    </location>
   </instance>
  </instances>

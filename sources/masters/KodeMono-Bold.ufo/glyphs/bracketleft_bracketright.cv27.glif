@@ -31,21 +31,11 @@
         <key>stems</key>
         <array>
           <string>hstem -331 230</string>
+          <string>hstem 1439 230</string>
           <string>hstem 1447 226</string>
           <string>vstem -1000 238</string>
           <string>vstem 760 240</string>
         </array>
-      </dict>
-      <dict>
-        <key>stems</key>
-        <array>
-          <string>hstem 1439 230</string>
-          <string>hstem -331 230</string>
-          <string>vstem 760 240</string>
-          <string>vstem -1000 238</string>
-        </array>
-        <key>pointTag</key>
-        <string>.hr01</string>
       </dict>
     </array>
   </dict>
