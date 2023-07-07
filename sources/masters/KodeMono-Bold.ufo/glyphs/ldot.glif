@@ -5,8 +5,8 @@
   <anchor x="515" y="-150" name="bottom"/>
   <anchor x="200" y="744" name="left"/>
   <outline>
-    <component base="l"/>
-    <component base="dotaccentcomb" xOffset="350" yOffset="-692"/>
+    <component base="l" xOffset="-76.2285" yOffset="-1.81899e-12"/>
+    <component base="dotaccentcomb" xOffset="461" yOffset="-692"/>
   </outline>
   <lib>
   <dict>

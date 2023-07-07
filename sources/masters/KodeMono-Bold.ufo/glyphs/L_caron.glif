@@ -8,7 +8,7 @@
   <anchor x="780" y="2090" name="right"/>
   <outline>
     <component base="L"/>
-    <component base="quoteright" xOffset="360" yOffset="-241"/>
+    <component base="caron.salt" xOffset="379.51" yOffset="-347.634"/>
   </outline>
   <lib>
   <dict>

@@ -6,7 +6,7 @@
   <anchor x="490" y="-150" name="bottom"/>
   <outline>
     <component base="l" xOffset="-91"/>
-    <component base="commaaccentcomb" xOffset="198" yOffset="484.279"/>
+    <component base="caron.salt" xOffset="169.746" yOffset="-246"/>
   </outline>
   <lib>
   <dict>
