@@ -304,7 +304,7 @@
       {
         "name":"A",
         "unicode":"0041",
-        "lastModified":"2023-07-06 16:51:38",
+        "lastModified":"2023-07-06 20:51:32",
         "layers":[
           {
             "name":"Bold",
@@ -1411,7 +1411,7 @@
       {
         "name":"C",
         "unicode":"0043",
-        "lastModified":"2023-07-06 17:14:39",
+        "lastModified":"2023-07-06 20:51:32",
         "layers":[
           {
             "name":"Bold",
@@ -2227,7 +2227,7 @@
       {
         "name":"E",
         "unicode":"0045",
-        "lastModified":"2023-07-06 16:51:38",
+        "lastModified":"2023-07-06 20:51:32",
         "layers":[
           {
             "name":"Bold",
@@ -3439,7 +3439,7 @@
       {
         "name":"G",
         "unicode":"0047",
-        "lastModified":"2023-07-06 16:51:38",
+        "lastModified":"2023-07-06 20:51:32",
         "layers":[
           {
             "name":"Bold",
@@ -3842,7 +3842,7 @@
       {
         "name":"H",
         "unicode":"0048",
-        "lastModified":"2023-07-06 16:51:38",
+        "lastModified":"2023-07-06 20:51:32",
         "layers":[
           {
             "name":"Bold",
@@ -4159,7 +4159,7 @@
       {
         "name":"I",
         "unicode":"0049",
-        "lastModified":"2023-07-06 16:51:38",
+        "lastModified":"2023-07-06 20:51:32",
         "layers":[
           {
             "name":"Bold",
@@ -5178,7 +5178,7 @@
       {
         "name":"K",
         "unicode":"004b",
-        "lastModified":"2023-07-06 16:51:38",
+        "lastModified":"2023-07-06 20:51:32",
         "layers":[
           {
             "name":"Bold",
@@ -5332,7 +5332,7 @@
       {
         "name":"L",
         "unicode":"004c",
-        "lastModified":"2023-07-06 16:51:38",
+        "lastModified":"2023-07-06 20:51:32",
         "layers":[
           {
             "name":"Bold",
@@ -6501,7 +6501,7 @@
       {
         "name":"O",
         "unicode":"004f",
-        "lastModified":"2023-07-06 16:51:38",
+        "lastModified":"2023-07-06 20:51:32",
         "layers":[
           {
             "name":"Bold",
@@ -9463,7 +9463,7 @@
       {
         "name":"U",
         "unicode":"0055",
-        "lastModified":"2023-07-06 16:51:38",
+        "lastModified":"2023-07-06 20:51:32",
         "layers":[
           {
             "name":"Bold",
@@ -10293,7 +10293,7 @@
       {
         "name":"V",
         "unicode":"0056",
-        "lastModified":"2023-07-06 16:51:38",
+        "lastModified":"2023-07-06 20:51:32",
         "layers":[
           {
             "name":"Bold",
@@ -11874,7 +11874,7 @@
       {
         "name":"a",
         "unicode":"0061",
-        "lastModified":"2023-07-06 16:51:38",
+        "lastModified":"2023-07-06 20:51:32",
         "layers":[
           {
             "name":"Bold",
@@ -15591,7 +15591,7 @@
       {
         "name":"bar",
         "unicode":"007c",
-        "lastModified":"2023-04-26 17:43:00",
+        "lastModified":"2023-07-07 00:48:45",
         "layers":[
           {
             "name":"Bold",
@@ -15650,7 +15650,8 @@
                       ]
                     }
                   ]
-                }
+                },
+                "active":true
               }
             ],
             "hints":[
@@ -15677,7 +15678,7 @@
       },
       {
         "name":"bar.cv30",
-        "lastModified":"2023-04-27 08:25:23",
+        "lastModified":"2023-07-07 00:48:45",
         "layers":[
           {
             "name":"Bold",
@@ -15737,7 +15738,7 @@
       },
       {
         "name":"bar_bar.liga",
-        "lastModified":"2023-04-27 09:19:24",
+        "lastModified":"2023-07-07 00:48:45",
         "layers":[
           {
             "name":"Bold",
@@ -15781,8 +15782,9 @@
                   }
                 },
                 "transform":{
-                  "xOffset":-900
-                }
+                  "xOffset":-300.043
+                },
+                "active":true
               },
               {
                 "elementData":{
@@ -15791,7 +15793,7 @@
                   }
                 },
                 "transform":{
-                  "xOffset":-300
+                  "xOffset":-900
                 }
               }
             ],
@@ -15802,7 +15804,7 @@
       },
       {
         "name":"bar_bar_bar.liga",
-        "lastModified":"2023-04-27 09:19:24",
+        "lastModified":"2023-07-07 00:48:45",
         "layers":[
           {
             "name":"Bold",
@@ -15887,7 +15889,7 @@
       },
       {
         "name":"bar_bar_bar_greater.liga",
-        "lastModified":"2023-04-27 08:25:23",
+        "lastModified":"2023-07-07 00:48:45",
         "layers":[
           {
             "name":"Bold",
@@ -15954,7 +15956,7 @@
       },
       {
         "name":"bar_bar_equal_end.seq",
-        "lastModified":"2023-04-27 11:57:19",
+        "lastModified":"2023-07-07 00:48:45",
         "layers":[
           {
             "name":"Bold",
@@ -15970,7 +15972,8 @@
                 "transform":{
                   "yScale":0.8784,
                   "yOffset":10
-                }
+                },
+                "active":true
               },
               {
                 "elementData":{
@@ -16032,7 +16035,8 @@
                 "transform":{
                   "yScale":0.8784,
                   "yOffset":10
-                }
+                },
+                "active":true
               },
               {
                 "elementData":{
@@ -16085,7 +16089,7 @@
       },
       {
         "name":"bar_bar_equal_middle.seq",
-        "lastModified":"2023-04-27 11:57:19",
+        "lastModified":"2023-07-07 00:48:45",
         "layers":[
           {
             "name":"Bold",
@@ -16244,7 +16248,7 @@
       },
       {
         "name":"bar_bar_equal_start.seq",
-        "lastModified":"2023-04-27 11:57:19",
+        "lastModified":"2023-07-07 00:48:45",
         "layers":[
           {
             "name":"Bold",
@@ -16305,7 +16309,8 @@
                 },
                 "transform":{
                   "xScale":-1
-                }
+                },
+                "active":true
               }
             ],
             "hints":[
@@ -16347,7 +16352,7 @@
       },
       {
         "name":"bar_bar_greater.liga",
-        "lastModified":"2023-04-27 08:25:23",
+        "lastModified":"2023-07-07 00:48:45",
         "layers":[
           {
             "name":"Bold",
@@ -16364,7 +16369,8 @@
                 "transform":{
                   "xOffset":-600,
                   "yOffset":-50
-                }
+                },
+                "active":true
               },
               {
                 "elementData":{
@@ -16394,7 +16400,8 @@
                 "transform":{
                   "xOffset":-600,
                   "yOffset":-50
-                }
+                },
+                "active":true
               },
               {
                 "elementData":{
@@ -16414,7 +16421,7 @@
       },
       {
         "name":"bar_bar_hyphen_end.seq",
-        "lastModified":"2023-04-27 08:25:23",
+        "lastModified":"2023-07-07 00:48:45",
         "layers":[
           {
             "name":"Bold",
@@ -16510,7 +16517,7 @@
       },
       {
         "name":"bar_bar_hyphen_middle.seq",
-        "lastModified":"2023-04-27 08:25:23",
+        "lastModified":"2023-07-07 00:48:45",
         "layers":[
           {
             "name":"Bold",
@@ -16537,8 +16544,7 @@
                 },
                 "transform":{
                   "xOffset":-1200
-                },
-                "active":true
+                }
               }
             ],
             "hints":[
@@ -16633,7 +16639,7 @@
       },
       {
         "name":"bar_bar_hyphen_start.seq",
-        "lastModified":"2023-04-27 08:25:23",
+        "lastModified":"2023-07-07 00:48:45",
         "layers":[
           {
             "name":"Bold",
@@ -16748,7 +16754,7 @@
       },
       {
         "name":"bar_braceright.liga",
-        "lastModified":"2023-04-27 08:25:23",
+        "lastModified":"2023-07-07 00:48:45",
         "layers":[
           {
             "name":"Bold",
@@ -16791,7 +16797,7 @@
       },
       {
         "name":"bar_bracketright.liga",
-        "lastModified":"2023-04-27 08:25:23",
+        "lastModified":"2023-07-07 00:48:45",
         "layers":[
           {
             "name":"Bold",
@@ -16834,7 +16840,7 @@
       },
       {
         "name":"bar_equal_end.seq",
-        "lastModified":"2023-04-27 11:57:19",
+        "lastModified":"2023-07-07 00:48:45",
         "layers":[
           {
             "name":"Bold",
@@ -16935,7 +16941,7 @@
       },
       {
         "name":"bar_equal_middle.seq",
-        "lastModified":"2023-04-27 11:57:19",
+        "lastModified":"2023-07-07 00:48:45",
         "layers":[
           {
             "name":"Bold",
@@ -17041,7 +17047,7 @@
       },
       {
         "name":"bar_equal_start.seq",
-        "lastModified":"2023-04-27 11:57:19",
+        "lastModified":"2023-07-07 00:48:45",
         "layers":[
           {
             "name":"Bold",
@@ -17163,7 +17169,7 @@
       },
       {
         "name":"bar_greater.liga",
-        "lastModified":"2023-04-27 08:25:23",
+        "lastModified":"2023-07-07 00:48:45",
         "layers":[
           {
             "name":"Bold",
@@ -17230,7 +17236,7 @@
       },
       {
         "name":"bar_hyphen_end.seq",
-        "lastModified":"2023-04-27 08:25:23",
+        "lastModified":"2023-07-07 00:48:45",
         "layers":[
           {
             "name":"Bold",
@@ -17316,7 +17322,7 @@
       },
       {
         "name":"bar_hyphen_middle.seq",
-        "lastModified":"2023-04-27 08:33:27",
+        "lastModified":"2023-07-07 00:48:45",
         "layers":[
           {
             "name":"Bold",
@@ -17411,7 +17417,7 @@
       },
       {
         "name":"bar_hyphen_start.seq",
-        "lastModified":"2023-04-27 08:25:23",
+        "lastModified":"2023-07-07 00:48:45",
         "layers":[
           {
             "name":"Bold",
@@ -17522,7 +17528,7 @@
       },
       {
         "name":"bar_underscore_middle.seq",
-        "lastModified":"2023-04-27 08:33:27",
+        "lastModified":"2023-07-07 00:48:45",
         "layers":[
           {
             "name":"Bold",
@@ -17612,7 +17618,7 @@
       {
         "name":"braceleft",
         "unicode":"007b",
-        "lastModified":"2023-04-26 18:37:16",
+        "lastModified":"2023-07-07 00:48:45",
         "layers":[
           {
             "name":"Bold",
@@ -17746,7 +17752,7 @@
       },
       {
         "name":"braceleft_bar.liga",
-        "lastModified":"2023-04-27 08:25:23",
+        "lastModified":"2023-07-07 00:48:45",
         "layers":[
           {
             "name":"Bold",
@@ -17818,7 +17824,7 @@
       {
         "name":"braceright",
         "unicode":"007d",
-        "lastModified":"2023-04-26 17:37:13",
+        "lastModified":"2023-07-07 00:48:45",
         "layers":[
           {
             "name":"Bold",
@@ -17953,7 +17959,7 @@
       {
         "name":"bracketleft",
         "unicode":"005b",
-        "lastModified":"2023-04-26 18:37:16",
+        "lastModified":"2023-07-07 00:48:45",
         "layers":[
           {
             "name":"Bold",
@@ -18066,7 +18072,7 @@
       },
       {
         "name":"bracketleft_bar.liga",
-        "lastModified":"2023-04-27 08:25:23",
+        "lastModified":"2023-07-07 00:48:45",
         "layers":[
           {
             "name":"Bold",
@@ -18136,7 +18142,7 @@
       },
       {
         "name":"bracketleft_bracketright.cv27",
-        "lastModified":"2023-04-26 17:53:19",
+        "lastModified":"2023-07-07 00:48:45",
         "layers":[
           {
             "name":"Bold",
@@ -18267,7 +18273,7 @@
       {
         "name":"bracketright",
         "unicode":"005d",
-        "lastModified":"2023-04-26 17:37:13",
+        "lastModified":"2023-07-07 00:47:56",
         "layers":[
           {
             "name":"Bold",
@@ -18381,7 +18387,7 @@
       {
         "name":"breve",
         "unicode":"02d8",
-        "lastModified":"2023-04-27 11:09:52",
+        "lastModified":"2023-07-07 00:47:56",
         "layers":[
           {
             "name":"Bold",
@@ -18470,7 +18476,7 @@
       },
       {
         "name":"breve.case",
-        "lastModified":"2023-04-27 10:46:44",
+        "lastModified":"2023-07-07 00:47:56",
         "layers":[
           {
             "name":"Bold",
@@ -18534,7 +18540,7 @@
       {
         "name":"brevecomb",
         "unicode":"0306",
-        "lastModified":"2023-04-27 10:46:44",
+        "lastModified":"2023-07-07 00:47:56",
         "layers":[
           {
             "name":"Bold",
@@ -18643,7 +18649,7 @@
       {
         "name":"breveinvertedcomb",
         "unicode":"0311",
-        "lastModified":"2023-04-27 13:08:58",
+        "lastModified":"2023-07-07 00:47:56",
         "layers":[
           {
             "name":"Bold",
@@ -18733,7 +18739,7 @@
       {
         "name":"brokenbar",
         "unicode":"00a6",
-        "lastModified":"2023-04-26 17:37:13",
+        "lastModified":"2023-07-07 00:47:56",
         "layers":[
           {
             "name":"Bold",
@@ -18836,7 +18842,7 @@
       {
         "name":"bullet",
         "unicode":"2022",
-        "lastModified":"2023-04-26 18:37:16",
+        "lastModified":"2023-07-07 00:47:56",
         "layers":[
           {
             "name":"Bold",
@@ -18921,7 +18927,7 @@
       {
         "name":"c",
         "unicode":"0063",
-        "lastModified":"2023-07-06 16:51:38",
+        "lastModified":"2023-07-07 00:47:56",
         "layers":[
           {
             "name":"Bold",
@@ -19055,7 +19061,7 @@
       {
         "name":"cacute",
         "unicode":"0107",
-        "lastModified":"2023-04-27 10:33:20",
+        "lastModified":"2023-07-07 00:47:56",
         "layers":[
           {
             "name":"Bold",
@@ -19124,7 +19130,7 @@
       },
       {
         "name":"cacute.loclPLK",
-        "lastModified":"2023-04-27 10:33:20",
+        "lastModified":"2023-07-07 00:47:56",
         "layers":[
           {
             "name":"Bold",
@@ -19194,7 +19200,7 @@
       {
         "name":"candraBinducomb",
         "unicode":"0310",
-        "lastModified":"2023-04-27 13:08:58",
+        "lastModified":"2023-07-07 00:47:56",
         "layers":[
           {
             "name":"Bold",
@@ -19300,7 +19306,7 @@
       {
         "name":"caron",
         "unicode":"02c7",
-        "lastModified":"2023-04-27 09:19:39",
+        "lastModified":"2023-07-07 00:47:56",
         "layers":[
           {
             "name":"Bold",
@@ -19382,7 +19388,7 @@
       },
       {
         "name":"caron.case",
-        "lastModified":"2023-04-27 09:19:39",
+        "lastModified":"2023-07-07 00:47:56",
         "layers":[
           {
             "name":"Bold",
@@ -19428,7 +19434,7 @@
       },
       {
         "name":"caron.salt",
-        "lastModified":"2023-04-27 09:19:39",
+        "lastModified":"2023-07-07 00:47:56",
         "layers":[
           {
             "name":"Bold",
@@ -19465,7 +19471,7 @@
       {
         "name":"caroncomb",
         "unicode":"030c",
-        "lastModified":"2023-04-27 13:08:58",
+        "lastModified":"2023-07-07 00:47:56",
         "layers":[
           {
             "name":"Bold",
@@ -19549,7 +19555,7 @@
       {
         "name":"ccaron",
         "unicode":"010d",
-        "lastModified":"2023-04-27 10:35:14",
+        "lastModified":"2023-07-07 00:47:56",
         "layers":[
           {
             "name":"Bold",
@@ -22109,7 +22115,7 @@
       {
         "name":"dagger",
         "unicode":"2020",
-        "lastModified":"2023-04-27 08:58:46",
+        "lastModified":"2023-07-07 00:48:34",
         "layers":[
           {
             "name":"Bold",
@@ -22157,7 +22163,7 @@
       {
         "name":"daggerdbl",
         "unicode":"2021",
-        "lastModified":"2023-04-27 11:57:19",
+        "lastModified":"2023-07-07 00:48:34",
         "layers":[
           {
             "name":"Bold",
@@ -23432,7 +23438,7 @@
       },
       {
         "name":"dollar.ss04",
-        "lastModified":"2023-04-27 08:25:23",
+        "lastModified":"2023-07-07 00:48:34",
         "layers":[
           {
             "name":"Bold",
@@ -24407,7 +24413,7 @@
       {
         "name":"e",
         "unicode":"0065",
-        "lastModified":"2023-07-06 16:51:38",
+        "lastModified":"2023-07-06 20:51:32",
         "layers":[
           {
             "name":"Bold",
@@ -26228,7 +26234,7 @@
       },
       {
         "name":"equal_middle.seq",
-        "lastModified":"2023-04-27 11:57:19",
+        "lastModified":"2023-07-07 00:48:45",
         "layers":[
           {
             "name":"Bold",
@@ -27822,7 +27828,7 @@
       {
         "name":"g",
         "unicode":"0067",
-        "lastModified":"2023-07-06 17:14:39",
+        "lastModified":"2023-07-06 20:51:32",
         "layers":[
           {
             "name":"Bold",
@@ -29338,7 +29344,7 @@
       },
       {
         "name":"greater_equal_middle.seq",
-        "lastModified":"2023-04-27 11:57:19",
+        "lastModified":"2023-07-07 00:48:45",
         "layers":[
           {
             "name":"Bold",
@@ -29736,7 +29742,7 @@
       },
       {
         "name":"greater_greater_equal_start.seq",
-        "lastModified":"2023-04-27 11:57:19",
+        "lastModified":"2023-07-07 00:48:45",
         "layers":[
           {
             "name":"Bold",
@@ -37320,7 +37326,7 @@
       },
       {
         "name":"less_bar.liga",
-        "lastModified":"2023-04-27 08:25:23",
+        "lastModified":"2023-07-07 00:48:34",
         "layers":[
           {
             "name":"Bold",
@@ -37363,7 +37369,7 @@
       },
       {
         "name":"less_bar_bar.liga",
-        "lastModified":"2023-04-27 08:25:23",
+        "lastModified":"2023-07-07 00:48:45",
         "layers":[
           {
             "name":"Bold",
@@ -37406,7 +37412,7 @@
       },
       {
         "name":"less_bar_bar_bar.liga",
-        "lastModified":"2023-04-27 08:25:23",
+        "lastModified":"2023-07-07 00:48:34",
         "layers":[
           {
             "name":"Bold",
@@ -37449,7 +37455,7 @@
       },
       {
         "name":"less_bar_greater.liga",
-        "lastModified":"2023-04-27 08:25:23",
+        "lastModified":"2023-07-07 00:48:34",
         "layers":[
           {
             "name":"Bold",
@@ -38190,7 +38196,7 @@
       },
       {
         "name":"less_equal_middle.seq",
-        "lastModified":"2023-04-27 11:57:19",
+        "lastModified":"2023-07-07 00:48:45",
         "layers":[
           {
             "name":"Bold",
@@ -38964,7 +38970,7 @@
       },
       {
         "name":"less_less_equal_end.seq",
-        "lastModified":"2023-04-27 11:57:19",
+        "lastModified":"2023-07-07 00:48:45",
         "layers":[
           {
             "name":"Bold",
@@ -43856,7 +43862,7 @@
       {
         "name":"o",
         "unicode":"006f",
-        "lastModified":"2023-07-06 16:51:38",
+        "lastModified":"2023-07-06 20:51:32",
         "layers":[
           {
             "name":"Bold",
@@ -45596,7 +45602,7 @@
       {
         "name":"p",
         "unicode":"0070",
-        "lastModified":"2023-07-06 16:51:38",
+        "lastModified":"2023-07-06 20:51:32",
         "layers":[
           {
             "name":"Bold",
@@ -47876,7 +47882,7 @@
       {
         "name":"q",
         "unicode":"0071",
-        "lastModified":"2023-07-06 16:51:38",
+        "lastModified":"2023-07-06 20:51:32",
         "layers":[
           {
             "name":"Bold",
@@ -56244,7 +56250,7 @@
       {
         "name":"v",
         "unicode":"0076",
-        "lastModified":"2023-07-06 16:51:38",
+        "lastModified":"2023-07-06 20:51:32",
         "layers":[
           {
             "name":"Bold",
@@ -56455,7 +56461,7 @@
       {
         "name":"w",
         "unicode":"0077",
-        "lastModified":"2023-07-06 16:51:38",
+        "lastModified":"2023-07-06 20:51:32",
         "layers":[
           {
             "name":"Bold",
@@ -57167,7 +57173,7 @@
       {
         "name":"x",
         "unicode":"0078",
-        "lastModified":"2023-07-06 16:51:38",
+        "lastModified":"2023-07-06 20:51:32",
         "layers":[
           {
             "name":"Bold",
@@ -57334,7 +57340,7 @@
       {
         "name":"y",
         "unicode":"0079",
-        "lastModified":"2023-07-06 16:51:38",
+        "lastModified":"2023-07-06 20:51:32",
         "layers":[
           {
             "name":"Bold",
@@ -87037,7 +87043,7 @@
       "vendorID":"KDA",
       "versionMajor":1,
       "versionMinor":0,
-      "version":"Version 1.000",
+      "version":"Version 1.018",
       "codepageRange":"0000000000000000",
       "unicodeRange":"00000000000000001000080180000067",
       "embedding":"0000"
@@ -87105,7 +87111,6 @@
             "hhea_descender":-1000,
             "hhea_line_gap":0,
             "hhea_use_custom":false,
-            "hinting.forceBold":0,
             "strikeout_position":600,
             "strikeout_size":124,
             "subscript_x_offset":0,
@@ -87246,7 +87251,6 @@
             "hhea_descender":-1000,
             "hhea_line_gap":0,
             "hhea_use_custom":false,
-            "hinting.forceBold":0,
             "strikeout_position":600,
             "strikeout_size":204,
             "subscript_x_offset":0,
