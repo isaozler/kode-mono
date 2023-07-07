@@ -73,7 +73,7 @@
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>Regular</string>
   <key>openTypeNameVersion</key>
-  <string>Version 1.018</string>
+  <string>Version 1.019</string>
   <key>openTypeOS2Panose</key>
   <array>
     <integer>2</integer>
@@ -188,7 +188,7 @@
   <key>versionMajor</key>
   <integer>1</integer>
   <key>versionMinor</key>
-  <integer>18</integer>
+  <integer>19</integer>
   <key>xHeight</key>
   <integer>640</integer>
 </dict>
