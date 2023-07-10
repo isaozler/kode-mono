@@ -3,14 +3,54 @@
   <advance width="1200"/>
   <unicode hex="0165"/>
   <anchor x="641" y="-150" name="bottom"/>
+  <anchor x="565" y="1638" name="top"/>
+  <anchor x="559" y="500" name="middleTop"/>
   <outline>
-    <component base="t"/>
-    <component base="commaaboverightcomb" xOffset="226" yOffset="75"/>
+    <component base="caron.salt" xOffset="349.51" yOffset="-246"/>
+    <contour>
+      <point x="319" y="1488" type="line"/>
+      <point x="319" y="1097" type="line"/>
+      <point x="160" y="1097" type="line"/>
+      <point x="160" y="872" type="line"/>
+      <point x="319" y="872" type="line"/>
+      <point x="319" y="263" type="line"/>
+      <point x="498" y="0" type="line"/>
+      <point x="881" y="0" type="line"/>
+      <point x="1050" y="181" type="line"/>
+      <point x="924" y="366" type="line"/>
+      <point x="782" y="225" type="line"/>
+      <point x="616" y="225" type="line"/>
+      <point x="559" y="311" type="line"/>
+      <point x="559" y="872" type="line"/>
+      <point x="700.255" y="872" type="line"/>
+      <point x="700.255" y="1097" type="line"/>
+      <point x="559" y="1097" type="line"/>
+      <point x="559" y="1488" type="line"/>
+    </contour>
   </outline>
   <lib>
   <dict>
   <key>com.fontlab.recipe</key>
   <string>t+commaaboverightcomb</string>
+  <key>public.postscript.hints</key>
+  <dict>
+    <key>formatVersion</key>
+    <string>1</string>
+    <key>id</key>
+    <string>541eb8782e312de9f6ce03582b91c8c5b457215dddc56045a2d66d4ee332ceed8d5146bbcd92f96f48286a4cbdbc9c38dbf30058f1bc45cccf12028cf990f849</string>
+    <key>hintSetList</key>
+    <array>
+      <dict>
+        <key>stems</key>
+        <array>
+          <string>hstem 0 225</string>
+          <string>hstem 872 225</string>
+          <string>hstem 1488 -20</string>
+          <string>vstem 279 240</string>
+        </array>
+      </dict>
+    </array>
+  </dict>
   </dict>
   </lib>
 </glyph>

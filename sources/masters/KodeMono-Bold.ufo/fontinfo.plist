@@ -9,7 +9,7 @@
   <key>copyright</key>
   <string>Copyright 2023 The Kode Mono Project Authors (https://github.com/isaozler/kode-mono)</string>
   <key>descender</key>
-  <integer>-640</integer>
+  <integer>-1000</integer>
   <key>familyName</key>
   <string>Kode Mono</string>
   <key>guidelines</key>
@@ -51,7 +51,7 @@
   <key>openTypeHheaCaretOffset</key>
   <integer>-0</integer>
   <key>openTypeHheaDescender</key>
-  <integer>-640</integer>
+  <integer>-1000</integer>
   <key>openTypeHheaLineGap</key>
   <integer>-0</integer>
   <key>openTypeNameDescription</key>
@@ -73,7 +73,7 @@
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>Bold</string>
   <key>openTypeNameVersion</key>
-  <string>Version 1.000</string>
+  <string>Version 1.019</string>
   <key>openTypeOS2Panose</key>
   <array>
     <integer>2</integer>
@@ -117,7 +117,7 @@
   <key>openTypeOS2TypoAscender</key>
   <integer>2458</integer>
   <key>openTypeOS2TypoDescender</key>
-  <integer>-640</integer>
+  <integer>-1000</integer>
   <key>openTypeOS2TypoLineGap</key>
   <integer>-0</integer>
   <key>openTypeOS2UnicodeRanges</key>
@@ -141,7 +141,7 @@
   <key>openTypeOS2WinAscent</key>
   <integer>2458</integer>
   <key>openTypeOS2WinDescent</key>
-  <integer>640</integer>
+  <integer>1000</integer>
   <key>postscriptBlueFuzz</key>
   <integer>1</integer>
   <key>postscriptBlueScale</key>
@@ -188,7 +188,7 @@
   <key>versionMajor</key>
   <integer>1</integer>
   <key>versionMinor</key>
-  <integer>0</integer>
+  <integer>19</integer>
   <key>xHeight</key>
   <integer>640</integer>
 </dict>

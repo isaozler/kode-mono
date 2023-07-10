@@ -32,8 +32,6 @@
   <string>B_.glif</string>
   <key>C</key>
   <string>C_.glif</string>
-  <key>CR</key>
-  <string>C_R_.glif</string>
   <key>Cacute</key>
   <string>C_acute.glif</string>
   <key>Cacute.loclPLK</key>
@@ -150,8 +148,6 @@
   <string>M_.glif</string>
   <key>N</key>
   <string>N_.glif</string>
-  <key>NULL</key>
-  <string>N_U_L_L_.glif</string>
   <key>Nacute</key>
   <string>N_acute.glif</string>
   <key>Nacute.loclPLK</key>
@@ -1424,10 +1420,6 @@
   <string>slash_slash_equal_start.seq.glif</string>
   <key>slash_slash_slash.liga</key>
   <string>slash_slash_slash.liga.glif</string>
-  <key>softhyphen</key>
-  <string>softhyphen.glif</string>
-  <key>softhyphen.case</key>
-  <string>softhyphen.case.glif</string>
   <key>space</key>
   <string>space.glif</string>
   <key>sterling</key>

@@ -8,7 +8,7 @@
   <anchor x="1000" y="790" name="right"/>
   <anchor x="804" y="1190" name="middleTop"/>
   <outline>
-    <component base="commaaccentcomb" xOffset="411.48" yOffset="451.456"/>
+    <component base="caron.salt" xOffset="423" yOffset="-206"/>
     <contour>
       <point x="563" y="1528" type="line"/>
       <point x="563" y="1032" type="line"/>

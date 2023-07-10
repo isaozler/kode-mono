@@ -1,5 +1,13 @@
 # Changelog
 
+**7 July 2023. Version 1.019**
+- Bugfixes for the google submission approval (part 1)
+  - version head mismatch fix
+  - deprecated glyphs removed
+  - caron - apostrophe conflict
+  - l-dot dot positioning fix
+  - g glyph proportion optimization
+
 **27 June 2023. Version 1.018**
 - Bugfix: the kerning of the glyph l is fixed
 

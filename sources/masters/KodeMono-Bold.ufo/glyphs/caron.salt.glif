@@ -2,6 +2,13 @@
 <glyph name="caron.salt" format="2">
   <advance width="1200"/>
   <outline>
-    <component base="caron"/>
+    <contour>
+      <point x="480" y="1734" type="line"/>
+      <point x="700.49" y="1734" type="line"/>
+      <point x="700.49" y="1450" type="line"/>
+      <point x="552.49" y="1173" type="line"/>
+      <point x="460" y="1173" type="line"/>
+      <point x="480" y="1450" type="line"/>
+    </contour>
   </outline>
 </glyph>
