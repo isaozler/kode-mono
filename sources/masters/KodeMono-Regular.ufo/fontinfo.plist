@@ -42,7 +42,7 @@
   </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2023/04/26 16:37:13</string>
+  <string>2023/07/13 20:43:43</string>
   <key>openTypeHeadFlags</key>
   <array>
   </array>
@@ -120,18 +120,6 @@
   <integer>-1000</integer>
   <key>openTypeOS2TypoLineGap</key>
   <integer>-0</integer>
-  <key>openTypeOS2UnicodeRanges</key>
-  <array>
-    <integer>0</integer>
-    <integer>1</integer>
-    <integer>2</integer>
-    <integer>5</integer>
-    <integer>6</integer>
-    <integer>31</integer>
-    <integer>32</integer>
-    <integer>43</integer>
-    <integer>60</integer>
-  </array>
   <key>openTypeOS2VendorID</key>
   <string>KDA</string>
   <key>openTypeOS2WeightClass</key>

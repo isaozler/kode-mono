@@ -2,6 +2,8 @@
 <glyph name="strokelongcomb" format="2">
   <advance width="1200"/>
   <unicode hex="0336"/>
+  <anchor x="600" y="820" name="_bottom"/>
+  <anchor x="603" y="400" name="bottom"/>
   <outline>
     <contour>
       <point x="39.8065" y="579.514" type="line"/>
@@ -27,7 +29,7 @@
       <dict>
         <key>stems</key>
         <array>
-          <string>hstem 641.51 116</string>
+          <string>hstem 641 116</string>
         </array>
       </dict>
     </array>

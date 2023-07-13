@@ -7,6 +7,8 @@
   - caron - apostrophe conflict
   - l-dot dot positioning fix
   - g glyph proportion optimization
+- Bugfixes for the google submission approval (part 2)
+  - com.google.fonts/check/gdef_mark_chars fixed
 
 **27 June 2023. Version 1.018**
 - Bugfix: the kerning of the glyph l is fixed

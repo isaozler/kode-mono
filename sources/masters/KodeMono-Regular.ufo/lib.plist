@@ -34,6 +34,8 @@
       </dict>
     </dict>
   </dict>
+  <key>com.fontlab.masterFilename</key>
+  <string>KodeMono-Regular</string>
   <key>public.glyphOrder</key>
   <array>
     <string>.notdef</string>
