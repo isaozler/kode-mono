@@ -2,6 +2,8 @@
 <glyph name="strokeshortcomb" format="2">
   <advance width="1200"/>
   <unicode hex="0335"/>
+  <anchor x="600" y="823" name="_bottom"/>
+  <anchor x="603" y="501" name="bottom"/>
   <outline>
     <contour>
       <point x="980" y="598.548" type="line"/>
