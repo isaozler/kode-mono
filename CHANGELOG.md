@@ -1,5 +1,10 @@
 # Changelog
 
+**29 December 2023. Version 1.200**
+- Recreated the typography in Glyphs.app
+  - Fixed all failed checks
+  - Ligatures are missing for this release
+
 **7 July 2023. Version 1.019**
 - Bugfixes for the google submission approval (part 1)
   - version head mismatch fix

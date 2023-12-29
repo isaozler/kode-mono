@@ -3,7 +3,7 @@ appdirs==1.4.4
 async-generator==1.10
 attrs==22.2.0
 axisregistry==0.4.2
-babelfont==3.0.0
+babelfont==3.0.1
 beautifulsoup4==4.12.2
 beziers==0.5.0
 blackrenderer==0.6.0
@@ -28,10 +28,11 @@ defcon==0.10.2
 dehinter==4.0.0
 Deprecated==1.2.13
 diffenator2==0.1.1
+docopt==0.6.2
 drawbot-skia==0.5.0
 exceptiongroup==1.1.1
 font-v==2.1.0
-fontbakery==0.8.13
+fontbakery==0.10.8
 fontFeatures==1.7.4
 fontmake==3.5.1
 fontMath==0.9.3
@@ -42,7 +43,7 @@ gflanguages==0.4.7
 gftools==0.9.28
 gitdb==4.0.10
 GitPython==3.1.31
-glyphsets==0.6.0
+glyphsets==0.6.11
 glyphsLib==6.2.1
 glyphtools==0.8.0
 h11==0.14.0
@@ -58,6 +59,7 @@ mdurl==0.1.2
 munkres==1.1.4
 nanoemoji==0.15.1
 ninja==1.11.1
+num2words==0.5.13
 numpy==1.24.2
 openstep-plist==0.3.0.post1
 opentype-sanitizer==9.0.0
@@ -91,6 +93,7 @@ rich==13.3.4
 rstr==3.2.0
 selenium==4.8.3
 sh==2.0.3
+shaperglot==0.3.1
 six==1.16.0
 skia-pathops==0.7.4
 skia-python==87.5
@@ -103,6 +106,7 @@ statmake==0.6.0
 strictyaml==1.7.3
 stringbrewer==0.0.1
 tabulate==0.9.0
+termcolor==2.4.0
 toml==0.10.2
 tqdm==4.65.0
 trio==0.22.0

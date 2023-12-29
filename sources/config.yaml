@@ -1,6 +1,6 @@
 # config.yaml
 sources:
-    - ./KodeMono.designspace
+    - ./KodeMono.glyphs
 axisOrder:
     - wght
 familyName: "Kode Mono"
