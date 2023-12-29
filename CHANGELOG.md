@@ -1,9 +1,12 @@
 # Changelog
 
-**29 December 2023. Version 1.200**
+**29 December 2023. Version 1.200...1.201**
 - Recreated the typography in Glyphs.app
   - Fixed all failed checks
   - Ligatures are missing for this release
+- Minor Fontbakery report warnings fixes
+  - soft-dotted i
+  - outline positioning warning
 
 **7 July 2023. Version 1.019**
 - Bugfixes for the google submission approval (part 1)
