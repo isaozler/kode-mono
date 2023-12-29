@@ -2,69 +2,125 @@
                 <html lang="en">
                     <head>
                         <meta charset="utf-8">
-                        <title>Fontbakery Check Report</title>
+                        <title>FontBakery Check Report</title>
                         <style>
                             
-            html {
-                font-family: sans-serif;
-            }
+html {
+    font-family: -apple-system, sans-serif;
+}
 
-            h2 {
-                margin-top: 2em;
-            }
+body {
+    margin: 0;
+}
 
-            h3 {
-                margin-bottom: 1px;
-            }
+header {
+    border-bottom: 1px solid #dadada;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
 
-            table {
-                border-collapse: collapse;
-            }
+main {
+    max-width: 720px;
+    margin: auto;
+    padding-bottom: 3rem;
+}
 
-            th,
-            td {
-                border: 1px solid #ddd;
-                padding: 0.5em
-            }
+header svg {
+    height: 2rem
+}
 
-            tr:nth-child(even) {
-                background-color: #f2f2f2;
-            }
+header img {
+    height: 2rem
+}
 
-            tr {
-                text-align: left;
-            }
+header .titleBar {
+    margin-left: 2rem;
+    font-size: 1rem;
+}
 
-            ul {
-                margin-top: 0;
-            }
 
-            .details_item {
-                list-style: none;
-                display: flex;
-                align-items: baseline;
-            }
+h2 {
+    margin-top: 2em;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
 
-            .details_indicator {
-                flex: 0 0 5em;
-                font-weight: bold;
-                padding-right: 0.5em;
-                text-align: right;
-            }
+h3 {
+    margin-bottom: 1px;
+    margin-top: 2rem;
+    border-top: 1px solid #cecece;
+    padding-top: 2rem;
+}
 
-            .details_text {
-                flex: 1 0;
-            }
-            
+.check__idlabel {
+    color: #999;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 0.5em
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr {
+    text-align: left;
+}
+
+ul {
+    margin-top: 0;
+}
+
+.details_item {
+    list-style: none;
+    display: flex;
+    align-items: baseline;
+}
+
+.details_indicator {
+    flex: 0 0 5em;
+    font-weight: bold;
+    padding-right: 0.5em;
+    text-align: right;
+}
+
+.details_text {
+    flex: 1 0;
+}
+
+.section__emoji {
+    overflow-wrap: break-word;
+}
+
                         </style>
                     </head>
                     <body>
-                    <h1>Fontbakery Technical Report</h1>
-<div>If you think a check is flawed or have an idea for a check, please  file an issue at <a href='https://github.com/googlefonts/fontbakery/issues'>https://github.com/googlefonts/fontbakery/issues</a> and remember to include a pointer to the repo and branch you're checking.</div>
+                        <header>
+                            <img src='data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gQ3JlYXRlZCB3aXRoIElua3NjYXBlIChodHRwOi8vd3d3Lmlua3NjYXBlLm9yZy8pIC0tPgoKPHN2ZwogICB3aWR0aD0iNTAwIgogICBoZWlnaHQ9IjUwMCIKICAgaWQ9InN2ZzMxNzkiCiAgIHZlcnNpb249IjEuMSIKICAgaW5rc2NhcGU6dmVyc2lvbj0iMS4zLWRldiAoMDk1ZTFmNDdjNiwgMjAyMi0xMS0wNykiCiAgIHNvZGlwb2RpOmRvY25hbWU9ImZvbnRiYWtlcnktbG9nby5zdmciCiAgIHhtbG5zOmlua3NjYXBlPSJodHRwOi8vd3d3Lmlua3NjYXBlLm9yZy9uYW1lc3BhY2VzL2lua3NjYXBlIgogICB4bWxuczpzb2RpcG9kaT0iaHR0cDovL3NvZGlwb2RpLnNvdXJjZWZvcmdlLm5ldC9EVEQvc29kaXBvZGktMC5kdGQiCiAgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICAgeG1sbnM6c3ZnPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICAgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIgogICB4bWxuczpjYz0iaHR0cDovL2NyZWF0aXZlY29tbW9ucy5vcmcvbnMjIgogICB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iPgogIDx0aXRsZQogICAgIGlkPSJ0aXRsZTMyMzYiPkZvbnQgQmFrZXJ5IExvZ288L3RpdGxlPgogIDxkZWZzCiAgICAgaWQ9ImRlZnMzMTgxIiAvPgogIDxzb2RpcG9kaTpuYW1lZHZpZXcKICAgICBpZD0iYmFzZSIKICAgICBwYWdlY29sb3I9IiNmZmZmZmYiCiAgICAgYm9yZGVyY29sb3I9IiNkZWRlZGUiCiAgICAgYm9yZGVyb3BhY2l0eT0iMSIKICAgICBpbmtzY2FwZTpwYWdlb3BhY2l0eT0iMC4wIgogICAgIGlua3NjYXBlOnBhZ2VzaGFkb3c9IjIiCiAgICAgaW5rc2NhcGU6em9vbT0iMC44OTg3MTM2NSIKICAgICBpbmtzY2FwZTpjeD0iMjE1Ljg2NDA5IgogICAgIGlua3NjYXBlOmN5PSIyMDIuNTExNjciCiAgICAgaW5rc2NhcGU6ZG9jdW1lbnQtdW5pdHM9InB4IgogICAgIGlua3NjYXBlOmN1cnJlbnQtbGF5ZXI9Imc0MzY0IgogICAgIHNob3dncmlkPSJmYWxzZSIKICAgICBmaXQtbWFyZ2luLXRvcD0iMCIKICAgICBmaXQtbWFyZ2luLWxlZnQ9IjAiCiAgICAgZml0LW1hcmdpbi1yaWdodD0iMCIKICAgICBmaXQtbWFyZ2luLWJvdHRvbT0iMCIKICAgICBpbmtzY2FwZTpzaG93cGFnZXNoYWRvdz0iZmFsc2UiCiAgICAgaW5rc2NhcGU6d2luZG93LXdpZHRoPSIxOTIwIgogICAgIGlua3NjYXBlOndpbmRvdy1oZWlnaHQ9IjEwMTYiCiAgICAgaW5rc2NhcGU6d2luZG93LXg9IjAiCiAgICAgaW5rc2NhcGU6d2luZG93LXk9IjAiCiAgICAgaW5rc2NhcGU6d2luZG93LW1heGltaXplZD0iMSIKICAgICBpbmtzY2FwZTpwYWdlY2hlY2tlcmJvYXJkPSIwIgogICAgIGlua3NjYXBlOmRlc2tjb2xvcj0iI2QxZDFkMSIgLz4KICA8bWV0YWRhdGEKICAgICBpZD0ibWV0YWRhdGEzMTg0Ij4KICAgIDxyZGY6UkRGPgogICAgICA8Y2M6V29yawogICAgICAgICByZGY6YWJvdXQ9IiI+CiAgICAgICAgPGRjOmZvcm1hdD5pbWFnZS9zdmcreG1sPC9kYzpmb3JtYXQ+CiAgICAgICAgPGRjOnR5cGUKICAgICAgICAgICByZGY6cmVzb3VyY2U9Imh0dHA6Ly9wdXJsLm9yZy9kYy9kY21pdHlwZS9TdGlsbEltYWdlIiAvPgogICAgICAgIDxkYzp0aXRsZT5Gb250IEJha2VyeSBMb2dvPC9kYzp0aXRsZT4KICAgICAgICA8ZGM6Y3JlYXRvcj4KICAgICAgICAgIDxjYzpBZ2VudD4KICAgICAgICAgICAgPGRjOnRpdGxlPlJvYmVydCBNYXJ0aW5lejwvZGM6dGl0bGU+CiAgICAgICAgICA8L2NjOkFnZW50PgogICAgICAgIDwvZGM6Y3JlYXRvcj4KICAgICAgICA8ZGM6c3ViamVjdD4KICAgICAgICAgIDxyZGY6QmFnPgogICAgICAgICAgICA8cmRmOmxpPmZvbnQgYnVpbGQgc2VydmljZTwvcmRmOmxpPgogICAgICAgICAgPC9yZGY6QmFnPgogICAgICAgIDwvZGM6c3ViamVjdD4KICAgICAgICA8ZGM6c291cmNlPmh0dHBzOi8vZ2l0aHViLmNvbS94ZW4vZm9udGJha2VyeTwvZGM6c291cmNlPgogICAgICA8L2NjOldvcms+CiAgICA8L3JkZjpSREY+CiAgPC9tZXRhZGF0YT4KICA8ZwogICAgIGlua3NjYXBlOmxhYmVsPSJMYXllciAxIgogICAgIGlua3NjYXBlOmdyb3VwbW9kZT0ibGF5ZXIiCiAgICAgaWQ9ImxheWVyMSIKICAgICB0cmFuc2Zvcm09InRyYW5zbGF0ZSg2MzUuMjc5NDgsLTUyLjM2MjE4MykiPgogICAgPGcKICAgICAgIGlkPSJnNDM2NCI+CiAgICAgIDxnCiAgICAgICAgIGlkPSJnMSIKICAgICAgICAgdHJhbnNmb3JtPSJtYXRyaXgoMS4wMjUyMDk1LDAsMCwxLjAyNTIwOTUsOS45NjgxMjc5LC04LjE0MDY5MzEpIgogICAgICAgICBzdHlsZT0ic3Ryb2tlLXdpZHRoOjAuOTc1NDExIj4KICAgICAgICA8ZwogICAgICAgICAgIGlkPSJnNDA4MiIKICAgICAgICAgICB0cmFuc2Zvcm09Im1hdHJpeCgxLjY1NzA5OTksMCwwLDEuNjU3MDk5OSwyNTAuMjc2OTcsLTEwNi4wMDA0MikiCiAgICAgICAgICAgc3R5bGU9InN0cm9rZS13aWR0aDowLjU4ODYyNSI+CiAgICAgICAgICA8cGF0aAogICAgICAgICAgICAgc3R5bGU9ImNvbG9yOiMwMDAwMDA7ZGlzcGxheTppbmxpbmU7b3ZlcmZsb3c6dmlzaWJsZTt2aXNpYmlsaXR5OnZpc2libGU7ZmlsbDojYjNlZWZmO2ZpbGwtb3BhY2l0eToxO2ZpbGwtcnVsZTpldmVub2RkO3N0cm9rZTpub25lO3N0cm9rZS13aWR0aDowLjU4ODYyNXB4O21hcmtlcjpub25lO2VuYWJsZS1iYWNrZ3JvdW5kOmFjY3VtdWxhdGUiCiAgICAgICAgICAgICBkPSJtIDI1MS41OTM3NSw0Ny4yMTg3NSBjIC04MS4yNzQyMiwwIC0xNDcuMTU2MjUsNjUuODgyMDMgLTE0Ny4xNTYyNSwxNDcuMTU2MjUgMCw4MS4yNzQyMiA2NS44ODIwMywxNDcuMTU2MjUgMTQ3LjE1NjI1LDE0Ny4xNTYyNSA4MS4yNzQyMiwwIDE0Ny4xNTYyNSwtNjUuODgyMDMgMTQ3LjE1NjI1LC0xNDcuMTU2MjUgMCwtODEuMjc0MjIgLTY1Ljg4MjAzLC0xNDcuMTU2MjUgLTE0Ny4xNTYyNSwtMTQ3LjE1NjI1IHoiCiAgICAgICAgICAgICB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNjM1LjI3OTQ4LDUyLjM2MjE4MykiCiAgICAgICAgICAgICBpZD0icGF0aDMyNzgiIC8+CiAgICAgICAgPC9nPgogICAgICAgIDxnCiAgICAgICAgICAgaWQ9Imc0MDY3IgogICAgICAgICAgIHRyYW5zZm9ybT0ibWF0cml4KDEuNjU3MDk5OSwwLDAsMS42NTcwOTk5LDI1MC4yNzY5NywtMTA2LjAwMDQyKSIKICAgICAgICAgICBzdHlsZT0ic3Ryb2tlLXdpZHRoOjAuNTg4NjI1Ij4KICAgICAgICAgIDxwYXRoCiAgICAgICAgICAgICBzb2RpcG9kaTpub2RldHlwZXM9ImNjY2NjY2NjY2MiCiAgICAgICAgICAgICBpbmtzY2FwZTpjb25uZWN0b3ItY3VydmF0dXJlPSIwIgogICAgICAgICAgICAgaWQ9InBhdGgzMjkwIgogICAgICAgICAgICAgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTYzNS4yNzk0OCw1Mi4zNjIxODMpIgogICAgICAgICAgICAgZD0ibSAyMDYuODkzNDksMTM3LjA1NDQxIGMgLTcyLjczODU3LC0zMy43NTk5OCAtNzQuNDk0MDgsNzEuMDEwNyAtMTAuMjk5NzQsNTcuODIwNTkgbCA1Ljc2NzEzLDg4LjMzMzE4IGMgMzMuODI3NDIsLTIuNDUyMjYgNjQuMjEzMDQsLTMuMzQ0NTIgODYuMjEzOTIsLTAuODI3NjMgbCA0LjU1MDE1LC03My41OTkzIGMgMC41ODI2MiwtOS4wMzU3IC0xMi4wMDAwMSw0LjAxMTE3IC00Ny4wOTM3NSwtMTUuMTI1IDI3LjExNzk4LDQuOTUxMjYgNDMuODMxNjMsMy45NDEyNiA1My42MDMzMiwtMS4yODU1MSAzMi4yODYxMiwxMC4wOTQ4MSA1OC4wNjEzMywtMy45NDY4IDUxLjE0NjY4LC0zNC4xMjA3OSAtNi4wOTQzOCwtMjMuMjY3NzMgLTI4Ljg1NDEsLTI5LjUzNTA4IC02MS4wNjI1LC0zNS4wOTM3NSAtNDcuNDQxMDksLTUuNDM5NjYgLTQ3LjUyMDE5LDM3LjQxMzIgLTgyLjgyNTIxLDEzLjg5ODIxIHoiCiAgICAgICAgICAgICBzdHlsZT0iY29sb3I6IzAwMDAwMDtkaXNwbGF5OmlubGluZTtvdmVyZmxvdzp2aXNpYmxlO3Zpc2liaWxpdHk6dmlzaWJsZTtmaWxsOiNmZmZmZmY7ZmlsbC1vcGFjaXR5OjE7ZmlsbC1ydWxlOm5vbnplcm87c3Ryb2tlOm5vbmU7c3Ryb2tlLXdpZHRoOjAuNTg4NjI1cHg7bWFya2VyOm5vbmU7ZW5hYmxlLWJhY2tncm91bmQ6YWNjdW11bGF0ZSIgLz4KICAgICAgICAgIDxnCiAgICAgICAgICAgICBpZD0iZzQwNjAiCiAgICAgICAgICAgICBzdHlsZT0ic3Ryb2tlLXdpZHRoOjAuNTg4NjI1Ij4KICAgICAgICAgICAgPHBhdGgKICAgICAgICAgICAgICAgaWQ9InRleHQ0NzA1IgogICAgICAgICAgICAgICB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNjM1LjI3OTQ4LDUyLjM2MjE4MykiCiAgICAgICAgICAgICAgIGQ9Im0gMjA5LjA2MjUsMjA4Ljk2ODc1IC0xMy41LDAuMzc1IDIuMDkzNzUsNzUuODQzNzUgNTIuNjU2MjUsLTEuNDY4NzUgLTAuMzQzNzUsLTEyLjM3NSAtMzkuMTU2MjUsMS4wOTM3NSAtMC41LC0xOC4yMTg3NSAzNS45Njg3NSwtMSAtMC4zNDM3NSwtMTIuMzc1IC0zNS45Njg3NSwxIHoiCiAgICAgICAgICAgICAgIHN0eWxlPSJjb2xvcjojMDAwMDAwO2ZvbnQtc3R5bGU6bm9ybWFsO2ZvbnQtdmFyaWFudDpub3JtYWw7Zm9udC13ZWlnaHQ6Ym9sZDtmb250LXN0cmV0Y2g6bm9ybWFsO2ZvbnQtc2l6ZToxMDkuMzE0cHg7bGluZS1oZWlnaHQ6MTAwJTtmb250LWZhbWlseTpDYW50YXJlbGw7LWlua3NjYXBlLWZvbnQtc3BlY2lmaWNhdGlvbjonQ2FudGFyZWxsIEJvbGQnO3RleHQtaW5kZW50OjA7dGV4dC1hbGlnbjpzdGFydDt0ZXh0LWRlY29yYXRpb246bm9uZTt0ZXh0LWRlY29yYXRpb24tbGluZTpub25lO2xldHRlci1zcGFjaW5nOjBweDt3b3JkLXNwYWNpbmc6MHB4O3RleHQtdHJhbnNmb3JtOm5vbmU7d3JpdGluZy1tb2RlOmxyLXRiO2RpcmVjdGlvbjpsdHI7YmFzZWxpbmUtc2hpZnQ6YmFzZWxpbmU7dGV4dC1hbmNob3I6c3RhcnQ7ZGlzcGxheTppbmxpbmU7b3ZlcmZsb3c6dmlzaWJsZTt2aXNpYmlsaXR5OnZpc2libGU7ZmlsbDojMzMzMzMzO2ZpbGwtb3BhY2l0eToxO2ZpbGwtcnVsZTpub256ZXJvO3N0cm9rZTpub25lO3N0cm9rZS13aWR0aDowLjU4ODYyNXB4O21hcmtlcjpub25lO2VuYWJsZS1iYWNrZ3JvdW5kOmFjY3VtdWxhdGUiIC8+CiAgICAgICAgICAgIDxwYXRoCiAgICAgICAgICAgICAgIGlkPSJ0ZXh0NDcwOSIKICAgICAgICAgICAgICAgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTYzNS4yNzk0OCw1Mi4zNjIxODMpIgogICAgICAgICAgICAgICBkPSJtIDMwMC4zNDM3NSwyMDkuNDA2MjUgLTEuMzc1LDMyLjg0Mzc1IC0zNS45Mzc1LC0xLjUgLTAuNTMxMjUsMTIuMzc1IDM1LjkzNzUsMS41IC0wLjc1LDE4LjE4NzUgLTM5LjE1NjI1LC0xLjY1NjI1IC0wLjUsMTIuMzc1IDUyLjYyNSwyLjIxODc1IDMuMTg3NSwtNzUuNzgxMjUgeiIKICAgICAgICAgICAgICAgc3R5bGU9ImNvbG9yOiMwMDAwMDA7Zm9udC1zdHlsZTpub3JtYWw7Zm9udC12YXJpYW50Om5vcm1hbDtmb250LXdlaWdodDpib2xkO2ZvbnQtc3RyZXRjaDpub3JtYWw7Zm9udC1zaXplOjEwOS4zMTRweDtsaW5lLWhlaWdodDoxMDAlO2ZvbnQtZmFtaWx5OkNhbnRhcmVsbDstaW5rc2NhcGUtZm9udC1zcGVjaWZpY2F0aW9uOidDYW50YXJlbGwgQm9sZCc7dGV4dC1pbmRlbnQ6MDt0ZXh0LWFsaWduOnN0YXJ0O3RleHQtZGVjb3JhdGlvbjpub25lO3RleHQtZGVjb3JhdGlvbi1saW5lOm5vbmU7bGV0dGVyLXNwYWNpbmc6MHB4O3dvcmQtc3BhY2luZzowcHg7dGV4dC10cmFuc2Zvcm06bm9uZTt3cml0aW5nLW1vZGU6bHItdGI7ZGlyZWN0aW9uOmx0cjtiYXNlbGluZS1zaGlmdDpiYXNlbGluZTt0ZXh0LWFuY2hvcjpzdGFydDtkaXNwbGF5OmlubGluZTtvdmVyZmxvdzp2aXNpYmxlO3Zpc2liaWxpdHk6dmlzaWJsZTtmaWxsOiMzMzMzMzM7ZmlsbC1vcGFjaXR5OjE7ZmlsbC1ydWxlOm5vbnplcm87c3Ryb2tlOm5vbmU7c3Ryb2tlLXdpZHRoOjAuNTg4NjI1cHg7bWFya2VyOm5vbmU7ZW5hYmxlLWJhY2tncm91bmQ6YWNjdW11bGF0ZSIgLz4KICAgICAgICAgICAgPHBhdGgKICAgICAgICAgICAgICAgaWQ9InRleHQ0NzEzIgogICAgICAgICAgICAgICB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNjM1LjI3OTQ4LDUyLjM2MjE4MykiCiAgICAgICAgICAgICAgIGQ9Im0gMzA4LjU2MjUsMTE5LjQ2ODc1IC0xLjQ2ODc1LDEyLjE4NzUgMi4xMjUsMC4zMTI1IGMgNy4yMDE2MSwxLjA2OTA3IDEzLjMwMjAyLDIuODcyOTIgMTguMjgxMjUsNS40MDYyNSAzLjkzMjY4LDIuMDAwOTkgNy4yMzczMSw0LjQ4OTMxIDkuOTM3NSw3LjUgMi42ODQ2MywyLjk2Mjk5IDQuNTk1OTgsNi4wODg5IDUuNzE4NzUsOS4zNzUgMS4wOTEwNywzLjI3MDEgMS41NTgxMiw2LjYxMTA3IDEuMzc1LDEwLjAzMTI1IC0wLjIxNDgyLDMuNDA0MTYgLTEuMTA3MTUsNi42NDI5MSAtMi42NTYyNSw5LjY4NzUgLTEuNTk3NDksMy4xMzk4MyAtMy43Nzg2NSw1LjgwNzI4IC02LjUzMTI1LDggLTIuNzY4MTUsMi4xNDQ5NSAtNS44NjgyOSwzLjY5Mzc2IC05LjMxMjUsNC42NTYyNSAtMy40NTk3NCwwLjkxNDcxIC03LjMwMTk3LDEuMDg2MDkgLTExLjUzMTI1LDAuNTMxMjUgLTQuMjEzMDgsLTAuNTg2NDkgLTguNDM3NjQsLTEuOTYyNjkgLTEyLjY4NzUsLTQuMTI1IC01LjIwMTIxLC0yLjY0NjMzIC05Ljk1MzM0LC02LjIwMTYyIC0xNC4yMTg3NSwtMTAuNjg3NSBsIC0xLjQzNzUsLTEuNTMxMjUgLTguNzUsNy41MzEyNSAxLjM3NSwxLjY1NjI1IGMgNS4zODE1NCw2LjQ1MTEzIDExLjkxOTI0LDExLjY0MjQxIDE5LjU2MjUsMTUuNTMxMjUgNS45MzA3NiwzLjAxNzUyIDExLjc1OTEyLDQuODM4OTEgMTcuNTMxMjUsNS41IDUuNzQwNDksMC42NDQ5OSAxMC45ODE0OCwwLjE5ODU2IDE1LjcxODc1LC0xLjM0Mzc1IDQuNzUzNDQsLTEuNTczOTggOS4wNjM2NSwtMy45OTc0NiAxMi45MDYyNSwtNy4zMTI1IDMuODEwOSwtMy4zMzExMiA2LjkyMjI3LC03LjQyOTI4IDkuMzc1LC0xMi4yNSAyLjQ4NSwtNC44ODQwNyAzLjkyNjgyLC05Ljg2MzU3IDQuMzEyNSwtMTQuOTM3NSAwLjM4NTY3LC01LjA3MzgyIC0wLjIzNjU1LC05Ljk2NTE3IC0xLjkwNjI1LC0xNC42ODc1IC0xLjY2OTcxLC00LjcyMjE5IC00LjUwMzM5LC05LjIwODA5IC04LjUsLTEzLjQzNzUgLTMuOTk2NjEsLTQuMjI5MjQgLTguOTc1MDYsLTcuODQxMjcgLTE0LjkzNzUsLTEwLjg3NSAtNy4xMDQxNCwtMy42MTQ0NSAtMTQuNTA2NzIsLTUuNzkzMjIgLTIyLjE1NjI1LC02LjUzMTI1IHoiCiAgICAgICAgICAgICAgIHN0eWxlPSJjb2xvcjojMDAwMDAwO2ZvbnQtc3R5bGU6bm9ybWFsO2ZvbnQtdmFyaWFudDpub3JtYWw7Zm9udC13ZWlnaHQ6Ym9sZDtmb250LXN0cmV0Y2g6bm9ybWFsO2ZvbnQtc2l6ZToxMDkuMzE0cHg7bGluZS1oZWlnaHQ6MTAwJTtmb250LWZhbWlseTpDYW50YXJlbGw7LWlua3NjYXBlLWZvbnQtc3BlY2lmaWNhdGlvbjonQ2FudGFyZWxsIEJvbGQnO3RleHQtaW5kZW50OjA7dGV4dC1hbGlnbjpzdGFydDt0ZXh0LWRlY29yYXRpb246bm9uZTt0ZXh0LWRlY29yYXRpb24tbGluZTpub25lO2xldHRlci1zcGFjaW5nOjBweDt3b3JkLXNwYWNpbmc6MHB4O3RleHQtdHJhbnNmb3JtOm5vbmU7d3JpdGluZy1tb2RlOmxyLXRiO2RpcmVjdGlvbjpsdHI7YmFzZWxpbmUtc2hpZnQ6YmFzZWxpbmU7dGV4dC1hbmNob3I6c3RhcnQ7ZGlzcGxheTppbmxpbmU7b3ZlcmZsb3c6dmlzaWJsZTt2aXNpYmlsaXR5OnZpc2libGU7ZmlsbDojMzMzMzMzO2ZpbGwtb3BhY2l0eToxO2ZpbGwtcnVsZTpub256ZXJvO3N0cm9rZTpub25lO3N0cm9rZS13aWR0aDowLjU4ODYyNXB4O21hcmtlcjpub25lO2VuYWJsZS1iYWNrZ3JvdW5kOmFjY3VtdWxhdGUiIC8+CiAgICAgICAgICAgIDxwYXRoCiAgICAgICAgICAgICAgIGlkPSJ0ZXh0NDcxNyIKICAgICAgICAgICAgICAgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTYzNS4yNzk0OCw1Mi4zNjIxODMpIgogICAgICAgICAgICAgICBkPSJtIDE4Mi4zNzUsMTI0LjY1NjI1IGMgLTEuODk3MjYsMC4wNDE0IC0zLjcyMTc5LDAuMjExMDcgLTUuNTMxMjUsMC40Njg3NSAtNC44MTk4NCwwLjY1MjEzIC05LjA3MDMyLDEuOTI4NDIgLTEyLjcxODc1LDMuODQzNzUgLTMuNjA3ODYsMS44ODU3OSAtNi44MzA4Miw0LjI1MjgxIC05LjY1NjI1LDcuMTI1IC0yLjc5MDMyLDIuODc3NzkgLTUuMDIxMjQsNi4xMDM2MiAtNi42ODc1LDkuNjI1IC0xLjY2NjMsMy41MjE0OCAtMi43ODU5Nyw3LjI0NTkyIC0zLjQwNjI1LDExLjIxODc1IC0wLjU5Mjg3LDMuNzk3MTEgLTAuNzAwMjksNy42MDAwNCAtMC4yODEyNSwxMS4zNzUgMC40MjQ1LDMuNzM5ODUgMS40NjY2Nyw3LjQ0NDY2IDMuMTI1LDExLjEyNSAxLjY5MzQ1LDMuNjg1ODYgMy45NDAzMyw3LjAzNTUgNi43NSwxMC4wMzEyNSAyLjgxNTEsMi45NjA2IDYuNDg5NjYsNS41NTk2NCAxMSw3LjgxMjUgNC41NTA5MSwyLjIyMzE5IDkuNzAyNzcsMy43ODcyNCAxNS40Njg3NSw0LjY4NzUgMTMuNTM1ODEsMi4xMTMzOSAyNC41NzUzNSwtMC4yNTMwNyAzMy4wOTM3NSwtNy4wNjI1IGwgNC44MTI1LC0zMC44NDM3NSAtMzYuNSwtNS42ODc1IC0xLjgxMjUsMTEuNzE4NzUgMjMuNDY4NzUsMy42NTYyNSAtMi4yNSwxNC4zNzUgYyAtNC41NjkxOCwyLjI3NTg3IC0xMC4wOTM0NywyLjkxNjI5IC0xNi41NjI1LDEuOTA2MjUgLTUuOTA2NjEsLTAuOTIyMjEgLTExLjA3Mzc3LC0yLjg4MzgxIC0xNS40Njg3NSwtNS44NzUgLTQuMzU0NDIsLTMuMDIwODQgLTcuNTI3MjgsLTYuNzU0NDUgLTkuNTYyNSwtMTEuMjUgLTIuMDM1MjgsLTQuNDk1NTEgLTIuNjcwOTksLTkuMzA4MyAtMS44NzUsLTE0LjQwNjI1IDAuNjAzOCwtMy44NjczNSAxLjk3MTQyLC03LjI5OTE3IDQuMDkzNzUsLTEwLjI4MTI1IDIuMTYyOSwtMy4wMTE2NiA0Ljc3NTkzLC01LjM0NDM5IDcuODEyNSwtNy4wMzEyNSAzLjA3MTY1LC0xLjY4MTI2IDYuNDMxOSwtMi44MjA2NyAxMC4wOTM3NSwtMy40Mzc1IDMuNjYxNzUsLTAuNjE2NzIgNy4zMzU2OCwtMC42NDQzMiAxMS4wNjI1LC0wLjA2MjUgMy43OTcwMSwwLjU5MjkgNy41MjIyLDEuNjc0MzYgMTEuMTI1LDMuMjgxMjUgMy42MDgxNCwxLjU3MTg0IDYuNTQ1MDYsMy4xODgzNiA4Ljg0Mzc1LDQuODQzNzUgbCAxLjc1LDEuMzEyNSA3LjE1NjI1LC05LjU5Mzc1IC0xLjY1NjI1LC0xLjM0Mzc1IGMgLTcuMjU0MTYsLTUuNjcwNDUgLTE1Ljg2MjgzLC05LjI1ODk1IC0yNS44MTI1LC0xMC44MTI1IC0zLjQwNTk4LC0wLjUzMTc0IC02LjcxMjksLTAuNzg3NzcgLTkuODc1LC0wLjcxODc1IHoiCiAgICAgICAgICAgICAgIHN0eWxlPSJjb2xvcjojMDAwMDAwO2ZvbnQtc3R5bGU6bm9ybWFsO2ZvbnQtdmFyaWFudDpub3JtYWw7Zm9udC13ZWlnaHQ6Ym9sZDtmb250LXN0cmV0Y2g6bm9ybWFsO2ZvbnQtc2l6ZToxMDkuMzE0cHg7bGluZS1oZWlnaHQ6MTAwJTtmb250LWZhbWlseTpDYW50YXJlbGw7LWlua3NjYXBlLWZvbnQtc3BlY2lmaWNhdGlvbjonQ2FudGFyZWxsIEJvbGQnO3RleHQtaW5kZW50OjA7dGV4dC1hbGlnbjpzdGFydDt0ZXh0LWRlY29yYXRpb246bm9uZTt0ZXh0LWRlY29yYXRpb24tbGluZTpub25lO2xldHRlci1zcGFjaW5nOjBweDt3b3JkLXNwYWNpbmc6MHB4O3RleHQtdHJhbnNmb3JtOm5vbmU7d3JpdGluZy1tb2RlOmxyLXRiO2RpcmVjdGlvbjpsdHI7YmFzZWxpbmUtc2hpZnQ6YmFzZWxpbmU7dGV4dC1hbmNob3I6c3RhcnQ7ZGlzcGxheTppbmxpbmU7b3ZlcmZsb3c6dmlzaWJsZTt2aXNpYmlsaXR5OnZpc2libGU7ZmlsbDojMzMzMzMzO2ZpbGwtb3BhY2l0eToxO2ZpbGwtcnVsZTpub256ZXJvO3N0cm9rZTpub25lO3N0cm9rZS13aWR0aDowLjU4ODYyNXB4O21hcmtlcjpub25lO2VuYWJsZS1iYWNrZ3JvdW5kOmFjY3VtdWxhdGUiIC8+CiAgICAgICAgICAgIDxwYXRoCiAgICAgICAgICAgICAgIGlkPSJ0ZXh0NDcyMSIKICAgICAgICAgICAgICAgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTYzNS4yNzk0OCw1Mi4zNjIxODMpIgogICAgICAgICAgICAgICBkPSJtIDI3OS42MjUsMTE2LjI1IGMgLTEuODE0NzUsLTAuMDA1IC0zLjY5MzY5LDAuMjExMDYgLTUuNjU2MjUsMC42ODc1IC0yLjAxMDU5LDAuNDYxNzMgLTMuNzY4MzEsMS4wMTU0MSAtNS4yODEyNSwxLjY1NjI1IC0xLjUyOTUyLDAuNjA5NDcgLTMuMTQ1OTUsMS4zODEzMiAtNC44NDM3NSwyLjI4MTI1IGwgLTQyLjkwNjI1LDIyLjc1IDYuMjgxMjUsMTEuODc1IDQyLjgxMjUsLTIyLjY4NzUgYyAwLjc4NjA0LC0wLjQxNjYzIDEuNTI1NDEsLTAuNzYwNzkgMi4xODc1LC0xLjAzMTI1IDAuNjQ1NSwtMC4zMDE4NiAxLjU0Nzk0LC0wLjYwNzc3IDIuNzE4NzUsLTAuOTA2MjUgMS4xMjI3NywtMC4zMTMyMSAyLjE4NDg4LC0wLjQ5MjA1IDMuMTg3NSwtMC41IDAuOTg2MDIsLTAuMDM5NCAyLjE1NTE1LDAuMTE3OTggMy40Njg3NSwwLjQ2ODc1IDEuMjk3LDAuMzE5MzcgMi41MDY4NiwwLjg3MjUzIDMuNjg3NSwxLjY1NjI1IDEuMTMyNTksMC43Njg5OSAyLjM3ODg0LDEuODkzOTIgMy42ODc1LDMuMzc1IDEuMjYwNiwxLjQ2NjM0IDIuNDMxMzEsMy4yMzc0OCAzLjUzMTI1LDUuMzEyNSAxLjE0OTk3LDIuMTY5MzYgMi4wMTU0MSw0LjM2MzA1IDIuNTkzNzUsNi41OTM3NSBsIDAuNTYyNSwyLjI1IDExLjUzMTI1LC0zLjU2MjUgLTAuNDY4NzUsLTIuMDYyNSBjIC0wLjg2MzkzLC0zLjUyOTE5IC0yLjE4NTQ4LC02Ljk3OTY2IC0zLjk2ODc1LC0xMC4zNDM3NSAtMS43MzMyNiwtMy4yNjk3MyAtMy41OTY2MiwtNi4wNjUyNiAtNS41NjI1LC04LjQwNjI1IC0xLjk4MjUyLC0yLjM3MjM4IC0zLjg4ODI2LC00LjIyMjQ2IC01Ljc1LC01LjUzMTI1IC0xLjg3ODM3LC0xLjM0MDE3IC0zLjg2ODczLC0yLjMxODg2IC01Ljk2ODc1LC0yLjkzNzUgLTIuMDk5OTcsLTAuNjE4NTggLTQuMDYwMzgsLTAuOTE2MjEgLTUuODQzNzUsLTAuOTM3NSB6IgogICAgICAgICAgICAgICBzdHlsZT0iY29sb3I6IzAwMDAwMDtmb250LXN0eWxlOm5vcm1hbDtmb250LXZhcmlhbnQ6bm9ybWFsO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zdHJldGNoOm5vcm1hbDtmb250LXNpemU6MTA5LjMxNHB4O2xpbmUtaGVpZ2h0OjEwMCU7Zm9udC1mYW1pbHk6Q2FudGFyZWxsOy1pbmtzY2FwZS1mb250LXNwZWNpZmljYXRpb246J0NhbnRhcmVsbCBCb2xkJzt0ZXh0LWluZGVudDowO3RleHQtYWxpZ246c3RhcnQ7dGV4dC1kZWNvcmF0aW9uOm5vbmU7dGV4dC1kZWNvcmF0aW9uLWxpbmU6bm9uZTtsZXR0ZXItc3BhY2luZzowcHg7d29yZC1zcGFjaW5nOjBweDt0ZXh0LXRyYW5zZm9ybTpub25lO3dyaXRpbmctbW9kZTpsci10YjtkaXJlY3Rpb246bHRyO2Jhc2VsaW5lLXNoaWZ0OmJhc2VsaW5lO3RleHQtYW5jaG9yOnN0YXJ0O2Rpc3BsYXk6aW5saW5lO292ZXJmbG93OnZpc2libGU7dmlzaWJpbGl0eTp2aXNpYmxlO2ZpbGw6IzMzMzMzMztmaWxsLW9wYWNpdHk6MTtmaWxsLXJ1bGU6bm9uemVybztzdHJva2U6bm9uZTtzdHJva2Utd2lkdGg6MC41ODg2MjVweDttYXJrZXI6bm9uZTtlbmFibGUtYmFja2dyb3VuZDphY2N1bXVsYXRlIiAvPgogICAgICAgICAgPC9nPgogICAgICAgIDwvZz4KICAgICAgPC9nPgogICAgPC9nPgogIDwvZz4KPC9zdmc+Cg==
+'/>
+                            <div class="titleBar">
+                                Fontbakery Technical Report
+                            </div>
+                        </header>
+
+                        <main>
+                            <p>If you think a check is flawed or have an idea for a check, please file an issue at <a href='https://github.com/fonttools/fontbakery/issues'>https://github.com/fonttools/fontbakery/issues</a> and remember to include a pointer to the repo and branch you're checking.</p>
 <h2>Summary</h2>
             <table>
             <tr>
                 <th>💥 ERROR</th>
+                <th>☠ FATAL</th>
                 <th>🔥 FAIL</th>
                 <th>⚠️ WARN</th>
                 <th>⏩ SKIP</th>
@@ -73,208 +129,626 @@
             </tr>
             <tr>
                 <td>0</td>
-                <td>8</td>
-                <td>50</td>
-                <td>482</td>
+                <td>0</td>
+                <td>4</td>
+                <td>39</td>
+                <td>490</td>
                 <td>25</td>
-                <td>368</td>
+                <td>408</td>
             </tr>
             <tr>
                 <td>0%</td>
+                <td>0%</td>
                 <td>1%</td>
-                <td>7%</td>
-                <td>66%</td>
+                <td>5%</td>
+                <td>64%</td>
                 <td>3%</td>
-                <td>50%</td>
+                <td>53%</td>
             </tr>
             </table>
             
 <p><strong>Note:</strong> The following loglevels were omitted in this report: SKIP, INFO, PASS, DEBUG</p>
-<h2>&lt;Section: Google Fonts&gt; ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
+
+    <p>Meaning of check results:</p>
+
+    <ul>
+    <li>💥 An <em>ERROR</em> is something wrong with FontBakery itself, possibly a bug.
+    <li>☠ A <em>FATAL</em> is an extremely severe issue that must be addressed
+    immediately.
+    <li>🔥 A <em>FAIL</em> is a problem with the font that must be fixed.
+    <li>⚠️ A <em>WARN</em> is something that you should consider addressing.
+    <li>ℹ️ An <em>INFO</em> result simply prints something useful. Typically stats.
+    <li>✅ A <em>PASS</em> means the font looks good for the given checking routine.
+    <li>⏩ And a <em>SKIP</em> happens when the check does not apply to the given font.
+    </ul>
+
+    <p>If you get ERRORs, please help us improve the tool by reporting them at our
+        <a href="https://github.com/fonttools/fontbakery/issues">issue tracker.</a></p>
+
+    <p>(but other kinds of bug reports and/or feature requests
+       are also always welcome, of course!)</p>
+
+    <p>FontBakery version: 0.10.8</p>
+    
+<h2>Section: Google Fonts</h2>
+<span class='section__emoji'>🔥🔥🔥🔥⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️</span>
 <h3>Checking OS/2 achVendID.</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/vendor_id&gt;</div>
+<div class='check__idlabel'>Check ID: com.google.fonts/check/vendor_id</div>
 
-<details><summary>⚠️ <strong>fonts/ttf/KodeMono-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>OS/2 VendorID value 'KDA�' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
+<details><summary>⚠️ KodeMono-SemiBold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>OS/2 VendorID value 'KDA�' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at <a href="https://www.microsoft.com/typography/links/vendorlist.aspx">https://www.microsoft.com/typography/links/vendorlist.aspx</a>
 [code: unknown]</p>
 </span></li></ul></div></details>
-<details><summary>⚠️ <strong>fonts/ttf/KodeMono-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>OS/2 VendorID value 'KDA�' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
+<details><summary>⚠️ KodeMono-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>OS/2 VendorID value 'KDA�' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at <a href="https://www.microsoft.com/typography/links/vendorlist.aspx">https://www.microsoft.com/typography/links/vendorlist.aspx</a>
 [code: unknown]</p>
 </span></li></ul></div></details>
-<details><summary>⚠️ <strong>fonts/ttf/KodeMono-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>OS/2 VendorID value 'KDA�' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
+<details><summary>⚠️ KodeMono-Medium.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>OS/2 VendorID value 'KDA�' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at <a href="https://www.microsoft.com/typography/links/vendorlist.aspx">https://www.microsoft.com/typography/links/vendorlist.aspx</a>
 [code: unknown]</p>
 </span></li></ul></div></details>
-<details><summary>⚠️ <strong>fonts/ttf/KodeMono-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>OS/2 VendorID value 'KDA�' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
+<details><summary>⚠️ KodeMono-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>OS/2 VendorID value 'KDA�' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at <a href="https://www.microsoft.com/typography/links/vendorlist.aspx">https://www.microsoft.com/typography/links/vendorlist.aspx</a>
 [code: unknown]</p>
 </span></li></ul></div></details>
-<h3>License URL matches License text on name table?</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/name/license_url&gt;</div>
+<h3>Check for codepoints not covered by METADATA subsets.</h3>
+<div class='check__idlabel'>Check ID: com.google.fonts/check/metadata/unreachable_subsetting</div>
 
-<details><summary>⚠️ <strong>fonts/ttf/KodeMono-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]</p>
+<details><summary>⚠️ KodeMono-SemiBold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following codepoints supported by the font are not covered by
+any subsets defined in the font's metadata file, and will never
+be served. You can solve this by either manually adding additional
+subset declarations to METADATA.pb, or by editing the glyphset
+definitions.</p>
+<ul>
+<li>U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
+<li>U+02E5 MODIFIER LETTER EXTRA-HIGH TONE BAR: not included in any glyphset definition</li>
+<li>U+02E6 MODIFIER LETTER HIGH TONE BAR: not included in any glyphset definition</li>
+<li>U+02E7 MODIFIER LETTER MID TONE BAR: not included in any glyphset definition</li>
+<li>U+02E8 MODIFIER LETTER LOW TONE BAR: not included in any glyphset definition</li>
+<li>U+02E9 MODIFIER LETTER EXTRA-LOW TONE BAR: not included in any glyphset definition</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh</li>
+<li>U+0305 COMBINING OVERLINE: try adding one of: elbasan, glagolitic, coptic, math, gothic</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, tai-le, old-permic, malayalam, coptic, math, syriac, canadian-aboriginal</li>
+<li>U+030A COMBINING RING ABOVE: try adding syriac</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030D COMBINING VERTICAL LINE ABOVE: not included in any glyphset definition</li>
+<li>U+030E COMBINING DOUBLE VERTICAL LINE ABOVE: not included in any glyphset definition</li>
+<li>U+0310 COMBINING CANDRABINDU: not included in any glyphset definition</li>
+<li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
+<li>U+0313 COMBINING COMMA ABOVE: try adding old-permic</li>
+<li>U+0314 COMBINING REVERSED COMMA ABOVE: not included in any glyphset definition</li>
+<li>U+0316 COMBINING GRAVE ACCENT BELOW: not included in any glyphset definition</li>
+<li>U+0317 COMBINING ACUTE ACCENT BELOW: not included in any glyphset definition</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, cherokee</li>
+<li>U+0325 COMBINING RING BELOW: try adding syriac</li>
+<li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
+<li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
+<li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding syriac</li>
+<li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, tifinagh, caucasian-albanian, cherokee, gothic</li>
+<li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
+<li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
+<li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
+<li>U+0338 COMBINING LONG SOLIDUS OVERLAY: not included in any glyphset definition</li>
+<li>U+2017 DOUBLE LOW LINE: not included in any glyphset definition</li>
+<li>U+2021 DOUBLE DAGGER: try adding adlam</li>
+<li>U+2030 PER MILLE SIGN: try adding adlam</li>
+<li>U+203E OVERLINE: not included in any glyphset definition</li>
+<li>U+2070 SUPERSCRIPT ZERO: not included in any glyphset definition</li>
+<li>U+2075 SUPERSCRIPT FIVE: not included in any glyphset definition</li>
+<li>U+2076 SUPERSCRIPT SIX: not included in any glyphset definition</li>
+<li>U+2077 SUPERSCRIPT SEVEN: not included in any glyphset definition</li>
+<li>U+2078 SUPERSCRIPT EIGHT: not included in any glyphset definition</li>
+<li>U+2079 SUPERSCRIPT NINE: not included in any glyphset definition</li>
+<li>U+2080 SUBSCRIPT ZERO: not included in any glyphset definition</li>
+<li>U+2081 SUBSCRIPT ONE: not included in any glyphset definition</li>
+<li>U+2082 SUBSCRIPT TWO: not included in any glyphset definition</li>
+<li>U+2083 SUBSCRIPT THREE: not included in any glyphset definition</li>
+<li>U+2084 SUBSCRIPT FOUR: not included in any glyphset definition</li>
+<li>U+2085 SUBSCRIPT FIVE: not included in any glyphset definition</li>
+<li>U+2086 SUBSCRIPT SIX: not included in any glyphset definition</li>
+<li>U+2087 SUBSCRIPT SEVEN: not included in any glyphset definition</li>
+<li>U+2088 SUBSCRIPT EIGHT: not included in any glyphset definition</li>
+<li>U+2089 SUBSCRIPT NINE: not included in any glyphset definition</li>
+<li>U+2153 VULGAR FRACTION ONE THIRD: not included in any glyphset definition</li>
+<li>U+2154 VULGAR FRACTION TWO THIRDS: not included in any glyphset definition</li>
+<li>U+215B VULGAR FRACTION ONE EIGHTH: not included in any glyphset definition</li>
+<li>U+215C VULGAR FRACTION THREE EIGHTHS: not included in any glyphset definition</li>
+<li>U+215D VULGAR FRACTION FIVE EIGHTHS: not included in any glyphset definition</li>
+<li>U+215E VULGAR FRACTION SEVEN EIGHTHS: not included in any glyphset definition</li>
+<li>U+215F FRACTION NUMERATOR ONE: not included in any glyphset definition</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols, emoji</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols, emoji</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols, emoji</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols, emoji</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols, emoji</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols, emoji</li>
+<li>U+220F N-ARY PRODUCT: try adding math</li>
+<li>U+2211 N-ARY SUMMATION: try adding math</li>
+<li>U+2248 ALMOST EQUAL TO: try adding math</li>
+<li>U+2260 NOT EQUAL TO: try adding math</li>
+<li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
+<li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
+<li>U+24C0 CIRCLED LATIN CAPITAL LETTER K: try adding symbols</li>
+<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+A712 MODIFIER LETTER EXTRA-HIGH LEFT-STEM TONE BAR: not included in any glyphset definition</li>
+<li>U+A713 MODIFIER LETTER HIGH LEFT-STEM TONE BAR: not included in any glyphset definition</li>
+<li>U+A714 MODIFIER LETTER MID LEFT-STEM TONE BAR: not included in any glyphset definition</li>
+<li>U+A715 MODIFIER LETTER LOW LEFT-STEM TONE BAR: not included in any glyphset definition</li>
+<li>U+A716 MODIFIER LETTER EXTRA-LOW LEFT-STEM TONE BAR: not included in any glyphset definition</li>
+<li>U+FFFFF : not included in any glyphset definition</li>
+</ul>
+<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>latin</code>, <code>latin-ext</code> [code: unreachable-subsetting]</p>
 </span></li></ul></div></details>
-<details><summary>⚠️ <strong>fonts/ttf/KodeMono-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]</p>
+<details><summary>⚠️ KodeMono-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following codepoints supported by the font are not covered by
+any subsets defined in the font's metadata file, and will never
+be served. You can solve this by either manually adding additional
+subset declarations to METADATA.pb, or by editing the glyphset
+definitions.</p>
+<ul>
+<li>U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
+<li>U+02E5 MODIFIER LETTER EXTRA-HIGH TONE BAR: not included in any glyphset definition</li>
+<li>U+02E6 MODIFIER LETTER HIGH TONE BAR: not included in any glyphset definition</li>
+<li>U+02E7 MODIFIER LETTER MID TONE BAR: not included in any glyphset definition</li>
+<li>U+02E8 MODIFIER LETTER LOW TONE BAR: not included in any glyphset definition</li>
+<li>U+02E9 MODIFIER LETTER EXTRA-LOW TONE BAR: not included in any glyphset definition</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh</li>
+<li>U+0305 COMBINING OVERLINE: try adding one of: elbasan, glagolitic, coptic, math, gothic</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, tai-le, old-permic, malayalam, coptic, math, syriac, canadian-aboriginal</li>
+<li>U+030A COMBINING RING ABOVE: try adding syriac</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030D COMBINING VERTICAL LINE ABOVE: not included in any glyphset definition</li>
+<li>U+030E COMBINING DOUBLE VERTICAL LINE ABOVE: not included in any glyphset definition</li>
+<li>U+0310 COMBINING CANDRABINDU: not included in any glyphset definition</li>
+<li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
+<li>U+0313 COMBINING COMMA ABOVE: try adding old-permic</li>
+<li>U+0314 COMBINING REVERSED COMMA ABOVE: not included in any glyphset definition</li>
+<li>U+0316 COMBINING GRAVE ACCENT BELOW: not included in any glyphset definition</li>
+<li>U+0317 COMBINING ACUTE ACCENT BELOW: not included in any glyphset definition</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, cherokee</li>
+<li>U+0325 COMBINING RING BELOW: try adding syriac</li>
+<li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
+<li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
+<li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding syriac</li>
+<li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, tifinagh, caucasian-albanian, cherokee, gothic</li>
+<li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
+<li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
+<li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
+<li>U+0338 COMBINING LONG SOLIDUS OVERLAY: not included in any glyphset definition</li>
+<li>U+2017 DOUBLE LOW LINE: not included in any glyphset definition</li>
+<li>U+2021 DOUBLE DAGGER: try adding adlam</li>
+<li>U+2030 PER MILLE SIGN: try adding adlam</li>
+<li>U+203E OVERLINE: not included in any glyphset definition</li>
+<li>U+2070 SUPERSCRIPT ZERO: not included in any glyphset definition</li>
+<li>U+2075 SUPERSCRIPT FIVE: not included in any glyphset definition</li>
+<li>U+2076 SUPERSCRIPT SIX: not included in any glyphset definition</li>
+<li>U+2077 SUPERSCRIPT SEVEN: not included in any glyphset definition</li>
+<li>U+2078 SUPERSCRIPT EIGHT: not included in any glyphset definition</li>
+<li>U+2079 SUPERSCRIPT NINE: not included in any glyphset definition</li>
+<li>U+2080 SUBSCRIPT ZERO: not included in any glyphset definition</li>
+<li>U+2081 SUBSCRIPT ONE: not included in any glyphset definition</li>
+<li>U+2082 SUBSCRIPT TWO: not included in any glyphset definition</li>
+<li>U+2083 SUBSCRIPT THREE: not included in any glyphset definition</li>
+<li>U+2084 SUBSCRIPT FOUR: not included in any glyphset definition</li>
+<li>U+2085 SUBSCRIPT FIVE: not included in any glyphset definition</li>
+<li>U+2086 SUBSCRIPT SIX: not included in any glyphset definition</li>
+<li>U+2087 SUBSCRIPT SEVEN: not included in any glyphset definition</li>
+<li>U+2088 SUBSCRIPT EIGHT: not included in any glyphset definition</li>
+<li>U+2089 SUBSCRIPT NINE: not included in any glyphset definition</li>
+<li>U+2153 VULGAR FRACTION ONE THIRD: not included in any glyphset definition</li>
+<li>U+2154 VULGAR FRACTION TWO THIRDS: not included in any glyphset definition</li>
+<li>U+215B VULGAR FRACTION ONE EIGHTH: not included in any glyphset definition</li>
+<li>U+215C VULGAR FRACTION THREE EIGHTHS: not included in any glyphset definition</li>
+<li>U+215D VULGAR FRACTION FIVE EIGHTHS: not included in any glyphset definition</li>
+<li>U+215E VULGAR FRACTION SEVEN EIGHTHS: not included in any glyphset definition</li>
+<li>U+215F FRACTION NUMERATOR ONE: not included in any glyphset definition</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols, emoji</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols, emoji</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols, emoji</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols, emoji</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols, emoji</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols, emoji</li>
+<li>U+220F N-ARY PRODUCT: try adding math</li>
+<li>U+2211 N-ARY SUMMATION: try adding math</li>
+<li>U+2248 ALMOST EQUAL TO: try adding math</li>
+<li>U+2260 NOT EQUAL TO: try adding math</li>
+<li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
+<li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
+<li>U+24C0 CIRCLED LATIN CAPITAL LETTER K: try adding symbols</li>
+<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+A712 MODIFIER LETTER EXTRA-HIGH LEFT-STEM TONE BAR: not included in any glyphset definition</li>
+<li>U+A713 MODIFIER LETTER HIGH LEFT-STEM TONE BAR: not included in any glyphset definition</li>
+<li>U+A714 MODIFIER LETTER MID LEFT-STEM TONE BAR: not included in any glyphset definition</li>
+<li>U+A715 MODIFIER LETTER LOW LEFT-STEM TONE BAR: not included in any glyphset definition</li>
+<li>U+A716 MODIFIER LETTER EXTRA-LOW LEFT-STEM TONE BAR: not included in any glyphset definition</li>
+<li>U+FFFFF : not included in any glyphset definition</li>
+</ul>
+<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>latin</code>, <code>latin-ext</code> [code: unreachable-subsetting]</p>
 </span></li></ul></div></details>
-<details><summary>⚠️ <strong>fonts/ttf/KodeMono-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]</p>
+<details><summary>⚠️ KodeMono-Medium.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following codepoints supported by the font are not covered by
+any subsets defined in the font's metadata file, and will never
+be served. You can solve this by either manually adding additional
+subset declarations to METADATA.pb, or by editing the glyphset
+definitions.</p>
+<ul>
+<li>U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
+<li>U+02E5 MODIFIER LETTER EXTRA-HIGH TONE BAR: not included in any glyphset definition</li>
+<li>U+02E6 MODIFIER LETTER HIGH TONE BAR: not included in any glyphset definition</li>
+<li>U+02E7 MODIFIER LETTER MID TONE BAR: not included in any glyphset definition</li>
+<li>U+02E8 MODIFIER LETTER LOW TONE BAR: not included in any glyphset definition</li>
+<li>U+02E9 MODIFIER LETTER EXTRA-LOW TONE BAR: not included in any glyphset definition</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh</li>
+<li>U+0305 COMBINING OVERLINE: try adding one of: elbasan, glagolitic, coptic, math, gothic</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, tai-le, old-permic, malayalam, coptic, math, syriac, canadian-aboriginal</li>
+<li>U+030A COMBINING RING ABOVE: try adding syriac</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030D COMBINING VERTICAL LINE ABOVE: not included in any glyphset definition</li>
+<li>U+030E COMBINING DOUBLE VERTICAL LINE ABOVE: not included in any glyphset definition</li>
+<li>U+0310 COMBINING CANDRABINDU: not included in any glyphset definition</li>
+<li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
+<li>U+0313 COMBINING COMMA ABOVE: try adding old-permic</li>
+<li>U+0314 COMBINING REVERSED COMMA ABOVE: not included in any glyphset definition</li>
+<li>U+0316 COMBINING GRAVE ACCENT BELOW: not included in any glyphset definition</li>
+<li>U+0317 COMBINING ACUTE ACCENT BELOW: not included in any glyphset definition</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, cherokee</li>
+<li>U+0325 COMBINING RING BELOW: try adding syriac</li>
+<li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
+<li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
+<li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding syriac</li>
+<li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, tifinagh, caucasian-albanian, cherokee, gothic</li>
+<li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
+<li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
+<li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
+<li>U+0338 COMBINING LONG SOLIDUS OVERLAY: not included in any glyphset definition</li>
+<li>U+2017 DOUBLE LOW LINE: not included in any glyphset definition</li>
+<li>U+2021 DOUBLE DAGGER: try adding adlam</li>
+<li>U+2030 PER MILLE SIGN: try adding adlam</li>
+<li>U+203E OVERLINE: not included in any glyphset definition</li>
+<li>U+2070 SUPERSCRIPT ZERO: not included in any glyphset definition</li>
+<li>U+2075 SUPERSCRIPT FIVE: not included in any glyphset definition</li>
+<li>U+2076 SUPERSCRIPT SIX: not included in any glyphset definition</li>
+<li>U+2077 SUPERSCRIPT SEVEN: not included in any glyphset definition</li>
+<li>U+2078 SUPERSCRIPT EIGHT: not included in any glyphset definition</li>
+<li>U+2079 SUPERSCRIPT NINE: not included in any glyphset definition</li>
+<li>U+2080 SUBSCRIPT ZERO: not included in any glyphset definition</li>
+<li>U+2081 SUBSCRIPT ONE: not included in any glyphset definition</li>
+<li>U+2082 SUBSCRIPT TWO: not included in any glyphset definition</li>
+<li>U+2083 SUBSCRIPT THREE: not included in any glyphset definition</li>
+<li>U+2084 SUBSCRIPT FOUR: not included in any glyphset definition</li>
+<li>U+2085 SUBSCRIPT FIVE: not included in any glyphset definition</li>
+<li>U+2086 SUBSCRIPT SIX: not included in any glyphset definition</li>
+<li>U+2087 SUBSCRIPT SEVEN: not included in any glyphset definition</li>
+<li>U+2088 SUBSCRIPT EIGHT: not included in any glyphset definition</li>
+<li>U+2089 SUBSCRIPT NINE: not included in any glyphset definition</li>
+<li>U+2153 VULGAR FRACTION ONE THIRD: not included in any glyphset definition</li>
+<li>U+2154 VULGAR FRACTION TWO THIRDS: not included in any glyphset definition</li>
+<li>U+215B VULGAR FRACTION ONE EIGHTH: not included in any glyphset definition</li>
+<li>U+215C VULGAR FRACTION THREE EIGHTHS: not included in any glyphset definition</li>
+<li>U+215D VULGAR FRACTION FIVE EIGHTHS: not included in any glyphset definition</li>
+<li>U+215E VULGAR FRACTION SEVEN EIGHTHS: not included in any glyphset definition</li>
+<li>U+215F FRACTION NUMERATOR ONE: not included in any glyphset definition</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols, emoji</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols, emoji</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols, emoji</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols, emoji</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols, emoji</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols, emoji</li>
+<li>U+220F N-ARY PRODUCT: try adding math</li>
+<li>U+2211 N-ARY SUMMATION: try adding math</li>
+<li>U+2248 ALMOST EQUAL TO: try adding math</li>
+<li>U+2260 NOT EQUAL TO: try adding math</li>
+<li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
+<li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
+<li>U+24C0 CIRCLED LATIN CAPITAL LETTER K: try adding symbols</li>
+<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+A712 MODIFIER LETTER EXTRA-HIGH LEFT-STEM TONE BAR: not included in any glyphset definition</li>
+<li>U+A713 MODIFIER LETTER HIGH LEFT-STEM TONE BAR: not included in any glyphset definition</li>
+<li>U+A714 MODIFIER LETTER MID LEFT-STEM TONE BAR: not included in any glyphset definition</li>
+<li>U+A715 MODIFIER LETTER LOW LEFT-STEM TONE BAR: not included in any glyphset definition</li>
+<li>U+A716 MODIFIER LETTER EXTRA-LOW LEFT-STEM TONE BAR: not included in any glyphset definition</li>
+<li>U+FFFFF : not included in any glyphset definition</li>
+</ul>
+<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>latin</code>, <code>latin-ext</code> [code: unreachable-subsetting]</p>
 </span></li></ul></div></details>
-<details><summary>⚠️ <strong>fonts/ttf/KodeMono-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Please consider using HTTPS URLs at name table entry [plat=3, enc=1, name=14] [code: http-in-license-info]</p>
+<details><summary>⚠️ KodeMono-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following codepoints supported by the font are not covered by
+any subsets defined in the font's metadata file, and will never
+be served. You can solve this by either manually adding additional
+subset declarations to METADATA.pb, or by editing the glyphset
+definitions.</p>
+<ul>
+<li>U+02C7 CARON: try adding one of: canadian-aboriginal, yi, tifinagh</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
+<li>U+02E5 MODIFIER LETTER EXTRA-HIGH TONE BAR: not included in any glyphset definition</li>
+<li>U+02E6 MODIFIER LETTER HIGH TONE BAR: not included in any glyphset definition</li>
+<li>U+02E7 MODIFIER LETTER MID TONE BAR: not included in any glyphset definition</li>
+<li>U+02E8 MODIFIER LETTER LOW TONE BAR: not included in any glyphset definition</li>
+<li>U+02E9 MODIFIER LETTER EXTRA-LOW TONE BAR: not included in any glyphset definition</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, cherokee, tifinagh</li>
+<li>U+0305 COMBINING OVERLINE: try adding one of: elbasan, glagolitic, coptic, math, gothic</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, tai-le, old-permic, malayalam, coptic, math, syriac, canadian-aboriginal</li>
+<li>U+030A COMBINING RING ABOVE: try adding syriac</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030D COMBINING VERTICAL LINE ABOVE: not included in any glyphset definition</li>
+<li>U+030E COMBINING DOUBLE VERTICAL LINE ABOVE: not included in any glyphset definition</li>
+<li>U+0310 COMBINING CANDRABINDU: not included in any glyphset definition</li>
+<li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
+<li>U+0313 COMBINING COMMA ABOVE: try adding old-permic</li>
+<li>U+0314 COMBINING REVERSED COMMA ABOVE: not included in any glyphset definition</li>
+<li>U+0316 COMBINING GRAVE ACCENT BELOW: not included in any glyphset definition</li>
+<li>U+0317 COMBINING ACUTE ACCENT BELOW: not included in any glyphset definition</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, cherokee</li>
+<li>U+0325 COMBINING RING BELOW: try adding syriac</li>
+<li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
+<li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
+<li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding syriac</li>
+<li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, tifinagh, caucasian-albanian, cherokee, gothic</li>
+<li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
+<li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
+<li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
+<li>U+0338 COMBINING LONG SOLIDUS OVERLAY: not included in any glyphset definition</li>
+<li>U+2017 DOUBLE LOW LINE: not included in any glyphset definition</li>
+<li>U+2021 DOUBLE DAGGER: try adding adlam</li>
+<li>U+2030 PER MILLE SIGN: try adding adlam</li>
+<li>U+203E OVERLINE: not included in any glyphset definition</li>
+<li>U+2070 SUPERSCRIPT ZERO: not included in any glyphset definition</li>
+<li>U+2075 SUPERSCRIPT FIVE: not included in any glyphset definition</li>
+<li>U+2076 SUPERSCRIPT SIX: not included in any glyphset definition</li>
+<li>U+2077 SUPERSCRIPT SEVEN: not included in any glyphset definition</li>
+<li>U+2078 SUPERSCRIPT EIGHT: not included in any glyphset definition</li>
+<li>U+2079 SUPERSCRIPT NINE: not included in any glyphset definition</li>
+<li>U+2080 SUBSCRIPT ZERO: not included in any glyphset definition</li>
+<li>U+2081 SUBSCRIPT ONE: not included in any glyphset definition</li>
+<li>U+2082 SUBSCRIPT TWO: not included in any glyphset definition</li>
+<li>U+2083 SUBSCRIPT THREE: not included in any glyphset definition</li>
+<li>U+2084 SUBSCRIPT FOUR: not included in any glyphset definition</li>
+<li>U+2085 SUBSCRIPT FIVE: not included in any glyphset definition</li>
+<li>U+2086 SUBSCRIPT SIX: not included in any glyphset definition</li>
+<li>U+2087 SUBSCRIPT SEVEN: not included in any glyphset definition</li>
+<li>U+2088 SUBSCRIPT EIGHT: not included in any glyphset definition</li>
+<li>U+2089 SUBSCRIPT NINE: not included in any glyphset definition</li>
+<li>U+2153 VULGAR FRACTION ONE THIRD: not included in any glyphset definition</li>
+<li>U+2154 VULGAR FRACTION TWO THIRDS: not included in any glyphset definition</li>
+<li>U+215B VULGAR FRACTION ONE EIGHTH: not included in any glyphset definition</li>
+<li>U+215C VULGAR FRACTION THREE EIGHTHS: not included in any glyphset definition</li>
+<li>U+215D VULGAR FRACTION FIVE EIGHTHS: not included in any glyphset definition</li>
+<li>U+215E VULGAR FRACTION SEVEN EIGHTHS: not included in any glyphset definition</li>
+<li>U+215F FRACTION NUMERATOR ONE: not included in any glyphset definition</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols, emoji</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols, emoji</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols, emoji</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols, emoji</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols, emoji</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols, emoji</li>
+<li>U+220F N-ARY PRODUCT: try adding math</li>
+<li>U+2211 N-ARY SUMMATION: try adding math</li>
+<li>U+2248 ALMOST EQUAL TO: try adding math</li>
+<li>U+2260 NOT EQUAL TO: try adding math</li>
+<li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
+<li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
+<li>U+24C0 CIRCLED LATIN CAPITAL LETTER K: try adding symbols</li>
+<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+A712 MODIFIER LETTER EXTRA-HIGH LEFT-STEM TONE BAR: not included in any glyphset definition</li>
+<li>U+A713 MODIFIER LETTER HIGH LEFT-STEM TONE BAR: not included in any glyphset definition</li>
+<li>U+A714 MODIFIER LETTER MID LEFT-STEM TONE BAR: not included in any glyphset definition</li>
+<li>U+A715 MODIFIER LETTER LOW LEFT-STEM TONE BAR: not included in any glyphset definition</li>
+<li>U+A716 MODIFIER LETTER EXTRA-LOW LEFT-STEM TONE BAR: not included in any glyphset definition</li>
+<li>U+FFFFF : not included in any glyphset definition</li>
+</ul>
+<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>latin</code>, <code>latin-ext</code> [code: unreachable-subsetting]</p>
 </span></li></ul></div></details>
-<h3>Check font follows the Google Fonts vertical metric schema</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/vertical_metrics&gt;</div>
+<h3><div style='color:#88c'>EXPERIMENTAL CHECK - Since 2023/Nov/02</div>Shapes languages in all GF glyphsets.</h3>
+<div class='check__idlabel'>Check ID: com.google.fonts/check/glyphsets/shape_languages</div>
 
-<details><summary>⚠️ <strong>fonts/ttf/KodeMono-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.729x (3458) [code: bad-hhea-range]</p>
+<details><summary>🔥 KodeMono-SemiBold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>GF_Latin_Core glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ro_Latn (Romanian)</td>
+<td align="left">in Romanian, S-cedilla should become S-comma-accent; both buffers returned Scedilla=0+600</td>
+</tr>
+</tbody>
+</table>
+<p>[code: failed-language-shaping]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GF_Latin_Core glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">nb_Latn (Norwegian Bokmål)</td>
+<td align="left">No exemplar glyphs were defined for language Norwegian Bokmål</td>
+</tr>
+</tbody>
+</table>
+<p>[code: warning-language-shaping]</p>
 </span></li></ul></div></details>
-<details><summary>⚠️ <strong>fonts/ttf/KodeMono-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.729x (3458) [code: bad-hhea-range]</p>
+<details><summary>🔥 KodeMono-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>GF_Latin_Core glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ro_Latn (Romanian)</td>
+<td align="left">in Romanian, S-cedilla should become S-comma-accent; both buffers returned Scedilla=0+600</td>
+</tr>
+</tbody>
+</table>
+<p>[code: failed-language-shaping]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GF_Latin_Core glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">nb_Latn (Norwegian Bokmål)</td>
+<td align="left">No exemplar glyphs were defined for language Norwegian Bokmål</td>
+</tr>
+</tbody>
+</table>
+<p>[code: warning-language-shaping]</p>
 </span></li></ul></div></details>
-<details><summary>⚠️ <strong>fonts/ttf/KodeMono-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.729x (3458) [code: bad-hhea-range]</p>
+<details><summary>🔥 KodeMono-Medium.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>GF_Latin_Core glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ro_Latn (Romanian)</td>
+<td align="left">in Romanian, S-cedilla should become S-comma-accent; both buffers returned Scedilla=0+600</td>
+</tr>
+</tbody>
+</table>
+<p>[code: failed-language-shaping]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GF_Latin_Core glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">nb_Latn (Norwegian Bokmål)</td>
+<td align="left">No exemplar glyphs were defined for language Norwegian Bokmål</td>
+</tr>
+</tbody>
+</table>
+<p>[code: warning-language-shaping]</p>
 </span></li></ul></div></details>
-<details><summary>⚠️ <strong>fonts/ttf/KodeMono-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.729x (3458) [code: bad-hhea-range]</p>
-</span></li></ul></div></details>
-<h3>Ensure Stylistic Sets have description.</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/stylisticset_description&gt;</div>
-
-<details><summary>⚠️ <strong>fonts/ttf/KodeMono-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The stylistic set ss03 lacks a description string on the 'name' table. [code: missing-description]</p>
-</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The stylistic set ss04 lacks a description string on the 'name' table. [code: missing-description]</p>
-</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The stylistic set ss06 lacks a description string on the 'name' table. [code: missing-description]</p>
-</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The stylistic set ss07 lacks a description string on the 'name' table. [code: missing-description]</p>
-</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The stylistic set ss09 lacks a description string on the 'name' table. [code: missing-description]</p>
-</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The stylistic set ss10 lacks a description string on the 'name' table. [code: missing-description]</p>
-</span></li></ul></div></details>
-<details><summary>⚠️ <strong>fonts/ttf/KodeMono-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The stylistic set ss03 lacks a description string on the 'name' table. [code: missing-description]</p>
-</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The stylistic set ss04 lacks a description string on the 'name' table. [code: missing-description]</p>
-</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The stylistic set ss06 lacks a description string on the 'name' table. [code: missing-description]</p>
-</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The stylistic set ss07 lacks a description string on the 'name' table. [code: missing-description]</p>
-</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The stylistic set ss09 lacks a description string on the 'name' table. [code: missing-description]</p>
-</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The stylistic set ss10 lacks a description string on the 'name' table. [code: missing-description]</p>
-</span></li></ul></div></details>
-<details><summary>⚠️ <strong>fonts/ttf/KodeMono-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The stylistic set ss03 lacks a description string on the 'name' table. [code: missing-description]</p>
-</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The stylistic set ss04 lacks a description string on the 'name' table. [code: missing-description]</p>
-</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The stylistic set ss06 lacks a description string on the 'name' table. [code: missing-description]</p>
-</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The stylistic set ss07 lacks a description string on the 'name' table. [code: missing-description]</p>
-</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The stylistic set ss09 lacks a description string on the 'name' table. [code: missing-description]</p>
-</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The stylistic set ss10 lacks a description string on the 'name' table. [code: missing-description]</p>
-</span></li></ul></div></details>
-<details><summary>⚠️ <strong>fonts/ttf/KodeMono-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The stylistic set ss03 lacks a description string on the 'name' table. [code: missing-description]</p>
-</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The stylistic set ss04 lacks a description string on the 'name' table. [code: missing-description]</p>
-</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The stylistic set ss06 lacks a description string on the 'name' table. [code: missing-description]</p>
-</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The stylistic set ss07 lacks a description string on the 'name' table. [code: missing-description]</p>
-</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The stylistic set ss09 lacks a description string on the 'name' table. [code: missing-description]</p>
-</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The stylistic set ss10 lacks a description string on the 'name' table. [code: missing-description]</p>
+<details><summary>🔥 KodeMono-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>GF_Latin_Core glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">ro_Latn (Romanian)</td>
+<td align="left">in Romanian, S-cedilla should become S-comma-accent; both buffers returned Scedilla=0+600</td>
+</tr>
+</tbody>
+</table>
+<p>[code: failed-language-shaping]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GF_Latin_Core glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Language</th>
+<th align="left">FAIL messages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">nb_Latn (Norwegian Bokmål)</td>
+<td align="left">No exemplar glyphs were defined for language Norwegian Bokmål</td>
+</tr>
+</tbody>
+</table>
+<p>[code: warning-language-shaping]</p>
 </span></li></ul></div></details>
 <h3>Ensure fonts have ScriptLangTags declared on the 'meta' table.</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/meta/script_lang_tags&gt;</div>
+<div class='check__idlabel'>Check ID: com.google.fonts/check/meta/script_lang_tags</div>
 
-<details><summary>⚠️ <strong>fonts/ttf/KodeMono-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+<details><summary>⚠️ KodeMono-SemiBold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
 </span></li></ul></div></details>
-<details><summary>⚠️ <strong>fonts/ttf/KodeMono-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+<details><summary>⚠️ KodeMono-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
 </span></li></ul></div></details>
-<details><summary>⚠️ <strong>fonts/ttf/KodeMono-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+<details><summary>⚠️ KodeMono-Medium.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
 </span></li></ul></div></details>
-<details><summary>⚠️ <strong>fonts/ttf/KodeMono-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+<details><summary>⚠️ KodeMono-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
 </span></li></ul></div></details>
-<h2>&lt;Section: Universal&gt; 🔥🔥🔥🔥⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
-<h3>Glyph names are all valid?</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/valid_glyphnames&gt;</div>
-
-<details><summary>⚠️ <strong>fonts/ttf/KodeMono-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
-greater_greater_equal_middle.seq, greater_greater_hyphen_middle.seq, greater_greater_hyphen_start.seq and numbersign_underscore_parenleft.liga [code: legacy-long-names]</p>
-</span></li></ul></div></details>
-<details><summary>⚠️ <strong>fonts/ttf/KodeMono-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
-greater_greater_equal_middle.seq, greater_greater_hyphen_middle.seq, greater_greater_hyphen_start.seq and numbersign_underscore_parenleft.liga [code: legacy-long-names]</p>
-</span></li></ul></div></details>
-<details><summary>⚠️ <strong>fonts/ttf/KodeMono-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
-greater_greater_equal_middle.seq, greater_greater_hyphen_middle.seq, greater_greater_hyphen_start.seq and numbersign_underscore_parenleft.liga [code: legacy-long-names]</p>
-</span></li></ul></div></details>
-<details><summary>⚠️ <strong>fonts/ttf/KodeMono-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyph names may be too long for some legacy systems which may expect a maximum 31-char length limit:
-greater_greater_equal_middle.seq, greater_greater_hyphen_middle.seq, greater_greater_hyphen_start.seq and numbersign_underscore_parenleft.liga [code: legacy-long-names]</p>
-</span></li></ul></div></details>
+<h2>Section: Universal</h2>
+<span class='section__emoji'>⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️</span>
 <h3>Check font contains no unreachable glyphs</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/unreachable_glyphs&gt;</div>
+<div class='check__idlabel'>Check ID: com.google.fonts/check/unreachable_glyphs</div>
 
-<details><summary>⚠️ <strong>fonts/ttf/KodeMono-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- acute.case.loclPLK
-
-- at.spacer
-
-- braceright.spacer
-
-- commareversedbelowcomb.case
-
-- l.spacer
-
-- parenleft.spacer
-
-- strokelongoverlay 
-
-- strokeshortoverlay
+<details><summary>⚠️ KodeMono-SemiBold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- nobreakspace
 </code></pre>
 <p>[code: unreachable-glyphs]</p>
 </span></li></ul></div></details>
-<details><summary>⚠️ <strong>fonts/ttf/KodeMono-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- acute.case.loclPLK
-
-- at.spacer
-
-- braceright.spacer
-
-- commareversedbelowcomb.case
-
-- l.spacer
-
-- parenleft.spacer
-
-- strokelongoverlay 
-
-- strokeshortoverlay
+<details><summary>⚠️ KodeMono-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- nobreakspace
 </code></pre>
 <p>[code: unreachable-glyphs]</p>
 </span></li></ul></div></details>
-<details><summary>⚠️ <strong>fonts/ttf/KodeMono-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- acute.case.loclPLK
-
-- at.spacer
-
-- braceright.spacer
-
-- commareversedbelowcomb.case
-
-- l.spacer
-
-- parenleft.spacer
-
-- strokelongoverlay 
-
-- strokeshortoverlay
+<details><summary>⚠️ KodeMono-Medium.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- nobreakspace
 </code></pre>
 <p>[code: unreachable-glyphs]</p>
 </span></li></ul></div></details>
-<details><summary>⚠️ <strong>fonts/ttf/KodeMono-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
-<pre><code>- acute.case.loclPLK
-
-- at.spacer
-
-- braceright.spacer
-
-- commareversedbelowcomb.case
-
-- l.spacer
-
-- parenleft.spacer
-
-- strokelongoverlay 
-
-- strokeshortoverlay
+<details><summary>⚠️ KodeMono-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- nobreakspace
 </code></pre>
 <p>[code: unreachable-glyphs]</p>
 </span></li></ul></div></details>
 <h3>Check if each glyph has the recommended amount of contours.</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/contour_count&gt;</div>
+<div class='check__idlabel'>Check ID: com.google.fonts/check/contour_count</div>
 
-<details><summary>⚠️ <strong>fonts/ttf/KodeMono-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<details><summary>⚠️ KodeMono-SemiBold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
 <p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: percent	Contours detected: 3	Expected: 5
+<pre><code>- Glyph name: percent	Contours detected: 3	Expected: 4 or 5
 
 - Glyph name: Q	Contours detected: 1	Expected: 2
-
-- Glyph name: yen	Contours detected: 3	Expected: 1 or 2
 
 - Glyph name: copyright	Contours detected: 2	Expected: 3
 
@@ -293,22 +767,18 @@ greater_greater_equal_middle.seq, greater_greater_hyphen_middle.seq, greater_gre
 - Glyph name: Lslash	Contours detected: 2	Expected: 1
 
 - Glyph name: lslash	Contours detected: 2	Expected: 1
-
-- Glyph name: Tbar	Contours detected: 2	Expected: 1
-
-- Glyph name: tbar	Contours detected: 2	Expected: 1
 
 - Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
 - Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-- Glyph name: uni0249	Contours detected: 3	Expected: 2
-
 - Glyph name: perthousand	Contours detected: 4	Expected: 6 or 7
 
 - Glyph name: trademark	Contours detected: 1	Expected: 2
 
-- Glyph name: notalmostequal	Contours detected: 3	Expected: 1
+- Glyph name: uni2154	Contours detected: 4	Expected: 1 or 3
+
+- Glyph name: threeeighths	Contours detected: 4	Expected: 5
 
 - Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
@@ -317,8 +787,6 @@ greater_greater_equal_middle.seq, greater_greater_hyphen_middle.seq, greater_gre
 - Glyph name: Lslash	Contours detected: 2	Expected: 1
 
 - Glyph name: Q	Contours detected: 1	Expected: 2
-
-- Glyph name: Tbar	Contours detected: 2	Expected: 1
 
 - Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
@@ -334,29 +802,23 @@ greater_greater_equal_middle.seq, greater_greater_hyphen_middle.seq, greater_gre
 
 - Glyph name: lslash	Contours detected: 2	Expected: 1
 
-- Glyph name: percent	Contours detected: 3	Expected: 5
+- Glyph name: percent	Contours detected: 3	Expected: 4 or 5
 
 - Glyph name: perthousand	Contours detected: 4	Expected: 6 or 7
 
-- Glyph name: tbar	Contours detected: 2	Expected: 1
+- Glyph name: threeeighths	Contours detected: 4	Expected: 5
 
 - Glyph name: trademark	Contours detected: 1	Expected: 2
 
-- Glyph name: uni0249	Contours detected: 3	Expected: 2
-
-- Glyph name: uogonek	Contours detected: 2	Expected: 1 
-
-- Glyph name: yen	Contours detected: 3	Expected: 1 or 2
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
 </code></pre>
 <p>[code: contour-count]</p>
 </span></li></ul></div></details>
-<details><summary>⚠️ <strong>fonts/ttf/KodeMono-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<details><summary>⚠️ KodeMono-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
 <p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: percent	Contours detected: 3	Expected: 5
+<pre><code>- Glyph name: percent	Contours detected: 3	Expected: 4 or 5
 
 - Glyph name: Q	Contours detected: 1	Expected: 2
-
-- Glyph name: yen	Contours detected: 3	Expected: 1 or 2
 
 - Glyph name: copyright	Contours detected: 2	Expected: 3
 
@@ -375,22 +837,18 @@ greater_greater_equal_middle.seq, greater_greater_hyphen_middle.seq, greater_gre
 - Glyph name: Lslash	Contours detected: 2	Expected: 1
 
 - Glyph name: lslash	Contours detected: 2	Expected: 1
-
-- Glyph name: Tbar	Contours detected: 2	Expected: 1
-
-- Glyph name: tbar	Contours detected: 2	Expected: 1
 
 - Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
 - Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-- Glyph name: uni0249	Contours detected: 3	Expected: 2
-
 - Glyph name: perthousand	Contours detected: 4	Expected: 6 or 7
 
 - Glyph name: trademark	Contours detected: 1	Expected: 2
 
-- Glyph name: notalmostequal	Contours detected: 3	Expected: 1
+- Glyph name: uni2154	Contours detected: 4	Expected: 1 or 3
+
+- Glyph name: threeeighths	Contours detected: 4	Expected: 5
 
 - Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
@@ -399,8 +857,6 @@ greater_greater_equal_middle.seq, greater_greater_hyphen_middle.seq, greater_gre
 - Glyph name: Lslash	Contours detected: 2	Expected: 1
 
 - Glyph name: Q	Contours detected: 1	Expected: 2
-
-- Glyph name: Tbar	Contours detected: 2	Expected: 1
 
 - Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
@@ -416,29 +872,23 @@ greater_greater_equal_middle.seq, greater_greater_hyphen_middle.seq, greater_gre
 
 - Glyph name: lslash	Contours detected: 2	Expected: 1
 
-- Glyph name: percent	Contours detected: 3	Expected: 5
+- Glyph name: percent	Contours detected: 3	Expected: 4 or 5
 
 - Glyph name: perthousand	Contours detected: 4	Expected: 6 or 7
 
-- Glyph name: tbar	Contours detected: 2	Expected: 1
+- Glyph name: threeeighths	Contours detected: 4	Expected: 5
 
 - Glyph name: trademark	Contours detected: 1	Expected: 2
 
-- Glyph name: uni0249	Contours detected: 3	Expected: 2
-
-- Glyph name: uogonek	Contours detected: 2	Expected: 1 
-
-- Glyph name: yen	Contours detected: 3	Expected: 1 or 2
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
 </code></pre>
 <p>[code: contour-count]</p>
 </span></li></ul></div></details>
-<details><summary>⚠️ <strong>fonts/ttf/KodeMono-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<details><summary>⚠️ KodeMono-Medium.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
 <p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: percent	Contours detected: 3	Expected: 5
+<pre><code>- Glyph name: percent	Contours detected: 3	Expected: 4 or 5
 
 - Glyph name: Q	Contours detected: 1	Expected: 2
-
-- Glyph name: yen	Contours detected: 3	Expected: 1 or 2
 
 - Glyph name: copyright	Contours detected: 2	Expected: 3
 
@@ -457,22 +907,18 @@ greater_greater_equal_middle.seq, greater_greater_hyphen_middle.seq, greater_gre
 - Glyph name: Lslash	Contours detected: 2	Expected: 1
 
 - Glyph name: lslash	Contours detected: 2	Expected: 1
-
-- Glyph name: Tbar	Contours detected: 2	Expected: 1
-
-- Glyph name: tbar	Contours detected: 2	Expected: 1
 
 - Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
 - Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-- Glyph name: uni0249	Contours detected: 3	Expected: 2
-
 - Glyph name: perthousand	Contours detected: 4	Expected: 6 or 7
 
 - Glyph name: trademark	Contours detected: 1	Expected: 2
 
-- Glyph name: notalmostequal	Contours detected: 3	Expected: 1
+- Glyph name: uni2154	Contours detected: 4	Expected: 1 or 3
+
+- Glyph name: threeeighths	Contours detected: 4	Expected: 5
 
 - Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
@@ -481,8 +927,6 @@ greater_greater_equal_middle.seq, greater_greater_hyphen_middle.seq, greater_gre
 - Glyph name: Lslash	Contours detected: 2	Expected: 1
 
 - Glyph name: Q	Contours detected: 1	Expected: 2
-
-- Glyph name: Tbar	Contours detected: 2	Expected: 1
 
 - Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
@@ -498,29 +942,23 @@ greater_greater_equal_middle.seq, greater_greater_hyphen_middle.seq, greater_gre
 
 - Glyph name: lslash	Contours detected: 2	Expected: 1
 
-- Glyph name: percent	Contours detected: 3	Expected: 5
+- Glyph name: percent	Contours detected: 3	Expected: 4 or 5
 
 - Glyph name: perthousand	Contours detected: 4	Expected: 6 or 7
 
-- Glyph name: tbar	Contours detected: 2	Expected: 1
+- Glyph name: threeeighths	Contours detected: 4	Expected: 5
 
 - Glyph name: trademark	Contours detected: 1	Expected: 2
 
-- Glyph name: uni0249	Contours detected: 3	Expected: 2
-
-- Glyph name: uogonek	Contours detected: 2	Expected: 1 
-
-- Glyph name: yen	Contours detected: 3	Expected: 1 or 2
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
 </code></pre>
 <p>[code: contour-count]</p>
 </span></li></ul></div></details>
-<details><summary>⚠️ <strong>fonts/ttf/KodeMono-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<details><summary>⚠️ KodeMono-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
 <p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: percent	Contours detected: 3	Expected: 5
+<pre><code>- Glyph name: percent	Contours detected: 3	Expected: 4 or 5
 
 - Glyph name: Q	Contours detected: 1	Expected: 2
-
-- Glyph name: yen	Contours detected: 3	Expected: 1 or 2
 
 - Glyph name: copyright	Contours detected: 2	Expected: 3
 
@@ -539,22 +977,18 @@ greater_greater_equal_middle.seq, greater_greater_hyphen_middle.seq, greater_gre
 - Glyph name: Lslash	Contours detected: 2	Expected: 1
 
 - Glyph name: lslash	Contours detected: 2	Expected: 1
-
-- Glyph name: Tbar	Contours detected: 2	Expected: 1
-
-- Glyph name: tbar	Contours detected: 2	Expected: 1
 
 - Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
 - Glyph name: uogonek	Contours detected: 2	Expected: 1
 
-- Glyph name: uni0249	Contours detected: 3	Expected: 2
-
 - Glyph name: perthousand	Contours detected: 4	Expected: 6 or 7
 
 - Glyph name: trademark	Contours detected: 1	Expected: 2
 
-- Glyph name: notalmostequal	Contours detected: 3	Expected: 1
+- Glyph name: uni2154	Contours detected: 4	Expected: 1 or 3
+
+- Glyph name: threeeighths	Contours detected: 4	Expected: 5
 
 - Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
@@ -563,8 +997,6 @@ greater_greater_equal_middle.seq, greater_greater_hyphen_middle.seq, greater_gre
 - Glyph name: Lslash	Contours detected: 2	Expected: 1
 
 - Glyph name: Q	Contours detected: 1	Expected: 2
-
-- Glyph name: Tbar	Contours detected: 2	Expected: 1
 
 - Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
@@ -580,666 +1012,815 @@ greater_greater_equal_middle.seq, greater_greater_hyphen_middle.seq, greater_gre
 
 - Glyph name: lslash	Contours detected: 2	Expected: 1
 
-- Glyph name: percent	Contours detected: 3	Expected: 5
+- Glyph name: percent	Contours detected: 3	Expected: 4 or 5
 
 - Glyph name: perthousand	Contours detected: 4	Expected: 6 or 7
 
-- Glyph name: tbar	Contours detected: 2	Expected: 1
+- Glyph name: threeeighths	Contours detected: 4	Expected: 5
 
 - Glyph name: trademark	Contours detected: 1	Expected: 2
 
-- Glyph name: uni0249	Contours detected: 3	Expected: 2
-
-- Glyph name: uogonek	Contours detected: 2	Expected: 1 
-
-- Glyph name: yen	Contours detected: 3	Expected: 1 or 2
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
 </code></pre>
 <p>[code: contour-count]</p>
 </span></li></ul></div></details>
-<h3>Ensure soft_dotted characters lose their dot when combined with marks that replace the dot.</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/soft_dotted&gt;</div>
-
-<details><summary>🔥 <strong>fonts/ttf/KodeMono-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The dot of soft dotted characters used in orthographies must disappear in the following strings: i̊ i̋ i̍ i̐ i̓ j̀ j́ j̃ j̄ j̈ j̑ į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ḭ̀ ḭ́ ḭ̄ ị̀ ị́ ị̂ ị̃ ị̄</p>
-<p>The dot of soft dotted characters should disappear in other cases, for example: i̅ i̇ i̎ i̒ i̔ i̖̅ i̖̇ i̖̊ i̖̋ i̖̍ i̖̎ i̖̐ i̖̒ i̖̓ i̖̔ i̗̅ i̗̇ i̗̊ i̗̋ i̗̍ [code: soft-dotted]</p>
-</span></li></ul></div></details>
-<details><summary>🔥 <strong>fonts/ttf/KodeMono-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The dot of soft dotted characters used in orthographies must disappear in the following strings: i̊ i̋ i̍ i̐ i̓ j̀ j́ j̃ j̄ j̈ j̑ į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ḭ̀ ḭ́ ḭ̄ ị̀ ị́ ị̂ ị̃ ị̄</p>
-<p>The dot of soft dotted characters should disappear in other cases, for example: i̅ i̇ i̎ i̒ i̔ i̖̅ i̖̇ i̖̊ i̖̋ i̖̍ i̖̎ i̖̐ i̖̒ i̖̓ i̖̔ i̗̅ i̗̇ i̗̊ i̗̋ i̗̍ [code: soft-dotted]</p>
-</span></li></ul></div></details>
-<details><summary>🔥 <strong>fonts/ttf/KodeMono-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The dot of soft dotted characters used in orthographies must disappear in the following strings: i̊ i̋ i̍ i̐ i̓ j̀ j́ j̃ j̄ j̈ j̑ į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ḭ̀ ḭ́ ḭ̄ ị̀ ị́ ị̂ ị̃ ị̄</p>
-<p>The dot of soft dotted characters should disappear in other cases, for example: i̅ i̇ i̎ i̒ i̔ i̖̅ i̖̇ i̖̊ i̖̋ i̖̍ i̖̎ i̖̐ i̖̒ i̖̓ i̖̔ i̗̅ i̗̇ i̗̊ i̗̋ i̗̍ [code: soft-dotted]</p>
-</span></li></ul></div></details>
-<details><summary>🔥 <strong>fonts/ttf/KodeMono-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The dot of soft dotted characters used in orthographies must disappear in the following strings: i̊ i̋ i̍ i̐ i̓ j̀ j́ j̃ j̄ j̈ j̑ į̀ į́ į̂ į̃ į̄ į̌ ɨ̀ ɨ́ ɨ̂ ɨ̃ ɨ̄ ɨ̈ ɨ̋ ɨ̌ ɨ̏ ɨ̧̀ ɨ̧́ ɨ̧̂ ɨ̧̌ ɨ̱̀ ɨ̱́ ɨ̱̈ ḭ̀ ḭ́ ḭ̄ ị̀ ị́ ị̂ ị̃ ị̄</p>
-<p>The dot of soft dotted characters should disappear in other cases, for example: i̅ i̇ i̎ i̒ i̔ i̖̅ i̖̇ i̖̊ i̖̋ i̖̍ i̖̎ i̖̐ i̖̒ i̖̓ i̖̔ i̗̅ i̗̇ i̗̊ i̗̋ i̗̍ [code: soft-dotted]</p>
-</span></li></ul></div></details>
-<h2>&lt;Section: fontbakery.profiles.name&gt; 🔥🔥🔥🔥⏩⏩⏩⏩⏩⏩⏩⏩</h2>
+<h2>Section: fontbakery.profiles.name</h2>
+<span class='section__emoji'>⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩</span>
 <h3>Checking correctness of monospaced metadata.</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/monospace&gt;</div>
+<div class='check__idlabel'>Check ID: com.google.fonts/check/monospace</div>
 
-<details><summary>🔥 <strong>fonts/ttf/KodeMono-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]</p>
-</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 1 instead.
-Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether this makes sense for your font. [code: bad-numberOfHMetrics]</p>
+<details><summary>⚠️ KodeMono-SemiBold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The OpenType spec recomments at <a href="https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table">https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table</a> that hhea.numberOfHMetrics be set to 3 but this font has 421 instead.
+Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https://github.com/fonttools/fonttools/issues/3014</a> to decide whether this makes sense for your font. [code: bad-numberOfHMetrics]</p>
 </span></li></ul></div></details>
-<details><summary>🔥 <strong>fonts/ttf/KodeMono-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]</p>
-</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 1 instead.
-Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether this makes sense for your font. [code: bad-numberOfHMetrics]</p>
+<details><summary>⚠️ KodeMono-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The OpenType spec recomments at <a href="https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table">https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table</a> that hhea.numberOfHMetrics be set to 3 but this font has 421 instead.
+Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https://github.com/fonttools/fonttools/issues/3014</a> to decide whether this makes sense for your font. [code: bad-numberOfHMetrics]</p>
 </span></li></ul></div></details>
-<details><summary>🔥 <strong>fonts/ttf/KodeMono-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]</p>
-</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 1 instead.
-Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether this makes sense for your font. [code: bad-numberOfHMetrics]</p>
+<details><summary>⚠️ KodeMono-Medium.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The OpenType spec recomments at <a href="https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table">https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table</a> that hhea.numberOfHMetrics be set to 3 but this font has 421 instead.
+Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https://github.com/fonttools/fonttools/issues/3014</a> to decide whether this makes sense for your font. [code: bad-numberOfHMetrics]</p>
 </span></li></ul></div></details>
-<details><summary>🔥 <strong>fonts/ttf/KodeMono-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]</p>
-</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 1 instead.
-Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether this makes sense for your font. [code: bad-numberOfHMetrics]</p>
+<details><summary>⚠️ KodeMono-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The OpenType spec recomments at <a href="https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table">https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table</a> that hhea.numberOfHMetrics be set to 3 but this font has 421 instead.
+Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https://github.com/fonttools/fonttools/issues/3014</a> to decide whether this makes sense for your font. [code: bad-numberOfHMetrics]</p>
 </span></li></ul></div></details>
-<h2>&lt;Section: fontbakery.profiles.gdef&gt; ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️</h2>
-<h3>Check glyphs in mark glyph class are non-spacing.</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/gdef_spacing_marks&gt;</div>
-
-<details><summary>⚠️ <strong>fonts/ttf/KodeMono-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following spacing glyphs may be in the GDEF mark glyph class by mistake:
-acute (U+00B4), acute.case (unencoded), acute.case.loclPLK (unencoded), acute.loclPLK (unencoded), acutebelowcomb (U+0317), acutecomb (U+0301), breve (U+02D8), breve.case (unencoded), brevebelowcomb (U+032E), brevecomb (U+0306), breveinvertedbelowcomb (U+032F), breveinvertedcomb (U+0311), candraBinducomb (U+0310), caroncomb (U+030C), cedilla (U+00B8), cedilla.case (unencoded), cedillacomb (U+0327), circumflex (U+02C6), circumflex.case (unencoded), circumflexbelowcomb (U+032D), circumflexcomb (U+0302), commaabovecomb (U+0313), commaaboverightcomb (U+0315), commaaccentcomb (U+0326), commaaccentcomb.salt (unencoded), commabelowcomb.case (unencoded), commareversedabovecomb (U+0314), commareversedbelowcomb.case (unencoded), commaturnedabovecomb (U+0312), dblgravecomb (U+030F), dbllowlinecomb (U+0333), dblvlinecomb (U+030E), dieresis (U+00A8), dieresis.case (unencoded), dieresisbelowcomb (U+0324), dieresiscomb (U+0308), dotaccent (U+02D9), dotaccent.case (unencoded), dotaccentcomb (U+0307), dotbelowcomb (U+0323), grave (U+0060), grave.case (unencoded), gravebelowcomb (U+0316), gravecomb (U+0300), hookabovecomb (U+0309), hungarumlaut (U+02DD), hungarumlaut.case (unencoded), hungarumlautcomb (U+030B), lowlinecomb (U+0332), macron (U+00AF), macron.case (unencoded), macronbelowcomb (U+0331), macroncomb (U+0304), ogonek (U+02DB), ogonekcomb (U+0328), overlinecomb (U+0305), quoteleft (U+2018), ring (U+02DA), ring.case (unencoded), ringbelowcomb (U+0325), ringcomb (U+030A), strokelongcomb (U+0336), strokeshortcomb (U+0335), tilde (U+02DC), tilde.case (unencoded), tildebelowcomb (U+0330), tildecomb (U+0303), tildeoverlaycomb (U+0334), uni02C9 (U+02C9), vlinebelowcomb (U+0329) and vlinecomb (U+030D) [code: spacing-mark-glyphs]</p>
-</span></li></ul></div></details>
-<details><summary>⚠️ <strong>fonts/ttf/KodeMono-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following spacing glyphs may be in the GDEF mark glyph class by mistake:
-acute (U+00B4), acute.case (unencoded), acute.case.loclPLK (unencoded), acute.loclPLK (unencoded), acutebelowcomb (U+0317), acutecomb (U+0301), breve (U+02D8), breve.case (unencoded), brevebelowcomb (U+032E), brevecomb (U+0306), breveinvertedbelowcomb (U+032F), breveinvertedcomb (U+0311), candraBinducomb (U+0310), caroncomb (U+030C), cedilla (U+00B8), cedilla.case (unencoded), cedillacomb (U+0327), circumflex (U+02C6), circumflex.case (unencoded), circumflexbelowcomb (U+032D), circumflexcomb (U+0302), commaabovecomb (U+0313), commaaboverightcomb (U+0315), commaaccentcomb (U+0326), commaaccentcomb.salt (unencoded), commabelowcomb.case (unencoded), commareversedabovecomb (U+0314), commareversedbelowcomb.case (unencoded), commaturnedabovecomb (U+0312), dblgravecomb (U+030F), dbllowlinecomb (U+0333), dblvlinecomb (U+030E), dieresis (U+00A8), dieresis.case (unencoded), dieresisbelowcomb (U+0324), dieresiscomb (U+0308), dotaccent (U+02D9), dotaccent.case (unencoded), dotaccentcomb (U+0307), dotbelowcomb (U+0323), grave (U+0060), grave.case (unencoded), gravebelowcomb (U+0316), gravecomb (U+0300), hookabovecomb (U+0309), hungarumlaut (U+02DD), hungarumlaut.case (unencoded), hungarumlautcomb (U+030B), lowlinecomb (U+0332), macron (U+00AF), macron.case (unencoded), macronbelowcomb (U+0331), macroncomb (U+0304), ogonek (U+02DB), ogonekcomb (U+0328), overlinecomb (U+0305), quoteleft (U+2018), ring (U+02DA), ring.case (unencoded), ringbelowcomb (U+0325), ringcomb (U+030A), strokelongcomb (U+0336), strokeshortcomb (U+0335), tilde (U+02DC), tilde.case (unencoded), tildebelowcomb (U+0330), tildecomb (U+0303), tildeoverlaycomb (U+0334), uni02C9 (U+02C9), vlinebelowcomb (U+0329) and vlinecomb (U+030D) [code: spacing-mark-glyphs]</p>
-</span></li></ul></div></details>
-<details><summary>⚠️ <strong>fonts/ttf/KodeMono-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following spacing glyphs may be in the GDEF mark glyph class by mistake:
-acute (U+00B4), acute.case (unencoded), acute.case.loclPLK (unencoded), acute.loclPLK (unencoded), acutebelowcomb (U+0317), acutecomb (U+0301), breve (U+02D8), breve.case (unencoded), brevebelowcomb (U+032E), brevecomb (U+0306), breveinvertedbelowcomb (U+032F), breveinvertedcomb (U+0311), candraBinducomb (U+0310), caroncomb (U+030C), cedilla (U+00B8), cedilla.case (unencoded), cedillacomb (U+0327), circumflex (U+02C6), circumflex.case (unencoded), circumflexbelowcomb (U+032D), circumflexcomb (U+0302), commaabovecomb (U+0313), commaaboverightcomb (U+0315), commaaccentcomb (U+0326), commaaccentcomb.salt (unencoded), commabelowcomb.case (unencoded), commareversedabovecomb (U+0314), commareversedbelowcomb.case (unencoded), commaturnedabovecomb (U+0312), dblgravecomb (U+030F), dbllowlinecomb (U+0333), dblvlinecomb (U+030E), dieresis (U+00A8), dieresis.case (unencoded), dieresisbelowcomb (U+0324), dieresiscomb (U+0308), dotaccent (U+02D9), dotaccent.case (unencoded), dotaccentcomb (U+0307), dotbelowcomb (U+0323), grave (U+0060), grave.case (unencoded), gravebelowcomb (U+0316), gravecomb (U+0300), hookabovecomb (U+0309), hungarumlaut (U+02DD), hungarumlaut.case (unencoded), hungarumlautcomb (U+030B), lowlinecomb (U+0332), macron (U+00AF), macron.case (unencoded), macronbelowcomb (U+0331), macroncomb (U+0304), ogonek (U+02DB), ogonekcomb (U+0328), overlinecomb (U+0305), quoteleft (U+2018), ring (U+02DA), ring.case (unencoded), ringbelowcomb (U+0325), ringcomb (U+030A), strokelongcomb (U+0336), strokeshortcomb (U+0335), tilde (U+02DC), tilde.case (unencoded), tildebelowcomb (U+0330), tildecomb (U+0303), tildeoverlaycomb (U+0334), uni02C9 (U+02C9), vlinebelowcomb (U+0329) and vlinecomb (U+030D) [code: spacing-mark-glyphs]</p>
-</span></li></ul></div></details>
-<details><summary>⚠️ <strong>fonts/ttf/KodeMono-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following spacing glyphs may be in the GDEF mark glyph class by mistake:
-acute (U+00B4), acute.case (unencoded), acute.case.loclPLK (unencoded), acute.loclPLK (unencoded), acutebelowcomb (U+0317), acutecomb (U+0301), breve (U+02D8), breve.case (unencoded), brevebelowcomb (U+032E), brevecomb (U+0306), breveinvertedbelowcomb (U+032F), breveinvertedcomb (U+0311), candraBinducomb (U+0310), caroncomb (U+030C), cedilla (U+00B8), cedilla.case (unencoded), cedillacomb (U+0327), circumflex (U+02C6), circumflex.case (unencoded), circumflexbelowcomb (U+032D), circumflexcomb (U+0302), commaabovecomb (U+0313), commaaboverightcomb (U+0315), commaaccentcomb (U+0326), commaaccentcomb.salt (unencoded), commabelowcomb.case (unencoded), commareversedabovecomb (U+0314), commareversedbelowcomb.case (unencoded), commaturnedabovecomb (U+0312), dblgravecomb (U+030F), dbllowlinecomb (U+0333), dblvlinecomb (U+030E), dieresis (U+00A8), dieresis.case (unencoded), dieresisbelowcomb (U+0324), dieresiscomb (U+0308), dotaccent (U+02D9), dotaccent.case (unencoded), dotaccentcomb (U+0307), dotbelowcomb (U+0323), grave (U+0060), grave.case (unencoded), gravebelowcomb (U+0316), gravecomb (U+0300), hookabovecomb (U+0309), hungarumlaut (U+02DD), hungarumlaut.case (unencoded), hungarumlautcomb (U+030B), lowlinecomb (U+0332), macron (U+00AF), macron.case (unencoded), macronbelowcomb (U+0331), macroncomb (U+0304), ogonek (U+02DB), ogonekcomb (U+0328), overlinecomb (U+0305), quoteleft (U+2018), ring (U+02DA), ring.case (unencoded), ringbelowcomb (U+0325), ringcomb (U+030A), strokelongcomb (U+0336), strokeshortcomb (U+0335), tilde (U+02DC), tilde.case (unencoded), tildebelowcomb (U+0330), tildecomb (U+0303), tildeoverlaycomb (U+0334), uni02C9 (U+02C9), vlinebelowcomb (U+0329) and vlinecomb (U+030D) [code: spacing-mark-glyphs]</p>
-</span></li></ul></div></details>
-<h3>Check GDEF mark glyph class doesn't have characters that are not marks.</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/gdef_non_mark_chars&gt;</div>
-
-<details><summary>⚠️ <strong>fonts/ttf/KodeMono-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following non-mark characters should not be in the GDEF mark glyph class:
-U+0060, U+00A8, U+00AF, U+00B4, U+00B8, U+02C6, U+02C9, U+02D8, U+02D9, U+02DA, U+02DB, U+02DC, U+02DD and U+2018 [code: non-mark-chars]</p>
-</span></li></ul></div></details>
-<details><summary>⚠️ <strong>fonts/ttf/KodeMono-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following non-mark characters should not be in the GDEF mark glyph class:
-U+0060, U+00A8, U+00AF, U+00B4, U+00B8, U+02C6, U+02C9, U+02D8, U+02D9, U+02DA, U+02DB, U+02DC, U+02DD and U+2018 [code: non-mark-chars]</p>
-</span></li></ul></div></details>
-<details><summary>⚠️ <strong>fonts/ttf/KodeMono-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following non-mark characters should not be in the GDEF mark glyph class:
-U+0060, U+00A8, U+00AF, U+00B4, U+00B8, U+02C6, U+02C9, U+02D8, U+02D9, U+02DA, U+02DB, U+02DC, U+02DD and U+2018 [code: non-mark-chars]</p>
-</span></li></ul></div></details>
-<details><summary>⚠️ <strong>fonts/ttf/KodeMono-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following non-mark characters should not be in the GDEF mark glyph class:
-U+0060, U+00A8, U+00AF, U+00B4, U+00B8, U+02C6, U+02C9, U+02D8, U+02D9, U+02DA, U+02DB, U+02DC, U+02DD and U+2018 [code: non-mark-chars]</p>
-</span></li></ul></div></details>
-<h2>&lt;Section: Outline Correctness Checks&gt; ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️</h2>
+<h2>Section: Outline Correctness Checks</h2>
+<span class='section__emoji'>⚠️⚠️⚠️⚠️⚠️⚠️⚠️</span>
 <h3>Are there any misaligned on-curve points?</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_alignment_miss&gt;</div>
+<div class='check__idlabel'>Check ID: com.google.fonts/check/outline_alignment_miss</div>
 
-<details><summary>⚠️ <strong>fonts/ttf/KodeMono-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
-<pre><code>* degree (U+00B0): X=709.0,Y=1398.0 (should be at cap-height 1400?)
+<details><summary>⚠️ KodeMono-SemiBold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
+<pre><code>* g (U+0067): X=425.0,Y=501.0 (should be at x-height 500?)
 
-* Thorn (U+00DE): X=320.0,Y=-1.0 (should be at baseline 0?)
+* y (U+0079): X=427.0,Y=1.0 (should be at baseline 0?)
 
-* Thorn (U+00DE): X=160.0,Y=-1.0 (should be at baseline 0?)
+* y (U+0079): X=172.0,Y=1.0 (should be at baseline 0?)
 
-* edieresis (U+00EB): X=720.0,Y=1398.0 (should be at cap-height 1400?)
+* yen (U+00A5): X=66.0,Y=699.0 (should be at cap-height 700?)
 
-* edieresis (U+00EB): X=919.0,Y=1398.0 (should be at cap-height 1400?)
+* yen (U+00A5): X=172.0,Y=699.0 (should be at cap-height 700?)
 
-* odieresis (U+00F6): X=720.0,Y=1398.0 (should be at cap-height 1400?)
+* yen (U+00A5): X=428.0,Y=699.0 (should be at cap-height 700?)
 
-* odieresis (U+00F6): X=919.0,Y=1398.0 (should be at cap-height 1400?)
+* yen (U+00A5): X=534.0,Y=699.0 (should be at cap-height 700?)
 
-* cdotaccent (U+010B): X=491.0,Y=1398.0 (should be at cap-height 1400?)
+* macron (U+00AF): X=444.0,Y=701.0 (should be at cap-height 700?)
 
-* cdotaccent (U+010B): X=691.0,Y=1398.0 (should be at cap-height 1400?)
+* macron (U+00AF): X=156.0,Y=701.0 (should be at cap-height 700?)
 
-* edotaccent (U+0117): X=500.0,Y=1398.0 (should be at cap-height 1400?)
+* aring (U+00E5): X=265.0,Y=702.0 (should be at cap-height 700?)
 
-* edotaccent (U+0117): X=700.0,Y=1398.0 (should be at cap-height 1400?)
+* aring (U+00E5): X=361.0,Y=702.0 (should be at cap-height 700?)
 
-* eogonek (U+0119): X=882.0,Y=1.0 (should be at baseline 0?)
+* yacute (U+00FD): X=427.0,Y=1.0 (should be at baseline 0?)
 
-* Iogonek (U+012E): X=520.0,Y=1.0 (should be at baseline 0?)
+* yacute (U+00FD): X=172.0,Y=1.0 (should be at baseline 0?)
 
-* Iogonek (U+012E): X=680.0,Y=1.0 (should be at baseline 0?)
+* ydieresis (U+00FF): X=427.0,Y=1.0 (should be at baseline 0?)
 
-* utilde (U+0169): X=996.0,Y=1398.0 (should be at cap-height 1400?)
+* ydieresis (U+00FF): X=172.0,Y=1.0 (should be at baseline 0?)
 
-* uring (U+016F): X=709.0,Y=1398.0 (should be at cap-height 1400?)
+* ycircumflex (U+0177): X=427.0,Y=1.0 (should be at baseline 0?)
 
-* longs (U+017F): X=808.0,Y=1398.0 (should be at cap-height 1400?)
+* ycircumflex (U+0177): X=172.0,Y=1.0 (should be at baseline 0?)
 
-* longs (U+017F): X=567.0,Y=1398.0 (should be at cap-height 1400?)
+* zcaron (U+017E): X=300.0,Y=698.0 (should be at cap-height 700?)
 
-* florin (U+0192): X=460.0,Y=1.0 (should be at baseline 0?)
+* circumflex (U+02C6): X=300.0,Y=702.0 (should be at cap-height 700?)
 
-* florin (U+0192): X=459.0,Y=1.0 (should be at baseline 0?)
+* uni0302 (U+0302): X=300.0,Y=702.0 (should be at cap-height 700?)
 
-* ring (U+02DA): X=711.0,Y=1398.0 (should be at cap-height 1400?)
+* uni0304 (U+0304): X=444.0,Y=701.0 (should be at cap-height 700?)
 
-* tilde (U+02DC): X=999.0,Y=1398.0 (should be at cap-height 1400?)
+* uni0304 (U+0304): X=156.0,Y=701.0 (should be at cap-height 700?)
 
-* tildecomb (U+0303): X=999.0,Y=1398.0 (should be at cap-height 1400?)
+* ygrave (U+1EF3): X=427.0,Y=1.0 (should be at baseline 0?)
 
-* ringcomb (U+030A): X=711.0,Y=1398.0 (should be at cap-height 1400?) 
+* ygrave (U+1EF3): X=172.0,Y=1.0 (should be at baseline 0?)
 
-* seven.inferior (U+2087): X=488.0,Y=1.0 (should be at baseline 0?) [code: found-misalignments]
+* underscoredbl (U+2017): X=560.0,Y=-301.0 (should be at descender -300?)
+
+* underscoredbl (U+2017): X=40.0,Y=-301.0 (should be at descender -300?)
+
+* perthousand (U+2030): X=236.0,Y=2.0 (should be at baseline 0?)
+
+* Euro (U+20AC): X=177.0,Y=702.0 (should be at cap-height 700?)
+
+* Euro (U+20AC): X=471.0,Y=702.0 (should be at cap-height 700?) [code: found-misalignments]
 </code></pre>
 </span></li></ul></div></details>
-<details><summary>⚠️ <strong>fonts/ttf/KodeMono-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
-<pre><code>* k (U+006B): X=528.0,Y=638.0 (should be at x-height 640?)
+<details><summary>⚠️ KodeMono-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
+<pre><code>* exclam (U+0021): X=260.0,Y=701.0 (should be at cap-height 700?)
 
-* degree (U+00B0): X=833.0,Y=1448.0 (should be at cap-height 1450?)
+* exclam (U+0021): X=342.0,Y=701.0 (should be at cap-height 700?)
 
-* degree (U+00B0): X=368.0,Y=1448.0 (should be at cap-height 1450?)
+* numbersign (U+0023): X=217.0,Y=701.0 (should be at cap-height 700?)
 
-* acircumflex (U+00E2): X=600.0,Y=1448.0 (should be at cap-height 1450?)
+* numbersign (U+0023): X=290.0,Y=701.0 (should be at cap-height 700?)
 
-* ebreve (U+0115): X=432.0,Y=1449.0 (should be at cap-height 1450?)
+* numbersign (U+0023): X=438.0,Y=701.0 (should be at cap-height 700?)
 
-* ebreve (U+0115): X=752.0,Y=1449.0 (should be at cap-height 1450?)
+* numbersign (U+0023): X=512.0,Y=701.0 (should be at cap-height 700?)
 
-* gbreve (U+011F): X=444.0,Y=1448.0 (should be at cap-height 1450?)
+* ampersand (U+0026): X=180.0,Y=701.0 (should be at cap-height 700?)
 
-* gbreve (U+011F): X=764.0,Y=1448.0 (should be at cap-height 1450?)
+* ampersand (U+0026): X=400.0,Y=701.0 (should be at cap-height 700?)
 
-* ncaron (U+0148): X=600.0,Y=1451.0 (should be at cap-height 1450?)
+* six (U+0036): X=159.0,Y=701.0 (should be at cap-height 700?)
 
-* rcaron (U+0159): X=617.0,Y=1451.0 (should be at cap-height 1450?)
+* six (U+0036): X=440.0,Y=701.0 (should be at cap-height 700?)
 
-* scaron (U+0161): X=585.0,Y=1451.0 (should be at cap-height 1450?)
+* question (U+003F): X=159.0,Y=701.0 (should be at cap-height 700?)
 
-* zcaron (U+017E): X=600.0,Y=1451.0 (should be at cap-height 1450?)
+* question (U+003F): X=439.0,Y=701.0 (should be at cap-height 700?)
 
-* ring (U+02DA): X=834.0,Y=1448.0 (should be at cap-height 1450?)
+* l (U+006C): X=309.0,Y=701.0 (should be at cap-height 700?)
 
-* ring (U+02DA): X=369.0,Y=1448.0 (should be at cap-height 1450?)
+* y (U+0079): X=440.0,Y=2.0 (should be at baseline 0?)
 
-* ringcomb (U+030A): X=834.0,Y=1448.0 (should be at cap-height 1450?)
+* y (U+0079): X=179.0,Y=2.0 (should be at baseline 0?)
 
-* ringcomb (U+030A): X=369.0,Y=1448.0 (should be at cap-height 1450?)
+* section (U+00A7): X=389.0,Y=702.0 (should be at cap-height 700?)
 
-* perthousand (U+2030): X=719.0,Y=-1.0 (should be at baseline 0?) 
+* section (U+00A7): X=215.0,Y=702.0 (should be at cap-height 700?)
 
-* perthousand (U+2030): X=552.0,Y=-1.0 (should be at baseline 0?) [code: found-misalignments]
+* section (U+00A7): X=104.0,Y=698.0 (should be at cap-height 700?)
+
+* threequarters (U+00BE): X=291.0,Y=699.0 (should be at cap-height 700?)
+
+* germandbls (U+00DF): X=239.0,Y=701.0 (should be at cap-height 700?)
+
+* yacute (U+00FD): X=440.0,Y=2.0 (should be at baseline 0?)
+
+* yacute (U+00FD): X=179.0,Y=2.0 (should be at baseline 0?)
+
+* ydieresis (U+00FF): X=440.0,Y=2.0 (should be at baseline 0?)
+
+* ydieresis (U+00FF): X=179.0,Y=2.0 (should be at baseline 0?)
+
+* ydieresis (U+00FF): X=140.0,Y=701.0 (should be at cap-height 700?)
+
+* ydieresis (U+00FF): X=250.0,Y=701.0 (should be at cap-height 700?)
+
+* ydieresis (U+00FF): X=350.0,Y=701.0 (should be at cap-height 700?)
+
+* ydieresis (U+00FF): X=460.0,Y=701.0 (should be at cap-height 700?)
+
+* cacute (U+0107): X=408.0,Y=702.0 (should be at cap-height 700?)
+
+* ecaron (U+011B): X=141.0,Y=702.0 (should be at cap-height 700?)
+
+* ecaron (U+011B): X=454.0,Y=702.0 (should be at cap-height 700?)
+
+* IJ (U+0132): X=18.0,Y=701.0 (should be at cap-height 700?)
+
+* IJ (U+0132): X=199.0,Y=701.0 (should be at cap-height 700?)
+
+* IJ (U+0132): X=295.0,Y=701.0 (should be at cap-height 700?)
+
+* IJ (U+0132): X=582.0,Y=701.0 (should be at cap-height 700?)
+
+* lacute (U+013A): X=309.0,Y=701.0 (should be at cap-height 700?)
+
+* uni013C (U+013C): X=309.0,Y=701.0 (should be at cap-height 700?)
+
+* lcaron (U+013E): X=309.0,Y=701.0 (should be at cap-height 700?)
+
+* lslash (U+0142): X=309.0,Y=701.0 (should be at cap-height 700?)
+
+* ncaron (U+0148): X=184.0,Y=701.0 (should be at cap-height 700?)
+
+* ncaron (U+0148): X=497.0,Y=701.0 (should be at cap-height 700?)
+
+* rcaron (U+0159): X=212.0,Y=701.0 (should be at cap-height 700?)
+
+* rcaron (U+0159): X=525.0,Y=701.0 (should be at cap-height 700?)
+
+* scaron (U+0161): X=146.0,Y=701.0 (should be at cap-height 700?)
+
+* scaron (U+0161): X=459.0,Y=701.0 (should be at cap-height 700?)
+
+* ycircumflex (U+0177): X=440.0,Y=2.0 (should be at baseline 0?)
+
+* ycircumflex (U+0177): X=179.0,Y=2.0 (should be at baseline 0?)
+
+* uni1E9E (U+1E9E): X=239.0,Y=701.0 (should be at cap-height 700?)
+
+* uni1E9E (U+1E9E): X=522.0,Y=701.0 (should be at cap-height 700?)
+
+* ygrave (U+1EF3): X=440.0,Y=2.0 (should be at baseline 0?)
+
+* ygrave (U+1EF3): X=179.0,Y=2.0 (should be at baseline 0?)
+
+* uni2076 (U+2076): X=229.0,Y=702.0 (should be at cap-height 700?)
+
+* uni2076 (U+2076): X=370.0,Y=702.0 (should be at cap-height 700?)
+
+* uni2154 (U+2154): X=291.0,Y=699.0 (should be at cap-height 700?)
+
+* oneeighth (U+215B): X=309.0,Y=1.0 (should be at baseline 0?)
+
+* threeeighths (U+215C): X=291.0,Y=699.0 (should be at cap-height 700?)
+
+* fiveeighths (U+215D): X=309.0,Y=1.0 (should be at baseline 0?)
+
+* seveneighths (U+215E): X=309.0,Y=1.0 (should be at baseline 0?)
+
+* summation (U+2211): X=84.0,Y=2.0 (should be at baseline 0?) [code: found-misalignments]
 </code></pre>
 </span></li></ul></div></details>
-<details><summary>⚠️ <strong>fonts/ttf/KodeMono-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
-<pre><code>* e (U+0065): X=329.0,Y=639.0 (should be at x-height 640?)
+<details><summary>⚠️ KodeMono-Medium.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
+<pre><code>* bracketleft (U+005B): X=447.0,Y=702.0 (should be at cap-height 700?)
 
-* e (U+0065): X=644.0,Y=639.0 (should be at x-height 640?)
+* bracketleft (U+005B): X=247.0,Y=702.0 (should be at cap-height 700?)
 
-* sterling (U+00A3): X=407.0,Y=1419.0 (should be at cap-height 1417?)
+* g (U+0067): X=180.0,Y=-1.0 (should be at baseline 0?)
 
-* sterling (U+00A3): X=1038.0,Y=1419.0 (should be at cap-height 1417?)
+* l (U+006C): X=313.0,Y=698.0 (should be at cap-height 700?)
 
-* Thorn (U+00DE): X=333.0,Y=-1.0 (should be at baseline 0?)
+* y (U+0079): X=433.0,Y=2.0 (should be at baseline 0?)
 
-* Thorn (U+00DE): X=147.0,Y=-1.0 (should be at baseline 0?)
+* y (U+0079): X=175.0,Y=2.0 (should be at baseline 0?)
 
-* eth (U+00F0): X=596.0,Y=1416.0 (should be at cap-height 1417?)
+* braceleft (U+007B): X=507.0,Y=702.0 (should be at cap-height 700?)
 
-* oslash (U+00F8): X=899.0,Y=1416.0 (should be at cap-height 1417?)
+* braceleft (U+007B): X=368.0,Y=702.0 (should be at cap-height 700?)
 
-* florin (U+0192): X=473.0,Y=1.0 (should be at baseline 0?)
+* braceright (U+007D): X=235.0,Y=702.0 (should be at cap-height 700?)
 
-* florin (U+0192): X=472.0,Y=1.0 (should be at baseline 0?) 
+* braceright (U+007D): X=93.0,Y=702.0 (should be at cap-height 700?)
 
-* oslashacute (U+01FF): X=899.0,Y=1416.0 (should be at cap-height 1417?) [code: found-misalignments]
+* yacute (U+00FD): X=433.0,Y=2.0 (should be at baseline 0?)
+
+* yacute (U+00FD): X=175.0,Y=2.0 (should be at baseline 0?)
+
+* ydieresis (U+00FF): X=433.0,Y=2.0 (should be at baseline 0?)
+
+* ydieresis (U+00FF): X=175.0,Y=2.0 (should be at baseline 0?)
+
+* gbreve (U+011F): X=180.0,Y=-1.0 (should be at baseline 0?)
+
+* gdotaccent (U+0121): X=180.0,Y=-1.0 (should be at baseline 0?)
+
+* uni0123 (U+0123): X=180.0,Y=-1.0 (should be at baseline 0?)
+
+* lacute (U+013A): X=313.0,Y=698.0 (should be at cap-height 700?)
+
+* uni013C (U+013C): X=313.0,Y=698.0 (should be at cap-height 700?)
+
+* uni013C (U+013C): X=322.0,Y=-299.0 (should be at descender -300?)
+
+* lcaron (U+013E): X=313.0,Y=698.0 (should be at cap-height 700?)
+
+* lslash (U+0142): X=313.0,Y=698.0 (should be at cap-height 700?)
+
+* scedilla (U+015F): X=229.0,Y=2.0 (should be at baseline 0?)
+
+* scedilla (U+015F): X=326.0,Y=2.0 (should be at baseline 0?)
+
+* ycircumflex (U+0177): X=433.0,Y=2.0 (should be at baseline 0?)
+
+* ycircumflex (U+0177): X=175.0,Y=2.0 (should be at baseline 0?)
+
+* ygrave (U+1EF3): X=433.0,Y=2.0 (should be at baseline 0?)
+
+* ygrave (U+1EF3): X=175.0,Y=2.0 (should be at baseline 0?)
+
+* Euro (U+20AC): X=181.0,Y=701.0 (should be at cap-height 700?)
+
+* Euro (U+20AC): X=468.0,Y=701.0 (should be at cap-height 700?)
+
+* uni2153 (U+2153): X=494.0,Y=1.0 (should be at baseline 0?)
+
+* oneeighth (U+215B): X=266.0,Y=-2.0 (should be at baseline 0?)
+
+* fiveeighths (U+215D): X=266.0,Y=-2.0 (should be at baseline 0?)
+
+* seveneighths (U+215E): X=266.0,Y=-2.0 (should be at baseline 0?)
+
+* seveneighths (U+215E): X=247.0,Y=698.0 (should be at cap-height 700?) [code: found-misalignments]
 </code></pre>
 </span></li></ul></div></details>
-<details><summary>⚠️ <strong>fonts/ttf/KodeMono-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
-<pre><code>* g (U+0067): X=391.0,Y=1.0 (should be at baseline 0?)
+<details><summary>⚠️ KodeMono-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
+<pre><code>* semicolon (U+003B): X=270.0,Y=-2.0 (should be at baseline 0?)
 
-* j (U+006A): X=703.0,Y=-2.0 (should be at baseline 0?)
+* semicolon (U+003B): X=209.0,Y=-2.0 (should be at baseline 0?)
 
-* gcircumflex (U+011D): X=391.0,Y=1.0 (should be at baseline 0?)
+* j (U+006A): X=160.0,Y=1.0 (should be at baseline 0?)
 
-* gbreve (U+011F): X=391.0,Y=1.0 (should be at baseline 0?)
+* j (U+006A): X=260.0,Y=1.0 (should be at baseline 0?)
 
-* gdotaccent (U+0121): X=391.0,Y=1.0 (should be at baseline 0?)
+* y (U+0079): X=420.0,Y=1.0 (should be at baseline 0?)
 
-* gcommaaccent (U+0123): X=391.0,Y=1.0 (should be at baseline 0?)
+* y (U+0079): X=168.0,Y=1.0 (should be at baseline 0?)
 
-* jcircumflex (U+0135): X=703.0,Y=-2.0 (should be at baseline 0?)
+* yen (U+00A5): X=59.0,Y=699.0 (should be at cap-height 700?)
 
-* jcircumflex (U+0135): X=581.0,Y=1435.0 (should be at cap-height 1433?)
+* yen (U+00A5): X=179.0,Y=699.0 (should be at cap-height 700?)
 
-* obreve (U+014F): X=227.0,Y=1434.0 (should be at cap-height 1433?)
+* yen (U+00A5): X=421.0,Y=699.0 (should be at cap-height 700?)
 
-* obreve (U+014F): X=973.0,Y=1434.0 (should be at cap-height 1433?)
+* yen (U+00A5): X=541.0,Y=699.0 (should be at cap-height 700?)
 
-* umacron (U+016B): X=313.0,Y=1435.0 (should be at cap-height 1433?)
+* igrave (U+00EC): X=437.0,Y=702.0 (should be at cap-height 700?)
 
-* umacron (U+016B): X=887.0,Y=1435.0 (should be at cap-height 1433?)
+* ocircumflex (U+00F4): X=302.0,Y=702.0 (should be at cap-height 700?)
 
-* uni01F0 (U+01F0): X=768.0,Y=-2.0 (should be at baseline 0?)
+* ucircumflex (U+00FB): X=300.0,Y=702.0 (should be at cap-height 700?)
 
-* dotlessj (U+0237): X=768.0,Y=-2.0 (should be at baseline 0?) 
+* yacute (U+00FD): X=420.0,Y=1.0 (should be at baseline 0?)
 
-* uni0249 (U+0249): X=703.0,Y=-2.0 (should be at baseline 0?) [code: found-misalignments]
+* yacute (U+00FD): X=168.0,Y=1.0 (should be at baseline 0?)
+
+* ydieresis (U+00FF): X=420.0,Y=1.0 (should be at baseline 0?)
+
+* ydieresis (U+00FF): X=168.0,Y=1.0 (should be at baseline 0?)
+
+* cacute (U+0107): X=163.0,Y=702.0 (should be at cap-height 700?)
+
+* wcircumflex (U+0175): X=300.0,Y=702.0 (should be at cap-height 700?)
+
+* ycircumflex (U+0177): X=420.0,Y=1.0 (should be at baseline 0?)
+
+* ycircumflex (U+0177): X=168.0,Y=1.0 (should be at baseline 0?)
+
+* uni0237 (U+0237): X=160.0,Y=1.0 (should be at baseline 0?)
+
+* uni0237 (U+0237): X=260.0,Y=1.0 (should be at baseline 0?)
+
+* ring (U+02DA): X=255.0,Y=702.0 (should be at cap-height 700?)
+
+* ring (U+02DA): X=345.0,Y=702.0 (should be at cap-height 700?)
+
+* tilde (U+02DC): X=217.0,Y=698.0 (should be at cap-height 700?)
+
+* tildecomb (U+0303): X=217.0,Y=698.0 (should be at cap-height 700?)
+
+* uni030A (U+030A): X=255.0,Y=702.0 (should be at cap-height 700?)
+
+* uni030A (U+030A): X=345.0,Y=702.0 (should be at cap-height 700?)
+
+* ygrave (U+1EF3): X=420.0,Y=1.0 (should be at baseline 0?)
+
+* ygrave (U+1EF3): X=168.0,Y=1.0 (should be at baseline 0?)
+
+* perthousand (U+2030): X=224.0,Y=1.0 (should be at baseline 0?)
+
+* seveneighths (U+215E): X=300.0,Y=701.0 (should be at cap-height 700?) [code: found-misalignments]
 </code></pre>
 </span></li></ul></div></details>
 <h3>Are any segments inordinately short?</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_short_segments&gt;</div>
+<div class='check__idlabel'>Check ID: com.google.fonts/check/outline_short_segments</div>
 
-<details><summary>⚠️ <strong>fonts/ttf/KodeMono-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:</p>
-<pre><code>* five (U+0035) contains a short segment L&lt;&lt;320.0,981.0&gt;--&lt;332.0,960.0&gt;&gt;
+<details><summary>⚠️ KodeMono-SemiBold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:</p>
+<pre><code>* dollar (U+0024) contains a short segment L&lt;&lt;414.0,99.0&gt;--&lt;430.0,112.0&gt;&gt;
 
-* eight (U+0038) contains a short segment L&lt;&lt;344.0,671.0&gt;--&lt;323.0,671.0&gt;&gt;
+* two (U+0032) contains a short segment L&lt;&lt;174.0,113.0&gt;--&lt;174.0,99.0&gt;&gt;
 
-* M (U+004D) contains a short segment L&lt;&lt;510.0,795.0&gt;--&lt;510.0,799.0&gt;&gt;
+* five (U+0035) contains a short segment L&lt;&lt;172.0,506.0&gt;--&lt;177.0,496.0&gt;&gt;
 
-* W (U+0057) contains a short segment L&lt;&lt;335.0,144.0&gt;--&lt;384.0,144.0&gt;&gt;
+* eight (U+0038) contains a short segment L&lt;&lt;153.0,342.0&gt;--&lt;146.0,342.0&gt;&gt;
 
-* W (U+0057) contains a short segment L&lt;&lt;817.0,144.0&gt;--&lt;865.0,144.0&gt;&gt;
+* M (U+004D) contains a short segment L&lt;&lt;173.0,700.0&gt;--&lt;173.0,683.0&gt;&gt;
 
-* Y (U+0059) contains a short segment L&lt;&lt;596.0,815.0&gt;--&lt;600.0,815.0&gt;&gt;
+* M (U+004D) contains a short segment L&lt;&lt;255.0,387.0&gt;--&lt;255.0,399.0&gt;&gt;
 
-* Z (U+005A) contains a short segment L&lt;&lt;845.0,815.0&gt;--&lt;880.0,815.0&gt;&gt;
+* N (U+004E) contains a short segment L&lt;&lt;191.0,587.0&gt;--&lt;173.0,587.0&gt;&gt;
 
-* w (U+0077) contains a short segment L&lt;&lt;375.0,145.0&gt;--&lt;384.0,145.0&gt;&gt;
+* S (U+0053) contains a short segment L&lt;&lt;414.0,99.0&gt;--&lt;430.0,112.0&gt;&gt;
 
-* w (U+0077) contains a short segment L&lt;&lt;816.0,145.0&gt;--&lt;822.0,145.0&gt;&gt;
+* W (U+0057) contains a short segment L&lt;&lt;193.0,119.0&gt;--&lt;204.0,119.0&gt;&gt;
 
-* x (U+0078) contains a short segment L&lt;&lt;356.0,480.0&gt;--&lt;356.0,483.0&gt;&gt;
+* W (U+0057) contains a short segment L&lt;&lt;399.0,118.0&gt;--&lt;410.0,118.0&gt;&gt;
 
-* z (U+007A) contains a short segment L&lt;&lt;880.0,889.0&gt;--&lt;880.0,912.0&gt;&gt;
+* Y (U+0059) contains a short segment L&lt;&lt;299.0,418.0&gt;--&lt;301.0,418.0&gt;&gt;
 
-* yen (U+00A5) contains a short segment L&lt;&lt;596.0,815.0&gt;--&lt;600.0,815.0&gt;&gt;
+* Z (U+005A) contains a short segment L&lt;&lt;456.0,423.0&gt;--&lt;468.0,423.0&gt;&gt;
 
-* mu (U+00B5) contains a short segment L&lt;&lt;362.0,0.0&gt;--&lt;344.0,26.0&gt;&gt;
+* a (U+0061) contains a short segment L&lt;&lt;173.0,153.0&gt;--&lt;173.0,149.0&gt;&gt;
 
-* Yacute (U+00DD) contains a short segment L&lt;&lt;596.0,815.0&gt;--&lt;600.0,815.0&gt;&gt;
+* w (U+0077) contains a short segment L&lt;&lt;201.0,116.0&gt;--&lt;205.0,116.0&gt;&gt;
 
-* ij (U+0133) contains a short segment L&lt;&lt;860.0,-56.0&gt;--&lt;860.0,-28.0&gt;&gt;
+* w (U+0077) contains a short segment L&lt;&lt;396.0,120.0&gt;--&lt;399.0,120.0&gt;&gt;
 
-* OE (U+0152) contains a short segment L&lt;&lt;760.0,166.0&gt;--&lt;739.0,144.0&gt;&gt;
+* x (U+0078) contains a short segment L&lt;&lt;158.0,248.0&gt;--&lt;158.0,250.0&gt;&gt;
 
-* Wcircumflex (U+0174) contains a short segment L&lt;&lt;335.0,144.0&gt;--&lt;384.0,144.0&gt;&gt;
+* y (U+0079) contains a short segment L&lt;&lt;427.0,-9.0&gt;--&lt;427.0,1.0&gt;&gt;
 
-* Wcircumflex (U+0174) contains a short segment L&lt;&lt;817.0,144.0&gt;--&lt;865.0,144.0&gt;&gt;
+* z (U+007A) contains a short segment L&lt;&lt;407.0,439.0&gt;--&lt;407.0,446.0&gt;&gt;
 
-* wcircumflex (U+0175) contains a short segment L&lt;&lt;375.0,145.0&gt;--&lt;384.0,145.0&gt;&gt;
+* yen (U+00A5) contains a short segment L&lt;&lt;300.0,417.0&gt;--&lt;302.0,417.0&gt;&gt;
 
-* wcircumflex (U+0175) contains a short segment L&lt;&lt;816.0,145.0&gt;--&lt;822.0,145.0&gt;&gt;
+* ordfeminine (U+00AA) contains a short segment L&lt;&lt;173.0,153.0&gt;--&lt;173.0,149.0&gt;&gt;
 
-* Ycircumflex (U+0176) contains a short segment L&lt;&lt;596.0,815.0&gt;--&lt;600.0,815.0&gt;&gt;
+* uni00B2 (U+00B2) contains a short segment L&lt;&lt;237.0,414.0&gt;--&lt;237.0,407.0&gt;&gt;
 
-* Ydieresis (U+0178) contains a short segment L&lt;&lt;596.0,815.0&gt;--&lt;600.0,815.0&gt;&gt;
+* onehalf (U+00BD) contains a short segment L&lt;&lt;317.0,-86.0&gt;--&lt;317.0,-93.0&gt;&gt;
 
-* Zacute (U+0179) contains a short segment L&lt;&lt;845.0,815.0&gt;--&lt;880.0,815.0&gt;&gt;
+* Ntilde (U+00D1) contains a short segment L&lt;&lt;191.0,587.0&gt;--&lt;173.0,587.0&gt;&gt;
 
-* zacute (U+017A) contains a short segment L&lt;&lt;880.0,889.0&gt;--&lt;880.0,912.0&gt;&gt;
+* Yacute (U+00DD) contains a short segment L&lt;&lt;299.0,418.0&gt;--&lt;301.0,418.0&gt;&gt;
 
-* Zdotaccent (U+017B) contains a short segment L&lt;&lt;845.0,815.0&gt;--&lt;880.0,815.0&gt;&gt;
+* agrave (U+00E0) contains a short segment L&lt;&lt;173.0,153.0&gt;--&lt;173.0,149.0&gt;&gt;
 
-* zdotaccent (U+017C) contains a short segment L&lt;&lt;880.0,889.0&gt;--&lt;880.0,912.0&gt;&gt;
+* aacute (U+00E1) contains a short segment L&lt;&lt;173.0,153.0&gt;--&lt;173.0,149.0&gt;&gt;
 
-* Zcaron (U+017D) contains a short segment L&lt;&lt;845.0,815.0&gt;--&lt;880.0,815.0&gt;&gt;
+* acircumflex (U+00E2) contains a short segment L&lt;&lt;173.0,153.0&gt;--&lt;173.0,149.0&gt;&gt;
 
-* zcaron (U+017E) contains a short segment L&lt;&lt;880.0,889.0&gt;--&lt;880.0,912.0&gt;&gt;
+* atilde (U+00E3) contains a short segment L&lt;&lt;173.0,153.0&gt;--&lt;173.0,149.0&gt;&gt;
 
-* florin (U+0192) contains a short segment L&lt;&lt;460.0,1.0&gt;--&lt;459.0,1.0&gt;&gt;
+* adieresis (U+00E4) contains a short segment L&lt;&lt;173.0,153.0&gt;--&lt;173.0,149.0&gt;&gt;
 
-* mu (U+03BC) contains a short segment L&lt;&lt;362.0,0.0&gt;--&lt;344.0,26.0&gt;&gt;
+* aring (U+00E5) contains a short segment L&lt;&lt;173.0,153.0&gt;--&lt;173.0,149.0&gt;&gt;
 
-* Wgrave (U+1E80) contains a short segment L&lt;&lt;335.0,144.0&gt;--&lt;384.0,144.0&gt;&gt;
+* yacute (U+00FD) contains a short segment L&lt;&lt;427.0,-9.0&gt;--&lt;427.0,1.0&gt;&gt;
 
-* Wgrave (U+1E80) contains a short segment L&lt;&lt;817.0,144.0&gt;--&lt;865.0,144.0&gt;&gt;
+* ydieresis (U+00FF) contains a short segment L&lt;&lt;427.0,-9.0&gt;--&lt;427.0,1.0&gt;&gt;
 
-* wgrave (U+1E81) contains a short segment L&lt;&lt;375.0,145.0&gt;--&lt;384.0,145.0&gt;&gt;
+* amacron (U+0101) contains a short segment L&lt;&lt;173.0,153.0&gt;--&lt;173.0,149.0&gt;&gt;
 
-* wgrave (U+1E81) contains a short segment L&lt;&lt;816.0,145.0&gt;--&lt;822.0,145.0&gt;&gt;
+* abreve (U+0103) contains a short segment L&lt;&lt;173.0,153.0&gt;--&lt;173.0,149.0&gt;&gt;
 
-* Wacute (U+1E82) contains a short segment L&lt;&lt;335.0,144.0&gt;--&lt;384.0,144.0&gt;&gt;
+* aogonek (U+0105) contains a short segment L&lt;&lt;173.0,153.0&gt;--&lt;173.0,149.0&gt;&gt;
 
-* Wacute (U+1E82) contains a short segment L&lt;&lt;817.0,144.0&gt;--&lt;865.0,144.0&gt;&gt;
+* ij (U+0133) contains a short segment L&lt;&lt;413.0,-70.0&gt;--&lt;413.0,-59.0&gt;&gt;
 
-* wacute (U+1E83) contains a short segment L&lt;&lt;375.0,145.0&gt;--&lt;384.0,145.0&gt;&gt;
+* Nacute (U+0143) contains a short segment L&lt;&lt;191.0,587.0&gt;--&lt;173.0,587.0&gt;&gt;
 
-* wacute (U+1E83) contains a short segment L&lt;&lt;816.0,145.0&gt;--&lt;822.0,145.0&gt;&gt;
+* uni0145 (U+0145) contains a short segment L&lt;&lt;191.0,587.0&gt;--&lt;173.0,587.0&gt;&gt;
 
-* Wdieresis (U+1E84) contains a short segment L&lt;&lt;335.0,144.0&gt;--&lt;384.0,144.0&gt;&gt;
+* Ncaron (U+0147) contains a short segment L&lt;&lt;191.0,587.0&gt;--&lt;173.0,587.0&gt;&gt;
 
-* Wdieresis (U+1E84) contains a short segment L&lt;&lt;817.0,144.0&gt;--&lt;865.0,144.0&gt;&gt;
+* Sacute (U+015A) contains a short segment L&lt;&lt;414.0,99.0&gt;--&lt;430.0,112.0&gt;&gt;
 
-* wdieresis (U+1E85) contains a short segment L&lt;&lt;375.0,145.0&gt;--&lt;384.0,145.0&gt;&gt;
+* Scedilla (U+015E) contains a short segment L&lt;&lt;414.0,99.0&gt;--&lt;430.0,112.0&gt;&gt;
 
-* wdieresis (U+1E85) contains a short segment L&lt;&lt;816.0,145.0&gt;--&lt;822.0,145.0&gt;&gt;
+* Scaron (U+0160) contains a short segment L&lt;&lt;414.0,99.0&gt;--&lt;430.0,112.0&gt;&gt;
 
-* Ygrave (U+1EF2) contains a short segment L&lt;&lt;596.0,815.0&gt;--&lt;600.0,815.0&gt;&gt;
+* Wcircumflex (U+0174) contains a short segment L&lt;&lt;193.0,119.0&gt;--&lt;204.0,119.0&gt;&gt;
 
-* zero.superior (U+2070) contains a short segment L&lt;&lt;488.0,944.0&gt;--&lt;488.0,939.0&gt;&gt;
+* Wcircumflex (U+0174) contains a short segment L&lt;&lt;399.0,118.0&gt;--&lt;410.0,118.0&gt;&gt;
 
-* five.superior (U+2075) contains a short segment L&lt;&lt;488.0,1228.0&gt;--&lt;493.0,1219.0&gt;&gt;
+* wcircumflex (U+0175) contains a short segment L&lt;&lt;201.0,116.0&gt;--&lt;205.0,116.0&gt;&gt;
 
-* eight.superior (U+2078) contains a short segment L&lt;&lt;498.0,1104.0&gt;--&lt;489.0,1104.0&gt;&gt;
+* wcircumflex (U+0175) contains a short segment L&lt;&lt;396.0,120.0&gt;--&lt;399.0,120.0&gt;&gt;
 
-* zero.inferior (U+2080) contains a short segment L&lt;&lt;488.0,-131.0&gt;--&lt;488.0,-136.0&gt;&gt;
+* Ycircumflex (U+0176) contains a short segment L&lt;&lt;299.0,418.0&gt;--&lt;301.0,418.0&gt;&gt;
 
-* five.inferior (U+2085) contains a short segment L&lt;&lt;488.0,152.0&gt;--&lt;493.0,144.0&gt;&gt;
+* ycircumflex (U+0177) contains a short segment L&lt;&lt;427.0,-9.0&gt;--&lt;427.0,1.0&gt;&gt;
 
-* eight.inferior (U+2088) contains a short segment L&lt;&lt;498.0,28.0&gt;--&lt;489.0,28.0&gt;&gt;
+* Ydieresis (U+0178) contains a short segment L&lt;&lt;299.0,418.0&gt;--&lt;301.0,418.0&gt;&gt;
 
-* trademark (U+2122) contains a short segment L&lt;&lt;784.0,939.0&gt;--&lt;784.0,942.0&gt;&gt;
+* Zacute (U+0179) contains a short segment L&lt;&lt;456.0,423.0&gt;--&lt;468.0,423.0&gt;&gt;
 
-* lozenge (U+25CA) contains a short segment L&lt;&lt;604.0,1277.0&gt;--&lt;596.0,1277.0&gt;&gt; 
+* zacute (U+017A) contains a short segment L&lt;&lt;407.0,439.0&gt;--&lt;407.0,446.0&gt;&gt;
 
-* lozenge (U+25CA) contains a short segment L&lt;&lt;596.0,97.0&gt;--&lt;604.0,97.0&gt;&gt; [code: found-short-segments]
+* Zdotaccent (U+017B) contains a short segment L&lt;&lt;456.0,423.0&gt;--&lt;468.0,423.0&gt;&gt;
+
+* zdotaccent (U+017C) contains a short segment L&lt;&lt;407.0,439.0&gt;--&lt;407.0,446.0&gt;&gt;
+
+* Zcaron (U+017D) contains a short segment L&lt;&lt;456.0,423.0&gt;--&lt;468.0,423.0&gt;&gt;
+
+* zcaron (U+017E) contains a short segment L&lt;&lt;407.0,439.0&gt;--&lt;407.0,446.0&gt;&gt;
+
+* uni0218 (U+0218) contains a short segment L&lt;&lt;414.0,99.0&gt;--&lt;430.0,112.0&gt;&gt;
+
+* Wgrave (U+1E80) contains a short segment L&lt;&lt;193.0,119.0&gt;--&lt;204.0,119.0&gt;&gt;
+
+* Wgrave (U+1E80) contains a short segment L&lt;&lt;399.0,118.0&gt;--&lt;410.0,118.0&gt;&gt;
+
+* wgrave (U+1E81) contains a short segment L&lt;&lt;201.0,116.0&gt;--&lt;205.0,116.0&gt;&gt;
+
+* wgrave (U+1E81) contains a short segment L&lt;&lt;396.0,120.0&gt;--&lt;399.0,120.0&gt;&gt;
+
+* Wacute (U+1E82) contains a short segment L&lt;&lt;193.0,119.0&gt;--&lt;204.0,119.0&gt;&gt;
+
+* Wacute (U+1E82) contains a short segment L&lt;&lt;399.0,118.0&gt;--&lt;410.0,118.0&gt;&gt;
+
+* wacute (U+1E83) contains a short segment L&lt;&lt;201.0,116.0&gt;--&lt;205.0,116.0&gt;&gt;
+
+* wacute (U+1E83) contains a short segment L&lt;&lt;396.0,120.0&gt;--&lt;399.0,120.0&gt;&gt;
+
+* Wdieresis (U+1E84) contains a short segment L&lt;&lt;193.0,119.0&gt;--&lt;204.0,119.0&gt;&gt;
+
+* Wdieresis (U+1E84) contains a short segment L&lt;&lt;399.0,118.0&gt;--&lt;410.0,118.0&gt;&gt;
+
+* wdieresis (U+1E85) contains a short segment L&lt;&lt;201.0,116.0&gt;--&lt;205.0,116.0&gt;&gt;
+
+* wdieresis (U+1E85) contains a short segment L&lt;&lt;396.0,120.0&gt;--&lt;399.0,120.0&gt;&gt;
+
+* Ygrave (U+1EF2) contains a short segment L&lt;&lt;299.0,418.0&gt;--&lt;301.0,418.0&gt;&gt;
+
+* ygrave (U+1EF3) contains a short segment L&lt;&lt;427.0,-9.0&gt;--&lt;427.0,1.0&gt;&gt;
+
+* uni2075 (U+2075) contains a short segment L&lt;&lt;236.0,610.0&gt;--&lt;239.0,605.0&gt;&gt;
+
+* uni2078 (U+2078) contains a short segment L&lt;&lt;227.0,528.0&gt;--&lt;223.0,528.0&gt;&gt;
+
+* uni2082 (U+2082) contains a short segment L&lt;&lt;237.0,57.0&gt;--&lt;237.0,50.0&gt;&gt;
+
+* uni2085 (U+2085) contains a short segment L&lt;&lt;236.0,254.0&gt;--&lt;239.0,249.0&gt;&gt;
+
+* uni2088 (U+2088) contains a short segment L&lt;&lt;227.0,171.0&gt;--&lt;223.0,171.0&gt;&gt;
+
+* trademark (U+2122) contains a short segment L&lt;&lt;393.0,422.0&gt;--&lt;393.0,424.0&gt;&gt;
+
+* oneeighth (U+215B) contains a short segment L&lt;&lt;307.0,28.0&gt;--&lt;303.0,28.0&gt;&gt;
+
+* fiveeighths (U+215D) contains a short segment L&lt;&lt;116.0,663.0&gt;--&lt;119.0,658.0&gt;&gt;
+
+* fiveeighths (U+215D) contains a short segment L&lt;&lt;307.0,28.0&gt;--&lt;303.0,28.0&gt;&gt;
+
+* seveneighths (U+215E) contains a short segment L&lt;&lt;307.0,28.0&gt;--&lt;303.0,28.0&gt;&gt;
+
+* lozenge (U+25CA) contains a short segment L&lt;&lt;302.0,623.0&gt;--&lt;298.0,623.0&gt;&gt;
+
+* lozenge (U+25CA) contains a short segment L&lt;&lt;298.0,92.0&gt;--&lt;302.0,92.0&gt;&gt;
+
+* kda (U+FFFFF) contains a short segment L&lt;&lt;199.0,352.0&gt;--&lt;199.0,350.0&gt;&gt;
+
+* kda (U+FFFFF) contains a short segment L&lt;&lt;199.0,249.0&gt;--&lt;198.0,250.0&gt;&gt;
+
+* kda (U+FFFFF) contains a short segment L&lt;&lt;198.0,250.0&gt;--&lt;199.0,251.0&gt;&gt;
+
+* kda (U+FFFFF) contains a short segment L&lt;&lt;199.0,350.0&gt;--&lt;198.0,351.0&gt;&gt;
+
+* kda (U+FFFFF) contains a short segment L&lt;&lt;198.0,351.0&gt;--&lt;199.0,352.0&gt;&gt;
+
+* kda (U+FFFFF) contains a short segment L&lt;&lt;199.0,251.0&gt;--&lt;199.0,249.0&gt;&gt; [code: found-short-segments]
 </code></pre>
 </span></li></ul></div></details>
-<details><summary>⚠️ <strong>fonts/ttf/KodeMono-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:</p>
-<pre><code>* zero (U+0030) contains a short segment L&lt;&lt;333.0,287.0&gt;--&lt;333.0,275.0&gt;&gt;
+<details><summary>⚠️ KodeMono-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:</p>
+<pre><code>* five (U+0035) contains a short segment L&lt;&lt;158.0,493.0&gt;--&lt;164.0,483.0&gt;&gt;
 
-* five (U+0035) contains a short segment L&lt;&lt;333.0,994.0&gt;--&lt;344.0,973.0&gt;&gt;
+* eight (U+0038) contains a short segment L&lt;&lt;172.0,337.0&gt;--&lt;161.0,337.0&gt;&gt;
 
-* eight (U+0038) contains a short segment L&lt;&lt;326.0,675.0&gt;--&lt;308.0,675.0&gt;&gt;
+* M (U+004D) contains a short segment L&lt;&lt;255.0,400.0&gt;--&lt;255.0,402.0&gt;&gt;
 
-* M (U+004D) contains a short segment L&lt;&lt;333.0,1392.0&gt;--&lt;333.0,1348.0&gt;&gt;
+* W (U+0057) contains a short segment L&lt;&lt;409.0,72.0&gt;--&lt;433.0,72.0&gt;&gt;
 
-* M (U+004D) contains a short segment L&lt;&lt;510.0,782.0&gt;--&lt;510.0,795.0&gt;&gt;
+* Y (U+0059) contains a short segment L&lt;&lt;297.0,410.0&gt;--&lt;299.0,410.0&gt;&gt;
 
-* W (U+0057) contains a short segment L&lt;&lt;362.0,190.0&gt;--&lt;397.0,190.0&gt;&gt;
+* Z (U+005A) contains a short segment L&lt;&lt;423.0,410.0&gt;--&lt;441.0,410.0&gt;&gt;
 
-* W (U+0057) contains a short segment L&lt;&lt;807.0,190.0&gt;--&lt;842.0,190.0&gt;&gt;
+* w (U+0077) contains a short segment L&lt;&lt;187.0,73.0&gt;--&lt;192.0,73.0&gt;&gt;
 
-* Y (U+0059) contains a short segment L&lt;&lt;598.0,823.0&gt;--&lt;602.0,823.0&gt;&gt;
+* w (U+0077) contains a short segment L&lt;&lt;409.0,73.0&gt;--&lt;412.0,73.0&gt;&gt;
 
-* Z (U+005A) contains a short segment L&lt;&lt;877.0,828.0&gt;--&lt;907.0,828.0&gt;&gt;
+* x (U+0078) contains a short segment L&lt;&lt;177.0,241.0&gt;--&lt;177.0,243.0&gt;&gt;
 
-* w (U+0077) contains a short segment L&lt;&lt;388.0,188.0&gt;--&lt;397.0,188.0&gt;&gt;
+* z (U+007A) contains a short segment L&lt;&lt;440.0,447.0&gt;--&lt;440.0,459.0&gt;&gt;
 
-* w (U+0077) contains a short segment L&lt;&lt;803.0,192.0&gt;--&lt;809.0,192.0&gt;&gt;
+* yen (U+00A5) contains a short segment L&lt;&lt;260.0,337.0&gt;--&lt;260.0,339.0&gt;&gt;
 
-* x (U+0078) contains a short segment L&lt;&lt;337.0,487.0&gt;--&lt;337.0,490.0&gt;&gt;
+* yen (U+00A5) contains a short segment L&lt;&lt;298.0,410.0&gt;--&lt;300.0,410.0&gt;&gt;
 
-* y (U+0079) contains a short segment L&lt;&lt;867.0,-37.0&gt;--&lt;867.0,3.0&gt;&gt;
+* yen (U+00A5) contains a short segment L&lt;&lt;340.0,348.0&gt;--&lt;340.0,337.0&gt;&gt;
 
-* z (U+007A) contains a short segment L&lt;&lt;840.0,881.0&gt;--&lt;840.0,899.0&gt;&gt;
+* Yacute (U+00DD) contains a short segment L&lt;&lt;297.0,410.0&gt;--&lt;299.0,410.0&gt;&gt;
 
-* yen (U+00A5) contains a short segment L&lt;&lt;598.0,823.0&gt;--&lt;602.0,823.0&gt;&gt;
+* ij (U+0133) contains a short segment L&lt;&lt;430.0,-78.0&gt;--&lt;430.0,-64.0&gt;&gt;
 
-* mu (U+00B5) contains a short segment L&lt;&lt;375.0,0.0&gt;--&lt;358.0,26.0&gt;&gt;
+* OE (U+0152) contains a short segment L&lt;&lt;380.0,83.0&gt;--&lt;370.0,72.0&gt;&gt;
 
-* Yacute (U+00DD) contains a short segment L&lt;&lt;598.0,823.0&gt;--&lt;602.0,823.0&gt;&gt;
+* Wcircumflex (U+0174) contains a short segment L&lt;&lt;409.0,72.0&gt;--&lt;433.0,72.0&gt;&gt;
 
-* yacute (U+00FD) contains a short segment L&lt;&lt;867.0,-37.0&gt;--&lt;867.0,3.0&gt;&gt;
+* wcircumflex (U+0175) contains a short segment L&lt;&lt;187.0,73.0&gt;--&lt;192.0,73.0&gt;&gt;
 
-* ydieresis (U+00FF) contains a short segment L&lt;&lt;867.0,-37.0&gt;--&lt;867.0,3.0&gt;&gt;
+* wcircumflex (U+0175) contains a short segment L&lt;&lt;409.0,73.0&gt;--&lt;412.0,73.0&gt;&gt;
 
-* ij (U+0133) contains a short segment L&lt;&lt;843.0,-48.0&gt;--&lt;843.0,-23.0&gt;&gt;
+* Ycircumflex (U+0176) contains a short segment L&lt;&lt;297.0,410.0&gt;--&lt;299.0,410.0&gt;&gt;
 
-* eng (U+014B) contains a short segment L&lt;&lt;867.0,-5.0&gt;--&lt;867.0,0.0&gt;&gt;
+* Ydieresis (U+0178) contains a short segment L&lt;&lt;297.0,410.0&gt;--&lt;299.0,410.0&gt;&gt;
 
-* eng (U+014B) contains a short segment L&lt;&lt;867.0,0.0&gt;--&lt;867.0,0.0&gt;&gt;
+* Zacute (U+0179) contains a short segment L&lt;&lt;423.0,410.0&gt;--&lt;441.0,410.0&gt;&gt;
 
-* OE (U+0152) contains a short segment L&lt;&lt;773.0,197.0&gt;--&lt;749.0,171.0&gt;&gt;
+* zacute (U+017A) contains a short segment L&lt;&lt;440.0,447.0&gt;--&lt;440.0,459.0&gt;&gt;
 
-* Wcircumflex (U+0174) contains a short segment L&lt;&lt;362.0,190.0&gt;--&lt;397.0,190.0&gt;&gt;
+* Zdotaccent (U+017B) contains a short segment L&lt;&lt;423.0,410.0&gt;--&lt;441.0,410.0&gt;&gt;
 
-* Wcircumflex (U+0174) contains a short segment L&lt;&lt;807.0,190.0&gt;--&lt;842.0,190.0&gt;&gt;
+* zdotaccent (U+017C) contains a short segment L&lt;&lt;440.0,447.0&gt;--&lt;440.0,459.0&gt;&gt;
 
-* wcircumflex (U+0175) contains a short segment L&lt;&lt;388.0,188.0&gt;--&lt;397.0,188.0&gt;&gt;
+* Zcaron (U+017D) contains a short segment L&lt;&lt;423.0,410.0&gt;--&lt;441.0,410.0&gt;&gt;
 
-* wcircumflex (U+0175) contains a short segment L&lt;&lt;803.0,192.0&gt;--&lt;809.0,192.0&gt;&gt;
+* zcaron (U+017E) contains a short segment L&lt;&lt;440.0,447.0&gt;--&lt;440.0,459.0&gt;&gt;
 
-* Ycircumflex (U+0176) contains a short segment L&lt;&lt;598.0,823.0&gt;--&lt;602.0,823.0&gt;&gt;
+* Wgrave (U+1E80) contains a short segment L&lt;&lt;409.0,72.0&gt;--&lt;433.0,72.0&gt;&gt;
 
-* ycircumflex (U+0177) contains a short segment L&lt;&lt;867.0,-37.0&gt;--&lt;867.0,3.0&gt;&gt;
+* wgrave (U+1E81) contains a short segment L&lt;&lt;187.0,73.0&gt;--&lt;192.0,73.0&gt;&gt;
 
-* Ydieresis (U+0178) contains a short segment L&lt;&lt;598.0,823.0&gt;--&lt;602.0,823.0&gt;&gt;
+* wgrave (U+1E81) contains a short segment L&lt;&lt;409.0,73.0&gt;--&lt;412.0,73.0&gt;&gt;
 
-* Zacute (U+0179) contains a short segment L&lt;&lt;877.0,828.0&gt;--&lt;907.0,828.0&gt;&gt;
+* Wacute (U+1E82) contains a short segment L&lt;&lt;409.0,72.0&gt;--&lt;433.0,72.0&gt;&gt;
 
-* zacute (U+017A) contains a short segment L&lt;&lt;840.0,881.0&gt;--&lt;840.0,899.0&gt;&gt;
+* wacute (U+1E83) contains a short segment L&lt;&lt;187.0,73.0&gt;--&lt;192.0,73.0&gt;&gt;
 
-* Zdotaccent (U+017B) contains a short segment L&lt;&lt;877.0,828.0&gt;--&lt;907.0,828.0&gt;&gt;
+* wacute (U+1E83) contains a short segment L&lt;&lt;409.0,73.0&gt;--&lt;412.0,73.0&gt;&gt;
 
-* zdotaccent (U+017C) contains a short segment L&lt;&lt;840.0,881.0&gt;--&lt;840.0,899.0&gt;&gt;
+* Wdieresis (U+1E84) contains a short segment L&lt;&lt;409.0,72.0&gt;--&lt;433.0,72.0&gt;&gt;
 
-* Zcaron (U+017D) contains a short segment L&lt;&lt;877.0,828.0&gt;--&lt;907.0,828.0&gt;&gt;
+* wdieresis (U+1E85) contains a short segment L&lt;&lt;187.0,73.0&gt;--&lt;192.0,73.0&gt;&gt;
 
-* zcaron (U+017E) contains a short segment L&lt;&lt;840.0,881.0&gt;--&lt;840.0,899.0&gt;&gt;
+* wdieresis (U+1E85) contains a short segment L&lt;&lt;409.0,73.0&gt;--&lt;412.0,73.0&gt;&gt;
 
-* florin (U+0192) contains a short segment L&lt;&lt;473.0,1.0&gt;--&lt;472.0,1.0&gt;&gt;
+* Ygrave (U+1EF2) contains a short segment L&lt;&lt;297.0,410.0&gt;--&lt;299.0,410.0&gt;&gt;
 
-* mu (U+03BC) contains a short segment L&lt;&lt;375.0,0.0&gt;--&lt;358.0,26.0&gt;&gt;
+* uni2075 (U+2075) contains a short segment L&lt;&lt;229.0,597.0&gt;--&lt;232.0,592.0&gt;&gt;
 
-* Wgrave (U+1E80) contains a short segment L&lt;&lt;362.0,190.0&gt;--&lt;397.0,190.0&gt;&gt;
+* uni2078 (U+2078) contains a short segment L&lt;&lt;236.0,519.0&gt;--&lt;230.0,519.0&gt;&gt;
 
-* Wgrave (U+1E80) contains a short segment L&lt;&lt;807.0,190.0&gt;--&lt;842.0,190.0&gt;&gt;
+* uni2085 (U+2085) contains a short segment L&lt;&lt;229.0,247.0&gt;--&lt;232.0,242.0&gt;&gt;
 
-* wgrave (U+1E81) contains a short segment L&lt;&lt;388.0,188.0&gt;--&lt;397.0,188.0&gt;&gt;
+* uni2088 (U+2088) contains a short segment L&lt;&lt;236.0,169.0&gt;--&lt;230.0,169.0&gt;&gt;
 
-* wgrave (U+1E81) contains a short segment L&lt;&lt;803.0,192.0&gt;--&lt;809.0,192.0&gt;&gt;
+* trademark (U+2122) contains a short segment L&lt;&lt;393.0,422.0&gt;--&lt;393.0,424.0&gt;&gt;
 
-* Wacute (U+1E82) contains a short segment L&lt;&lt;362.0,190.0&gt;--&lt;397.0,190.0&gt;&gt;
+* oneeighth (U+215B) contains a short segment L&lt;&lt;316.0,59.0&gt;--&lt;310.0,59.0&gt;&gt;
 
-* Wacute (U+1E82) contains a short segment L&lt;&lt;807.0,190.0&gt;--&lt;842.0,190.0&gt;&gt;
+* fiveeighths (U+215D) contains a short segment L&lt;&lt;109.0,637.0&gt;--&lt;112.0,632.0&gt;&gt;
 
-* wacute (U+1E83) contains a short segment L&lt;&lt;388.0,188.0&gt;--&lt;397.0,188.0&gt;&gt;
+* fiveeighths (U+215D) contains a short segment L&lt;&lt;316.0,59.0&gt;--&lt;310.0,59.0&gt;&gt;
 
-* wacute (U+1E83) contains a short segment L&lt;&lt;803.0,192.0&gt;--&lt;809.0,192.0&gt;&gt;
+* seveneighths (U+215E) contains a short segment L&lt;&lt;316.0,59.0&gt;--&lt;310.0,59.0&gt;&gt;
 
-* Wdieresis (U+1E84) contains a short segment L&lt;&lt;362.0,190.0&gt;--&lt;397.0,190.0&gt;&gt;
+* lozenge (U+25CA) contains a short segment L&lt;&lt;302.0,642.0&gt;--&lt;298.0,642.0&gt;&gt;
 
-* Wdieresis (U+1E84) contains a short segment L&lt;&lt;807.0,190.0&gt;--&lt;842.0,190.0&gt;&gt;
+* lozenge (U+25CA) contains a short segment L&lt;&lt;298.0,49.0&gt;--&lt;302.0,49.0&gt;&gt;
 
-* wdieresis (U+1E85) contains a short segment L&lt;&lt;388.0,188.0&gt;--&lt;397.0,188.0&gt;&gt;
+* kda (U+FFFFF) contains a short segment L&lt;&lt;199.0,352.0&gt;--&lt;199.0,350.0&gt;&gt;
 
-* wdieresis (U+1E85) contains a short segment L&lt;&lt;803.0,192.0&gt;--&lt;809.0,192.0&gt;&gt;
+* kda (U+FFFFF) contains a short segment L&lt;&lt;199.0,249.0&gt;--&lt;198.0,250.0&gt;&gt;
 
-* Ygrave (U+1EF2) contains a short segment L&lt;&lt;598.0,823.0&gt;--&lt;602.0,823.0&gt;&gt;
+* kda (U+FFFFF) contains a short segment L&lt;&lt;198.0,250.0&gt;--&lt;199.0,251.0&gt;&gt;
 
-* ygrave (U+1EF3) contains a short segment L&lt;&lt;867.0,-37.0&gt;--&lt;867.0,3.0&gt;&gt;
+* kda (U+FFFFF) contains a short segment L&lt;&lt;199.0,350.0&gt;--&lt;198.0,351.0&gt;&gt;
 
-* five.superior (U+2075) contains a short segment L&lt;&lt;493.0,1241.0&gt;--&lt;498.0,1233.0&gt;&gt;
+* kda (U+FFFFF) contains a short segment L&lt;&lt;198.0,351.0&gt;--&lt;199.0,352.0&gt;&gt;
 
-* eight.superior (U+2078) contains a short segment L&lt;&lt;490.0,1113.0&gt;--&lt;483.0,1113.0&gt;&gt;
-
-* five.inferior (U+2085) contains a short segment L&lt;&lt;493.0,158.0&gt;--&lt;498.0,149.0&gt;&gt;
-
-* eight.inferior (U+2088) contains a short segment L&lt;&lt;490.0,30.0&gt;--&lt;483.0,30.0&gt;&gt;
-
-* trademark (U+2122) contains a short segment L&lt;&lt;784.0,939.0&gt;--&lt;784.0,942.0&gt;&gt;
-
-* lozenge (U+25CA) contains a short segment L&lt;&lt;604.0,1245.0&gt;--&lt;596.0,1245.0&gt;&gt; 
-
-* lozenge (U+25CA) contains a short segment L&lt;&lt;596.0,127.0&gt;--&lt;604.0,127.0&gt;&gt; [code: found-short-segments]
+* kda (U+FFFFF) contains a short segment L&lt;&lt;199.0,251.0&gt;--&lt;199.0,249.0&gt;&gt; [code: found-short-segments]
 </code></pre>
 </span></li></ul></div></details>
-<details><summary>⚠️ <strong>fonts/ttf/KodeMono-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:</p>
-<pre><code>* dollar (U+0024) contains a short segment L&lt;&lt;822.0,197.0&gt;--&lt;853.0,224.0&gt;&gt;
+<details><summary>⚠️ KodeMono-Medium.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have segments which seem very short:</p>
+<pre><code>* five (U+0035) contains a short segment L&lt;&lt;165.0,500.0&gt;--&lt;170.0,490.0&gt;&gt;
 
-* two (U+0032) contains a short segment L&lt;&lt;347.0,224.0&gt;--&lt;347.0,197.0&gt;&gt;
+* eight (U+0038) contains a short segment L&lt;&lt;163.0,339.0&gt;--&lt;153.0,339.0&gt;&gt;
 
-* five (U+0035) contains a short segment L&lt;&lt;347.0,1007.0&gt;--&lt;357.0,987.0&gt;&gt;
+* M (U+004D) contains a short segment L&lt;&lt;166.0,700.0&gt;--&lt;166.0,678.0&gt;&gt;
 
-* eight (U+0038) contains a short segment L&lt;&lt;308.0,680.0&gt;--&lt;293.0,680.0&gt;&gt;
+* M (U+004D) contains a short segment L&lt;&lt;255.0,394.0&gt;--&lt;255.0,400.0&gt;&gt;
 
-* M (U+004D) contains a short segment L&lt;&lt;347.0,1392.0&gt;--&lt;347.0,1359.0&gt;&gt;
+* W (U+0057) contains a short segment L&lt;&lt;179.0,95.0&gt;--&lt;198.0,95.0&gt;&gt;
 
-* M (U+004D) contains a short segment L&lt;&lt;510.0,769.0&gt;--&lt;510.0,792.0&gt;&gt;
+* W (U+0057) contains a short segment L&lt;&lt;404.0,95.0&gt;--&lt;421.0,95.0&gt;&gt;
 
-* N (U+004E) contains a short segment L&lt;&lt;383.0,1168.0&gt;--&lt;347.0,1168.0&gt;&gt;
+* Y (U+0059) contains a short segment L&lt;&lt;298.0,414.0&gt;--&lt;300.0,414.0&gt;&gt;
 
-* S (U+0053) contains a short segment L&lt;&lt;822.0,197.0&gt;--&lt;853.0,224.0&gt;&gt;
+* Z (U+005A) contains a short segment L&lt;&lt;439.0,417.0&gt;--&lt;455.0,417.0&gt;&gt;
 
-* W (U+0057) contains a short segment L&lt;&lt;388.0,236.0&gt;--&lt;411.0,236.0&gt;&gt;
+* w (U+0077) contains a short segment L&lt;&lt;194.0,95.0&gt;--&lt;199.0,95.0&gt;&gt;
 
-* W (U+0057) contains a short segment L&lt;&lt;798.0,235.0&gt;--&lt;819.0,235.0&gt;&gt;
+* w (U+0077) contains a short segment L&lt;&lt;402.0,96.0&gt;--&lt;405.0,96.0&gt;&gt;
 
-* Y (U+0059) contains a short segment L&lt;&lt;599.0,830.0&gt;--&lt;603.0,830.0&gt;&gt;
+* x (U+0078) contains a short segment L&lt;&lt;167.0,244.0&gt;--&lt;167.0,246.0&gt;&gt;
 
-* Z (U+005A) contains a short segment L&lt;&lt;908.0,842.0&gt;--&lt;934.0,842.0&gt;&gt;
+* y (U+0079) contains a short segment L&lt;&lt;433.0,-18.0&gt;--&lt;433.0,2.0&gt;&gt;
 
-* a (U+0061) contains a short segment L&lt;&lt;339.0,301.0&gt;--&lt;339.0,293.0&gt;&gt;
+* z (U+007A) contains a short segment L&lt;&lt;424.0,443.0&gt;--&lt;424.0,452.0&gt;&gt;
 
-* w (U+0077) contains a short segment L&lt;&lt;402.0,232.0&gt;--&lt;411.0,232.0&gt;&gt;
+* yen (U+00A5) contains a short segment L&lt;&lt;299.0,414.0&gt;--&lt;301.0,414.0&gt;&gt;
 
-* w (U+0077) contains a short segment L&lt;&lt;789.0,238.0&gt;--&lt;795.0,238.0&gt;&gt;
+* Yacute (U+00DD) contains a short segment L&lt;&lt;298.0,414.0&gt;--&lt;300.0,414.0&gt;&gt;
 
-* x (U+0078) contains a short segment L&lt;&lt;318.0,493.0&gt;--&lt;318.0,496.0&gt;&gt;
+* yacute (U+00FD) contains a short segment L&lt;&lt;433.0,-18.0&gt;--&lt;433.0,2.0&gt;&gt;
 
-* y (U+0079) contains a short segment L&lt;&lt;853.0,-19.0&gt;--&lt;853.0,3.0&gt;&gt;
+* ydieresis (U+00FF) contains a short segment L&lt;&lt;433.0,-18.0&gt;--&lt;433.0,2.0&gt;&gt;
 
-* z (U+007A) contains a short segment L&lt;&lt;800.0,873.0&gt;--&lt;800.0,885.0&gt;&gt;
+* ij (U+0133) contains a short segment L&lt;&lt;422.0,-74.0&gt;--&lt;422.0,-61.0&gt;&gt;
 
-* yen (U+00A5) contains a short segment L&lt;&lt;599.0,830.0&gt;--&lt;603.0,830.0&gt;&gt;
+* OE (U+0152) contains a short segment L&lt;&lt;387.0,99.0&gt;--&lt;375.0,86.0&gt;&gt;
 
-* section (U+00A7) contains a short segment L&lt;&lt;763.0,197.0&gt;--&lt;790.0,227.0&gt;&gt;
+* Wcircumflex (U+0174) contains a short segment L&lt;&lt;179.0,95.0&gt;--&lt;198.0,95.0&gt;&gt;
 
-* ordfeminine (U+00AA) contains a short segment L&lt;&lt;374.0,870.0&gt;--&lt;374.0,864.0&gt;&gt;
+* Wcircumflex (U+0174) contains a short segment L&lt;&lt;404.0,95.0&gt;--&lt;421.0,95.0&gt;&gt;
 
-* twosuperior (U+00B2) contains a short segment L&lt;&lt;499.0,941.0&gt;--&lt;499.0,930.0&gt;&gt;
+* wcircumflex (U+0175) contains a short segment L&lt;&lt;194.0,95.0&gt;--&lt;199.0,95.0&gt;&gt;
 
-* mu (U+00B5) contains a short segment L&lt;&lt;387.0,0.0&gt;--&lt;372.0,26.0&gt;&gt;
+* wcircumflex (U+0175) contains a short segment L&lt;&lt;402.0,96.0&gt;--&lt;405.0,96.0&gt;&gt;
 
-* Ntilde (U+00D1) contains a short segment L&lt;&lt;383.0,1168.0&gt;--&lt;347.0,1168.0&gt;&gt;
+* Ycircumflex (U+0176) contains a short segment L&lt;&lt;298.0,414.0&gt;--&lt;300.0,414.0&gt;&gt;
 
-* Yacute (U+00DD) contains a short segment L&lt;&lt;599.0,830.0&gt;--&lt;603.0,830.0&gt;&gt;
+* ycircumflex (U+0177) contains a short segment L&lt;&lt;433.0,-18.0&gt;--&lt;433.0,2.0&gt;&gt;
 
-* agrave (U+00E0) contains a short segment L&lt;&lt;339.0,301.0&gt;--&lt;339.0,293.0&gt;&gt;
+* Ydieresis (U+0178) contains a short segment L&lt;&lt;298.0,414.0&gt;--&lt;300.0,414.0&gt;&gt;
 
-* aacute (U+00E1) contains a short segment L&lt;&lt;339.0,301.0&gt;--&lt;339.0,293.0&gt;&gt;
+* Zacute (U+0179) contains a short segment L&lt;&lt;439.0,417.0&gt;--&lt;455.0,417.0&gt;&gt;
 
-* acircumflex (U+00E2) contains a short segment L&lt;&lt;339.0,301.0&gt;--&lt;339.0,293.0&gt;&gt;
+* zacute (U+017A) contains a short segment L&lt;&lt;424.0,443.0&gt;--&lt;424.0,452.0&gt;&gt;
 
-* atilde (U+00E3) contains a short segment L&lt;&lt;339.0,301.0&gt;--&lt;339.0,293.0&gt;&gt;
+* Zdotaccent (U+017B) contains a short segment L&lt;&lt;439.0,417.0&gt;--&lt;455.0,417.0&gt;&gt;
 
-* adieresis (U+00E4) contains a short segment L&lt;&lt;339.0,301.0&gt;--&lt;339.0,293.0&gt;&gt;
+* zdotaccent (U+017C) contains a short segment L&lt;&lt;424.0,443.0&gt;--&lt;424.0,452.0&gt;&gt;
 
-* aring (U+00E5) contains a short segment L&lt;&lt;339.0,301.0&gt;--&lt;339.0,293.0&gt;&gt;
+* Zcaron (U+017D) contains a short segment L&lt;&lt;439.0,417.0&gt;--&lt;455.0,417.0&gt;&gt;
 
-* yacute (U+00FD) contains a short segment L&lt;&lt;853.0,-19.0&gt;--&lt;853.0,3.0&gt;&gt;
+* zcaron (U+017E) contains a short segment L&lt;&lt;424.0,443.0&gt;--&lt;424.0,452.0&gt;&gt;
 
-* ydieresis (U+00FF) contains a short segment L&lt;&lt;853.0,-19.0&gt;--&lt;853.0,3.0&gt;&gt;
+* Wgrave (U+1E80) contains a short segment L&lt;&lt;179.0,95.0&gt;--&lt;198.0,95.0&gt;&gt;
 
-* amacron (U+0101) contains a short segment L&lt;&lt;339.0,301.0&gt;--&lt;339.0,293.0&gt;&gt;
+* Wgrave (U+1E80) contains a short segment L&lt;&lt;404.0,95.0&gt;--&lt;421.0,95.0&gt;&gt;
 
-* abreve (U+0103) contains a short segment L&lt;&lt;339.0,301.0&gt;--&lt;339.0,293.0&gt;&gt;
+* wgrave (U+1E81) contains a short segment L&lt;&lt;194.0,95.0&gt;--&lt;199.0,95.0&gt;&gt;
 
-* aogonek (U+0105) contains a short segment L&lt;&lt;339.0,301.0&gt;--&lt;339.0,293.0&gt;&gt;
+* wgrave (U+1E81) contains a short segment L&lt;&lt;402.0,96.0&gt;--&lt;405.0,96.0&gt;&gt;
 
-* ij (U+0133) contains a short segment L&lt;&lt;826.0,-41.0&gt;--&lt;826.0,-17.0&gt;&gt;
+* Wacute (U+1E82) contains a short segment L&lt;&lt;179.0,95.0&gt;--&lt;198.0,95.0&gt;&gt;
 
-* Nacute (U+0143) contains a short segment L&lt;&lt;383.0,1168.0&gt;--&lt;347.0,1168.0&gt;&gt;
+* Wacute (U+1E82) contains a short segment L&lt;&lt;404.0,95.0&gt;--&lt;421.0,95.0&gt;&gt;
 
-* Ncommaaccent (U+0145) contains a short segment L&lt;&lt;383.0,1168.0&gt;--&lt;347.0,1168.0&gt;&gt;
+* wacute (U+1E83) contains a short segment L&lt;&lt;194.0,95.0&gt;--&lt;199.0,95.0&gt;&gt;
 
-* Ncaron (U+0147) contains a short segment L&lt;&lt;383.0,1168.0&gt;--&lt;347.0,1168.0&gt;&gt;
+* wacute (U+1E83) contains a short segment L&lt;&lt;402.0,96.0&gt;--&lt;405.0,96.0&gt;&gt;
 
-* Eng (U+014A) contains a short segment L&lt;&lt;383.0,1168.0&gt;--&lt;347.0,1168.0&gt;&gt;
+* Wdieresis (U+1E84) contains a short segment L&lt;&lt;179.0,95.0&gt;--&lt;198.0,95.0&gt;&gt;
 
-* Sacute (U+015A) contains a short segment L&lt;&lt;822.0,197.0&gt;--&lt;853.0,224.0&gt;&gt;
+* Wdieresis (U+1E84) contains a short segment L&lt;&lt;404.0,95.0&gt;--&lt;421.0,95.0&gt;&gt;
 
-* Scircumflex (U+015C) contains a short segment L&lt;&lt;822.0,197.0&gt;--&lt;853.0,224.0&gt;&gt;
+* wdieresis (U+1E85) contains a short segment L&lt;&lt;194.0,95.0&gt;--&lt;199.0,95.0&gt;&gt;
 
-* Scedilla (U+015E) contains a short segment L&lt;&lt;822.0,197.0&gt;--&lt;853.0,224.0&gt;&gt;
+* wdieresis (U+1E85) contains a short segment L&lt;&lt;402.0,96.0&gt;--&lt;405.0,96.0&gt;&gt;
 
-* Scaron (U+0160) contains a short segment L&lt;&lt;822.0,197.0&gt;--&lt;853.0,224.0&gt;&gt;
+* Ygrave (U+1EF2) contains a short segment L&lt;&lt;298.0,414.0&gt;--&lt;300.0,414.0&gt;&gt;
 
-* Wcircumflex (U+0174) contains a short segment L&lt;&lt;388.0,236.0&gt;--&lt;411.0,236.0&gt;&gt;
+* ygrave (U+1EF3) contains a short segment L&lt;&lt;433.0,-18.0&gt;--&lt;433.0,2.0&gt;&gt;
 
-* Wcircumflex (U+0174) contains a short segment L&lt;&lt;798.0,235.0&gt;--&lt;819.0,235.0&gt;&gt;
+* uni2075 (U+2075) contains a short segment L&lt;&lt;233.0,604.0&gt;--&lt;235.0,599.0&gt;&gt;
 
-* wcircumflex (U+0175) contains a short segment L&lt;&lt;402.0,232.0&gt;--&lt;411.0,232.0&gt;&gt;
+* uni2078 (U+2078) contains a short segment L&lt;&lt;231.0,523.0&gt;--&lt;226.0,523.0&gt;&gt;
 
-* wcircumflex (U+0175) contains a short segment L&lt;&lt;789.0,238.0&gt;--&lt;795.0,238.0&gt;&gt;
+* uni2085 (U+2085) contains a short segment L&lt;&lt;233.0,250.0&gt;--&lt;235.0,245.0&gt;&gt;
 
-* Ycircumflex (U+0176) contains a short segment L&lt;&lt;599.0,830.0&gt;--&lt;603.0,830.0&gt;&gt;
+* uni2088 (U+2088) contains a short segment L&lt;&lt;231.0,170.0&gt;--&lt;226.0,170.0&gt;&gt;
 
-* ycircumflex (U+0177) contains a short segment L&lt;&lt;853.0,-19.0&gt;--&lt;853.0,3.0&gt;&gt;
+* trademark (U+2122) contains a short segment L&lt;&lt;393.0,422.0&gt;--&lt;393.0,424.0&gt;&gt;
 
-* Ydieresis (U+0178) contains a short segment L&lt;&lt;599.0,830.0&gt;--&lt;603.0,830.0&gt;&gt;
+* oneeighth (U+215B) contains a short segment L&lt;&lt;311.0,43.0&gt;--&lt;306.0,43.0&gt;&gt;
 
-* Zacute (U+0179) contains a short segment L&lt;&lt;908.0,842.0&gt;--&lt;934.0,842.0&gt;&gt;
+* fiveeighths (U+215D) contains a short segment L&lt;&lt;113.0,651.0&gt;--&lt;115.0,646.0&gt;&gt;
 
-* zacute (U+017A) contains a short segment L&lt;&lt;800.0,873.0&gt;--&lt;800.0,885.0&gt;&gt;
+* fiveeighths (U+215D) contains a short segment L&lt;&lt;311.0,43.0&gt;--&lt;306.0,43.0&gt;&gt;
 
-* Zdotaccent (U+017B) contains a short segment L&lt;&lt;908.0,842.0&gt;--&lt;934.0,842.0&gt;&gt;
+* seveneighths (U+215E) contains a short segment L&lt;&lt;311.0,43.0&gt;--&lt;306.0,43.0&gt;&gt;
 
-* zdotaccent (U+017C) contains a short segment L&lt;&lt;800.0,873.0&gt;--&lt;800.0,885.0&gt;&gt;
+* lozenge (U+25CA) contains a short segment L&lt;&lt;302.0,633.0&gt;--&lt;298.0,633.0&gt;&gt;
 
-* Zcaron (U+017D) contains a short segment L&lt;&lt;908.0,842.0&gt;--&lt;934.0,842.0&gt;&gt;
+* lozenge (U+25CA) contains a short segment L&lt;&lt;298.0,71.0&gt;--&lt;302.0,71.0&gt;&gt;
 
-* zcaron (U+017E) contains a short segment L&lt;&lt;800.0,873.0&gt;--&lt;800.0,885.0&gt;&gt;
+* kda (U+FFFFF) contains a short segment L&lt;&lt;199.0,352.0&gt;--&lt;199.0,350.0&gt;&gt;
 
-* florin (U+0192) contains a short segment L&lt;&lt;487.0,0.0&gt;--&lt;485.0,0.0&gt;&gt;
+* kda (U+FFFFF) contains a short segment L&lt;&lt;199.0,249.0&gt;--&lt;198.0,250.0&gt;&gt;
 
-* Scommaaccent (U+0218) contains a short segment L&lt;&lt;822.0,197.0&gt;--&lt;853.0,224.0&gt;&gt;
+* kda (U+FFFFF) contains a short segment L&lt;&lt;198.0,250.0&gt;--&lt;199.0,251.0&gt;&gt;
 
-* mu (U+03BC) contains a short segment L&lt;&lt;387.0,0.0&gt;--&lt;372.0,26.0&gt;&gt;
+* kda (U+FFFFF) contains a short segment L&lt;&lt;199.0,350.0&gt;--&lt;198.0,351.0&gt;&gt;
 
-* uni1E01 (U+1E01) contains a short segment L&lt;&lt;339.0,301.0&gt;--&lt;339.0,293.0&gt;&gt;
+* kda (U+FFFFF) contains a short segment L&lt;&lt;198.0,351.0&gt;--&lt;199.0,352.0&gt;&gt;
 
-* Wgrave (U+1E80) contains a short segment L&lt;&lt;388.0,236.0&gt;--&lt;411.0,236.0&gt;&gt;
-
-* Wgrave (U+1E80) contains a short segment L&lt;&lt;798.0,235.0&gt;--&lt;819.0,235.0&gt;&gt;
-
-* wgrave (U+1E81) contains a short segment L&lt;&lt;402.0,232.0&gt;--&lt;411.0,232.0&gt;&gt;
-
-* wgrave (U+1E81) contains a short segment L&lt;&lt;789.0,238.0&gt;--&lt;795.0,238.0&gt;&gt;
-
-* Wacute (U+1E82) contains a short segment L&lt;&lt;388.0,236.0&gt;--&lt;411.0,236.0&gt;&gt;
-
-* Wacute (U+1E82) contains a short segment L&lt;&lt;798.0,235.0&gt;--&lt;819.0,235.0&gt;&gt;
-
-* wacute (U+1E83) contains a short segment L&lt;&lt;402.0,232.0&gt;--&lt;411.0,232.0&gt;&gt;
-
-* wacute (U+1E83) contains a short segment L&lt;&lt;789.0,238.0&gt;--&lt;795.0,238.0&gt;&gt;
-
-* Wdieresis (U+1E84) contains a short segment L&lt;&lt;388.0,236.0&gt;--&lt;411.0,236.0&gt;&gt;
-
-* Wdieresis (U+1E84) contains a short segment L&lt;&lt;798.0,235.0&gt;--&lt;819.0,235.0&gt;&gt;
-
-* wdieresis (U+1E85) contains a short segment L&lt;&lt;402.0,232.0&gt;--&lt;411.0,232.0&gt;&gt;
-
-* wdieresis (U+1E85) contains a short segment L&lt;&lt;789.0,238.0&gt;--&lt;795.0,238.0&gt;&gt;
-
-* Ygrave (U+1EF2) contains a short segment L&lt;&lt;599.0,830.0&gt;--&lt;603.0,830.0&gt;&gt;
-
-* ygrave (U+1EF3) contains a short segment L&lt;&lt;853.0,-19.0&gt;--&lt;853.0,3.0&gt;&gt;
-
-* five.superior (U+2075) contains a short segment L&lt;&lt;499.0,1254.0&gt;--&lt;503.0,1246.0&gt;&gt;
-
-* eight.superior (U+2078) contains a short segment L&lt;&lt;483.0,1123.0&gt;--&lt;477.0,1123.0&gt;&gt;
-
-* two.inferior (U+2082) contains a short segment L&lt;&lt;499.0,-150.0&gt;--&lt;499.0,-161.0&gt;&gt;
-
-* five.inferior (U+2085) contains a short segment L&lt;&lt;499.0,163.0&gt;--&lt;503.0,155.0&gt;&gt;
-
-* eight.inferior (U+2088) contains a short segment L&lt;&lt;483.0,32.0&gt;--&lt;477.0,32.0&gt;&gt;
-
-* trademark (U+2122) contains a short segment L&lt;&lt;784.0,939.0&gt;--&lt;784.0,942.0&gt;&gt;
-
-* lozenge (U+25CA) contains a short segment L&lt;&lt;604.0,1212.0&gt;--&lt;596.0,1212.0&gt;&gt; 
-
-* lozenge (U+25CA) contains a short segment L&lt;&lt;596.0,157.0&gt;--&lt;604.0,157.0&gt;&gt; [code: found-short-segments]
+* kda (U+FFFFF) contains a short segment L&lt;&lt;199.0,251.0&gt;--&lt;199.0,249.0&gt;&gt; [code: found-short-segments]
 </code></pre>
 </span></li></ul></div></details>
-<h3>Do any segments have colinear vectors?</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_colinear_vectors&gt;</div>
+<h2>Section: Shaping Checks</h2>
+<span class='section__emoji'>⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩</span>
+<h3>Ensure dotted circle glyph is present and can attach marks.</h3>
+<div class='check__idlabel'>Check ID: com.google.fonts/check/dotted_circle</div>
 
-<details><summary>⚠️ <strong>fonts/ttf/KodeMono-Bold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:</p>
-<pre><code>* Lcaron (U+013D): L&lt;&lt;840.0,825.0&gt;--&lt;860.0,1102.0&gt;&gt; -&gt; L&lt;&lt;860.0,1102.0&gt;--&lt;860.0,1386.0&gt;&gt;
-
-* dcaron (U+010F): L&lt;&lt;883.0,967.0&gt;--&lt;903.0,1244.0&gt;&gt; -&gt; L&lt;&lt;903.0,1244.0&gt;--&lt;903.0,1528.0&gt;&gt;
-
-* lcaron (U+013E): L&lt;&lt;663.0,927.0&gt;--&lt;683.0,1204.0&gt;&gt; -&gt; L&lt;&lt;683.0,1204.0&gt;--&lt;683.0,1488.0&gt;&gt; 
-
-* tcaron (U+0165): L&lt;&lt;810.0,927.0&gt;--&lt;830.0,1204.0&gt;&gt; -&gt; L&lt;&lt;830.0,1204.0&gt;--&lt;830.0,1488.0&gt;&gt; [code: found-colinear-vectors]
-</code></pre>
+<details><summary>⚠️ KodeMono-SemiBold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>No dotted circle glyph present [code: missing-dotted-circle]</p>
 </span></li></ul></div></details>
-<details><summary>⚠️ <strong>fonts/ttf/KodeMono-SemiBold.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:</p>
-<pre><code>* Lcaron (U+013D): L&lt;&lt;842.0,854.0&gt;--&lt;866.0,1121.0&gt;&gt; -&gt; L&lt;&lt;866.0,1121.0&gt;--&lt;866.0,1388.0&gt;&gt;
-
-* dcaron (U+010F): L&lt;&lt;887.0,980.0&gt;--&lt;912.0,1247.0&gt;&gt; -&gt; L&lt;&lt;912.0,1247.0&gt;--&lt;912.0,1515.0&gt;&gt;
-
-* lcaron (U+013E): L&lt;&lt;648.0,954.0&gt;--&lt;672.0,1221.0&gt;&gt; -&gt; L&lt;&lt;672.0,1221.0&gt;--&lt;672.0,1488.0&gt;&gt; 
-
-* tcaron (U+0165): L&lt;&lt;782.0,954.0&gt;--&lt;807.0,1221.0&gt;&gt; -&gt; L&lt;&lt;807.0,1221.0&gt;--&lt;807.0,1488.0&gt;&gt; [code: found-colinear-vectors]
-</code></pre>
+<details><summary>⚠️ KodeMono-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>No dotted circle glyph present [code: missing-dotted-circle]</p>
 </span></li></ul></div></details>
-<h3>Do outlines contain any semi-vertical or semi-horizontal lines?</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_semi_vertical&gt;</div>
-
-<details><summary>⚠️ <strong>fonts/ttf/KodeMono-Medium.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
-<pre><code>* longs (U+017F): L&lt;&lt;818.0,1542.0&gt;--&lt;819.0,1371.0&gt;&gt; [code: found-semi-vertical]
-</code></pre>
+<details><summary>⚠️ KodeMono-Medium.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>No dotted circle glyph present [code: missing-dotted-circle]</p>
 </span></li></ul></div></details>
+<details><summary>⚠️ KodeMono-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>No dotted circle glyph present [code: missing-dotted-circle]</p>
+</span></li></ul></div></details>
+<h3>Ensure soft_dotted characters lose their dot when combined with marks that replace the dot.</h3>
+<div class='check__idlabel'>Check ID: com.google.fonts/check/soft_dotted</div>
+
+<details><summary>⚠️ KodeMono-SemiBold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌</p>
+<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: į̅ į̆ į̇ į̈ į̊ į̋ į̍ į̎ į̐ į̒ į̓ į̔ į̖̀ į̖́ į̖̂ į̖̃ į̖̄ į̖̅ į̖̆ į̖̇</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Igbo (Latn, 27,823,640 speakers), Lithuanian (Latn, 2,357,094 speakers), Western Frisian (Latn, 743,057 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Ukrainian (Cyrl, 29,273,587 speakers), Basaa (Latn, 332,940 speakers), Aghem (Latn, 38,843 speakers), Belarusian (Cyrl, 10,064,517 speakers), Navajo (Latn, 166,319 speakers). [code: soft-dotted]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ KodeMono-Regular.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌</p>
+<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: į̅ į̆ į̇ į̈ į̊ į̋ į̍ į̎ į̐ į̒ į̓ į̔ į̖̀ į̖́ į̖̂ į̖̃ į̖̄ į̖̅ į̖̆ į̖̇</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Igbo (Latn, 27,823,640 speakers), Lithuanian (Latn, 2,357,094 speakers), Western Frisian (Latn, 743,057 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Ukrainian (Cyrl, 29,273,587 speakers), Basaa (Latn, 332,940 speakers), Aghem (Latn, 38,843 speakers), Belarusian (Cyrl, 10,064,517 speakers), Navajo (Latn, 166,319 speakers). [code: soft-dotted]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ KodeMono-Medium.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌</p>
+<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: į̅ į̆ į̇ į̈ į̊ į̋ į̍ į̎ į̐ į̒ į̓ į̔ į̖̀ į̖́ į̖̂ į̖̃ į̖̄ į̖̅ į̖̆ į̖̇</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Igbo (Latn, 27,823,640 speakers), Lithuanian (Latn, 2,357,094 speakers), Western Frisian (Latn, 743,057 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Ukrainian (Cyrl, 29,273,587 speakers), Basaa (Latn, 332,940 speakers), Aghem (Latn, 38,843 speakers), Belarusian (Cyrl, 10,064,517 speakers), Navajo (Latn, 166,319 speakers). [code: soft-dotted]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ KodeMono-Bold.ttf</summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌</p>
+<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: į̅ į̆ į̇ į̈ į̊ į̋ į̍ į̎ į̐ į̒ į̓ į̔ į̖̀ į̖́ į̖̂ į̖̃ į̖̄ į̖̅ į̖̆ į̖̇</p>
+<p>Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Igbo (Latn, 27,823,640 speakers), Lithuanian (Latn, 2,357,094 speakers), Western Frisian (Latn, 743,057 speakers).</p>
+<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Ukrainian (Cyrl, 29,273,587 speakers), Basaa (Latn, 332,940 speakers), Aghem (Latn, 38,843 speakers), Belarusian (Cyrl, 10,064,517 speakers), Navajo (Latn, 166,319 speakers). [code: soft-dotted]</p>
+</span></li></ul></div></details>
+                        </main>
                     </body>
                 </html>
