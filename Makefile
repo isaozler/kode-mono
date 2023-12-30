@@ -18,8 +18,11 @@ build: build.stamp
 
 venv: venv/touchfile
 
+venv-test: venv-test/touchfile
+
 build.stamp: venv .init.stamp sources/config.yaml $(SOURCES)
-	. venv/bin/activate; rm -rf fonts/; gftools builder sources/config.yaml && touch build.stamp
+	rm -rf fonts
+	(for config in sources/config*.yaml; do . venv/bin/activate; gftools builder $$config; done)  && touch build.stamp
 
 .init.stamp: venv
 	. venv/bin/activate; python3 scripts/first-run.py
@@ -29,24 +32,29 @@ venv/touchfile: requirements.txt
 	. venv/bin/activate; pip install -Ur requirements.txt
 	touch venv/touchfile
 
-test: venv build.stamp
-	. venv/bin/activate; mkdir -p out/ out/fontbakery; fontbakery check-googlefonts -l WARN --full-lists --succinct --badges out/badges --html out/fontbakery/fontbakery-report.html --ghmarkdown out/fontbakery/fontbakery-report.md $(shell find fonts/ttf -type f)  || echo '::warning file=sources/config.yaml,title=Fontbakery failures::The fontbakery QA check reported errors in your font. Please check the generated report.'
+venv-test/touchfile: requirements-test.txt
+	test -d venv-test || python3 -m venv venv-test
+	. venv-test/bin/activate; pip install -Ur requirements-test.txt
+	touch venv-test/touchfile
+
+test: venv-test build.stamp
+	. venv-test/bin/activate; mkdir -p out/ out/fontbakery; fontbakery check-googlefonts -l WARN --full-lists --succinct --badges out/badges --html out/fontbakery/fontbakery-report.html --ghmarkdown out/fontbakery/fontbakery-report.md $(shell find fonts/ttf -type f)  || echo '::warning file=sources/config.yaml,title=Fontbakery failures::The fontbakery QA check reported errors in your font. Please check the generated report.'
 
 proof: venv build.stamp
 	. venv/bin/activate; mkdir -p out/ out/proof; diffenator2 proof $(shell find fonts/ttf -type f) -o out/proof
 
-images: venv build.stamp $(DRAWBOT_OUTPUT)
-	git add documentation/*.png && git commit -m "Rebuild images" documentation/*.png
+images: venv $(DRAWBOT_OUTPUT)
 
 %.png: %.py build.stamp
-	python3 $< --output $@
+	. venv/bin/activate; python3 $< --output $@
 
 clean:
 	rm -rf venv
-	find . -name "*.pyc" | xargs rm delete
+	find . -name "*.pyc" -delete
 
 update-project-template:
 	npx update-template https://github.com/googlefonts/googlefonts-project-template/
 
 update:
 	pip install --upgrade $(dependency); pip freeze > requirements.txt
+	
