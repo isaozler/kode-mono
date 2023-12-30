@@ -1,5 +1,24 @@
 # Changelog
 
+**30 December 2023. Version 1.202**
+- New Glyphs
+  - Universal
+  - Integral
+  - Dotted-circle
+  - Box lines
+  - Progress bar
+  - Pi
+  - Radical
+  - Delta
+  - Mu
+  - Partialdiff
+- Updated Glyphs
+  - Percent
+  - Perthousand
+  - Paragraph
+  - Bitcoin
+  - Turkish Lira
+
 **29 December 2023. Version 1.200...1.201**
 - Recreated the typography in Glyphs.app
   - Fixed all failed checks
