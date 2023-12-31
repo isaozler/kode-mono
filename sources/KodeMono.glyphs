@@ -1,13 +1,39 @@
 {
 .appVersion = "3151";
 .formatVersion = 3;
-DisplayStrings = (
-"₺"
-);
 axes = (
 {
 name = Weight;
 tag = wght;
+}
+);
+classes = (
+{
+code = "a b c d e f g h i j k l m n o p q r s t u v w x y z
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z";
+name = LETTER;
+},
+{
+automatic = 1;
+code = "A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde AE B C Cacute Ccaron Ccedilla Cdotaccent D Eth Dcaron Dcroat E Eacute Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek F G Gbreve Gcommaaccent Gdotaccent H Hbar I IJ Iacute Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek J K Kcommaaccent L Lacute Lcaron Lcommaaccent Lslash M N Nacute Ncaron Ncommaaccent Ntilde O Oacute Ocircumflex Odieresis Ograve Ohungarumlaut Oslash Otilde OE P Thorn Q R Racute Rcaron S Sacute Scaron Scedilla Scommaaccent Germandbls T Tcaron Tcommaaccent U Uacute Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Z Zacute Zcaron Zdotaccent a aacute abreve acircumflex adieresis agrave amacron aogonek aring atilde ae b c cacute ccaron ccedilla cdotaccent d eth dcaron dcroat e eacute ecaron ecircumflex edieresis edotaccent egrave emacron eogonek f g gbreve gcommaaccent gdotaccent h hbar i idotless iacute icircumflex idieresis idotaccent igrave ij imacron iogonek j jdotless k kcommaaccent l lacute lcaron lcommaaccent lslash m n nacute ncaron ncommaaccent ntilde o oacute ocircumflex odieresis ograve ohungarumlaut oslash otilde oe p thorn q r racute rcaron s sacute scaron scedilla scommaaccent germandbls t tcaron tcommaaccent u uacute ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring v w wacute wcircumflex wdieresis wgrave x y yacute ycircumflex ydieresis ygrave z zacute zcaron zdotaccent ordfeminine ordmasculine Delta mu pi zero one two three four five six seven eight nine zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr fraction onefraction onehalf uni2153 uni2154 onequarter threequarters oneeighth threeeighths fiveeighths seveneighths zeroinferior oneinferior twoinferior threeinferior fourinferior fiveinferior sixinferior seveninferior eightinferior nineinferior zerosuperior onesuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior zerowidthnobreakspace CR space nbspace colon_colon.liga colon_colon_colon.liga asterisk_slash.liga slash_asterisk.liga slash_slash.liga period comma colon semicolon ellipsis exclam exclamdown question questiondown periodcentered bullet asterisk numbersign overline slash backslash hyphen endash emdash underscore underscoredbl parenleft parenright braceleft braceright bracketleft bracketright quotesinglbase quotedblbase quotedblleft quotedblright quoteleft quoteright guillemetleft guillemetright guilsinglleft guilsinglright quotedbl quotesingle at ampersand paragraph section copyright registered trademark degree bar brokenbar dagger daggerdbl at.001 K.circled bitcoin cent currency dollar euro liraTurkish sterling kda yen plus minus multiply divide equal notequal greater less greaterequal lessequal plusminus approxequal asciitilde logicalnot asciicircum infinity integral product summation radical partialdiff percent perthousand universal upArrow northEastArrow rightArrow southEastArrow downArrow southWestArrow leftArrow northWestArrow leftRightArrow upDownArrow dottedCircle lozenge uni2500 uni2502 uni250C uni2510 uni2514 uni2518 uni251C uni2524 uni252C uni2534 uni253C dieresiscomb dotaccentcomb gravecomb acutecomb hungarumlautcomb circumflexcomb caroncomb brevecomb ringcomb tildecomb macroncomb overlinecomb verticallineabovecomb dblverticallineabovecomb candraBinducomb commaturnedabovecomb commaabovecomb commareversedabovecomb gravebelowcomb acutebelowcomb dotbelowcomb dieresisbelowcomb ringbelowcomb commaaccentcomb cedillacomb ogonekcomb circumflexbelowcomb brevebelowcomb macronbelowcomb strokeshortcomb strokelongcomb slashshortcomb slashlongcomb dieresis dotaccent grave acute hungarumlaut circumflex caron breve ring tilde macron cedilla ogonek caron.alt uniEE00 uniEE01 uniEE02 uniEE03 uniEE04 uniEE05 idotlessogonek nobreakspace liga.spacer www.liga";
+name = All;
+},
+{
+code = "one two three four five six seven eight nine zero
+";
+name = NUMBER;
+},
+{
+code = "a b c d e f g h i j k l m n o p q r s t u v w x y z
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+one two three four five six seven eight nine zero
+";
+name = LETTER_OR_NUMBER;
+},
+{
+code = "A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde AE B C Cacute Ccaron Ccedilla Cdotaccent D Eth Dcaron Dcroat E Eacute Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek F G Gbreve Gcommaaccent Gdotaccent H Hbar I IJ Iacute Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek J K Kcommaaccent L Lacute Lcaron Lcommaaccent Lslash M N Nacute Ncaron Ncommaaccent Ntilde O Oacute Ocircumflex Odieresis Ograve Ohungarumlaut Oslash Otilde OE P Thorn Q R Racute Rcaron S Sacute Scaron Scedilla Scommaaccent Germandbls T Tcaron Tcommaaccent U Uacute Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Z Zacute Zcaron Zdotaccent a aacute abreve acircumflex adieresis agrave amacron aogonek aring atilde ae b c cacute ccaron ccedilla cdotaccent d eth dcaron dcroat e eacute ecaron ecircumflex edieresis edotaccent egrave emacron eogonek f g gbreve gcommaaccent gdotaccent h hbar i idotless iacute icircumflex idieresis idotaccent igrave ij imacron iogonek j jdotless k kcommaaccent l lacute lcaron lcommaaccent lslash m n nacute ncaron ncommaaccent ntilde o oacute ocircumflex odieresis ograve ohungarumlaut oslash otilde oe p thorn q r racute rcaron s sacute scaron scedilla scommaaccent germandbls t tcaron tcommaaccent u uacute ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring v w wacute wcircumflex wdieresis wgrave x y yacute ycircumflex ydieresis ygrave z zacute zcaron zdotaccent ordfeminine ordmasculine Delta mu pi zero one two three four five six seven eight nine zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr fraction onefraction onehalf uni2153 uni2154 onequarter threequarters oneeighth threeeighths fiveeighths seveneighths zeroinferior oneinferior twoinferior threeinferior fourinferior fiveinferior sixinferior seveninferior eightinferior nineinferior zerosuperior onesuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior period comma colon semicolon ellipsis exclam exclamdown question questiondown periodcentered bullet asterisk numbersign overline slash backslash hyphen endash emdash underscore underscoredbl parenleft parenright braceleft braceright bracketleft bracketright quotesinglbase quotedblbase quotedblleft quotedblright quoteleft quoteright guillemetleft guillemetright guilsinglleft guilsinglright quotedbl quotesingle at ampersand paragraph section copyright registered trademark degree bar brokenbar dagger daggerdbl at.001 K.circled bitcoin cent currency dollar euro liraTurkish sterling kda yen plus minus multiply divide equal notequal greater less greaterequal lessequal plusminus approxequal asciitilde logicalnot asciicircum infinity integral product summation radical partialdiff percent perthousand universal upArrow northEastArrow rightArrow southEastArrow downArrow southWestArrow leftArrow northWestArrow leftRightArrow upDownArrow dottedCircle lozenge uni2500 uni2502 uni250C uni2510 uni2514 uni2518 uni251C uni2524 uni252C uni2534 uni253C dieresiscomb dotaccentcomb gravecomb acutecomb hungarumlautcomb circumflexcomb caroncomb brevecomb ringcomb tildecomb macroncomb overlinecomb verticallineabovecomb dblverticallineabovecomb candraBinducomb commaturnedabovecomb commaabovecomb commareversedabovecomb gravebelowcomb acutebelowcomb dotbelowcomb dieresisbelowcomb ringbelowcomb commaaccentcomb cedillacomb ogonekcomb circumflexbelowcomb brevebelowcomb macronbelowcomb strokeshortcomb strokelongcomb slashshortcomb slashlongcomb dieresis dotaccent grave acute hungarumlaut circumflex caron breve ring tilde macron cedilla ogonek caron.alt uniEE00 uniEE01 uniEE02 uniEE03 uniEE04 uniEE05 idotlessogonek
+";
+name = NON_SPACING;
 }
 );
 customParameters = (
@@ -43,36 +69,12 @@ value = (
 );
 },
 {
-name = descriptions;
-value = "Crafted with ❤️";
-},
-{
-name = licenses;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
-},
-{
-name = licenseURL;
-value = "http://scripts.sil.org/OFL";
-},
-{
 name = preferredFamilyName;
 value = "Kode Mono";
 },
 {
-name = versionString;
-value = "Version 1.201";
-},
-{
-name = vendorID;
-value = KDA;
-},
-{
 name = postscriptIsFixedPitch;
 value = 1;
-},
-{
-name = trademarks;
-value = "Kode Mono is a trademark of Kadena LLC";
 },
 {
 name = isFixedPitch;
@@ -100,6 +102,8 @@ languagesystem latn CRT;
 languagesystem latn KAZ;
 languagesystem latn TAT;
 languagesystem latn TRK;
+languagesystem latn ROM;
+languagesystem latn MOL;
 ";
 name = Languagesystems;
 }
@@ -114,6 +118,8 @@ feature sups;
 feature numr;
 feature dnom;
 feature frac;
+feature calt;
+feature ordn;
 ";
 tag = aalt;
 },
@@ -144,6 +150,16 @@ code = "lookup locl_latn_0 {
 	language TRK;
 	sub i by idotaccent;
 } locl_latn_0;
+
+lookup locl_latn_1 {
+	script latn;
+	language ROM;
+	sub Scedilla by Scommaaccent;
+	sub scedilla by scommaaccent;
+	language MOL;
+	sub Scedilla by Scommaaccent;
+	sub scedilla by scommaaccent;
+} locl_latn_1;
 ";
 tag = locl;
 },
@@ -236,6 +252,269 @@ lookup DOWN {
 } DOWN;
 ";
 tag = frac;
+},
+{
+code = "lookup www_liga {
+	ignore sub w w' w @LETTER;
+	ignore sub w' w w @LETTER;
+	sub liga.spacer liga.spacer w' by www.liga;
+	sub liga.spacer w' w by liga.spacer;
+	sub w' w w by liga.spacer;
+} www_liga;
+
+lookup slash_slash_liga {
+	ignore sub slash slash' slash;
+	ignore sub slash' slash slash;
+	sub liga.spacer slash' by slash_slash.liga;
+	sub slash' slash by liga.spacer;
+} slash_slash_liga;
+
+lookup backslash_backslash_liga {
+	ignore sub backslash backslash' backslash;
+	ignore sub backslash' backslash backslash;
+	sub liga.spacer backslash' by backslash_backslash.liga;
+	sub backslash' backslash by liga.spacer;
+} backslash_backslash_liga;
+
+lookup asterisk_asterisk_liga {
+	ignore sub asterisk asterisk' asterisk;
+	ignore sub asterisk' asterisk asterisk;
+	sub liga.spacer asterisk' by asterisk_asterisk.liga;
+	sub asterisk' asterisk by liga.spacer;
+} asterisk_asterisk_liga;
+
+lookup slash_equal_liga {
+	ignore sub slash' equal' equal;
+	ignore sub @NON_SPACING' slash' equal;
+	sub liga.spacer equal' by slash_equal.liga;
+	sub slash' equal by liga.spacer;
+} slash_equal_liga;
+
+lookup slash_asterisk_liga {
+	ignore sub @NON_SPACING' slash' asterisk;
+	sub liga.spacer asterisk' by slash_asterisk.liga;
+	sub slash' asterisk by liga.spacer;
+} slash_asterisk_liga;
+
+lookup asterisk_slash_liga {
+	ignore sub asterisk' asterisk' asterisk;
+	ignore sub asterisk slash' @LETTER_OR_NUMBER;
+	ignore sub asterisk' slash @LETTER_OR_NUMBER;
+	sub liga.spacer slash' by asterisk_slash.liga;
+	sub asterisk' slash by liga.spacer;
+} asterisk_slash_liga;
+
+lookup colon_colon_liga {
+	ignore sub colon colon' colon;
+	ignore sub colon' colon colon;
+	sub liga.spacer colon' by colon_colon.liga;
+	sub colon' colon by liga.spacer;
+} colon_colon_liga;
+
+lookup colon_colon_colon_liga {
+	ignore sub colon colon colon' colon;
+	ignore sub colon colon' colon colon;
+	ignore sub colon' colon colon colon;
+	sub liga.spacer liga.spacer colon' by colon_colon_colon.liga;
+	sub liga.spacer colon' colon by liga.spacer;
+	sub colon' colon colon by liga.spacer;
+} colon_colon_colon_liga;
+
+lookup plus_plus_liga {
+	ignore sub plus plus' plus;
+	ignore sub plus' plus plus;
+	sub liga.spacer plus' by plus_plus.liga;
+	sub plus' plus by liga.spacer;
+} plus_plus_liga;
+
+lookup plus_plus_plus_liga {
+	ignore sub plus plus plus' plus;
+	ignore sub plus plus' plus plus;
+	ignore sub plus' plus plus plus;
+	sub liga.spacer liga.spacer plus' by plus_plus_plus.liga;
+	sub liga.spacer plus' plus by liga.spacer;
+	sub plus' plus plus by liga.spacer;
+} plus_plus_plus_liga;
+
+lookup equal_equal_liga {
+	ignore sub slash equal' equal; #added
+	ignore sub less equal' equal; #added
+	ignore sub greater equal' equal; #added
+	ignore sub exclam equal' equal; #added
+	ignore sub equal' equal' greater; #escape equal_equal_greater
+	ignore sub equal' equal' less; #escape equal_equal_less
+	ignore sub equal equal' equal;
+	ignore sub equal' equal equal;
+	sub liga.spacer equal' by equal_equal.liga;
+	sub equal' equal by liga.spacer;
+} equal_equal_liga;
+
+lookup equal_equal_equal_liga {
+	ignore sub equal' equal' equal' less; #equal_greater escape
+	ignore sub equal' equal' equal' greater; #equal_greater escape
+	ignore sub slash equal' equal equal; #equal_greater escape
+	ignore sub less equal' equal equal; #equal_greater escape
+	ignore sub greater equal' equal equal; #equal_greater escape
+	ignore sub exclam equal' equal equal; #added
+	ignore sub equal equal equal' equal;
+	ignore sub equal equal' equal equal;
+	ignore sub equal' equal equal equal;
+	sub liga.spacer liga.spacer equal' by equal_equal_equal.liga;
+	sub liga.spacer equal' equal by liga.spacer;
+	sub equal' equal equal by liga.spacer;
+} equal_equal_equal_liga;
+
+lookup period_period_liga {
+	ignore sub period period' period;
+	ignore sub period' period period;
+	sub liga.spacer period' by period_period.liga;
+	sub period' period by liga.spacer;
+} period_period_liga;
+
+lookup period_period_period_liga {
+	ignore sub period period period' period;
+	ignore sub period period' period period;
+	ignore sub period' period period period;
+	sub liga.spacer liga.spacer period' by period_period_period.liga;
+	sub liga.spacer period' period by liga.spacer;
+	sub period' period period by liga.spacer;
+} period_period_period_liga;
+
+lookup exclam_equal_liga {
+	ignore sub period exclam' equal; #exclam_equal_equal escape
+	ignore sub exclam' equal' equal; #exclam_equal_equal escape
+	ignore sub exclam' exclam' exclam;
+	sub liga.spacer equal' by exclam_equal.liga;
+	sub exclam' equal by liga.spacer;
+} exclam_equal_liga;
+
+lookup exclam_equal_equal_liga {
+	ignore sub period exclam' equal' equal; #exclam_equal_equal escape
+	ignore sub exclam' equal' equal' equal; #exclam_equal_equal escape
+	sub liga.spacer liga.spacer equal' by exclam_equal_equal.liga;
+	sub liga.spacer equal' equal by liga.spacer;
+	sub exclam' equal equal by liga.spacer;
+} exclam_equal_equal_liga;
+
+lookup equal_greater_liga {
+	ignore sub greater' equal' greater; #equal_greater_equal escape
+	ignore sub equal equal' greater; #equal_greater_equal escape
+	ignore sub equal' greater' equal; #equal_greater_equal escape
+	ignore sub equal' equal' equal greater; #exclam_equal_equal escape
+	ignore sub equal' equal' greater;
+	sub liga.spacer greater' by equal_greater.liga;
+	sub equal' greater by liga.spacer;
+} equal_greater_liga;
+
+lookup hyphen_greater_liga {
+	ignore sub hyphen' hyphen' hyphen greater; #exclam_hyphen_hyphen escape
+	ignore sub hyphen' hyphen' greater;
+	sub liga.spacer greater' by hyphen_greater.liga;
+	sub hyphen' greater by liga.spacer;
+} hyphen_greater_liga;
+
+lookup less_hyphen_liga {
+	ignore sub less' less' less hyphen; #exclam_less_less escape
+	ignore sub less' less' hyphen;
+	sub liga.spacer hyphen' by less_hyphen.liga;
+	sub less' hyphen by liga.spacer;
+} less_hyphen_liga;
+
+lookup less_equal_liga {
+	ignore sub less' equal' equal; #exclam_less_less escape
+	ignore sub equal' less' equal; #exclam_less_less escape
+	ignore sub less' less' less equal; #exclam_less_less escape
+	ignore sub less' less' equal;
+	sub liga.spacer equal' by less_equal.liga;
+	sub less' equal by liga.spacer;
+} less_equal_liga;
+
+lookup greater_equal_liga {
+	ignore sub greater' equal' equal; #exclam_greater_greater escape
+	ignore sub equal' greater' equal; #exclam_greater_greater escape
+	ignore sub greater' greater' greater equal; #exclam_greater_greater escape
+	ignore sub greater' greater' equal;
+	sub liga.spacer equal' by greater_equal.liga;
+	sub greater' equal by liga.spacer;
+} greater_equal_liga;
+
+
+lookup question_period_liga {
+	ignore sub question' question' question period; #exclam_question_question escape
+	ignore sub question' question' period;
+	sub liga.spacer period' by question_period.liga;
+	sub question' period by liga.spacer;
+} question_period_liga;
+
+lookup equal_greater_equal_liga {
+	ignore sub equal' equal' greater' equal; #equal_equal_equal escape
+	ignore sub equal' greater' equal' equal; #equal_equal_equal escape
+	sub liga.spacer liga.spacer equal' by equal_greater_equal.liga;
+	sub liga.spacer greater' equal by liga.spacer;
+	sub equal' greater equal by liga.spacer;
+} equal_greater_equal_liga;
+
+lookup equal_less_equal_liga {
+	ignore sub equal' equal' less' equal; #equal_equal_equal escape
+	ignore sub equal' less' equal' equal; #equal_equal_equal escape
+	sub liga.spacer liga.spacer equal' by equal_less_equal.liga;
+	sub liga.spacer less' equal by liga.spacer;
+	sub equal' less equal by liga.spacer;
+} equal_less_equal_liga;
+
+lookup equal_less_less_liga {
+	ignore sub equal' equal' less' less; #equal_less_less escape
+	ignore sub equal' less' less' less; #equal_less_less escape
+	sub liga.spacer liga.spacer less' by equal_less_less.liga;
+	sub liga.spacer less' less by liga.spacer;
+	sub equal' less less by liga.spacer;
+} equal_less_less_liga;
+
+lookup greater_greater_equal_liga {
+	ignore sub @NON_SPACING' greater' greater' equal; #greater_greater_equal_liga escape
+	ignore sub greater' greater' greater' equal; #greater_greater_equal_liga escape
+	ignore sub greater' greater' equal' @NON_SPACING; #greater_greater_equal_liga escape
+	sub liga.spacer liga.spacer equal' by greater_greater_equal.liga;
+	sub liga.spacer greater' equal by liga.spacer;
+	sub greater' greater equal by liga.spacer;
+} greater_greater_equal_liga;
+
+lookup ampersand_ampersand_liga {
+	ignore sub ampersand ampersand' ampersand;
+	ignore sub ampersand' ampersand ampersand;
+	sub liga.spacer ampersand' by ampersand_ampersand.liga;
+	sub ampersand' ampersand by liga.spacer;
+} ampersand_ampersand_liga;
+
+lookup less_dollar_greater_liga {
+	ignore sub @NON_SPACING' less' dollar' greater; #greater_greater_greater escape
+	ignore sub less' dollar' greater' @NON_SPACING; #greater_greater_greater escape
+	sub liga.spacer liga.spacer greater' by less_dollar_greater.liga;
+	sub liga.spacer dollar' greater by liga.spacer;
+	sub less' dollar greater by liga.spacer;
+} less_dollar_greater_liga;
+
+lookup less_asterisk_greater_liga {
+	ignore sub less' less' asterisk' greater; #greater_greater_greater escape
+	ignore sub less' asterisk' greater' greater; #greater_greater_greater escape
+	sub liga.spacer liga.spacer greater' by less_asterisk_greater.liga;
+	sub liga.spacer asterisk' greater by liga.spacer;
+	sub less' asterisk greater by liga.spacer;
+} less_asterisk_greater_liga;
+
+";
+tag = calt;
+},
+{
+automatic = 1;
+code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+";
+tag = ordn;
+},
+{
+code = "";
+tag = liga;
 }
 );
 fontMaster = (
@@ -272,7 +551,7 @@ value = 1034;
 },
 {
 name = winDescent;
-value = 348;
+value = 500;
 },
 {
 name = hheaAscender;
@@ -346,7 +625,7 @@ value = 1034;
 },
 {
 name = winDescent;
-value = 348;
+value = 500;
 },
 {
 name = hheaAscender;
@@ -7526,7 +7805,7 @@ unicode = 102;
 },
 {
 glyphname = g;
-lastChange = "2023-12-27 13:35:15 +0000";
+lastChange = "2023-12-31 01:26:14 +0000";
 layers = (
 {
 anchors = (
@@ -7636,10 +7915,10 @@ nodes = (
 (167,279,l),
 (359,279,l),
 (440,329,l),
-(440,388,l),
-(402,443,l),
-(210,443,l),
-(167,396,l)
+(440,425,l),
+(402,480,l),
+(210,480,l),
+(167,433,l)
 );
 },
 {
@@ -7659,12 +7938,12 @@ nodes = (
 (78,175,l),
 (130,227,l),
 (86,254,l),
-(86,418,l),
-(180,516,l),
-(360,516,l),
-(440,467,l),
-(440,516,l),
-(521,516,l),
+(86,455,l),
+(180,553,l),
+(360,553,l),
+(440,504,l),
+(440,553,l),
+(521,553,l),
 (521,303,l),
 (361,205,l)
 );
@@ -15869,6 +16148,548 @@ metricWidth = space;
 unicode = 160;
 },
 {
+glyphname = hyphen_greater.liga;
+lastChange = "2023-12-31 13:35:17 +0000";
+layers = (
+{
+layerId = "58E25AC2-F473-41C5-84EA-658E208701C1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(286,336,l),
+(-342,336,l),
+(-342,264,l),
+(286,264,l)
+);
+},
+{
+pos = (-127,-41);
+ref = greater;
+}
+);
+width = 600;
+},
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(276,356,l),
+(-382,356,l),
+(-382,244,l),
+(276,244,l)
+);
+},
+{
+pos = (-113,-41);
+ref = greater;
+}
+);
+width = 600;
+}
+);
+metricWidth = space;
+},
+{
+glyphname = period_period.liga;
+lastChange = "2023-12-31 12:30:46 +0000";
+layers = (
+{
+layerId = "58E25AC2-F473-41C5-84EA-658E208701C1";
+shapes = (
+{
+pos = (-485,0);
+ref = period;
+},
+{
+pos = (-115,0);
+ref = period;
+}
+);
+width = 600;
+},
+{
+layerId = m01;
+shapes = (
+{
+pos = (-499,0);
+ref = period;
+},
+{
+pos = (-101,0);
+ref = period;
+}
+);
+width = 600;
+}
+);
+metricWidth = space;
+},
+{
+glyphname = period_period_period.liga;
+lastChange = "2023-12-31 12:35:12 +0000";
+layers = (
+{
+layerId = "58E25AC2-F473-41C5-84EA-658E208701C1";
+shapes = (
+{
+pos = (-970,0);
+ref = period;
+},
+{
+pos = (-230,0);
+ref = period;
+},
+{
+pos = (-600,0);
+ref = period;
+}
+);
+width = 600;
+},
+{
+layerId = m01;
+shapes = (
+{
+pos = (-1000,0);
+ref = period;
+},
+{
+pos = (-200,0);
+ref = period;
+},
+{
+pos = (-602,0);
+ref = period;
+}
+);
+width = 600;
+}
+);
+metricWidth = space;
+},
+{
+glyphname = colon_colon.liga;
+lastChange = "2023-12-31 11:27:14 +0000";
+layers = (
+{
+layerId = "58E25AC2-F473-41C5-84EA-658E208701C1";
+shapes = (
+{
+pos = (-485,0);
+ref = colon;
+},
+{
+pos = (-115,0);
+ref = colon;
+}
+);
+width = 600;
+},
+{
+layerId = m01;
+shapes = (
+{
+pos = (-497,0);
+ref = colon;
+},
+{
+pos = (-106,0);
+ref = colon;
+}
+);
+width = 600;
+}
+);
+metricWidth = space;
+},
+{
+glyphname = colon_colon_colon.liga;
+lastChange = "2023-12-31 11:36:52 +0000";
+layers = (
+{
+layerId = "58E25AC2-F473-41C5-84EA-658E208701C1";
+shapes = (
+{
+pos = (-970,0);
+ref = colon;
+},
+{
+pos = (-600,0);
+ref = colon;
+},
+{
+pos = (-230,0);
+ref = colon;
+}
+);
+width = 600;
+},
+{
+layerId = m01;
+shapes = (
+{
+pos = (-602,0);
+ref = colon;
+},
+{
+pos = (-989,0);
+ref = colon;
+},
+{
+pos = (-209,0);
+ref = colon;
+}
+);
+width = 600;
+}
+);
+metricWidth = space;
+},
+{
+glyphname = exclam_equal.liga;
+lastChange = "2023-12-31 12:52:43 +0000";
+layers = (
+{
+layerId = "58E25AC2-F473-41C5-84EA-658E208701C1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-343,331,l),
+(344,331,l),
+(344,403,l),
+(-343,403,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(-343,196,l),
+(344,196,l),
+(344,268,l),
+(-343,268,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(-192,-154,l),
+(-125,-177,l),
+(192,754,l),
+(124,777,l)
+);
+}
+);
+width = 600;
+},
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-344,427,l),
+(-344,306,l),
+(344,306,l),
+(344,427,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(-344,242,l),
+(-344,121,l),
+(344,121,l),
+(344,242,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(-273,-138,l),
+(-172,-186,l),
+(272,736,l),
+(172,784,l)
+);
+}
+);
+width = 600;
+}
+);
+metricWidth = space;
+},
+{
+glyphname = exclam_equal_equal.liga;
+lastChange = "2023-12-31 13:06:28 +0000";
+layers = (
+{
+layerId = "58E25AC2-F473-41C5-84EA-658E208701C1";
+shapes = (
+{
+ref = equal_equal_equal.liga;
+},
+{
+pos = (-600,0);
+ref = slash;
+}
+);
+width = 600;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = equal_equal_equal.liga;
+},
+{
+pos = (-600,0);
+ref = slash;
+}
+);
+width = 600;
+}
+);
+metricWidth = space;
+},
+{
+glyphname = question_period.liga;
+lastChange = "2023-12-31 13:49:43 +0000";
+layers = (
+{
+layerId = "58E25AC2-F473-41C5-84EA-658E208701C1";
+shapes = (
+{
+pos = (-440,0);
+ref = question;
+},
+{
+pos = (-88,0);
+ref = period;
+}
+);
+width = 600;
+},
+{
+layerId = m01;
+shapes = (
+{
+pos = (-462,0);
+ref = question;
+},
+{
+pos = (-60,0);
+ref = period;
+}
+);
+width = 600;
+}
+);
+metricWidth = space;
+},
+{
+glyphname = asterisk_asterisk.liga;
+lastChange = "2023-12-31 13:52:55 +0000";
+layers = (
+{
+layerId = "58E25AC2-F473-41C5-84EA-658E208701C1";
+shapes = (
+{
+pos = (-548,0);
+ref = asterisk;
+},
+{
+pos = (-52,0);
+ref = asterisk;
+}
+);
+width = 600;
+},
+{
+layerId = m01;
+shapes = (
+{
+pos = (-560,0);
+ref = asterisk;
+},
+{
+pos = (-39,0);
+ref = asterisk;
+}
+);
+width = 600;
+}
+);
+metricWidth = space;
+},
+{
+glyphname = asterisk_slash.liga;
+lastChange = "2023-12-31 02:11:45 +0000";
+layers = (
+{
+layerId = "58E25AC2-F473-41C5-84EA-658E208701C1";
+shapes = (
+{
+pos = (-474,0);
+ref = asterisk;
+},
+{
+pos = (-122,0);
+ref = slash;
+}
+);
+width = 600;
+},
+{
+layerId = m01;
+shapes = (
+{
+pos = (-492,0);
+ref = asterisk;
+},
+{
+pos = (-111,0);
+ref = slash;
+}
+);
+width = 600;
+}
+);
+metricWidth = space;
+},
+{
+glyphname = slash_asterisk.liga;
+lastChange = "2023-12-31 01:55:07 +0000";
+layers = (
+{
+layerId = "58E25AC2-F473-41C5-84EA-658E208701C1";
+shapes = (
+{
+pos = (-468,0);
+ref = slash;
+},
+{
+pos = (-119,0);
+ref = asterisk;
+}
+);
+width = 600;
+},
+{
+layerId = m01;
+shapes = (
+{
+pos = (-503,0);
+ref = slash;
+},
+{
+pos = (-92,0);
+ref = asterisk;
+}
+);
+width = 600;
+}
+);
+metricWidth = space;
+},
+{
+glyphname = slash_equal.liga;
+lastChange = "2023-12-31 15:17:16 +0000";
+layers = (
+{
+layerId = "58E25AC2-F473-41C5-84EA-658E208701C1";
+shapes = (
+{
+pos = (-670,0);
+ref = slash;
+},
+{
+ref = equal_equal.liga;
+}
+);
+width = 600;
+},
+{
+layerId = m01;
+shapes = (
+{
+pos = (-750,0);
+ref = slash;
+},
+{
+ref = equal_equal.liga;
+}
+);
+width = 600;
+}
+);
+metricWidth = space;
+},
+{
+glyphname = slash_slash.liga;
+lastChange = "2023-12-31 01:39:42 +0000";
+layers = (
+{
+layerId = "58E25AC2-F473-41C5-84EA-658E208701C1";
+shapes = (
+{
+pos = (-465,29);
+ref = slash;
+},
+{
+pos = (-135,0);
+ref = slash;
+}
+);
+width = 600;
+},
+{
+layerId = m01;
+shapes = (
+{
+pos = (-500,30);
+ref = slash;
+},
+{
+pos = (-100,0);
+ref = slash;
+}
+);
+width = 600;
+}
+);
+metricWidth = space;
+},
+{
+glyphname = backslash_backslash.liga;
+lastChange = "2023-12-31 15:13:45 +0000";
+layers = (
+{
+layerId = "58E25AC2-F473-41C5-84EA-658E208701C1";
+shapes = (
+{
+ref = slash_slash.liga;
+scale = (-1,1);
+}
+);
+width = 600;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = slash_slash.liga;
+scale = (-1,1);
+}
+);
+width = 600;
+}
+);
+metricWidth = space;
+},
+{
 glyphname = period;
 lastChange = "2023-12-26 08:46:24 +0000";
 layers = (
@@ -17597,6 +18418,956 @@ width = 600;
 }
 );
 unicode = 39;
+},
+{
+glyphname = ampersand_ampersand.liga;
+lastChange = "2023-12-31 15:09:56 +0000";
+layers = (
+{
+layerId = "58E25AC2-F473-41C5-84EA-658E208701C1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-89,701,l),
+(-33,620,l),
+(-33,571,l),
+(-198,400,l),
+(-80,223,l),
+(99,408,l),
+(0,554,l),
+(0,616,l),
+(82,701,l),
+(301,701,l),
+(357,620,l),
+(357,571,l),
+(193,400,l),
+(334,189,l),
+(408,267,l),
+(342,267,l,{
+name = .hr01;
+}),
+(342,339,l),
+(483,339,l),
+(483,238,l),
+(374,127,l),
+(462,0,l),
+(374,0,l),
+(323,75,l),
+(253,0,l),
+(-16,0,l),
+(-67,74,l),
+(-138,0,l),
+(-407,0,l),
+(-471,95,l),
+(-471,223,l),
+(-292,408,l),
+(-390,554,l),
+(-390,616,l),
+(-309,701,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(-241,462,l),
+(-106,598,l),
+(-125,629,l),
+(-277,629,l),
+(-322,581,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(150,462,l),
+(284,598,l),
+(265,629,l),
+(113,629,l),
+(69,581,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(-369,73,l),
+(-168,73,l),
+(-108,135,l),
+(-252,346,l),
+(-390,201,l),
+(-390,105,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(223,73,l),
+(282,135,l),
+(139,346,l),
+(-38,162,l),
+(22,73,l)
+);
+}
+);
+width = 600;
+},
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-98,741,l),
+(-33,646,l),
+(-33,583,l),
+(-192,417,l),
+(-80,251,l,{
+name = .hr01;
+}),
+(93,430,l),
+(0,568,l),
+(0,643,l),
+(93,741,l),
+(332,741,l),
+(397,646,l),
+(397,583,l),
+(238,417,l),
+(356,241,l),
+(381,267,l),
+(362,267,l),
+(362,379,l),
+(523,379,l),
+(523,250,l),
+(420,145,l),
+(520,0,l),
+(384,0,l),
+(340,63,l),
+(281,0,l),
+(-7,0,l),
+(-65,87,l),
+(-149,0,l),
+(-437,0,l),
+(-510,108,l),
+(-510,251,l),
+(-337,430,l),
+(-430,568,l),
+(-430,643,l),
+(-337,741,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(-257,513,l),
+(-151,621,l),
+(-156,628,l),
+(-288,628,l),
+(-316,599,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(173,513,l),
+(279,621,l),
+(274,628,l),
+(142,628,l),
+(114,599,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(-378,113,l,{
+name = .hr02;
+}),
+(-196,113,l),
+(-153,157,l),
+(-274,335,l),
+(-390,213,l),
+(-390,131,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(234,113,l),
+(277,157,l),
+(156,335,l),
+(8,180,l),
+(52,113,l)
+);
+}
+);
+width = 600;
+}
+);
+metricWidth = space;
+},
+{
+glyphname = dollar_greater.liga;
+layers = (
+{
+layerId = "58E25AC2-F473-41C5-84EA-658E208701C1";
+shapes = (
+{
+ref = dollar;
+},
+{
+ref = greater;
+}
+);
+width = 600;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = dollar;
+},
+{
+ref = greater;
+}
+);
+width = 600;
+}
+);
+metricWidth = space;
+},
+{
+glyphname = plus_plus.liga;
+lastChange = "2023-12-31 12:14:43 +0000";
+layers = (
+{
+layerId = "58E25AC2-F473-41C5-84EA-658E208701C1";
+shapes = (
+{
+pos = (-493,0);
+ref = plus;
+},
+{
+pos = (-107,0);
+ref = plus;
+}
+);
+width = 600;
+},
+{
+layerId = m01;
+shapes = (
+{
+pos = (-513,0);
+ref = plus;
+},
+{
+pos = (-87,0);
+ref = plus;
+}
+);
+width = 600;
+}
+);
+metricWidth = space;
+},
+{
+glyphname = plus_plus_plus.liga;
+lastChange = "2023-12-31 12:17:14 +0000";
+layers = (
+{
+layerId = "58E25AC2-F473-41C5-84EA-658E208701C1";
+shapes = (
+{
+pos = (-600,0);
+ref = plus;
+},
+{
+pos = (-986,0);
+ref = plus;
+},
+{
+pos = (-214,0);
+ref = plus;
+}
+);
+width = 600;
+},
+{
+layerId = m01;
+shapes = (
+{
+pos = (-600,0);
+ref = plus;
+},
+{
+pos = (-1026,0);
+ref = plus;
+},
+{
+pos = (-174,0);
+ref = plus;
+}
+);
+width = 600;
+}
+);
+metricWidth = space;
+},
+{
+glyphname = equal_equal.liga;
+lastChange = "2023-12-31 12:19:28 +0000";
+layers = (
+{
+layerId = "58E25AC2-F473-41C5-84EA-658E208701C1";
+shapes = (
+{
+pos = (-486,0);
+ref = equal;
+},
+{
+pos = (-114,0);
+ref = equal;
+}
+);
+width = 600;
+},
+{
+layerId = m01;
+shapes = (
+{
+pos = (-526,0);
+ref = equal;
+},
+{
+pos = (-74,0);
+ref = equal;
+}
+);
+width = 600;
+}
+);
+metricWidth = space;
+},
+{
+glyphname = equal_equal_equal.liga;
+lastChange = "2023-12-31 12:27:49 +0000";
+layers = (
+{
+layerId = "58E25AC2-F473-41C5-84EA-658E208701C1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-858,271,l),
+(258,271,l),
+(258,343,l),
+(-858,343,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(-858,107,l),
+(258,107,l),
+(258,179,l),
+(-858,179,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(-858,435,l),
+(258,435,l),
+(258,507,l),
+(-858,507,l)
+);
+}
+);
+width = 600;
+},
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-978,251,l),
+(378,251,l),
+(378,364,l),
+(-978,364,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(-978,36,l),
+(378,36,l),
+(378,149,l),
+(-978,149,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(-978,466,l),
+(378,466,l),
+(378,579,l),
+(-978,579,l)
+);
+}
+);
+width = 600;
+}
+);
+metricWidth = space;
+},
+{
+glyphname = equal_greater.liga;
+lastChange = "2023-12-31 13:26:22 +0000";
+layers = (
+{
+layerId = "58E25AC2-F473-41C5-84EA-658E208701C1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-372,331,l),
+(307,331,l),
+(234,403,l),
+(-372,403,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(-372,196,l),
+(234,196,l),
+(307,268,l),
+(-372,268,l)
+);
+},
+{
+pos = (-97,-40);
+ref = greater;
+}
+);
+width = 600;
+},
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-452,331,l),
+(306,331,l),
+(306,444,l),
+(-452,444,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(-452,146,l),
+(306,146,l),
+(306,259,l),
+(-452,259,l)
+);
+},
+{
+pos = (-42,-46);
+ref = greater;
+}
+);
+width = 600;
+}
+);
+metricWidth = space;
+},
+{
+glyphname = equal_greater_equal.liga;
+lastChange = "2023-12-31 14:49:59 +0000";
+layers = (
+{
+layerId = "58E25AC2-F473-41C5-84EA-658E208701C1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-144,331,l),
+(223,331,l),
+(223,403,l),
+(-213,403,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(-213,196,l),
+(223,196,l),
+(223,268,l),
+(-144,268,l)
+);
+},
+{
+pos = (-451,0);
+ref = equal_greater.liga;
+}
+);
+width = 600;
+},
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-100,331,l),
+(302,331,l),
+(302,444,l),
+(-150,444,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(-150,146,l),
+(302,146,l),
+(302,259,l),
+(-100,259,l)
+);
+},
+{
+pos = (-452,0);
+ref = equal_greater.liga;
+}
+);
+width = 600;
+}
+);
+metricWidth = space;
+},
+{
+glyphname = equal_less_equal.liga;
+lastChange = "2023-12-31 14:51:00 +0000";
+layers = (
+{
+layerId = "58E25AC2-F473-41C5-84EA-658E208701C1";
+shapes = (
+{
+pos = (-600,0);
+ref = equal_greater_equal.liga;
+scale = (-1,1);
+}
+);
+width = 600;
+},
+{
+layerId = m01;
+shapes = (
+{
+pos = (-601,0);
+ref = equal_greater_equal.liga;
+scale = (-1,1);
+}
+);
+width = 600;
+}
+);
+metricWidth = space;
+},
+{
+glyphname = equal_less_less.liga;
+lastChange = "2023-12-31 15:56:24 +0000";
+layers = (
+{
+layerId = "58E25AC2-F473-41C5-84EA-658E208701C1";
+shapes = (
+{
+pos = (-639,-39);
+ref = less;
+},
+{
+pos = (389,-39);
+ref = greater;
+scale = (-1,1);
+},
+{
+closed = 1;
+nodes = (
+(-849,332,l),
+(-397,332,l),
+(-397,404,l),
+(-849,404,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(-849,197,l),
+(-397,197,l),
+(-397,269,l),
+(-849,269,l)
+);
+}
+);
+width = 600;
+},
+{
+layerId = m01;
+shapes = (
+{
+pos = (-631,-39);
+ref = less;
+},
+{
+pos = (387,-39);
+ref = greater;
+scale = (-1,1);
+},
+{
+closed = 1;
+nodes = (
+(-901,332,l),
+(-369,332,l),
+(-369,445,l),
+(-901,445,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(-901,147,l),
+(-369,147,l),
+(-369,260,l),
+(-901,260,l)
+);
+}
+);
+width = 600;
+}
+);
+metricWidth = space;
+},
+{
+glyphname = greater_equal.liga;
+lastChange = "2023-12-31 15:22:31 +0000";
+layers = (
+{
+layerId = "58E25AC2-F473-41C5-84EA-658E208701C1";
+shapes = (
+{
+pos = (-432,-43);
+ref = greater;
+},
+{
+pos = (-184,0);
+ref = equal;
+}
+);
+width = 600;
+},
+{
+layerId = m01;
+shapes = (
+{
+pos = (-459,-47);
+ref = greater;
+},
+{
+pos = (-173,0);
+ref = equal;
+}
+);
+width = 600;
+}
+);
+metricWidth = space;
+},
+{
+glyphname = greater_greater_equal.liga;
+lastChange = "2023-12-31 15:56:06 +0000";
+layers = (
+{
+layerId = "58E25AC2-F473-41C5-84EA-658E208701C1";
+shapes = (
+{
+pos = (-600,0);
+ref = equal_less_less.liga;
+scale = (-1,1);
+}
+);
+width = 600;
+},
+{
+layerId = m01;
+shapes = (
+{
+pos = (-600,0);
+ref = equal_less_less.liga;
+scale = (-1,1);
+}
+);
+width = 600;
+}
+);
+metricWidth = space;
+},
+{
+glyphname = less_hyphen.liga;
+lastChange = "2023-12-31 13:40:11 +0000";
+layers = (
+{
+layerId = "58E25AC2-F473-41C5-84EA-658E208701C1";
+shapes = (
+{
+ref = hyphen_greater.liga;
+scale = (-1,1);
+}
+);
+width = 600;
+},
+{
+layerId = m01;
+shapes = (
+{
+pos = (-1,0);
+ref = hyphen_greater.liga;
+scale = (-1,1);
+}
+);
+width = 600;
+}
+);
+metricWidth = space;
+},
+{
+glyphname = less_asterisk_greater.liga;
+lastChange = "2023-12-31 16:21:48 +0000";
+layers = (
+{
+background = {
+shapes = (
+{
+pos = (-1060,0);
+ref = less;
+},
+{
+pos = (-600,0);
+ref = asterisk;
+},
+{
+pos = (-150,0);
+ref = greater;
+}
+);
+};
+layerId = "58E25AC2-F473-41C5-84EA-658E208701C1";
+shapes = (
+{
+pos = (-1060,0);
+ref = less;
+},
+{
+pos = (-600,0);
+ref = asterisk;
+},
+{
+pos = (-150,0);
+ref = greater;
+}
+);
+width = 600;
+},
+{
+layerId = m01;
+shapes = (
+{
+pos = (-1082,0);
+ref = less;
+},
+{
+pos = (-600,0);
+ref = asterisk;
+},
+{
+pos = (-180,0);
+ref = greater;
+}
+);
+width = 600;
+}
+);
+metricWidth = space;
+},
+{
+glyphname = less_dollar.liga;
+layers = (
+{
+layerId = "58E25AC2-F473-41C5-84EA-658E208701C1";
+shapes = (
+{
+ref = less;
+},
+{
+ref = dollar;
+}
+);
+width = 600;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = less;
+},
+{
+ref = dollar;
+}
+);
+width = 600;
+}
+);
+metricWidth = space;
+},
+{
+glyphname = less_dollar_greater.liga;
+lastChange = "2023-12-31 15:34:23 +0000";
+layers = (
+{
+layerId = "58E25AC2-F473-41C5-84EA-658E208701C1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(226,677,l),
+(580,334,l),
+(580,291,l),
+(290,11,l),
+(241,64,l),
+(498,313,l),
+(195,604,l),
+(-412,604,l),
+(-441,573,l),
+(-441,436,l),
+(-402,378,l),
+(-150,378,l),
+(-79,272,l),
+(-79,73,l),
+(-150,0,l,{
+name = .hr01;
+}),
+(-258,0,l),
+(-258,-145,l),
+(-341,-145,l),
+(-341,0,l),
+(-853,0,l),
+(-1180,318,l),
+(-1180,361,l),
+(-892,639,l,{
+name = .hr02;
+}),
+(-841,587,l),
+(-1098,340,l),
+(-823,72,l,{
+name = .hr03;
+}),
+(-184,72,l),
+(-160,93,l),
+(-160,264,l),
+(-190,306,l),
+(-441,306,l),
+(-522,426,l),
+(-522,593,l),
+(-441,677,l),
+(-341,677,l),
+(-341,823,l),
+(-258,823,l),
+(-258,677,l)
+);
+}
+);
+width = 600;
+},
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(237,677,l),
+(580,346,l),
+(580,286,l),
+(270,-14,l),
+(193,67,l),
+(449,316,l),
+(191,564,l),
+(-411,564,l),
+(-429,545,l),
+(-429,430,l),
+(-400,387,l),
+(-148,387,l),
+(-67,266,l),
+(-67,85,l),
+(-149,0,l,{
+name = .hr01;
+}),
+(-246,0,l),
+(-246,-167,l),
+(-369,-167,l),
+(-369,0,l),
+(-863,0,l),
+(-1180,309,l),
+(-1180,369,l),
+(-872,667,l),
+(-793,585,l),
+(-1049,339,l),
+(-816,113,l),
+(-199,113,l),
+(-188,122,l),
+(-188,245,l),
+(-208,274,l),
+(-460,274,l),
+(-550,408,l),
+(-550,581,l),
+(-458,677,l),
+(-369,677,l),
+(-369,843,l),
+(-246,843,l),
+(-246,677,l)
+);
+}
+);
+width = 600;
+}
+);
+metricWidth = space;
+},
+{
+glyphname = less_equal.liga;
+lastChange = "2023-12-31 13:42:04 +0000";
+layers = (
+{
+layerId = "58E25AC2-F473-41C5-84EA-658E208701C1";
+shapes = (
+{
+ref = equal_greater.liga;
+scale = (-1,1);
+}
+);
+width = 600;
+},
+{
+layerId = m01;
+shapes = (
+{
+ref = equal_greater.liga;
+scale = (-1,1);
+}
+);
+width = 600;
+}
+);
+metricWidth = space;
 },
 {
 glyphname = at;
@@ -21567,9 +23338,19 @@ unicode = 8597;
 },
 {
 glyphname = dottedCircle;
-lastChange = "2023-12-30 16:04:50 +0000";
+lastChange = "2023-12-31 16:32:42 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (302,-220);
+},
+{
+name = top;
+pos = (300,913);
+}
+);
 layerId = "58E25AC2-F473-41C5-84EA-658E208701C1";
 shapes = (
 {
@@ -21880,15 +23661,13 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(300,-70,l),
-(282,-70,o),
+(281,-70,o),
 (264,-68,o),
 (246,-67,c),
 (250,-32,l),
 (267,-33,o),
 (284,-35,o),
 (300,-35,c),
-(300,-64,l),
 (300,-70,l)
 );
 }
@@ -21896,6 +23675,16 @@ nodes = (
 width = 600;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (302,-220);
+},
+{
+name = top;
+pos = (300,913);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -22206,7 +23995,6 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(300,-70,l),
 (282,-70,o),
 (264,-69,o),
 (246,-67,c),
@@ -22214,7 +24002,6 @@ nodes = (
 (267,-34,o),
 (284,-35,o),
 (300,-35,c),
-(301,-64,l),
 (301,-70,l)
 );
 }
@@ -26057,6 +27844,171 @@ width = 600;
 }
 );
 metricWidth = space;
+},
+{
+glyphname = liga.spacer;
+lastChange = "2023-12-31 01:27:33 +0000";
+layers = (
+{
+layerId = "58E25AC2-F473-41C5-84EA-658E208701C1";
+width = 600;
+},
+{
+background = {
+shapes = (
+{
+ref = dotaccent;
+}
+);
+};
+layerId = m01;
+width = 600;
+}
+);
+metricWidth = space;
+},
+{
+glyphname = www.liga;
+lastChange = "2023-12-30 22:31:39 +0000";
+layers = (
+{
+layerId = "58E25AC2-F473-41C5-84EA-658E208701C1";
+shapes = (
+{
+closed = 1;
+nodes = (
+(46,154,l),
+(-103,0,l),
+(-176,0,l),
+(-235,91,l),
+(-324,0,l),
+(-395,0,l),
+(-498,152,l),
+(-646,0,l),
+(-719,0,l),
+(-779,91,l),
+(-868,0,l),
+(-938,0,l),
+(-1070,194,l),
+(-1070,468,l),
+(-989,468,l),
+(-989,204,l),
+(-901,73,l),
+(-897,73,l),
+(-828,144,l),
+(-828,468,l),
+(-748,468,l),
+(-748,173,l),
+(-679,73,l),
+(-676,73,l),
+(-576,176,l),
+(-576,468,l),
+(-496,468,l),
+(-496,277,l),
+(-358,73,l),
+(-354,73,l),
+(-285,144,l),
+(-285,468,l),
+(-205,468,l),
+(-205,173,l),
+(-136,73,l),
+(-133,73,l),
+(18,229,l),
+(18,468,l),
+(99,468,l),
+(99,204,l),
+(187,73,l),
+(191,73,l),
+(260,144,l),
+(260,468,l),
+(340,468,l),
+(340,173,l),
+(409,73,l),
+(412,73,l),
+(501,165,l),
+(501,468,l),
+(582,468,l),
+(582,144,l),
+(442,0,l),
+(370,0,l),
+(310,91,l),
+(221,0,l),
+(150,0,l)
+);
+}
+);
+width = 600;
+},
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(23,142,l),
+(-114,0,l),
+(-207,0,l),
+(-258,79,l),
+(-336,0,l),
+(-426,0,l),
+(-521,140,l),
+(-657,0,l),
+(-750,0,l),
+(-802,79,l),
+(-879,0,l),
+(-969,0,l),
+(-1110,208,l),
+(-1110,508,l),
+(-989,508,l),
+(-989,230,l),
+(-921,129,l),
+(-917,129,l),
+(-868,172,l),
+(-868,508,l),
+(-748,508,l),
+(-748,199,l),
+(-699,129,l),
+(-696,129,l),
+(-617,204,l),
+(-617,508,l),
+(-496,508,l),
+(-496,303,l),
+(-378,129,l),
+(-374,129,l),
+(-325,172,l),
+(-325,508,l),
+(-205,508,l),
+(-205,199,l),
+(-156,129,l),
+(-153,129,l),
+(-22,257,l),
+(-22,508,l),
+(99,508,l),
+(99,230,l),
+(167,129,l),
+(171,129,l),
+(220,172,l),
+(220,508,l),
+(340,508,l),
+(340,199,l),
+(389,129,l),
+(392,129,l),
+(461,193,l),
+(461,508,l),
+(582,508,l),
+(582,156,l),
+(431,0,l),
+(338,0,l),
+(287,79,l),
+(209,0,l),
+(119,0,l)
+);
+}
+);
+width = 600;
+}
+);
+metricWidth = space;
 }
 );
 instances = (
@@ -26229,7 +28181,7 @@ value = "Copyright 2023 The Kode Mono Project Authors (https://github.com/isaozl
 },
 {
 key = versionString;
-value = "Version 1.200";
+value = "Version 1.202";
 },
 {
 key = licenses;
