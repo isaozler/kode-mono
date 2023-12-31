@@ -1,5 +1,57 @@
 # Changelog
 
+**30 December 2023. Version 1.202**
+- New Glyphs
+  - Universal
+  - Integral
+  - Dotted-circle
+  - Box lines
+  - Progress bar
+  - Pi
+  - Radical
+  - Delta
+  - Mu
+  - Partialdiff
+- Updated Glyphs
+  - Percent
+  - Perthousand
+  - Paragraph
+  - Bitcoin
+  - Turkish Lira
+- Ligatures added
+  - hyphen_greater.liga
+  - period_period.liga
+  - period_period_period.liga
+  - colon_colon.liga
+  - colon_colon_colon.liga
+  - exclam_equal.liga
+  - exclam_equal_equal.liga
+  - question_period.liga
+  - asterisk_asterisk.liga
+  - asterisk_slash.liga
+  - slash_asterisk.liga
+  - slash_equal.liga
+  - slash_slash.liga
+  - backslash_backslash.liga
+  - ampersand_ampersand.liga
+  - dollar_greater.liga
+  - plus_plus.liga
+  - plus_plus_plus.liga
+  - equal_equal.liga
+  - equal_equal_equal.liga
+  - equal_greater.liga
+  - equal_greater_equal.liga
+  - equal_less_equal.liga
+  - equal_less_less.liga
+  - greater_equal.liga
+  - greater_greater_equal.liga
+  - less_hyphen.liga
+  - less_asterisk_greater.liga
+  - less_dollar.liga
+  - less_dollar_greater.liga
+  - less_equal.liga
+  - www.liga
+
 **29 December 2023. Version 1.200...1.201**
 - Recreated the typography in Glyphs.app
   - Fixed all failed checks
