@@ -1,5 +1,8 @@
 # Changelog
 
+**8 January 2023. Version 1.203**
+- The equal sign spaces were updated along with all the dependent glyphs
+
 **30 December 2023. Version 1.202**
 - New Glyphs
   - Universal
