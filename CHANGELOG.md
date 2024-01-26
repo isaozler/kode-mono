@@ -1,6 +1,11 @@
 # Changelog
 
-**8 January 2023. Version 1.203**
+**26 January 2024. Version 1.203**
+- Interpolation fixes (mentioned here https://github.com/google/fonts/pull/7136#issuecomment-1911912305)
+  - exclam_equal.liga
+  - colon_colon_colon.liga
+
+**8 January 2024. Version 1.203**
 - The equal sign spaces were updated along with all the dependent glyphs
 - Liga fixes
   - greater_equla and less_equal fixed

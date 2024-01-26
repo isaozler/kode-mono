@@ -1,6 +1,10 @@
 {
 .appVersion = "3151";
 .formatVersion = 3;
+DisplayStrings = (
+":/colon_colon_colon.liga",
+"/colon_colon.liga"
+);
 axes = (
 {
 name = Weight;
@@ -16323,21 +16327,21 @@ metricWidth = space;
 },
 {
 glyphname = colon_colon_colon.liga;
-lastChange = "2023-12-31 11:36:52 +0000";
+lastChange = "2024-01-26 13:03:03 +0000";
 layers = (
 {
 layerId = "58E25AC2-F473-41C5-84EA-658E208701C1";
 shapes = (
+{
+pos = (-230,0);
+ref = colon;
+},
 {
 pos = (-970,0);
 ref = colon;
 },
 {
 pos = (-600,0);
-ref = colon;
-},
-{
-pos = (-230,0);
 ref = colon;
 }
 );
@@ -16347,7 +16351,7 @@ width = 600;
 layerId = m01;
 shapes = (
 {
-pos = (-602,0);
+pos = (-209,0);
 ref = colon;
 },
 {
@@ -16355,7 +16359,7 @@ pos = (-989,0);
 ref = colon;
 },
 {
-pos = (-209,0);
+pos = (-602,0);
 ref = colon;
 }
 );
@@ -16366,7 +16370,7 @@ metricWidth = space;
 },
 {
 glyphname = exclam_equal.liga;
-lastChange = "2024-01-08 11:07:35 +0000";
+lastChange = "2024-01-26 13:01:02 +0000";
 layers = (
 {
 layerId = "58E25AC2-F473-41C5-84EA-658E208701C1";
@@ -16407,19 +16411,19 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(-344,447,l),
 (-344,326,l),
 (344,326,l),
-(344,447,l)
+(344,447,l),
+(-344,447,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(-344,222,l),
 (-344,101,l),
 (344,101,l),
-(344,222,l)
+(344,222,l),
+(-344,222,l)
 );
 },
 {

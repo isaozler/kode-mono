@@ -32,7 +32,7 @@ docopt==0.6.2
 drawbot-skia==0.5.0
 exceptiongroup==1.1.1
 font-v==2.1.0
-fontbakery==0.10.8
+fontbakery==0.10.9
 fontFeatures==1.7.4
 fontmake==3.5.1
 fontMath==0.9.3
