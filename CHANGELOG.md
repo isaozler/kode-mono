@@ -1,6 +1,6 @@
 # Changelog
 
-**26 January 2024. Version 1.203**
+**26 January 2024. Version 1.204**
 - Interpolation fixes (mentioned here https://github.com/google/fonts/pull/7136#issuecomment-1911912305)
   - exclam_equal.liga
   - colon_colon_colon.liga

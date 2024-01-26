@@ -28355,7 +28355,7 @@ value = "Copyright 2023 The Kode Mono Project Authors (https://github.com/isaozl
 },
 {
 key = versionString;
-value = "Version 1.203";
+value = "Version 1.204";
 },
 {
 key = licenses;
@@ -28395,5 +28395,5 @@ value = KDA;
 );
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 203;
+versionMinor = 204;
 }
