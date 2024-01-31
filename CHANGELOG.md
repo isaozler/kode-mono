@@ -1,5 +1,11 @@
 # Changelog
 
+**31 January 2024. Version 1.205**
+- PR #7136 fixes
+  - License URL
+  - lslash rotation
+  - Eogonek path direction fix
+
 **26 January 2024. Version 1.204**
 - Interpolation fixes (mentioned here https://github.com/google/fonts/pull/7136#issuecomment-1911912305)
   - exclam_equal.liga
