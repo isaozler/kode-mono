@@ -2,8 +2,7 @@
 .appVersion = "3151";
 .formatVersion = 3;
 DisplayStrings = (
-":/colon_colon_colon.liga",
-"/colon_colon.liga"
+"/zero.dnom"
 );
 axes = (
 {
@@ -1716,7 +1715,7 @@ unicode = 272;
 },
 {
 glyphname = E;
-lastChange = "2023-12-27 12:22:02 +0000";
+lastChange = "2024-01-31 16:28:21 +0000";
 layers = (
 {
 anchors = (
@@ -1738,21 +1737,21 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(48,605,l),
-(48,134,l),
-(138,0,l),
-(531,0,l),
-(531,113,l),
-(198,113,l),
-(169,157,l),
-(169,297,l),
-(400,297,l),
-(400,410,l),
-(169,410,l),
-(169,567,l),
-(187,587,l),
-(531,587,l),
 (531,700,l),
+(531,587,l),
+(187,587,l),
+(169,567,l),
+(169,410,l),
+(400,410,l),
+(400,297,l),
+(169,297,l),
+(169,157,l),
+(198,113,l),
+(531,113,l),
+(531,0,l),
+(138,0,l),
+(48,134,l),
+(48,605,l),
 (141,700,l)
 );
 }
@@ -1779,21 +1778,21 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(78,617,l),
-(78,120,l),
-(158,0,l),
-(521,0,l),
-(521,72,l),
-(197,72,l),
-(158,130,l),
-(158,337,l),
-(390,337,l),
-(390,410,l),
-(158,410,l),
-(158,595,l),
-(189,628,l),
-(521,628,l),
 (521,700,l),
+(521,628,l),
+(189,628,l),
+(158,595,l),
+(158,410,l),
+(390,410,l),
+(390,337,l),
+(158,337,l),
+(158,130,l),
+(197,72,l),
+(521,72,l),
+(521,0,l),
+(158,0,l),
+(78,120,l),
+(78,617,l),
 (159,700,l)
 );
 }
@@ -9115,7 +9114,7 @@ unicode = 316;
 {
 color = 4;
 glyphname = lslash;
-lastChange = "2023-12-29 14:43:31 +0000";
+lastChange = "2024-01-31 16:25:34 +0000";
 layers = (
 {
 layerId = "58E25AC2-F473-41C5-84EA-658E208701C1";
@@ -9124,6 +9123,8 @@ shapes = (
 ref = l;
 },
 {
+angle = -16;
+pos = (-60,127);
 ref = slashshortcomb;
 }
 );
@@ -9136,6 +9137,8 @@ shapes = (
 ref = l;
 },
 {
+angle = -16;
+pos = (-52,127);
 ref = slashshortcomb;
 }
 );
@@ -28362,13 +28365,13 @@ key = licenses;
 values = (
 {
 language = ENG;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org";
 }
 );
 },
 {
 key = licenseURL;
-value = "https://scripts.sil.org/OFL";
+value = "https://openfontlicense.org";
 },
 {
 key = trademarks;
