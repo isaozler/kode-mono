@@ -1,10 +1,18 @@
 # Changelog
 
+**1 February 2024. Version 1.206**
+- PR #7136 fixes
+  - Fixed ogonek alignments
+  - The commaaccent and hungarumlaut look a bit thin in the regular master
+  - Eight weight fix in fractions
+  - Returned comma accent weight and height fix, aligned with g glyph
+
 **31 January 2024. Version 1.205**
 - PR #7136 fixes
   - License URL
   - lslash rotation
   - Eogonek path direction fix
+  - inferior and superior numbers are updated to have 1 weight
 
 **26 January 2024. Version 1.204**
 - Interpolation fixes (mentioned here https://github.com/google/fonts/pull/7136#issuecomment-1911912305)
