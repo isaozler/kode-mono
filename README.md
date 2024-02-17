@@ -19,7 +19,7 @@ A custom-designed typeface explicitly created for the developer community.
 
 This typeface is designed to enhance the user experience and reflect our principles of functionality and timelessness.
 
-![Generated Image](documentation/image1.png)
+![Generated Image](documentation/kode-mono-google-fonts-release.webp)
 
 ## About
 
