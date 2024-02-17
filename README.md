@@ -1,4 +1,4 @@
-# The Kode Mono typeface
+# Kode Mono
 
 [![][Fontbakery]](https://isaozler.github.io/kode-mono/fontbakery/fontbakery-report.html)
 [![][Universal]](https://isaozler.github.io/kode-mono/fontbakery/fontbakery-report.html)
@@ -11,6 +11,9 @@
 [Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Fisaozler.github.io%2Fkode-mono%2Fbadges%2FOutlineCorrectnessChecks.json
 [Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fisaozler.github.io%2Fkode-mono%2Fbadges%2FShapingChecks.json
 [Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fisaozler.github.io%2Fkode-mono%2Fbadges%2FUniversal.json
+
+Available at\
+[![Google Fonts - Kode Mono](/documentation/google-fonts-logo.svg 'Download Kode Mono from Google Fonts')](https://fonts.google.com/specimen/Kode+Mono)
 
 A custom-designed typeface explicitly created for the developer community. 
 
@@ -47,19 +50,18 @@ The proof files and QA tests are also available automatically via GitHub Actions
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is available with a FAQ at
-https://scripts.sil.org/OFL
+https://openfontlicense.org/
 
 ## Repository Layout
 
 This font repository structure is inspired by [Unified Font Repository v0.3](https://github.com/unified-font-repository/Unified-Font-Repository), modified for the Google Fonts workflow.
+
+![Generated Image](documentation/wip-kode-mono.jpeg)
 
 ## Credits
 
 **Type designer**\
 Isa Ozler
 
-**Team lead**\
-Randy Daal
-
-**Thanks to**\
-Developer Experience Team
+**Special Thanks to**\
+Randy Daal, John Wiegley, Andy Tang, Ashwin van Dijk, Rosalie Wagner, Emma Marichal, Marc Foley, Viviana Monsalve, and everyone else contributed to this typeface.
