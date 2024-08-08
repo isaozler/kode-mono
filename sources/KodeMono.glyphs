@@ -14077,13 +14077,12 @@ unicode = 8539;
 },
 {
 glyphname = threeeighths;
-lastChange = "2024-02-01 10:10:02 +0000";
+lastChange = "2024-07-31 08:07:01 +0000";
 layers = (
 {
 layerId = "58E25AC2-F473-41C5-84EA-658E208701C1";
 shapes = (
 {
-alignment = -1;
 ref = fraction;
 },
 {
@@ -14091,8 +14090,9 @@ pos = (-120,59);
 ref = three.numr;
 },
 {
-pos = (80,-160);
-ref = four.dnom;
+alignment = -1;
+pos = (80,-164);
+ref = eightinferior;
 }
 );
 width = 600;
@@ -14101,7 +14101,6 @@ width = 600;
 layerId = m01;
 shapes = (
 {
-alignment = -1;
 ref = fraction;
 },
 {
@@ -14109,8 +14108,9 @@ pos = (-120,59);
 ref = three.numr;
 },
 {
-pos = (80,-160);
-ref = four.dnom;
+alignment = -1;
+pos = (80,-164);
+ref = eightinferior;
 }
 );
 width = 600;
