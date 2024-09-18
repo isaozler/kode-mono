@@ -1,5 +1,9 @@
 # Changelog
 
+**18 September 2024. Version 1.206**
+- Build config updated
+- Support for funding added
+
 **1 February 2024. Version 1.206**
 - PR #7136 fixes
   - Fixed ogonek alignments
