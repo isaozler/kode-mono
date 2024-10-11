@@ -1,6 +1,10 @@
 {
-.appVersion = "3151";
+.appVersion = "3260";
 .formatVersion = 3;
+DisplayStrings = (
+Q,
+"ø"
+);
 axes = (
 {
 name = Weight;
@@ -603,7 +607,6 @@ pos = 500;
 pos = -300;
 },
 {
-over = -16;
 }
 );
 name = Regular;
@@ -4252,7 +4255,7 @@ unicode = 222;
 },
 {
 glyphname = Q;
-lastChange = "2023-12-27 12:05:04 +0000";
+lastChange = "2024-10-11 10:11:52 +0000";
 layers = (
 {
 anchors = (
@@ -4276,8 +4279,8 @@ closed = 1;
 nodes = (
 (450,700,l),
 (541,566,l),
-(541,314,l),
-(420,188,l),
+(541,349,l),
+(420,223,l),
 (420,545,l),
 (391,587,l),
 (197,587,l),
@@ -4321,8 +4324,8 @@ closed = 1;
 nodes = (
 (439,700,l),
 (521,580,l),
-(521,187,l),
-(440,104,l),
+(521,257,l),
+(440,174,l),
 (440,571,l),
 (402,627,l),
 (189,627,l),
@@ -13856,8 +13859,9 @@ shapes = (
 ref = onefraction;
 },
 {
+alignment = -1;
 pos = (80,-160);
-ref = two.dnom;
+ref = eightinferior;
 }
 );
 width = 600;
@@ -13869,30 +13873,33 @@ shapes = (
 ref = onefraction;
 },
 {
+alignment = -1;
 pos = (80,-160);
-ref = two.dnom;
+ref = eightinferior;
 }
 );
 width = 600;
 }
 );
-metricLeft = one.numr;
-metricRight = one.numr;
+metricLeft = Auto;
+metricRight = Auto;
 unicode = 189;
 },
 {
 glyphname = uni2153;
-lastChange = "2024-02-01 10:08:34 +0000";
+lastChange = "2024-10-11 10:10:24 +0000";
 layers = (
 {
 layerId = "58E25AC2-F473-41C5-84EA-658E208701C1";
 shapes = (
 {
+alignment = -1;
 ref = onefraction;
 },
 {
+alignment = -1;
 pos = (80,-160);
-ref = three.dnom;
+ref = threeinferior;
 }
 );
 width = 600;
@@ -13901,11 +13908,13 @@ width = 600;
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = onefraction;
 },
 {
+alignment = -1;
 pos = (80,-160);
-ref = three.dnom;
+ref = threeinferior;
 }
 );
 width = 600;
@@ -13927,11 +13936,11 @@ ref = fraction;
 },
 {
 pos = (-120,59);
-ref = three.numr;
+ref = threesuperior;
 },
 {
 pos = (80,-160);
-ref = four.dnom;
+ref = fourinferior;
 }
 );
 width = 600;
@@ -13945,11 +13954,11 @@ ref = fraction;
 },
 {
 pos = (-120,59);
-ref = three.numr;
+ref = threesuperior;
 },
 {
 pos = (80,-160);
-ref = four.dnom;
+ref = fourinferior;
 }
 );
 width = 600;
@@ -13960,17 +13969,19 @@ unicode = 8532;
 },
 {
 glyphname = onequarter;
-lastChange = "2024-02-01 10:07:39 +0000";
+lastChange = "2024-10-11 10:10:24 +0000";
 layers = (
 {
 layerId = "58E25AC2-F473-41C5-84EA-658E208701C1";
 shapes = (
 {
+alignment = -1;
 ref = onefraction;
 },
 {
+alignment = -1;
 pos = (80,-160);
-ref = four.dnom;
+ref = fourinferior;
 }
 );
 width = 600;
@@ -13979,11 +13990,13 @@ width = 600;
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = onefraction;
 },
 {
+alignment = -1;
 pos = (80,-160);
-ref = four.dnom;
+ref = fourinferior;
 }
 );
 width = 600;
@@ -14005,12 +14018,12 @@ alignment = -1;
 ref = fraction;
 },
 {
-pos = (-120,59);
-ref = three.numr;
+pos = (-120,60);
+ref = threesuperior;
 },
 {
 pos = (80,-160);
-ref = four.dnom;
+ref = fourinferior;
 }
 );
 width = 600;
@@ -14023,12 +14036,12 @@ alignment = -1;
 ref = fraction;
 },
 {
-pos = (-120,59);
-ref = three.numr;
+pos = (-120,60);
+ref = threesuperior;
 },
 {
 pos = (80,-160);
-ref = four.dnom;
+ref = fourinferior;
 }
 );
 width = 600;
@@ -14050,7 +14063,7 @@ ref = onefraction;
 },
 {
 alignment = -1;
-pos = (80,-164);
+pos = (80,-160);
 ref = eightinferior;
 }
 );
@@ -14064,7 +14077,7 @@ ref = onefraction;
 },
 {
 alignment = -1;
-pos = (80,-164);
+pos = (80,-160);
 ref = eightinferior;
 }
 );
@@ -14088,11 +14101,11 @@ ref = fraction;
 },
 {
 pos = (-120,59);
-ref = three.numr;
+ref = threesuperior;
 },
 {
 pos = (80,-160);
-ref = four.dnom;
+ref = eightinferior;
 }
 );
 width = 600;
@@ -14106,11 +14119,11 @@ ref = fraction;
 },
 {
 pos = (-120,59);
-ref = three.numr;
+ref = threesuperior;
 },
 {
 pos = (80,-160);
-ref = four.dnom;
+ref = eightinferior;
 }
 );
 width = 600;
@@ -14122,21 +14135,23 @@ unicode = 8540;
 },
 {
 glyphname = fiveeighths;
-lastChange = "2024-02-01 10:08:34 +0000";
+lastChange = "2024-10-11 10:10:24 +0000";
 layers = (
 {
 layerId = "58E25AC2-F473-41C5-84EA-658E208701C1";
 shapes = (
 {
+alignment = -1;
 ref = fraction;
 },
 {
+alignment = -1;
 pos = (-120,60);
-ref = five.numr;
+ref = fivesuperior;
 },
 {
 alignment = -1;
-pos = (80,-164);
+pos = (80,-160);
 ref = eightinferior;
 }
 );
@@ -14146,15 +14161,17 @@ width = 600;
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = fraction;
 },
 {
+alignment = -1;
 pos = (-120,60);
-ref = five.numr;
+ref = fivesuperior;
 },
 {
 alignment = -1;
-pos = (80,-164);
+pos = (80,-160);
 ref = eightinferior;
 }
 );
@@ -14167,21 +14184,23 @@ unicode = 8541;
 },
 {
 glyphname = seveneighths;
-lastChange = "2024-02-01 10:08:34 +0000";
+lastChange = "2024-10-11 10:10:24 +0000";
 layers = (
 {
 layerId = "58E25AC2-F473-41C5-84EA-658E208701C1";
 shapes = (
 {
+alignment = -1;
 ref = fraction;
 },
 {
+alignment = -1;
 pos = (-120,60);
-ref = seven.numr;
+ref = sevensuperior;
 },
 {
 alignment = -1;
-pos = (80,-164);
+pos = (80,-160);
 ref = eightinferior;
 }
 );
@@ -14191,15 +14210,17 @@ width = 600;
 layerId = m01;
 shapes = (
 {
+alignment = -1;
 ref = fraction;
 },
 {
+alignment = -1;
 pos = (-120,60);
-ref = seven.numr;
+ref = sevensuperior;
 },
 {
 alignment = -1;
-pos = (80,-164);
+pos = (80,-160);
 ref = eightinferior;
 }
 );
@@ -15684,15 +15705,15 @@ unicode = 8313;
 },
 {
 glyphname = zerowidthnobreakspace;
-lastChange = "2023-12-27 17:53:15 +0000";
+lastChange = "2024-10-11 10:10:47 +0000";
 layers = (
 {
 layerId = "58E25AC2-F473-41C5-84EA-658E208701C1";
-width = 0;
+width = 600;
 },
 {
 layerId = m01;
-width = 0;
+width = 600;
 }
 );
 unicode = 65279;
@@ -28073,6 +28094,24 @@ type = "italic angle";
 );
 properties = (
 {
+key = copyrights;
+values = (
+{
+language = ENG;
+value = "Copyright 2023 The Kode Mono Project Authors (https://github.com/isaozler/kode-mono)";
+}
+);
+},
+{
+key = descriptions;
+values = (
+{
+language = ENG;
+value = "Crafted with ❤️";
+}
+);
+},
+{
 key = designers;
 values = (
 {
@@ -28084,32 +28123,6 @@ value = "Isa Ozler";
 {
 key = designerURL;
 value = "https://isaozler.com";
-},
-{
-key = manufacturers;
-values = (
-{
-language = dflt;
-value = "Kadena LLC";
-}
-);
-},
-{
-key = manufacturerURL;
-value = "https://kadena.io";
-},
-{
-key = copyrights;
-values = (
-{
-language = ENG;
-value = "Copyright 2023 The Kode Mono Project Authors (https://github.com/isaozler/kode-mono)";
-}
-);
-},
-{
-key = versionString;
-value = "Version 1.206";
 },
 {
 key = licenses;
@@ -28125,6 +28138,19 @@ key = licenseURL;
 value = "https://openfontlicense.org";
 },
 {
+key = manufacturers;
+values = (
+{
+language = dflt;
+value = "Kadena LLC";
+}
+);
+},
+{
+key = manufacturerURL;
+value = "https://kadena.io";
+},
+{
 key = trademarks;
 values = (
 {
@@ -28134,17 +28160,12 @@ value = "Kode Mono is a trademark of Kadena LLC";
 );
 },
 {
-key = descriptions;
-values = (
-{
-language = ENG;
-value = "Crafted with ❤️";
-}
-);
-},
-{
 key = vendorID;
 value = KDA;
+},
+{
+key = versionString;
+value = "Version 1.206";
 }
 );
 unitsPerEm = 1000;
