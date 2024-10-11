@@ -10,48 +10,8 @@ fontbakery version: 0.12.10
 
 
 
-<details><summary>[10] KodeMono[wght].ttf</summary>
+<details><summary>[9] KodeMono[wght].ttf</summary>
 <div>
-<details>
-    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The following glyphs could not be attached to the dotted circle glyph:</p>
-<pre><code>- dotbelowcomb
-
-- uni0324
-
-- uni0325
-
-- uni0326
-
-- uni032D
-
-- uni032E
-
-- uni0331
-
-- uni0335
-
-- uni0336
-
-- uni0337
-
-- uni0338
-</code></pre>
- [code: unattached-dotted-circle-marks]
-
-
-
-</div>
-</details>
-
 <details>
     <summary>⚠️ <b>WARN</b> Checking correctness of monospaced metadata. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.name.html#"></a></summary>
     <div>
@@ -62,7 +22,7 @@ fontbakery version: 0.12.10
 
 
 
-* ⚠️ **WARN** <p>The OpenType spec recommends at <a href="https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table">https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table</a> that hhea.numberOfHMetrics be set to 3 but this font has 465 instead.
+* ⚠️ **WARN** <p>The OpenType spec recommends at <a href="https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table">https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table</a> that hhea.numberOfHMetrics be set to 3 but this font has 467 instead.
 Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https://github.com/fonttools/fonttools/issues/3014</a> to decide whether this makes sense for your font.</p>
  [code: bad-numberOfHMetrics]
 
@@ -127,76 +87,75 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal</li>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, coptic, math</li>
-<li>U+0305 COMBINING OVERLINE: try adding one of: coptic, gothic, elbasan, math, glagolitic</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, cherokee, tifinagh</li>
+<li>U+0305 COMBINING OVERLINE: try adding one of: glagolitic, gothic, elbasan, coptic, math</li>
 <li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: coptic, malayalam, tifinagh, syriac, tai-le, old-permic, math, canadian-aboriginal</li>
-<li>U+030A COMBINING RING ABOVE: try adding syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, duployan, canadian-aboriginal, old-permic, todhri, malayalam, syriac, coptic, tai-le, hebrew, math</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
-<li>U+030D COMBINING VERTICAL LINE ABOVE: not included in any glyphset definition</li>
-<li>U+030E COMBINING DOUBLE VERTICAL LINE ABOVE: not included in any glyphset definition</li>
-<li>U+0310 COMBINING CANDRABINDU: not included in any glyphset definition</li>
-<li>U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition</li>
-<li>U+0313 COMBINING COMMA ABOVE: try adding old-permic</li>
+<li>U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar</li>
+<li>U+030E COMBINING DOUBLE VERTICAL LINE ABOVE: try adding ethiopic</li>
+<li>U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar</li>
+<li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
+<li>U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic</li>
 <li>U+0314 COMBINING REVERSED COMMA ABOVE: not included in any glyphset definition</li>
 <li>U+0316 COMBINING GRAVE ACCENT BELOW: not included in any glyphset definition</li>
 <li>U+0317 COMBINING ACUTE ACCENT BELOW: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: cherokee, syriac</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: duployan, syriac, cherokee</li>
 <li>U+0325 COMBINING RING BELOW: try adding syriac</li>
-<li>U+0326 COMBINING COMMA BELOW: not included in any glyphset definition</li>
-<li>U+0327 COMBINING CEDILLA: not included in any glyphset definition</li>
+<li>U+0326 COMBINING COMMA BELOW: try adding math</li>
+<li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
-<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding syriac</li>
+<li>U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, gothic, tifinagh, caucasian-albanian, syriac</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, sunuwar, tifinagh, gothic, thai, syriac, caucasian-albanian</li>
 <li>U+0335 COMBINING SHORT STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0336 COMBINING LONG STROKE OVERLAY: not included in any glyphset definition</li>
 <li>U+0337 COMBINING SHORT SOLIDUS OVERLAY: not included in any glyphset definition</li>
-<li>U+0338 COMBINING LONG SOLIDUS OVERLAY: not included in any glyphset definition</li>
-<li>U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: greek, elbasan, math</li>
-<li>U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, greek, math</li>
-<li>U+2017 DOUBLE LOW LINE: not included in any glyphset definition</li>
+<li>U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math</li>
+<li>U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: math, elbasan, greek</li>
+<li>U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, greek, yi</li>
+<li>U+2017 DOUBLE LOW LINE: try adding math</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+203E OVERLINE: not included in any glyphset definition</li>
-<li>U+2070 SUPERSCRIPT ZERO: not included in any glyphset definition</li>
-<li>U+2075 SUPERSCRIPT FIVE: not included in any glyphset definition</li>
-<li>U+2076 SUPERSCRIPT SIX: not included in any glyphset definition</li>
-<li>U+2077 SUPERSCRIPT SEVEN: not included in any glyphset definition</li>
-<li>U+2078 SUPERSCRIPT EIGHT: not included in any glyphset definition</li>
-<li>U+2079 SUPERSCRIPT NINE: not included in any glyphset definition</li>
-<li>U+2080 SUBSCRIPT ZERO: not included in any glyphset definition</li>
-<li>U+2081 SUBSCRIPT ONE: not included in any glyphset definition</li>
-<li>U+2082 SUBSCRIPT TWO: not included in any glyphset definition</li>
-<li>U+2083 SUBSCRIPT THREE: not included in any glyphset definition</li>
-<li>U+2084 SUBSCRIPT FOUR: not included in any glyphset definition</li>
-<li>U+2085 SUBSCRIPT FIVE: not included in any glyphset definition</li>
-<li>U+2086 SUBSCRIPT SIX: not included in any glyphset definition</li>
-<li>U+2087 SUBSCRIPT SEVEN: not included in any glyphset definition</li>
-<li>U+2088 SUBSCRIPT EIGHT: not included in any glyphset definition</li>
-<li>U+2089 SUBSCRIPT NINE: not included in any glyphset definition</li>
-<li>U+2153 VULGAR FRACTION ONE THIRD: not included in any glyphset definition</li>
-<li>U+2154 VULGAR FRACTION TWO THIRDS: not included in any glyphset definition</li>
-<li>U+215B VULGAR FRACTION ONE EIGHTH: not included in any glyphset definition</li>
-<li>U+215C VULGAR FRACTION THREE EIGHTHS: not included in any glyphset definition</li>
-<li>U+215D VULGAR FRACTION FIVE EIGHTHS: not included in any glyphset definition</li>
-<li>U+215E VULGAR FRACTION SEVEN EIGHTHS: not included in any glyphset definition</li>
-<li>U+215F FRACTION NUMERATOR ONE: not included in any glyphset definition</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2070 SUPERSCRIPT ZERO: try adding math</li>
+<li>U+2074 SUPERSCRIPT FOUR: try adding math</li>
+<li>U+2075 SUPERSCRIPT FIVE: try adding math</li>
+<li>U+2076 SUPERSCRIPT SIX: try adding math</li>
+<li>U+2077 SUPERSCRIPT SEVEN: try adding math</li>
+<li>U+2078 SUPERSCRIPT EIGHT: try adding math</li>
+<li>U+2079 SUPERSCRIPT NINE: try adding math</li>
+<li>U+2080 SUBSCRIPT ZERO: try adding math</li>
+<li>U+2081 SUBSCRIPT ONE: try adding math</li>
+<li>U+2082 SUBSCRIPT TWO: try adding math</li>
+<li>U+2083 SUBSCRIPT THREE: try adding math</li>
+<li>U+2084 SUBSCRIPT FOUR: try adding math</li>
+<li>U+2085 SUBSCRIPT FIVE: try adding math</li>
+<li>U+2086 SUBSCRIPT SIX: try adding math</li>
+<li>U+2087 SUBSCRIPT SEVEN: try adding math</li>
+<li>U+2088 SUBSCRIPT EIGHT: try adding math</li>
+<li>U+2089 SUBSCRIPT NINE: try adding math</li>
+<li>U+2153 VULGAR FRACTION ONE THIRD: try adding symbols</li>
+<li>U+2154 VULGAR FRACTION TWO THIRDS: try adding symbols</li>
+<li>U+215B VULGAR FRACTION ONE EIGHTH: try adding symbols</li>
+<li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
+<li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
+<li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
+<li>U+215F FRACTION NUMERATOR ONE: try adding symbols</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
 <li>U+2200 FOR ALL: try adding math</li>
 <li>U+2202 PARTIAL DIFFERENTIAL: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
@@ -209,19 +168,19 @@ definitions.</p>
 <li>U+2264 LESS-THAN OR EQUAL TO: try adding math</li>
 <li>U+2265 GREATER-THAN OR EQUAL TO: try adding math</li>
 <li>U+24C0 CIRCLED LATIN CAPITAL LETTER K: try adding symbols</li>
-<li>U+2500 BOX DRAWINGS LIGHT HORIZONTAL: not included in any glyphset definition</li>
-<li>U+2502 BOX DRAWINGS LIGHT VERTICAL: not included in any glyphset definition</li>
-<li>U+250C BOX DRAWINGS LIGHT DOWN AND RIGHT: not included in any glyphset definition</li>
-<li>U+2510 BOX DRAWINGS LIGHT DOWN AND LEFT: not included in any glyphset definition</li>
-<li>U+2514 BOX DRAWINGS LIGHT UP AND RIGHT: not included in any glyphset definition</li>
-<li>U+2518 BOX DRAWINGS LIGHT UP AND LEFT: not included in any glyphset definition</li>
-<li>U+251C BOX DRAWINGS LIGHT VERTICAL AND RIGHT: not included in any glyphset definition</li>
-<li>U+2524 BOX DRAWINGS LIGHT VERTICAL AND LEFT: not included in any glyphset definition</li>
-<li>U+252C BOX DRAWINGS LIGHT DOWN AND HORIZONTAL: not included in any glyphset definition</li>
-<li>U+2534 BOX DRAWINGS LIGHT UP AND HORIZONTAL: not included in any glyphset definition</li>
-<li>U+253C BOX DRAWINGS LIGHT VERTICAL AND HORIZONTAL: not included in any glyphset definition</li>
-<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: saurashtra, bengali, marchen, kannada, tibetan, gujarati, kaithi, osage, syloti-nagri, lepcha, pahawh-hmong, hebrew, malayalam, hanunoo, armenian, symbols, rejang, dogra, nko, mongolian, hanifi-rohingya, javanese, tai-viet, duployan, soyombo, sogdian, thai, new-tai-lue, coptic, oriya, warang-citi, yi, khojki, siddham, khudawadi, batak, masaram-gondi, balinese, mandaic, myanmar, devanagari, takri, wancho, lao, bassa-vah, gunjala-gondi, miao, syriac, canadian-aboriginal, tifinagh, mende-kikakui, gurmukhi, caucasian-albanian, math, manichaean, limbu, mahajani, grantha, modi, old-permic, music, psalter-pahlavi, elbasan, tirhuta, telugu, tagalog, bhaiksuki, tai-le, khmer, phags-pa, buhid, adlam, meetei-mayek, sharada, thaana, tai-tham, brahmi, sinhala, tagbanwa, tamil, kharoshthi, cham, chakma, zanabazar-square, sundanese, ahom, newa, kayah-li, buginese</li>
+<li>U+2500 BOX DRAWINGS LIGHT HORIZONTAL: try adding symbols2</li>
+<li>U+2502 BOX DRAWINGS LIGHT VERTICAL: try adding symbols2</li>
+<li>U+250C BOX DRAWINGS LIGHT DOWN AND RIGHT: try adding symbols2</li>
+<li>U+2510 BOX DRAWINGS LIGHT DOWN AND LEFT: try adding symbols2</li>
+<li>U+2514 BOX DRAWINGS LIGHT UP AND RIGHT: try adding symbols2</li>
+<li>U+2518 BOX DRAWINGS LIGHT UP AND LEFT: try adding symbols2</li>
+<li>U+251C BOX DRAWINGS LIGHT VERTICAL AND RIGHT: try adding symbols2</li>
+<li>U+2524 BOX DRAWINGS LIGHT VERTICAL AND LEFT: try adding symbols2</li>
+<li>U+252C BOX DRAWINGS LIGHT DOWN AND HORIZONTAL: try adding symbols2</li>
+<li>U+2534 BOX DRAWINGS LIGHT UP AND HORIZONTAL: try adding symbols2</li>
+<li>U+253C BOX DRAWINGS LIGHT VERTICAL AND HORIZONTAL: try adding symbols2</li>
+<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: old-permic, brahmi, new-tai-lue, grantha, mende-kikakui, buginese, music, kannada, hebrew, javanese, hanunoo, gurmukhi, tamil, soyombo, newa, chakma, mandaic, kharoshthi, tifinagh, tai-tham, mongolian, balinese, warang-citi, tibetan, masaram-gondi, hanifi-rohingya, bhaiksuki, lao, mahajani, osage, modi, caucasian-albanian, math, phags-pa, nko, symbols, tai-viet, marchen, wancho, rejang, sogdian, elbasan, lepcha, tagalog, thai, syriac, psalter-pahlavi, sharada, kayah-li, duployan, bassa-vah, oriya, dogra, devanagari, syloti-nagri, kaithi, coptic, tai-le, miao, batak, armenian, siddham, telugu, zanabazar-square, canadian-aboriginal, meetei-mayek, thaana, saurashtra, sundanese, limbu, cham, gunjala-gondi, sinhala, khudawadi, manichaean, yi, khojki, tagbanwa, bengali, adlam, ahom, myanmar, takri, gujarati, malayalam, pahawh-hmong, buhid, tirhuta, khmer</li>
 <li>U+EE00 : not included in any glyphset definition</li>
 <li>U+EE01 : not included in any glyphset definition</li>
 <li>U+EE02 : not included in any glyphset definition</li>
@@ -849,15 +808,27 @@ definitions.</p>
 
 * numbersign (U+0023) has a counter-clockwise outer contour
 
+* o (U+006F) has a counter-clockwise outer contour
+
+* oacute (U+00F3) has a counter-clockwise outer contour
+
 * oacute (U+00F3) has a counter-clockwise outer contour
 
 * ocircumflex (U+00F4) has a counter-clockwise outer contour
+
+* ocircumflex (U+00F4) has a counter-clockwise outer contour
+
+* odieresis (U+00F6) has a counter-clockwise outer contour
 
 * oe (U+0153) has a counter-clockwise outer contour
 
 * ogonek (U+02DB) has a counter-clockwise outer contour
 
 * ograve (U+00F2) has a counter-clockwise outer contour
+
+* ograve (U+00F2) has a counter-clockwise outer contour
+
+* ohungarumlaut (U+0151) has a counter-clockwise outer contour
 
 * ohungarumlaut (U+0151) has a counter-clockwise outer contour
 
@@ -888,6 +859,14 @@ definitions.</p>
 * onequarter (U+00BC) has a counter-clockwise outer contour
 
 * ordfeminine (U+00AA) has a counter-clockwise outer contour
+
+* ordmasculine (U+00BA) has a counter-clockwise outer contour
+
+* oslash (U+00F8) has a counter-clockwise outer contour
+
+* oslash (U+00F8) has a counter-clockwise outer contour
+
+* otilde (U+00F5) has a counter-clockwise outer contour
 
 * otilde (U+00F5) has a counter-clockwise outer contour
 
@@ -1396,7 +1375,7 @@ definitions.</p>
 
 
 
-* ⚠️ **WARN** <p>OS/2 VendorID value 'KDA ' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at <a href="https://www.microsoft.com/typography/links/vendorlist.aspx">https://www.microsoft.com/typography/links/vendorlist.aspx</a></p>
+* ⚠️ **WARN** <p>OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at <a href="https://www.microsoft.com/typography/links/vendorlist.aspx">https://www.microsoft.com/typography/links/vendorlist.aspx</a></p>
  [code: unknown]
 
 
@@ -1413,8 +1392,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 1 | 9 | 97 | 8 | 136 | 0 | 
-| 0% | 0% | 0% | 4% | 39% | 3% | 54% | 0% | 
+| 0 | 0 | 0 | 9 | 97 | 8 | 137 | 0 | 
+| 0% | 0% | 0% | 4% | 39% | 3% | 55% | 0% | 
 
 
 
