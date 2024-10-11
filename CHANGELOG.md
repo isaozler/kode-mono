@@ -1,5 +1,10 @@
 # Changelog
 
+**11 October 2024. Version 1.207**
+- Denominators fixed thanks to https://github.com/djpohly for noticing and his PR https://github.com/isaozler/kode-mono/pull/48
+- Added minute and minutes glyphs
+- Dottercircle glyph anchors updated
+
 **18 September 2024. Version 1.206**
 - Build config updated
 - Support for funding added

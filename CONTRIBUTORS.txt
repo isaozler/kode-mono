@@ -1,3 +1,2 @@
 # This is the list of people who have contributed to this project
 
-Kadena LLC <info@kadena.io>
