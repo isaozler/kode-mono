@@ -1,0 +1,209 @@
+# buildVariable: Build a variable font from a source file
+rule buildVariable
+  command = $
+      /Users/isaozler/Desktop/__WORKSPACE__/Kadena/assets/Typefaces/Kode/venv/bin/python3 $
+      -m gftools.builder.jobrunner fontmake --output-path $out -o variable $
+      $fontmake_type $in $args $stamp
+  description = buildVariable
+
+# fix: Run gftools-fix
+rule fix
+  command = $
+      /Users/isaozler/Desktop/__WORKSPACE__/Kadena/assets/Typefaces/Kode/venv/bin/python3 $
+      -m gftools.builder.jobrunner gftools-fix-font -o $out $args $in $stamp
+  description = fix
+
+# buildStat: Build a STAT table from one or more source files
+rule buildSTAT-operation
+  command = gftools-gen-stat --out $tempdir $args -- $in && mv $finalfile $
+      $out $stamp
+rule buildSTAT-postprocess
+  command = gftools-gen-stat --inplace $args -- $in $stamp
+
+# compress: Compress to webfont
+rule compress
+  command = $
+      /Users/isaozler/Desktop/__WORKSPACE__/Kadena/assets/Typefaces/Kode/venv/bin/python3 $
+      -m gftools.builder.jobrunner fonttools ttLib.woff2 compress -o $out $
+      $in $stamp
+  description = compress
+
+# instantiateUfo: Create instance UFOs from a Glyphs or designspace file
+rule instantiateUfo
+  command = $
+      /Users/isaozler/Desktop/__WORKSPACE__/Kadena/assets/Typefaces/Kode/venv/bin/python3 $
+      -m gftools.builder.jobrunner fontmake -i "$instance_name" -o ufo $
+      $fontmake_type $in $args $stamp
+  description = instantiateUfo
+
+# buildTTF: Build a TTF from a source file
+rule buildTTF
+  command = $
+      /Users/isaozler/Desktop/__WORKSPACE__/Kadena/assets/Typefaces/Kode/venv/bin/python3 $
+      -m gftools.builder.jobrunner fontmake --output-path $out -o ttf $
+      $fontmake_type $in $args $stamp
+  description = buildTTF
+
+# autohint: Run gftools-autohint
+rule autohint
+  command = $
+      /Users/isaozler/Desktop/__WORKSPACE__/Kadena/assets/Typefaces/Kode/venv/bin/python3 $
+      -m gftools.builder.jobrunner gftools-autohint $args -o $out $in $stamp
+  description = autohint
+
+# copy: Copy a file
+rule copy
+  command = $
+      /Users/isaozler/Desktop/__WORKSPACE__/Kadena/assets/Typefaces/Kode/venv/bin/python3 $
+      -m gftools.builder.jobrunner cp $in $out $stamp
+  description = copy
+
+# Generating /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpfw0qltv4
+build /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpfw0qltv4: $
+    buildVariable ./KodeMono.glyphs
+  operation = buildVariable
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+# Generating instance_ufos/KodeMono-Regular.ufo.json
+build instance_ufos/KodeMono-Regular.ufo.json: instantiateUfo $
+    ./KodeMono.glyphs
+  operation = instantiateUfo
+  instance_name = Kode Mono Regular
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/KodeMono-Medium.ufo.json
+build instance_ufos/KodeMono-Medium.ufo.json: instantiateUfo ./KodeMono.glyphs
+  operation = instantiateUfo
+  instance_name = Kode Mono Medium
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/KodeMono-SemiBold.ufo.json
+build instance_ufos/KodeMono-SemiBold.ufo.json: instantiateUfo $
+    ./KodeMono.glyphs
+  operation = instantiateUfo
+  instance_name = Kode Mono SemiBold
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Generating instance_ufos/KodeMono-Bold.ufo.json
+build instance_ufos/KodeMono-Bold.ufo.json: instantiateUfo ./KodeMono.glyphs
+  operation = instantiateUfo
+  instance_name = Kode Mono Bold
+  fontmake_type = -g
+  fontmake_args =  --verbose WARNING 
+  args =  --ufo-structure=json --instance-dir instance_ufos
+# Postprocessing  with BuildSTAT
+build $
+    /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpvkg8ut5k.buildStatstamp: $
+    buildSTAT-postprocess ../fonts/variable/KodeMono[wght].ttf
+  stamp =  && touch $
+      /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpvkg8ut5k.buildStatstamp
+  postprocess = buildStat
+# Generating ../fonts/webfonts/KodeMono[wght].woff2
+build ../fonts/webfonts/KodeMono[wght].woff2: compress $
+    ../fonts/variable/KodeMono[wght].ttf
+  operation = compress
+# Generating ../fonts/webfonts/KodeMono-Regular.woff2
+build ../fonts/webfonts/KodeMono-Regular.woff2: compress $
+    ../fonts/ttf/KodeMono-Regular.ttf
+  operation = compress
+# Generating ../fonts/webfonts/KodeMono-Medium.woff2
+build ../fonts/webfonts/KodeMono-Medium.woff2: compress $
+    ../fonts/ttf/KodeMono-Medium.ttf
+  operation = compress
+# Generating ../fonts/webfonts/KodeMono-SemiBold.woff2
+build ../fonts/webfonts/KodeMono-SemiBold.woff2: compress $
+    ../fonts/ttf/KodeMono-SemiBold.ttf
+  operation = compress
+# Generating ../fonts/webfonts/KodeMono-Bold.woff2
+build ../fonts/webfonts/KodeMono-Bold.woff2: compress $
+    ../fonts/ttf/KodeMono-Bold.ttf
+  operation = compress
+# Generating ../fonts/variable/KodeMono[wght].ttf
+build ../fonts/variable/KodeMono[wght].ttf: fix $
+    /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpfw0qltv4
+  operation = fix
+  args = 
+# Generating /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpzvkvl7gg
+build /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpzvkvl7gg: $
+    buildTTF instance_ufos/KodeMono-Regular.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmppr8ywqs3
+build /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmppr8ywqs3: $
+    autohint /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpzvkvl7gg
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/ttf/KodeMono-Regular.ttf
+build ../fonts/ttf/KodeMono-Regular.ttf: fix $
+    /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmppr8ywqs3
+  operation = fix
+  args = 
+# Generating /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpje2ikqre
+build /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpje2ikqre: $
+    buildTTF instance_ufos/KodeMono-Medium.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmp1gkllvrl
+build /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmp1gkllvrl: $
+    autohint /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpje2ikqre
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/ttf/KodeMono-Medium.ttf
+build ../fonts/ttf/KodeMono-Medium.ttf: fix $
+    /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmp1gkllvrl
+  operation = fix
+  args = 
+# Generating /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmp6isrcepo
+build /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmp6isrcepo: $
+    buildTTF instance_ufos/KodeMono-SemiBold.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpv4s_5d9d
+build /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpv4s_5d9d: $
+    autohint /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmp6isrcepo
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/ttf/KodeMono-SemiBold.ttf
+build ../fonts/ttf/KodeMono-SemiBold.ttf: fix $
+    /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpv4s_5d9d
+  operation = fix
+  args = 
+# Generating /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpbj4at42z
+build /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpbj4at42z: $
+    buildTTF instance_ufos/KodeMono-Bold.ufo.json
+  operation = buildTTF
+  args = --filter ...  --filter FlattenComponentsFilter --filter $
+      DecomposeTransformedComponentsFilter
+  fontmake_type = -u
+  fontmake_args =  --verbose WARNING 
+# Generating /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmp2g_oojej
+build /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmp2g_oojej: $
+    autohint /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpbj4at42z
+  operation = autohint
+  args = --fail-ok 
+# Generating ../fonts/ttf/KodeMono-Bold.ttf
+build ../fonts/ttf/KodeMono-Bold.ttf: fix $
+    /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmp2g_oojej
+  operation = fix
+  args = 
+default $
+    /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpvkg8ut5k.buildStatstamp $
+    ../fonts/webfonts/KodeMono[wght].woff2 $
+    ../fonts/webfonts/KodeMono-Regular.woff2 $
+    ../fonts/webfonts/KodeMono-Medium.woff2 $
+    ../fonts/webfonts/KodeMono-SemiBold.woff2 $
+    ../fonts/webfonts/KodeMono-Bold.woff2
