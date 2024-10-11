@@ -58,8 +58,8 @@ rule copy
       -m gftools.builder.jobrunner cp $in $out $stamp
   description = copy
 
-# Generating /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpfw0qltv4
-build /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpfw0qltv4: $
+# Generating /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpai_053cc
+build /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpai_053cc: $
     buildVariable ./KodeMono.glyphs
   operation = buildVariable
   args = --filter ...  --filter FlattenComponentsFilter --filter $
@@ -98,10 +98,10 @@ build instance_ufos/KodeMono-Bold.ufo.json: instantiateUfo ./KodeMono.glyphs
   args =  --ufo-structure=json --instance-dir instance_ufos
 # Postprocessing  with BuildSTAT
 build $
-    /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpvkg8ut5k.buildStatstamp: $
+    /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmphbtaxsve.buildStatstamp: $
     buildSTAT-postprocess ../fonts/variable/KodeMono[wght].ttf
   stamp =  && touch $
-      /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpvkg8ut5k.buildStatstamp
+      /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmphbtaxsve.buildStatstamp
   postprocess = buildStat
 # Generating ../fonts/webfonts/KodeMono[wght].woff2
 build ../fonts/webfonts/KodeMono[wght].woff2: compress $
@@ -125,83 +125,83 @@ build ../fonts/webfonts/KodeMono-Bold.woff2: compress $
   operation = compress
 # Generating ../fonts/variable/KodeMono[wght].ttf
 build ../fonts/variable/KodeMono[wght].ttf: fix $
-    /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpfw0qltv4
+    /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpai_053cc
   operation = fix
   args = 
-# Generating /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpzvkvl7gg
-build /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpzvkvl7gg: $
+# Generating /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpkvc6c5q7
+build /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpkvc6c5q7: $
     buildTTF instance_ufos/KodeMono-Regular.ufo.json
   operation = buildTTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmppr8ywqs3
-build /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmppr8ywqs3: $
-    autohint /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpzvkvl7gg
+# Generating /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpv5jlpdm9
+build /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpv5jlpdm9: $
+    autohint /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpkvc6c5q7
   operation = autohint
   args = --fail-ok 
 # Generating ../fonts/ttf/KodeMono-Regular.ttf
 build ../fonts/ttf/KodeMono-Regular.ttf: fix $
-    /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmppr8ywqs3
+    /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpv5jlpdm9
   operation = fix
   args = 
-# Generating /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpje2ikqre
-build /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpje2ikqre: $
+# Generating /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpor16rtth
+build /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpor16rtth: $
     buildTTF instance_ufos/KodeMono-Medium.ufo.json
   operation = buildTTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmp1gkllvrl
-build /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmp1gkllvrl: $
-    autohint /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpje2ikqre
+# Generating /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpcqmpqb1y
+build /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpcqmpqb1y: $
+    autohint /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpor16rtth
   operation = autohint
   args = --fail-ok 
 # Generating ../fonts/ttf/KodeMono-Medium.ttf
 build ../fonts/ttf/KodeMono-Medium.ttf: fix $
-    /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmp1gkllvrl
+    /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpcqmpqb1y
   operation = fix
   args = 
-# Generating /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmp6isrcepo
-build /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmp6isrcepo: $
+# Generating /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmptqfp9lml
+build /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmptqfp9lml: $
     buildTTF instance_ufos/KodeMono-SemiBold.ufo.json
   operation = buildTTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpv4s_5d9d
-build /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpv4s_5d9d: $
-    autohint /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmp6isrcepo
+# Generating /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpfzs4d4ng
+build /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpfzs4d4ng: $
+    autohint /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmptqfp9lml
   operation = autohint
   args = --fail-ok 
 # Generating ../fonts/ttf/KodeMono-SemiBold.ttf
 build ../fonts/ttf/KodeMono-SemiBold.ttf: fix $
-    /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpv4s_5d9d
+    /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpfzs4d4ng
   operation = fix
   args = 
-# Generating /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpbj4at42z
-build /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpbj4at42z: $
+# Generating /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpktx_20re
+build /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpktx_20re: $
     buildTTF instance_ufos/KodeMono-Bold.ufo.json
   operation = buildTTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmp2g_oojej
-build /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmp2g_oojej: $
-    autohint /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpbj4at42z
+# Generating /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpavclxy10
+build /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpavclxy10: $
+    autohint /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpktx_20re
   operation = autohint
   args = --fail-ok 
 # Generating ../fonts/ttf/KodeMono-Bold.ttf
 build ../fonts/ttf/KodeMono-Bold.ttf: fix $
-    /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmp2g_oojej
+    /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpavclxy10
   operation = fix
   args = 
 default $
-    /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmpvkg8ut5k.buildStatstamp $
+    /var/folders/cf/j7rdq36d2mb6dpm37ppz50840000gn/T/tmphbtaxsve.buildStatstamp $
     ../fonts/webfonts/KodeMono[wght].woff2 $
     ../fonts/webfonts/KodeMono-Regular.woff2 $
     ../fonts/webfonts/KodeMono-Medium.woff2 $
