@@ -3,6 +3,8 @@ sources:
     - ./KodeMono.glyphs
 axisOrder:
     - wght
+    - wdth
+    - ROND
 familyName: "Kode Mono"
 buildOTF: false
 googleFonts: true
