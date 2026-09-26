@@ -1,5 +1,11 @@
 # Changelog
 
+**26 September 2026. Version 2.001**
+- Fixed the denominator of ½ (onehalf used eightinferior instead of twoinferior) (#54)
+- `>=` and `<=` ligatures now render as ≥ and ≤; the previous shapes are available as stylistic set `ss02` "Classic >= and <= ligatures" (#55)
+- Added Powerline glyphs: branch (U+E0A0), line number (U+E0A1), padlock (U+E0A2) and the solid/thin separators (U+E0B0–U+E0B3), sized to the full line height so they join seamlessly in terminals (#56)
+- Roundness axis: smoother corners where short segments meet (junctions, small chamfers and steps, e.g. K and M)
+
 **26 September 2026. Version 2.000**
 - Added a Width (`wdth`) axis, 75–125 (default 100), with Condensed (75), SemiCondensed (87.5), SemiExpanded (112.5) and Expanded (125) instances for every weight
 - New Condensed and Expanded masters with stem-compensated horizontal scaling of Regular/Bold

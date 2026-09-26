@@ -43,6 +43,14 @@ Kode Mono comes with a set of ligatures. Supporting a wide range of language-spe
 
 Alternates for **D**, **Q** and **8** (plus Ď, Đ, Ð) that are easier to tell apart from O, 0 and B, for identity documents (visual inspection zone), scanned text and OCR.
 
+### Stylistic set 2 (`ss02`)
+
+The previous `>=` and `<=` ligature shapes. By default these ligatures render as ≥ and ≤.
+
+### Powerline
+
+Includes the Powerline glyphs (U+E0A0–U+E0A2, U+E0B0–U+E0B3) for terminal prompts and status lines.
+
 ## Building
 
 Fonts are built automatically by GitHub Actions - take a look in the "Actions" tab for the latest build.
