@@ -1,12 +1,12 @@
 # Kode Mono
 
-[![][Fontbakery]](https://isaozler.github.io/kode-mono/fontbakery/fontbakery-report.html)
-[![][Universal]](https://isaozler.github.io/kode-mono/fontbakery/fontbakery-report.html)
-[![][GF Profile]](https://isaozler.github.io/kode-mono/fontbakery/fontbakery-report.html)
-[![][Outline Correctness]](https://isaozler.github.io/kode-mono/fontbakery/fontbakery-report.html)
-[![][Shaping]](https://isaozler.github.io/kode-mono/fontbakery/fontbakery-report.html)
+[![][Fontspector]](https://isaozler.github.io/kode-mono/fontspector/fontspector-report.html)
+[![][Universal]](https://isaozler.github.io/kode-mono/fontspector/fontspector-report.html)
+[![][GF Profile]](https://isaozler.github.io/kode-mono/fontspector/fontspector-report.html)
+[![][Outline Correctness]](https://isaozler.github.io/kode-mono/fontspector/fontspector-report.html)
+[![][Shaping]](https://isaozler.github.io/kode-mono/fontspector/fontspector-report.html)
 
-[Fontbakery]: https://img.shields.io/endpoint?url=https%3A%2F%2Fisaozler.github.io%2Fkode-mono%2Fbadges%2Foverall.json
+[Fontspector]: https://img.shields.io/endpoint?url=https%3A%2F%2Fisaozler.github.io%2Fkode-mono%2Fbadges%2Foverall.json
 [GF Profile]: https://img.shields.io/endpoint?url=https%3A%2F%2Fisaozler.github.io%2Fkode-mono%2Fbadges%2FGoogleFonts.json
 [Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Fisaozler.github.io%2Fkode-mono%2Fbadges%2FOutlineCorrectnessChecks.json
 [Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fisaozler.github.io%2Fkode-mono%2Fbadges%2FShapingChecks.json
@@ -31,6 +31,18 @@ As a developer-focused platform, we are dedicated to providing a secure, scalabl
 
 Kode Mono comes with a set of ligatures. Supporting a wide range of language-specific ligatures including our smart-contract language Pact, Javascript, Haskell, Rust and many more to come.
 
+### Variable axes
+
+| Axis | Tag | Range | Default |
+|---|---|---|---|
+| Weight | `wght` | 400 – 700 | 400 |
+| Width | `wdth` | 75 (Condensed) – 125 (Expanded) | 100 |
+| Roundness | `ROND` | 0 (sharp) – 100 (rounded) | 0 |
+
+### Stylistic set 1 (`ss01`)
+
+Alternates for **D**, **Q** and **8** (plus Ď, Đ, Ð) that are easier to tell apart from O, 0 and B, for identity documents (visual inspection zone), scanned text and OCR.
+
 ## Building
 
 Fonts are built automatically by GitHub Actions - take a look in the "Actions" tab for the latest build.
@@ -38,8 +50,8 @@ Fonts are built automatically by GitHub Actions - take a look in the "Actions" t
 If you want to build fonts manually on your own computer:
 
 * `make build` will produce font files.
-* `make test` will run [FontBakery](https://github.com/googlefonts/fontbakery)'s quality assurance tests.
-* `make proof` will generate HTML proof files.
+* `make test` will run [fontspector](https://github.com/fonttools/fontspector)'s Google Fonts quality assurance checks (install with `cargo binstall fontspector`).
+* `make proof` will generate HTML proof files with [diffenator3](https://github.com/googlefonts/diffenator3) (install with `cargo binstall diffenator3`).
 
 The proof files and QA tests are also available automatically via GitHub Actions - look at `https://isaozler.github.io/kode-mono`.
 

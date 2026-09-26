@@ -1,5 +1,13 @@
 # Changelog
 
+**26 September 2026. Version 2.000**
+- Added a Width (`wdth`) axis, 75–125 (default 100), with Condensed (75), SemiCondensed (87.5), SemiExpanded (112.5) and Expanded (125) instances for every weight
+- New Condensed and Expanded masters with stem-compensated horizontal scaling of Regular/Bold
+- Arrows and lslash decomposed (rotated components can't be stretched horizontally)
+- Added stylistic set `ss01` "Distinct look-alikes (ID / OCR)": D, 8 and Q alternates (plus Ď, Đ, Ð)
+- Added a Roundness (`ROND`) axis, 0 (sharp, default) – 100 (all sharp corners rounded)
+- Build and QA tooling updated to the latest googlefonts-project-template: Python 3.11, gftools 0.10, fontmake 3.12, fontspector (replaces FontBakery) and diffenator3 (replaces diffenator2); CI runs on pull requests, main and tags and deploys with GitHub Pages actions
+
 **11 October 2024. Version 1.207**
 - Denominators fixed thanks to https://github.com/djpohly for noticing and his PR https://github.com/isaozler/kode-mono/pull/48
 - Added minute and minutes glyphs
