@@ -1,5 +1,8 @@
 # Changelog
 
+**27 September 2026. Version 2.002**
+- Corrected the contour direction of 314 contours in 180 glyphs (and the composites built from them). In the variable font these contours were reversed, which made them render lighter on macOS at small sizes; most visibly, the dot of i looked smaller than the dot of j
+
 **26 September 2026. Version 2.001**
 - Fixed the denominator of ½ (onehalf used eightinferior instead of twoinferior) (#54)
 - `>=` and `<=` ligatures now render as ≥ and ≤; the previous shapes are available as stylistic set `ss02` "Classic >= and <= ligatures" (#55)
