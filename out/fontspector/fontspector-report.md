@@ -12,6 +12,122 @@ fontspector version: 1.8.0
 
 
 
+<details><summary>[1] fonts/variable</summary>
+<div>
+
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. (googlefonts/metadata/unreachable_subsetting)</summary>
+    <div>
+
+
+
+
+
+
+
+
+- ⚠️ **WARN** fonts/variable/KodeMono[ROND,wdth,wght].ttf: The following codepoints supported by the font are not covered by any subsets defined in the font's metadata file, and will never be served. You can solve this by either manually adding additional subset declarations to METADATA.pb, or by editing the glyphset definitions.
+
+* U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
+* U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+* U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+* U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, math, coptic, cherokee
+* U+0305 COMBINING OVERLINE: try adding one of: glagolitic, math, gothic, elbasan, coptic
+* U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
+* U+0307 COMBINING DOT ABOVE: try adding one of: duployan, todhri, malayalam, math, tai-le, canadian-aboriginal, syriac, tifinagh, coptic, hebrew, old-permic
+* U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac
+* U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
+* U+030C COMBINING CARON: try adding one of: tai-le, cherokee
+* U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar
+* U+030E COMBINING DOUBLE VERTICAL LINE ABOVE: try adding ethiopic
+* U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar
+* U+0312 COMBINING TURNED COMMA ABOVE: try adding math
+* U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic
+* U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, cherokee, duployan
+* U+0325 COMBINING RING BELOW: try adding syriac
+* U+0326 COMBINING COMMA BELOW: try adding math
+* U+0327 COMBINING CEDILLA: try adding math
+* U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: sunuwar, syriac
+* U+032E COMBINING BREVE BELOW: try adding syriac
+* U+0331 COMBINING MACRON BELOW: try adding one of: syriac, tifinagh, gothic, cherokee, caucasian-albanian, sunuwar, thai
+* U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math
+* U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: elbasan, greek, math
+* U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek
+* U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, math, greek
+* U+2017 DOUBLE LOW LINE: try adding math
+* U+2021 DOUBLE DAGGER: try adding adlam
+* U+2030 PER MILLE SIGN: try adding adlam
+* U+2070 SUPERSCRIPT ZERO: try adding math
+* U+2074 SUPERSCRIPT FOUR: try adding math
+* U+2075 SUPERSCRIPT FIVE: try adding math
+* U+2076 SUPERSCRIPT SIX: try adding math
+* U+2077 SUPERSCRIPT SEVEN: try adding math
+* U+2078 SUPERSCRIPT EIGHT: try adding math
+* U+2079 SUPERSCRIPT NINE: try adding math
+* U+2080 SUBSCRIPT ZERO: try adding math
+* U+2081 SUBSCRIPT ONE: try adding math
+* U+2082 SUBSCRIPT TWO: try adding math
+* U+2083 SUBSCRIPT THREE: try adding math
+* U+2084 SUBSCRIPT FOUR: try adding math
+* U+2085 SUBSCRIPT FIVE: try adding math
+* U+2086 SUBSCRIPT SIX: try adding math
+* U+2087 SUBSCRIPT SEVEN: try adding math
+* U+2088 SUBSCRIPT EIGHT: try adding math
+* U+2089 SUBSCRIPT NINE: try adding math
+* U+2153 VULGAR FRACTION ONE THIRD: try adding symbols
+* U+2154 VULGAR FRACTION TWO THIRDS: try adding symbols
+* U+215B VULGAR FRACTION ONE EIGHTH: try adding symbols
+* U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols
+* U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols
+* U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols
+* U+215F FRACTION NUMERATOR ONE: try adding symbols
+* U+2190 LEFTWARDS ARROW: try adding one of: symbols, math
+* U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math
+* U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols
+* U+2195 UP DOWN ARROW: try adding one of: math, symbols
+* U+2196 NORTH WEST ARROW: try adding one of: math, symbols
+* U+2197 NORTH EAST ARROW: try adding one of: symbols, math
+* U+2198 SOUTH EAST ARROW: try adding one of: math, symbols
+* U+2199 SOUTH WEST ARROW: try adding one of: math, symbols
+* U+2200 FOR ALL: try adding math
+* U+2202 PARTIAL DIFFERENTIAL: try adding math
+* U+220F N-ARY PRODUCT: try adding math
+* U+2211 N-ARY SUMMATION: try adding math
+* U+221A SQUARE ROOT: try adding math
+* U+221E INFINITY: try adding math
+* U+222B INTEGRAL: try adding math
+* U+2248 ALMOST EQUAL TO: try adding math
+* U+2260 NOT EQUAL TO: try adding math
+* U+2264 LESS-THAN OR EQUAL TO: try adding math
+* U+2265 GREATER-THAN OR EQUAL TO: try adding math
+* U+24C0 CIRCLED LATIN CAPITAL LETTER K: try adding symbols
+* U+2500 BOX DRAWINGS LIGHT HORIZONTAL: try adding symbols2
+* U+2502 BOX DRAWINGS LIGHT VERTICAL: try adding symbols2
+* U+250C BOX DRAWINGS LIGHT DOWN AND RIGHT: try adding symbols2
+* U+2510 BOX DRAWINGS LIGHT DOWN AND LEFT: try adding symbols2
+* U+2514 BOX DRAWINGS LIGHT UP AND RIGHT: try adding symbols2
+* U+2518 BOX DRAWINGS LIGHT UP AND LEFT: try adding symbols2
+* U+251C BOX DRAWINGS LIGHT VERTICAL AND RIGHT: try adding symbols2
+* U+2524 BOX DRAWINGS LIGHT VERTICAL AND LEFT: try adding symbols2
+* U+252C BOX DRAWINGS LIGHT DOWN AND HORIZONTAL: try adding symbols2
+* U+2534 BOX DRAWINGS LIGHT UP AND HORIZONTAL: try adding symbols2
+* U+253C BOX DRAWINGS LIGHT VERTICAL AND HORIZONTAL: try adding symbols2
+* U+25CA LOZENGE: try adding one of: math, symbols
+* U+25CC DOTTED CIRCLE: try adding one of: caucasian-albanian, tai-viet, duployan, tagalog, osage, buhid, bhaiksuki, warang-citi, hanifi-rohingya, dogra, hebrew, kannada, kaithi, math, mende-kikakui, armenian, oriya, tamil, saurashtra, sundanese, brahmi, rejang, tai-le, tirhuta, new-tai-lue, marchen, limbu, masaram-gondi, tibetan, modi, thai, manichaean, thaana, lepcha, cham, meetei-mayek, buginese, newa, sogdian, soyombo, gunjala-gondi, psalter-pahlavi, mongolian, myanmar, wancho, gurmukhi, malayalam, grantha, pahawh-hmong, javanese, phags-pa, bengali, zanabazar-square, batak, canadian-aboriginal, syriac, old-permic, ahom, yi, lao, miao, kayah-li, elbasan, khmer, bassa-vah, khudawadi, mandaic, adlam, music, nko, mahajani, tai-tham, syloti-nagri, kharoshthi, sinhala, symbols, balinese, tagbanwa, takri, khojki, hanunoo, sharada, telugu, gujarati, coptic, devanagari, siddham, chakma, tifinagh
+
+Or you can add the above codepoints to one of the subsets supported by the font: latin-ext, latin [code: unreachable-subsetting]
+  
+  
+
+</div>
+</details>
+
+
+</div>
+</details>
+
+
 <details><summary>[13] fonts/variable/KodeMono[ROND,wdth,wght].ttf</summary>
 <div>
 
@@ -133,101 +249,6 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
   
   
 
-
-- ⚠️ **WARN** Interpolation issue in uni2081: Kink in contour 0 at node 6 [code: interpolation-issue]
-  
-  
-
-
-- ⚠️ **WARN** Interpolation issue in uni2081: Kink in contour 0 at node 6 [code: interpolation-issue]
-  
-  
-
-
-- ⚠️ **WARN** Interpolation issue in uni2083: Kink in contour 0 at node 2 [code: interpolation-issue]
-  
-  
-
-
-- ⚠️ **WARN** Interpolation issue in uni2083: Kink in contour 0 at node 2 [code: interpolation-issue]
-  
-  
-
-
-- ⚠️ **WARN** Interpolation issue in uni00B9: Kink in contour 0 at node 6 [code: interpolation-issue]
-  
-  
-
-
-- ⚠️ **WARN** Interpolation issue in uni00B9: Kink in contour 0 at node 6 [code: interpolation-issue]
-  
-  
-
-
-- ⚠️ **WARN** Interpolation issue in uni00B3: Kink in contour 0 at node 2 [code: interpolation-issue]
-  
-  
-
-
-- ⚠️ **WARN** Interpolation issue in uni00B3: Kink in contour 0 at node 2 [code: interpolation-issue]
-  
-  
-
-
-- ⚠️ **WARN** Interpolation issue in uni0306: Kink in contour 0 at node 31 [code: interpolation-issue]
-  
-  
-
-
-- ⚠️ **WARN** Interpolation issue in uni0306: Kink in contour 0 at node 6 [code: interpolation-issue]
-  
-  
-
-
-- ⚠️ **WARN** Interpolation issue in uni0306: Kink in contour 0 at node 31 [code: interpolation-issue]
-  
-  
-
-
-- ⚠️ **WARN** Interpolation issue in uni0310: Kink in contour 0 at node 6 [code: interpolation-issue]
-  
-  
-
-
-- ⚠️ **WARN** Interpolation issue in uni0310: Kink in contour 0 at node 31 [code: interpolation-issue]
-  
-  
-
-
-- ⚠️ **WARN** Interpolation issue in uni032E: Kink in contour 0 at node 31 [code: interpolation-issue]
-  
-  
-
-
-- ⚠️ **WARN** Interpolation issue in uni032E: Kink in contour 0 at node 6 [code: interpolation-issue]
-  
-  
-
-
-- ⚠️ **WARN** Interpolation issue in uni032E: Kink in contour 0 at node 31 [code: interpolation-issue]
-  
-  
-
-
-- ⚠️ **WARN** Interpolation issue in breve: Kink in contour 0 at node 31 [code: interpolation-issue]
-  
-  
-
-
-- ⚠️ **WARN** Interpolation issue in breve: Kink in contour 0 at node 6 [code: interpolation-issue]
-  
-  
-
-
-- ⚠️ **WARN** Interpolation issue in breve: Kink in contour 0 at node 31 [code: interpolation-issue]
-  
-  
-
 </div>
 </details>
 
@@ -319,49 +340,6 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 | Message                                                           | Languages                    |
 |-------------------------------------------------------------------|------------------------------|
-| Auxiliary orthography codepoints:                                 | * nb_Latn (Norwegian Bokmål) |
-|   The following auxiliary characters are missing from the font: Ǎ |                              |
-|   The following auxiliary characters are missing from the font: Ŋ |                              |
-|   The following auxiliary characters are missing from the font: Ŧ |                              |
-|   The following auxiliary characters are missing from the font: ǎ |                              |
-|   The following auxiliary characters are missing from the font: ŋ |                              |
-|   The following auxiliary characters are missing from the font: ŧ |                              |
-| Auxiliary orthography codepoints:                                 | * de_Latn (German)           |
-|   The following auxiliary characters are missing from the font: Ĕ |                              |
-|   The following auxiliary characters are missing from the font: Ĭ |                              |
-|   The following auxiliary characters are missing from the font: Ŏ |                              |
-|   The following auxiliary characters are missing from the font: Ō |                              |
-|   The following auxiliary characters are missing from the font: Ŭ |                              |
-|   The following auxiliary characters are missing from the font: ĕ |                              |
-|   The following auxiliary characters are missing from the font: ĭ |                              |
-|   The following auxiliary characters are missing from the font: ŏ |                              |
-|   The following auxiliary characters are missing from the font: ō |                              |
-|   The following auxiliary characters are missing from the font: ſ |                              |
-|   The following auxiliary characters are missing from the font: ŭ |                              |
-| Auxiliary orthography codepoints:                                 | * lv_Latn (Latvian)          |
-|   The following auxiliary characters are missing from the font: Ō |                              |
-|   The following auxiliary characters are missing from the font: Ŗ |                              |
-|   The following auxiliary characters are missing from the font: ō |                              |
-|   The following auxiliary characters are missing from the font: ŗ |                              |
-| Auxiliary orthography codepoints:                                 | * ro_Latn (Romanian)         |
-|   The following auxiliary characters are missing from the font: Ţ |                              |
-|   The following auxiliary characters are missing from the font: ţ |                              |
-| Auxiliary orthography codepoints:                                 | * da_Latn (Danish)           |
-|   The following auxiliary characters are missing from the font: Ǿ |                              |
-|   The following auxiliary characters are missing from the font: ǿ |                              |
-| Auxiliary orthography codepoints:                                 | * ca_Latn (Catalan)          |
-|   The following auxiliary characters are missing from the font: Ĕ |                              |
-|   The following auxiliary characters are missing from the font: Ĭ |                              |
-|   The following auxiliary characters are missing from the font: Ŀ |                              |
-|   The following auxiliary characters are missing from the font: Ŏ |                              |
-|   The following auxiliary characters are missing from the font: Ō |                              |
-|   The following auxiliary characters are missing from the font: Ŭ |                              |
-|   The following auxiliary characters are missing from the font: ĕ |                              |
-|   The following auxiliary characters are missing from the font: ĭ |                              |
-|   The following auxiliary characters are missing from the font: ŀ |                              |
-|   The following auxiliary characters are missing from the font: ŏ |                              |
-|   The following auxiliary characters are missing from the font: ō |                              |
-|   The following auxiliary characters are missing from the font: ŭ |                              |
 | Auxiliary orthography codepoints:                                 | * cs_Latn (Czech)            |
 |   The following auxiliary characters are missing from the font: Ĕ | * cy_Latn (Welsh)            |
 |   The following auxiliary characters are missing from the font: Ĭ | * es_Latn (Spanish)          |
@@ -384,6 +362,61 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 |   The following auxiliary characters are missing from the font: Ǔ |                              |
 |   The following auxiliary characters are missing from the font: ſ |                              |
 |   The following auxiliary characters are missing from the font: ǔ |                              |
+| Auxiliary orthography codepoints:                                 | * de_Latn (German)           |
+|   The following auxiliary characters are missing from the font: Ĕ |                              |
+|   The following auxiliary characters are missing from the font: Ĭ |                              |
+|   The following auxiliary characters are missing from the font: Ŏ |                              |
+|   The following auxiliary characters are missing from the font: Ō |                              |
+|   The following auxiliary characters are missing from the font: Ŭ |                              |
+|   The following auxiliary characters are missing from the font: ĕ |                              |
+|   The following auxiliary characters are missing from the font: ĭ |                              |
+|   The following auxiliary characters are missing from the font: ŏ |                              |
+|   The following auxiliary characters are missing from the font: ō |                              |
+|   The following auxiliary characters are missing from the font: ſ |                              |
+|   The following auxiliary characters are missing from the font: ŭ |                              |
+| Auxiliary orthography codepoints:                                 | * en_Latn (English)          |
+|   The following auxiliary characters are missing from the font: Ĕ |                              |
+|   The following auxiliary characters are missing from the font: Ĭ |                              |
+|   The following auxiliary characters are missing from the font: Ŏ |                              |
+|   The following auxiliary characters are missing from the font: Ō |                              |
+|   The following auxiliary characters are missing from the font: Ŭ |                              |
+|   The following auxiliary characters are missing from the font: ĕ |                              |
+|   The following auxiliary characters are missing from the font: ĭ |                              |
+|   The following auxiliary characters are missing from the font: ŏ |                              |
+|   The following auxiliary characters are missing from the font: ō |                              |
+|   The following auxiliary characters are missing from the font: ŭ |                              |
+|   The following auxiliary characters are missing from the font: ʻ |                              |
+| Auxiliary orthography codepoints:                                 | * ca_Latn (Catalan)          |
+|   The following auxiliary characters are missing from the font: Ĕ |                              |
+|   The following auxiliary characters are missing from the font: Ĭ |                              |
+|   The following auxiliary characters are missing from the font: Ŀ |                              |
+|   The following auxiliary characters are missing from the font: Ŏ |                              |
+|   The following auxiliary characters are missing from the font: Ō |                              |
+|   The following auxiliary characters are missing from the font: Ŭ |                              |
+|   The following auxiliary characters are missing from the font: ĕ |                              |
+|   The following auxiliary characters are missing from the font: ĭ |                              |
+|   The following auxiliary characters are missing from the font: ŀ |                              |
+|   The following auxiliary characters are missing from the font: ŏ |                              |
+|   The following auxiliary characters are missing from the font: ō |                              |
+|   The following auxiliary characters are missing from the font: ŭ |                              |
+| Auxiliary orthography codepoints:                                 | * lv_Latn (Latvian)          |
+|   The following auxiliary characters are missing from the font: Ō |                              |
+|   The following auxiliary characters are missing from the font: Ŗ |                              |
+|   The following auxiliary characters are missing from the font: ō |                              |
+|   The following auxiliary characters are missing from the font: ŗ |                              |
+| Auxiliary orthography codepoints:                                 | * nb_Latn (Norwegian Bokmål) |
+|   The following auxiliary characters are missing from the font: Ǎ |                              |
+|   The following auxiliary characters are missing from the font: Ŋ |                              |
+|   The following auxiliary characters are missing from the font: Ŧ |                              |
+|   The following auxiliary characters are missing from the font: ǎ |                              |
+|   The following auxiliary characters are missing from the font: ŋ |                              |
+|   The following auxiliary characters are missing from the font: ŧ |                              |
+| Auxiliary orthography codepoints:                                 | * da_Latn (Danish)           |
+|   The following auxiliary characters are missing from the font: Ǿ |                              |
+|   The following auxiliary characters are missing from the font: ǿ |                              |
+| Auxiliary orthography codepoints:                                 | * ro_Latn (Romanian)         |
+|   The following auxiliary characters are missing from the font: Ţ |                              |
+|   The following auxiliary characters are missing from the font: ţ |                              |
 | Auxiliary orthography codepoints:                                 | * fi_Latn (Finnish)          |
 |   The following auxiliary characters are missing from the font: Ǧ |                              |
 |   The following auxiliary characters are missing from the font: Ǥ |                              |
@@ -404,19 +437,7 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 |   The following auxiliary characters are missing from the font: ţ |                              |
 |   The following auxiliary characters are missing from the font: ŧ |                              |
 |   The following auxiliary characters are missing from the font: ʒ |                              |
-|   The following auxiliary characters are missing from the font: ǯ |                              |
-| Auxiliary orthography codepoints:                                 | * en_Latn (English)          |
-|   The following auxiliary characters are missing from the font: Ĕ |                              |
-|   The following auxiliary characters are missing from the font: Ĭ |                              |
-|   The following auxiliary characters are missing from the font: Ŏ |                              |
-|   The following auxiliary characters are missing from the font: Ō |                              |
-|   The following auxiliary characters are missing from the font: Ŭ |                              |
-|   The following auxiliary characters are missing from the font: ĕ |                              |
-|   The following auxiliary characters are missing from the font: ĭ |                              |
-|   The following auxiliary characters are missing from the font: ŏ |                              |
-|   The following auxiliary characters are missing from the font: ō |                              |
-|   The following auxiliary characters are missing from the font: ŭ |                              |
-|   The following auxiliary characters are missing from the font: ʻ |                              | [code: warning-language-shaping]
+|   The following auxiliary characters are missing from the font: ǯ |                              | [code: warning-language-shaping]
   
   
 
@@ -555,122 +576,6 @@ If you registered it recently, then it's safe to ignore this warning message. Ot
 </details>
 
 
-<details><summary>[1] fonts/variable</summary>
-<div>
-
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. (googlefonts/metadata/unreachable_subsetting)</summary>
-    <div>
-
-
-
-
-
-
-
-
-- ⚠️ **WARN** fonts/variable/KodeMono[ROND,wdth,wght].ttf: The following codepoints supported by the font are not covered by any subsets defined in the font's metadata file, and will never be served. You can solve this by either manually adding additional subset declarations to METADATA.pb, or by editing the glyphset definitions.
-
-* U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
-* U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
-* U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
-* U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, tifinagh, cherokee, math
-* U+0305 COMBINING OVERLINE: try adding one of: elbasan, gothic, math, glagolitic, coptic
-* U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
-* U+0307 COMBINING DOT ABOVE: try adding one of: malayalam, duployan, tifinagh, old-permic, math, coptic, syriac, tai-le, todhri, hebrew, canadian-aboriginal
-* U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac
-* U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
-* U+030C COMBINING CARON: try adding one of: tai-le, cherokee
-* U+030D COMBINING VERTICAL LINE ABOVE: try adding sunuwar
-* U+030E COMBINING DOUBLE VERTICAL LINE ABOVE: try adding ethiopic
-* U+0310 COMBINING CANDRABINDU: try adding one of: math, sunuwar
-* U+0312 COMBINING TURNED COMMA ABOVE: try adding math
-* U+0313 COMBINING COMMA ABOVE: try adding one of: todhri, old-permic
-* U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, cherokee, duployan
-* U+0325 COMBINING RING BELOW: try adding syriac
-* U+0326 COMBINING COMMA BELOW: try adding math
-* U+0327 COMBINING CEDILLA: try adding math
-* U+032D COMBINING CIRCUMFLEX ACCENT BELOW: try adding one of: syriac, sunuwar
-* U+032E COMBINING BREVE BELOW: try adding syriac
-* U+0331 COMBINING MACRON BELOW: try adding one of: gothic, thai, caucasian-albanian, syriac, cherokee, sunuwar, tifinagh
-* U+0338 COMBINING LONG SOLIDUS OVERLAY: try adding math
-* U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: math, elbasan, greek
-* U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek
-* U+03C0 GREEK SMALL LETTER PI: try adding one of: math, yi, greek
-* U+2017 DOUBLE LOW LINE: try adding math
-* U+2021 DOUBLE DAGGER: try adding adlam
-* U+2030 PER MILLE SIGN: try adding adlam
-* U+2070 SUPERSCRIPT ZERO: try adding math
-* U+2074 SUPERSCRIPT FOUR: try adding math
-* U+2075 SUPERSCRIPT FIVE: try adding math
-* U+2076 SUPERSCRIPT SIX: try adding math
-* U+2077 SUPERSCRIPT SEVEN: try adding math
-* U+2078 SUPERSCRIPT EIGHT: try adding math
-* U+2079 SUPERSCRIPT NINE: try adding math
-* U+2080 SUBSCRIPT ZERO: try adding math
-* U+2081 SUBSCRIPT ONE: try adding math
-* U+2082 SUBSCRIPT TWO: try adding math
-* U+2083 SUBSCRIPT THREE: try adding math
-* U+2084 SUBSCRIPT FOUR: try adding math
-* U+2085 SUBSCRIPT FIVE: try adding math
-* U+2086 SUBSCRIPT SIX: try adding math
-* U+2087 SUBSCRIPT SEVEN: try adding math
-* U+2088 SUBSCRIPT EIGHT: try adding math
-* U+2089 SUBSCRIPT NINE: try adding math
-* U+2153 VULGAR FRACTION ONE THIRD: try adding symbols
-* U+2154 VULGAR FRACTION TWO THIRDS: try adding symbols
-* U+215B VULGAR FRACTION ONE EIGHTH: try adding symbols
-* U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols
-* U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols
-* U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols
-* U+215F FRACTION NUMERATOR ONE: try adding symbols
-* U+2190 LEFTWARDS ARROW: try adding one of: symbols, math
-* U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math
-* U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols
-* U+2195 UP DOWN ARROW: try adding one of: math, symbols
-* U+2196 NORTH WEST ARROW: try adding one of: math, symbols
-* U+2197 NORTH EAST ARROW: try adding one of: math, symbols
-* U+2198 SOUTH EAST ARROW: try adding one of: symbols, math
-* U+2199 SOUTH WEST ARROW: try adding one of: symbols, math
-* U+2200 FOR ALL: try adding math
-* U+2202 PARTIAL DIFFERENTIAL: try adding math
-* U+220F N-ARY PRODUCT: try adding math
-* U+2211 N-ARY SUMMATION: try adding math
-* U+221A SQUARE ROOT: try adding math
-* U+221E INFINITY: try adding math
-* U+222B INTEGRAL: try adding math
-* U+2248 ALMOST EQUAL TO: try adding math
-* U+2260 NOT EQUAL TO: try adding math
-* U+2264 LESS-THAN OR EQUAL TO: try adding math
-* U+2265 GREATER-THAN OR EQUAL TO: try adding math
-* U+24C0 CIRCLED LATIN CAPITAL LETTER K: try adding symbols
-* U+2500 BOX DRAWINGS LIGHT HORIZONTAL: try adding symbols2
-* U+2502 BOX DRAWINGS LIGHT VERTICAL: try adding symbols2
-* U+250C BOX DRAWINGS LIGHT DOWN AND RIGHT: try adding symbols2
-* U+2510 BOX DRAWINGS LIGHT DOWN AND LEFT: try adding symbols2
-* U+2514 BOX DRAWINGS LIGHT UP AND RIGHT: try adding symbols2
-* U+2518 BOX DRAWINGS LIGHT UP AND LEFT: try adding symbols2
-* U+251C BOX DRAWINGS LIGHT VERTICAL AND RIGHT: try adding symbols2
-* U+2524 BOX DRAWINGS LIGHT VERTICAL AND LEFT: try adding symbols2
-* U+252C BOX DRAWINGS LIGHT DOWN AND HORIZONTAL: try adding symbols2
-* U+2534 BOX DRAWINGS LIGHT UP AND HORIZONTAL: try adding symbols2
-* U+253C BOX DRAWINGS LIGHT VERTICAL AND HORIZONTAL: try adding symbols2
-* U+25CA LOZENGE: try adding one of: math, symbols
-* U+25CC DOTTED CIRCLE: try adding one of: tamil, sogdian, cham, tirhuta, balinese, gujarati, mende-kikakui, telugu, duployan, newa, canadian-aboriginal, psalter-pahlavi, thaana, buginese, bhaiksuki, buhid, dogra, miao, javanese, music, batak, hanifi-rohingya, gunjala-gondi, devanagari, new-tai-lue, warang-citi, tibetan, bengali, manichaean, ahom, sundanese, limbu, khojki, hanunoo, soyombo, zanabazar-square, malayalam, lao, old-permic, syriac, lepcha, tagalog, nko, pahawh-hmong, kharoshthi, syloti-nagri, gurmukhi, chakma, tai-le, caucasian-albanian, rejang, thai, mahajani, phags-pa, mongolian, kannada, tifinagh, yi, elbasan, math, marchen, oriya, sinhala, takri, kaithi, brahmi, symbols, wancho, armenian, coptic, siddham, tai-tham, tai-viet, saurashtra, bassa-vah, hebrew, kayah-li, modi, khudawadi, mandaic, adlam, khmer, grantha, masaram-gondi, meetei-mayek, myanmar, osage, sharada, tagbanwa
-
-Or you can add the above codepoints to one of the subsets supported by the font: latin-ext, latin [code: unreachable-subsetting]
-  
-  
-
-</div>
-</details>
-
-
-</div>
-</details>
-
-
 
 
 
@@ -679,8 +584,8 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 | ⚠️ WARN | ℹ️ INFO | ✅ PASS | ⏩ SKIP | 
 | ---|---|---|---|
-| 34 | 8 | 123 | 58 | 
-| 15% | 4% | 55% | 26% | 
+| 15 | 8 | 123 | 58 | 
+| 7% | 4% | 60% | 28% | 
 
 
 

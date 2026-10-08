@@ -340252,12 +340252,12 @@ value = "Kode Mono is a trademark of Isa Ozler";
 },
 {
 key = versionString;
-value = "Version 2.002";
+value = "Version 2.003";
 }
 );
 stems = (
 );
 unitsPerEm = 1000;
 versionMajor = 2;
-versionMinor = 2;
+versionMinor = 3;
 }

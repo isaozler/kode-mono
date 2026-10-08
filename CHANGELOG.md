@@ -1,5 +1,9 @@
 # Changelog
 
+**8 October 2026. Version 2.003**
+- Fixed the ogonek joint on Ą ą Ų ų in the Rounded styles (ROND > 0): the ogonek now grows out of the stem instead of touching the round stem end, which left a pinched, almost detached joint (google/fonts#11054). The sharp styles are unchanged
+- Fixed interpolation kinks along the Roundness axis in 45 glyphs (e.g. ¹ ³ ₁ ₃, ˘, a, n, r, s, €, ‹ ›): smooth points now sit in the middle of their corner in every master, so corners no longer bulge between sharp and rounded (google/fonts#11054). Sharp outlines move by less than one unit
+
 **27 September 2026. Version 2.002**
 - Corrected the contour direction of 314 contours in 180 glyphs (and the composites built from them). In the variable font these contours were reversed, which made them render lighter on macOS at small sizes; most visibly, the dot of i looked smaller than the dot of j
 
